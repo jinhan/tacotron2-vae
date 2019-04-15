@@ -253,7 +253,7 @@ source: `inference.ipynb`
     ```
     
 ## Demo page
-1. 실행: `python app.py --checkpoint_path="./models/032902_vae_250000" --waveglow_path="./models/waveglow_130000"`
+1. Run: `python app.py --checkpoint_path="./models/032902_vae_250000" --waveglow_path="./models/waveglow_130000"`
 2. Mix: Generate voices by adjusting the ratio of netural, sad, happy, and angry
 3. Ref Audio: Generate voices by testset audio as a reference audio
 
