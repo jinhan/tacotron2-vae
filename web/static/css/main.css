@@ -1,0 +1,38 @@
+
+
+/* Feature Sliders */
+
+.SliderFrame {
+    /* width: 160px; */
+    margin: auto;
+    display: table;
+    padding-top: 1.5em;
+}
+  
+  
+.SliderLabel {
+    display: table-cell;
+    vertical-align: left;
+}
+  
+.SliderLabel p {
+    margin: 0.1em 0.5em;
+    min-width: 8em;
+    font-size: 1.0em;
+    line-height: 1.1em;
+}
+  
+.Slider {
+    /* display: inline-block; */
+    /* margin: 10px 0 0px 0 !important; */
+    width: 190px !important;
+    vertical-align: middle;
+    display: table-cell;
+}
+  
+.RefAudioFrame {
+    /* width: 320px; */
+    margin: auto;
+    display: table;
+    padding-top: 1.5em;
+}

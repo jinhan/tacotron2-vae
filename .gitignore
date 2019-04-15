@@ -1,0 +1,7 @@
+__pycache__/
+.ipynb_checkpoints/
+.vscode/
+.git/
+web/audio/
+README_bac.md
+notes.md

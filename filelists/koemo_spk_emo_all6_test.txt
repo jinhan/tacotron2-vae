@@ -1,0 +1,1826 @@
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001343.wav|매자가 없을 경우 매각될 때까지 예정가를 낮춰 부동산값의 하락을 유도하고 매각도 반드시 이뤄지도록 유도하겠다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003971.wav|부모님이 맞벌이를 하시는 관계로 상건이에게 세심한 관심을 가지지는 못하지만 상건이에 대한 애정만은 각별했다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002900.wav|오늘 시험은 그다지 어렵지 않았기 때문에 좋은 점수를 얻을 수 있을 것 같다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002920.wav|대도시에서는 혼자서 생활하는 고독한 노인이 늘고 있다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001500.wav|여야 각 정당의 냉정한 정치적 판단과 선거관리기관들의 보다 공정한 법적용을 촉구한다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001089.wav|연내 한소 국교정상화가 이루어질 수 있게 됐다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002254.wav|나는 별로 먹지도 않았는데 밥값을 똑같이 내야하다니 억울하다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001144.wav|국민을 안심시키고 신뢰를 주기 위해 삼당통합을 했는데 누가 됐든 국민을 불안하게 하는 것은 옳지 못하다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000445.wav|동생이 주연이라고 뽐낸 슬기의 배역은 늑대였다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000264.wav|원측이 박씨 부부에게 마지막준비를 해주도록 귀띔을 한 것도 이때였다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002583.wav|나는 야마다씨가 죽었다는 이야기를 듣고 쇼크를 받았다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001874.wav|땡볕에서 매일 일했더니 얼굴에 주근깨가 생겼다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000702.wav|하지만 그 내용은 밝힐 수 없다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00002487.wav|그러나 오늘은 차도 비싼 옷과 공들인 화장처럼 나를 빛내주길 바랐다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000871.wav|쿠웨이트시를 출발해 한시간쯤후 국경부근의 사막지대에 들어섰다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003939.wav|부부 사이에는 깊은 공감대가 형성되어 아내는 다정한 손길로 조심스럽게 남편의 등을 감싸고 있다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000296.wav|경제를 논의할 때 가장 보편적인 척도가 돈 또는 화폐인 것은 지극히 상식적인 일이기는 하다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002647.wav|그녀는 친구의 외국생활을 몹시 동경한다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000141.wav|신여당이 성장위주 경제정책쪽으로 기우는 듯한 인상을 주고 있는데.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000068.wav|그런데 손님이 내가 만든 미신의 좋은 쪽 점괘가 돼 주신 거죠 정말 고마워요.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001738.wav|딸이 태어났을 때의 기쁨을 아직도 생생히 기억한다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00002789.wav|아무리 감기가 심해도 감기약을 정해진 양 이상 복용해서는 안됩니다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000197.wav|이것은 필수과정입니다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000650.wav|정낙씨는 범인이 붙잡히자 그때부터는 줄곧 병원에 매달려 요행을 기대하면서까지 형의 소생을 바랐으나 결국 뇌부종증에 어쩔 도리가 없었다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002738.wav|한국인의 주식은 밥과 김치가 아닐까요.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000741.wav|총무 인준이 끝나면 야당 총재를 방문할 생각이며 그후 야당측과 본격적으로 대화를 하겠다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002465.wav|여자친구에게 팔베개를 오랫동안 해주었더니 팔이 저려서 한동안 움직일 수가 없었다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000718.wav|그러나 볼만한 영화가 되리라고 확신합니다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002063.wav|얘들아 티비를 그렇게 오랫동안 보면 눈이 나빠진단다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00002074.wav|아까 올 땐 박씨와 재미를 봤으니 이젠 나하구 재미 좀 보자.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001145.wav|박장관이 그 같은 발언을 하게 된 이유가 뭐라고 보는가.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000820.wav|남쪽에서 사천명 북쪽에서 이천명 등 육천명이 한마음으로 남북한을 응원하자는데는 이견이 없습니다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001580.wav|근데 클라우디우스 폴로니우스는 지난 시즌이 좀 그리웠.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000063.wav|박과 신은 약 사 개월 전부터 탈주를 모의 준비해 온 것으로 알고 있으나 나는 탈옥 전날인 이십육일에야 계획을 알았다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00001336.wav|나아가 농민의 축출은 고용 도시과밀 집값 문제로 이어져 전국민적 문제로 확산될 것이다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000709.wav|아내는 앓던 이가 빠진 것보다 더 시원하다고 했다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001186.wav|공관장회의에 참석하기 위해 일시 귀국한 박동진 주미대사는 이일 요즘의 한미관계를 비교적 건강한 관계라는 말로 표현했다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001965.wav|그녀의 입술은 앵두처럼 빨갛고 탐스럽다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001882.wav|올해의 황금종려상은 한국의 영화 올드보이에게 돌아갔다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002739.wav|건강식품은 어디까지나 식품으로 약이 아닙니다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00002576.wav|마치 광복군의 투사처럼 용감하군 장사야 장사.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001136.wav|세상에서 가장 따스한 목소리는 대밭 사이로 연기가 지나가는 소리 밥 짓는 냄새가 장독을 깨우고 눈 덮인 초가 뒤로 사라지는 전라선 기차 오늘도 내 새끼는 밥자리 잃지나 않았을까.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001062.wav|나는 일관된 입장을 견지해 왔기 때문에 논리적 맥락은 노조원들도 이해하리라고 본다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001948.wav|너희 어머니는 어떤 분이시니.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000441.wav|모든 계란을 한 바구니에 넣지 말아라 이게 마코위츠의 이론이다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003952.wav|그녀는 또한 사람들이 다정한 시선으로 그녀를 바라보고 그녀와 악수를 나누고 싶어했다는 사실도 몰랐다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001166.wav|독일과 다른 점은 한국의 경우엔 두 개의 강대국나에겐 비교적 생소한 중국과 일본이라고 하는 두 개의 강대국이 관련되어 있다는 점이다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000585.wav|그러나 그 절 밑 마을 성동리 앞 들판에 나도는 농민들은 해가 기울수록 마음이 더욱 달떴다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00002877.wav|작살에 꽂힌 채로도 온몸을 뒤틀어 퍼덕이고 있는 물고기의 아가리를 벌려 낚시바늘을 꺼내기 시작하면서 한림의 얼굴에는 희열 같은 미소가 번졌다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001746.wav|유학생활은 단지 언어문제뿐 아니라 여러가지로 힘든 점이 많다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001181.wav|미국과 북한간의 외교관 접촉이 격상될 가능성이 있는가.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00002253.wav|이 땅이 주인에게 돌아간 건 좋은 일이었다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003155.wav|송은범은 팬들의 그런 마음도 알아차린것 같고 본인도 승리에 대한 갈증이 컸었던지 일회부터 호투를 보여주었다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001886.wav|국제원자력기구는 북한이 즉시 핵시설을 시찰받아야 한다고 촉구했다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00000406.wav|왕조시대인 조선에도 이미 국가의 어문정책 기구는 있었다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000061.wav|정말 대사업을 힘껏 보필하는 이의 사명감과 긍지로 아주머니의 얼굴이 은은히 빛나 보이기까지 했다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00002786.wav|역시 선생님은 멋진 목사님이에요 호호호.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002088.wav|너에게 꼭 하고 싶은 말이 있어.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000375.wav|아름다운 것에는 반드시 마가 낀다더니 입물림질에도 입물림독이 끼여들고 있다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003465.wav|행복한 마음으로 즐거운 기분으로 새로운 기분으로 긍정적으로 적극적으로 환하게 시작합니다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00002506.wav|졸업하려면 앞으로 삼학점을 더 이수해야 한다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002698.wav|너무 피곤한 나머지 화장도 안 지우고 잠이 들어버렸다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00001757.wav|선생님이 팔짱을 끼고 뭔가를 골똘히 생각하고 있다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002047.wav|내 인생에서 가장 행복했던 순간은 딸이 태어났을 때이다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003743.wav|현경맘의 따뜻한 마음에 감동의 쓰나미가 몰려오는것을 느낄수가 있었습니다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002671.wav|저 커플이 헤어진 진짜 이유는 두 사람만이 알고 있겠죠.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000190.wav|그러나 편중지원은 미국 내에서도 마찬가지입니다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001955.wav|아무도 내 생일을 기억해주지 않아서 서운했다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00002022.wav|나는 고소공포증이 있어서 비행기를 타지 못한다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001420.wav|결론적으로 또다른 희생이 있어서는 안된다는 것을 거듭 강조한다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000514.wav|더욱이 그처럼 역사적인 정상회담에서 카메라 세례를 받아 가면서도 실수가 없으려면 여간 담이 크지 않으면 안된다. 그런 걸 경험이 적은 통역자를 썼다는 것부터가 경솔한 일이었다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002724.wav|나에게는 마음을 털어놓을만한 친한 친구가 없다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001859.wav|수십 통의 이력서를 썼지만 모두 떨어졌다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001348.wav|건자재의 수급조절에 힘을 쏟고 있어 하반기에는 진정될 것이다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002324.wav|나는 물을 무서워해서 절대 수영장에 가지 않는다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001448.wav|먼저 공무원 모두가 봉사의식에 공직자는 단순한 월급쟁이가 아니다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002115.wav|티비를 보고 있는데 아내가 말도 없이 채널을 돌려버려 화가 치밀었다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000614.wav|난 어머니가 제일 좋아.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001974.wav|웨딩드레스 입으니 너무 설레요.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000925.wav|보수적인 중앙은행의 입장에서 이대일 교환을 주장한 것은 충분히 논리적이고 당연하다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000789.wav|통일에 대해 너무 비관적이라고 생각하지 않는가.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002475.wav|배탈이 나서 아침부터 화장실을 몇 번이나 들락거렸다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00002799.wav|이 술에서는 신기하게도 벚꽃 향기가 나네요.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001404.wav|이래 갖고는 누구나 집을 더 가지려 한다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00001970.wav|영화배우라면 누구나 레드카펫을 한번쯤 밟고 싶어 한다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001056.wav|케이비에스사원 내부에는 문제가 없다고 보는지.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002085.wav|넘치게 주신 팬들의 사랑에 감사드립니다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001004.wav|북 달성이 고향이지만 그는 육 칠대때 서울 성동을구에서 출마 당선된 바 있다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001535.wav|요즘 장이 안 좋아서 금주를 하고 있다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000852.wav|노조교사를 해고하는 것은 우리 연맹의 입장에서는 받아들일 수 없는 일이다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000915.wav|두 사람은 어머니의 편지에서 자신들의 공통점을 찾아내고 모두에게 전달할 수 있는 사랑 이야기 를 노래할것을 결정하는데요.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003697.wav|개그맨 최효종이 사회를 가수 알렉스가 축가를 불러 더욱 훈훈한 분위기가 연출됐다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001136.wav|상당부문 얘기했고 시정방법도 구체적으로 논의했다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002680.wav|내게 일언반구도 없이 남편은 마음대로 집을 팔아버렸다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003431.wav|하늘을 대신해 햐얀 눈송이 대신 빛나는 눈꽃을 선물해드릴께요.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00000678.wav|시간이 지날수록 그 말은 더욱 타당하다고 느껴진다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002454.wav|오래 서서 일했더니 발에 굳은살이 생겼다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002216.wav|사사건건 간섭하는 부모님 때문에 숨이 막힐 지경이다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00000664.wav|방한중인 미주기구의 주앙 클레멘트 바이나 소아레스 사무총장은 오일 기자에게 중남미 민주주의에 대해 강한 자신감을 피력했다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000922.wav|서독경제는 올해 삼점구퍼센트의 실질성장 삼퍼센트의 인플레 육백억 달러의 경상수지 흑자를 예상했었다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001130.wav|정무장관은 외무부 안기부 내무부일 등 모든 부처를 책임지는 것이 아니다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000715.wav|노태우 대통령에 대한 시국수습 제안이 수용되지 않을 때는 어떻게 대응할 것인가.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000174.wav|그는 옛날은 좋았다고 한다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00002130.wav|기철이 녀석도 제 형 때부터 물려받은 장난감 자동차를 반들반들한 마루 위로 질질질질 자유스럽게 끌고 다닐 수 있게 된 것이 매우 만족스럽다는 표정이었다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003766.wav|가슴 벅찬 감동이 물밀듯이 밀려온다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000170.wav|그러나 소련은 그런 반발을 아주 무시한 것은 아니지만 거기에 구속받지 않고 대국으로서 자기 필요에 따라 정책을 추진해 왔지요.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000866.wav|이승윤 부총리겸 경제기획원 장관은 중동사태를 좀더 지켜봐야겠지만 현재 상황으로는 크게 우려할 단계는 아니라고 본다고 말한다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002994.wav|앞문이건 뒷문이건 장애민중의 삶을 파탄 내는 정당에까지 장애계가 정당성을 부여해주고 장애인후보라며 정치권 줄서기를 하려던 총선연대의 모든 방향과 방침이 잘못된 것이고 또 실패한 것이다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000930.wav|인플레와 마르크화 폭락을 우려해 동독인들이 예금인출 및 소비를 자제하는 바람직한 모습이 뚜렷해지고 있다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001188.wav|김최고위원 일행이 사할린도 방문하게 되는가.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000608.wav|오늘날 남북의 상황은 다른 경우의 외교와는 달리 정상회담의 필요성이 상대적으로 절실하지 않다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000519.wav|이런 중앙정치의 한심한 작태를 지방정치 의원들이 혹시라도 닮을까봐 오히려 더 걱정이다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003215.wav|와하하 사람들의 웃음이 터지었다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001008.wav|국회의장 선거에 야당이 전면 불참한 경우는 육팔 부정선거시비에 휘말린 칠대 국회 개원 초 이후 이번이 두 번째다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003632.wav|인터라켄의 하늘에는 페러글라이딩이 연처럼 움직이며 또 다른 볼 거리의 즐거움을 준다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000663.wav|그렇지만 바로 지난 이일 아르헨티나에서 군부반란이 일어났다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001096.wav|당국은 언론자유투쟁을 전국규모의 노사 문제로 몰아가고 있다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00002848.wav|적다고 믿었던 자기의 힘이 철통 같은 성벽을 무너뜨리고 자기의 요구를 채울 때 사람은 무한한 기쁨과 충동을 받는다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001623.wav|이번 영화 완득이는 자신있게 추천할 수 있는 영화랍니다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00000005.wav|그런 것까지 포함해 여러가지를 공부해 봐야겠어요.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000739.wav|대화와 협상을 통해 경색정국 타개를 위한 교섭을 시작하겠다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001367.wav|이에 따라 산재보험의 혜택을 받을 근로자는 지금의 칠백 오십육만여명에서 올 칠월부터는 팔백여만명 구십이년 칠월부터는 팔백 이십만명으로 늘어나게 된다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001231.wav|해임된 전교조 가입교사가 총무처 소청심사위원회의 해임무효 결정 이후 전교조를 자진 탈퇴함으로써 복직하게 됐다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001012.wav|늘 팔방미인일 수는 없지 않아요.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000159.wav|이씨는 앞으로도 지속적으로 책을 보내 중국 각지에 민족문고를 설치할 수 있도록 하겠다는 계획이다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00002873.wav|바다가 그 거대한 몸뚱이로만 움직이지 않고 섬세하고 여린 결로도 움직인다는 사실은 매우 경이로운 것이었다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001352.wav|하나의 모델로 시작했다가 그 모델을 사회의 이익에 따라 바꿀 수도 있는 것이다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000391.wav|이런 선진복지국가는 예외이고 특히 제삼세계 등 대다수 나라는 여전히 어린이의 복지가 사각지대로 남아 있다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000888.wav|자주적인 통일운동의 초석이 됐다고 자부합니다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000342.wav|주인에게도 별일 없다고 얼버무려 나갔다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000784.wav|나는 정도를 걸으면서 양국은 하나라는 생각을 응원한다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000820.wav|소년은 문 옆으로 비켜서며 빙그레 웃었다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000507.wav|드골과 회담을 잘하려면 프랑스 말을 잘해야 한다고 믿은 때문이었다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000124.wav|그러나 그런 말에는 뭇사람들의 구린내 나는 제 자랑하는 투는 없고 어린애 같이 맑은 데가 있다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002174.wav|나는 한 달에 다섯 권 정도 책을 읽는다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001735.wav|무심코 밖을 보니 눈이 내리고 있었다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00000538.wav|종합토지세를 시행도 하기 전에 다시 개정한다는 것은 어떤 이유로도 국민을 납득시키지 못할 것이다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001362.wav|비스트 양요섭 분한테 정말 감사해서 이글을쓰게 됫슴당 일단 저는 바나에요 엔터톡.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002327.wav|이 경기장은 오만여명을 수용할 수 있을 정도로 크다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00002831.wav|그녀는 활짝 웃으며 말했다 어린애 같으셔.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002840.wav|그녀는 젊은 시절 간호사였던 만큼 부상자에게 달려가더니 치료를 척척 해내었다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003815.wav|나를 행복하게 만들어 주는 첫 번째는 가족이다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001052.wav|조그만 관심이 가정을 행복으로 이끈다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001379.wav|이처럼 토양이 산성화되면 영양소 보유기능이 떨어지고 질소 고정이 어려워지며 식물의 질병저항력이 떨어져 경제성작물의 생산성이 크게 감소된다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003446.wav|팬분들이랑 친하게지내고싶어서요.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001835.wav|선진국들은 빈민국에 대한 원조 수준을 점차 높이고 있다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000150.wav|페디르코회장은 소련이 이 같은 분야에 대한 한국의 참여를 바라는 것은 국내생산및 자본만으로는 도저히 수급을 충족시킬 수 없기 때문이라고 설명했다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002194.wav|세상에 실수를 하지 않는 완벽한 인간이란 없다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001747.wav|담배를 피우다니 학생이 해서는 안 될 행위다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001738.wav|딸이 태어났을 때의 기쁨을 아직도 생생히 기억한다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002082.wav|하루에 한가지씩 선행을 하기로 마음먹었다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000590.wav|그러나 우리나라처럼 입시경쟁이 치열한 상태에서 삼 분에 이십팔점 육 분에 오십육점은 아무리 생각해도 그 신뢰성이나 객관성에서 납득하기 어려운 부분이 많다고 본다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001849.wav|버스를 탔는데 운전사가 너무 과격하게 운전을 해서 무서웠다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00000258.wav|박씨 부부는 성탄 선물을 받은 뒤로 이상하게도 아들 규가 생기를 되찾고 밥도 잘 먹게 됐다며 삶의 가치를 일깨워준 그분께 고마움을 전할 수 없음을 안타까워했다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000407.wav|세종이 집현전 학자들과 훈민정음을 함께 만든 것은 주지의 사실이다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002317.wav|등에 뭔가 기어가는 느낌을 들어 봤더니 바퀴벌레였다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001662.wav|개는 왜 우리를 사랑할까.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00002408.wav|스스끼는 싱글싱글 웃으며 선생님이 그 회원으로 굉장하게 활동하신 것은 학생들이 모두들 압니다 하고 말했다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003546.wav|눈 오는 날 곁에 있는 사람들과 함께 따뜻한 마음 나누며 좋은 하루 보내보자구요.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003342.wav|점심시간에 여직원들과 회사 입구에 크리스마스 트리장식을 했다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00002192.wav|플리즈라는 단어는 무뚝뚝하고 격식없는 문장을 듣기 좋고 사려깊은 문장으로 바꾸어준다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001111.wav|페레스트로이카 정책을 추진하고 있으나 경제상황이 좋지 않은 것은 사실입니다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000585.wav|물론 이 같은 외국의 시각에는 정부의 잘못과 미숙의 탓이 크다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000947.wav|그는 또 토론의 전과정이 공개되며 어떤 사안에 대한 찬성 반대자들의 명단과 입장이 그대로 공표되기 때문에 더욱 권위 있는 기구가 되고 있다고 덧붙였다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001851.wav|스위스는 일차대전과 이차대전에서 중립을 지켰다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003866.wav|맛있어 보이고 행복해 보이니 기분이 좋구나.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001413.wav|살아있다는 건 즐거워.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002038.wav|이번 명절에는 고향에 내려갈 생각이다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002852.wav|어쩌다 좋은 성적을 받았다고 해서 우쭐대지 마.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002178.wav|가게 점원이 실수로 거스름돈을 덜 거슬러주자 손님은 화가 나서 삿대질을 했다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002179.wav|컨디션이 몹시 안 좋았지만 명랑한 척 굴었다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000876.wav|구체적인 논의와 준비는 십일부터 했다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002219.wav|옥상에 올라가서 크게 소리를 질렀더니 가슴이 후련해졌다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000374.wav|기방에서의 입술화장문화도 꽤 발달했던 것 같다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001468.wav|북한경제는 작년에 마이너스성장을 기록하는 등 위기가 심각한 것으로 전해지고 있다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000343.wav|밝은 천지도 천지려니와 당신을 어서 눈뜨고 보고 싶어.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002117.wav|공원에서 불꽃놀이로 인한 화재가 일어났다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00002183.wav|엄마 지갑에서 몰래 만원을 가져간 것이 들켜서 엄마에게 호되게 혼이 났다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002334.wav|그 상자를 혼자서 창고로 옮기려 했지만 너무 무거웠다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002745.wav|다시는 이런 끔찍한 아동 성폭행 사건이 일어나서는 안 됩니다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002901.wav|은행을 비롯해서 모든 금융 기관들은 소액융자 강화를 내세우고 있다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00002544.wav|만남이라는 지극히 정감 어린 말을 쓰고 싶었다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001915.wav|회사에서 새로 맡게 된 업무가 적성에 맞지 않는다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00000022.wav|어떤 사람들은 공화당때 박정희대통령이 지역감정을 유발했다고 하지만 그런식으로 원인을 캐올라 가면 이조때까지 올라가야 한다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002931.wav|자신의 조건에 딱 맞는 배우자를 찾는 것은 상당히 어렵다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000231.wav|국립중앙박물관내 민속박물관 부속 창고에는 전현직대통령을 포함한 공직자들이 해외여행중 또는 외국인으로부터 받은 각종 선물 삼백 십여점이 쌓여 있다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00002749.wav|그는 시치미를 뚝 떼고 있기를 좋아한다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003343.wav|그 따스함들이 날 차분히 해줄거야.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000298.wav|사람과 하느님 어차피 남남끼린데 잘된 일이다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000391.wav|이런 선진복지국가는 예외이고 특히 제삼세계 등 대다수 나라는 여전히 어린이의 복지가 사각지대로 남아 있다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000960.wav|소속의원 여덟명으로 민자 평민의 정국구도 아래 위상정립이 어렵다고 본다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00000820.wav|남쪽에서 사천명 북쪽에서 이천명 등 육천명이 한마음으로 남북한을 응원하자는데는 이견이 없습니다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000217.wav|그리고 양국간 정치적 관계가 호전될수록 경제적 측면에서의 발전 전망도 따라서 밝아질 것이라고 확신합니다. 그러나 우리는 기업인이기 때문에 정치적인 예측은 못합니다. 이번 정상회담이 성공적으로 끝나기를 바랄 뿐입니다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002066.wav|앞으로 아이들 간식은 사지 않고 내가 직접 만들어 줄 생각이야.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000628.wav|자루에 든 것이 쌀이든 보리쌀이든 나는 그걸 볼수록 기분이 좋아진다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000460.wav|의원들은 지하철이 이대로 가다가는 지옥철을 넘어 총체적 문제철이 되고 말 것이라고 신조어까지 동원해 공사측을 공격하기도 했다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002793.wav|미혼자들은 결혼이라는 것에 큰 환상을 품고 있다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001601.wav|새 아파트는 예전에 살던 아파트보다 공간이 넓어서 쾌적하다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000923.wav|통합으로 어떤 변화가 예상되는가.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000597.wav|또한 당초 이날 갖기로 했던 하산법회에 참석키 위해 서울 등지에서 일반인 이십여 명도 도착했으나 법회가 취소됐다는 통보에 따라 이들 또한 되돌아가기도.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002408.wav|삼각김밥을 사기 위해 편의점에 들렀다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000449.wav|자신들의 작품이 천사원을 대표하게 되자 참여 원생들의 열의도 높아졌다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000670.wav|세계적으로 가장 어려운 기술중 하나로 평가되는 디지털 녹화기술까지 개발할 정도이다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002542.wav|이승엽 선수가 연이어 홈런을 쳤다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000386.wav|매사를 성급하게 결판을 보고자 하는 즉석병을 빗대는 속담이 많은 이유는 그만큼 우리 한국사람들이 즉석 병균에 감염돼 있다는 증거랄 수 있다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00002129.wav|공부방으로 마루뒷방을 차지한 기욱이 난희 명희 세 명의 아이들은 비록 좁기는 하였지만 이를테면 숙제 같은 것을 할 때 마루방까지 차지하고서 배를 쭉 깔고 엎드려 할 수 있게 된 것이 여간만 흡족하지 않은 모양이었다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001537.wav|난 중동 출신도 아니고 전쟁을 겪어본 적도 없다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001841.wav|고베 대지진 참사에 사람들은 경악을 금치 못하고 있다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001503.wav|이런 대내외 현실을 감안한다면 한국의 그동안 주택정책은 크게 잘못된 것이 분명하다 자유시장경제란게 공익성을 무시하고 존립할 수는 없다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001838.wav|자기 부모에게 효도한 만큼 자기 자식들에게 효도를 받는 법이다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00001685.wav|내일 시합이 열릴 수 있을지 어떨지는 날씨에 달려 있다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000172.wav|우선 중국은 현재까지는 천안문사태 이후 국내 문제 때문에 동북아 정세변화에 대한 입장표명이 불분명했습니다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001898.wav|마늘을 넣으면 고기 요리에 풍미를 더해준다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002749.wav|아들이 시험에서 일등을 해서 갖고 싶어 하던 비싼 신발을 선물로 사주었다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002341.wav|그는 새로운 직장에 매우 만족하고 있다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001912.wav|그는 가장 친한 친구에게 배신당해서 치를 떨고 있다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001604.wav|가장 가까운 박물관은 걸어서 이십분 정도 거리에 있다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000008.wav|포철은 구십이년에 연산 이천만톤의 목표가 끝나는데 그 일이 진행되는 가운데 당장은 해외에 제 얼굴이 필요할 때도 있을 것 같아 그 문제를 해결 해나가면서 처리하겠습니다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000079.wav|지역적인 것을 전연 도외시할 수는 없다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003303.wav|리뷰만 봐도 황홀해지는군요.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00001357.wav|그것이 그들의 일관된 입장이라는 것은 알고 있다 내가 지난해 한국을 방문한 것에 대해 불만스러워한다는 것도 알고 있다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001234.wav|검찰은 또 노씨와 함께 마약을 상습투여해 온 여자모델 아홉 명과 예비역대장의 아들인 김수창씨 등 열 명을 같은 혐의로 수배했다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002775.wav|다신 안 그래야지 해놓고 또 같은 잘못을 저질렀다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00000101.wav|공화당의 의원 당직자들은 김총재가 회담을 마치고 돌아 왔을 때와 기자들과의 질의응답이 끝났을 때 큰 박수로 제이피의 결단을 지지했다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002306.wav|그는 다리를 다쳐서 한달 동안 걸을 수 없게 되었다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001580.wav|어린 초등학생을 몇 명이나 죽이다니 인간으로서 있을 수 없는 행위다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000712.wav|민자당의 분명한 당론결정을 보면서 평민당의 입장을 정하겠다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001516.wav|마땅한 안이 나오지 않아서 지루한 회의는 계속되고 있다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002892.wav|나는 생활비를 벌기 위해 고깃집에서 아르바이트를 하고 있다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002927.wav|나는 구급차가 올 때까지 환자에게 인공호흡을 했다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000411.wav|사람들은 온갖 인간적인 욕망을 거부하는 숭고한 이미지를 찾는다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002651.wav|이 불닭은 너무 매워서 저한테는 무리에요.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002813.wav|매일 예습 복습을 소홀히 해서는 안된다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001202.wav|재벌보다 오히려 서민의 이익을 대변하도록 할 것입니다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00000685.wav|아직까지 구체적인 계획은 갖고 있지 않으나 계획이 서면 기존 양대방송사인 케이비에스와 엠비씨에 협조를 요청할 생각이다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001467.wav|이제 한국의 대기업들도 가족주의 경영방식을 벗어나야 할 만큼 성장했고 거대해졌다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000869.wav|이씨를 포함 같이 탈출해 나온 열두가족 스무 명은 오는 십구일 서울로 갈 예정이다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00002825.wav|보람 있는 일이라면 도깨비하고 흥정해도 좋다고 뽐낸다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002827.wav|그는 역사상에 이름을 남기고 세계를 바꾸고 싶다는 야망을 불태웠다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001066.wav|현재 한국은 수입 주류 중 코냑은 삼십퍼센트 위스키는 오십퍼센트의 관세를 부과 차등을 두고 있다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000169.wav|북한은 이제까지 소련이 한국과의 관계를 정상화하고 나아가 경제협력을 증진시켜온 데 대해 반발했습니다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000693.wav|세계적으로 정치지도자들간의 많은 약속이 이십년 삼십년까지 또 무덤에 갈 때까지 비밀에 부쳐지는 것이 관례다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001821.wav|나는 고흐의 그림중에 해바라기를 가장 좋아한다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003217.wav|하기야 한순간 실로 한순간이었지만.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000901.wav|처음부터 촉매역할에 그치겠다고 밝혔습니다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000331.wav|부부는 행여 임시열차라도 마련되지 않을까 기대하면서 매표소위에 설치된 열차시각표를 쳐다보는데 열중했다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001016.wav|어제 무한도전에서는 서해안고속도로가요제를 위한 음악작업 제이탄 자기음악 중심 편이 전파를 탔습니다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001480.wav|그러나 정부에 의한 단속과 통제를 얘기하기에 앞서 모두가 자기충동부터 단속해야 할지 모른다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001851.wav|스위스는 일차대전과 이차대전에서 중립을 지켰다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001103.wav|사람의 천성과 직업이 맞을 때 행복하다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001713.wav|젊은 사람일수록 늦잠을 많이 잔다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001287.wav|신당의 체제가 앞으로 집단지도체제나 단일지도체제 가운데 어느쪽으로 바뀔 것인가.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000713.wav|민자당의 내각제 합의각서 유출사건이 평민당의 등원협상에 새로운 장애가 되는가.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000595.wav|경호관계자들은 전씨의 하산경호 수위를 놓고 고심해 온 것으로 알려졌는데 경호가 너무 거창할 경우 비난 여론이 우려된다는 점 때문.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000192.wav|후세교육을 위한 한국학 전문가 교육 문제를 생각해 보지요.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001723.wav|그는 일단 잠이 들면 주위가 아무리 시끄러워도 절대 깨지 않는다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001169.wav|독일 통일의 가장 합당한 길은 무엇이라 생각하는가.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000176.wav|역사적인 모스크바 한소 정상회담 개최로 한소 관계는 새로운 장을 맞게 됐다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002389.wav|톰은 자기 반에서 키가 제일 크다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001998.wav|이천십이년도 즐겁고 건강하고 행복한 한 해가 원하는 행복한 미래를 생각하며 힘들때마다 스스로를 위로하고 다독여주고 그렇게.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003499.wav|날씨는 많이 춥지만 밝은 웃음으로 주위를 따뜻하게 만들어 보아요.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000752.wav|앞으로 국방부 및 군을 어떻게 운영하겠는가.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000084.wav|그러나 거기까지 가는 방법을 어떻게 하느냐는 데까지는 얘기가 진행되지 않았다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002796.wav|그녀는 모든 사람들의 눈을 끌만한 화려한 옷을 입고 나타났다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001330.wav|우리의 이 같은 요구가 받아들여지지 않으면 앞으로는 무기한 총파업을 포함한 강경투쟁을 벌일 계획이다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000595.wav|경호관계자들은 전씨의 하산경호 수위를 놓고 고심해 온 것으로 알려졌는데 경호가 너무 거창할 경우 비난 여론이 우려된다는 점 때문.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000674.wav|컴퓨터가 통신에 이용되면서 각종 대중매체들에 큰 변혁이 일어나고 있다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002836.wav|플래시 몹 퍼포먼스였는데 공연 날 지드래곤이 내가 짠 안무에 맞춰서 퍼포먼스를 하고 있단 사실이 믿기지 않았다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003354.wav|그래도 전혀 새로울 만남에대한 설렘을 유지하도록 노력할게.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002529.wav|그의 가문은 혈통있는 집안이다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000548.wav|공영방송의 앵커가 끝맺음말을 제대로 발음하지 못한다든가 우리말이 아닌 영어식 표현법이나 일본어식 영어발음을 되풀이한다면 이는 큰 문제다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000825.wav|달과 마주 선 그녀의 얼굴은 연꽃처럼 웃고 있었다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002985.wav|그러나 영구치가 나올 때 앞니가 벌어져 나오는 것은 정상적인 과정이다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000043.wav|내가 선거대책본부까지 설치했다는 소문이 있지만 사실이 아니다 선거가 얼마 남지 않아 나름대로 준비를 하고 있는 것은 사실이다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000916.wav|먼저 한국이 북한을 풀어주고 희생하겠다는 자세가 필요하다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001699.wav|출발하기 전 선생님은 인원수를 체크했다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001194.wav|김최고 위원이 한국정부 대표자로서 고르바초프 서기장을 만나는 것은 양국 국교가 맺어지지 않은 상태인 만큼 힘들 것이다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001163.wav|다만 공작정치가 되살아난 게 분명하고 그것을 반드시 뿌리뽑겠다고 말하겠다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001441.wav|특히 때를 놓친 정치적 결단은 오히려 더 큰 역작용을 초래할 경우가 허다하다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001821.wav|나는 고흐의 그림중에 해바라기를 가장 좋아한다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003536.wav|한편 션과 정혜영은 이천사년 결혼 이후 네 아이를 출산해 행복한 가정생활과 꾸준한 봉사활동을 이어오고 있다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002615.wav|목욕탕에서 때가 너무 많이 나와 창피했다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000901.wav|처음부터 촉매역할에 그치겠다고 밝혔습니다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002008.wav|나는 운동을 위해 걷는 것이 아니라 기분전환을 위해 걷는다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001459.wav|이 같이 뜻깊은 시점에서 전경련은 대기업의 이익만을 대변하고 정치자금 모금창구 정도로 비쳐진 인상을 씻어내야 한다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000643.wav|종전과 같은 성장 우선의 경제정책으로는 경제발전 사회발전에 한계가 있다고 봅니다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002298.wav|도서관에서 그렇게 큰 소리로 통화하면 어떡하니.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000057.wav|황 교수는 단편적 지식의 측정보다는 이해력과 응용력 사고력을 재는 문제에 치중했다면서 제이외국어와 실업 사회 과학 등 선택과목들은 난이도의 균형을 맞추도록 출제위원들이 노력했다고 덧붙였다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000015.wav|구십년대는 정치체제 재편과 제이의 경제도약 복지화를 이룩해 통일의 굳건한 기반을 만들어내야 한다. 통일이 구십년대 올 것 같지는 않지만 적어도 통일에 대비하고 예상되는 남북관계의 급격한 변화를 수용할 수 있는 정치적 채비를 갖춰야 한다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001336.wav|나아가 농민의 축출은 고용 도시과밀 집값 문제로 이어져 전국민적 문제로 확산될 것이다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000469.wav|그 후 기탁자로 발표된 서울 사는 김모씨를 확인하기 위해 문교부의 고위간부들에게도 수소문을 부탁해 봤지만 이렇다 할 소득이 없었다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000047.wav|여름에는 자주빛과 하얀 감자꽃을 곱게 피우며 정말 즐거웠어.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002209.wav|나는 거울을 볼 때가 가장 행복하다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002547.wav|우리집은 경찰서 바로 앞에 있어서 뭔가 든든하다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001876.wav|그는 많은 사람들의 칭찬을 받자 거만해졌다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00002371.wav|아마도 그 뒤에 있었던 오대산 여행은 꺼지기 전에 한 번 빛나는 불꽃과 같은 그의 마지막 열정에 충동된 것이었으리라.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002839.wav|그집 스시의 맛에 감동해서 누군가에게 말하지 않고는 견딜 수가 없었다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000657.wav|지난 팔십칠년 이월 교수회의에서 경선투표로 총장에 선출된 그는 모스크바에서 가장 젊은 대학총장이다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000567.wav|이번 국회에서 민자당이 진실로 민주개혁과 발전적인 정치행태를 입증한다면 정계개편의 명분은 그런대로 지탱될 수 있을 것이다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002156.wav|시련은 우리를 괴롭게도 하지만 성숙하게도 합니다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002445.wav|양치질은 하루 세 번 식후 삼분 이내 삼분간 하는 것이 가장 올바른 방법이다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001318.wav|북한에 대해서 강압적으로 하지는 않을 것이며 북한도 통일을 향해 동참할 수 있도록 최선의 방법을 강구할 것이다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003269.wav|누가 뭐라고 하던 확실히 영상미는 있어서 눈은 즐거우니까요.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000623.wav|그분들은 모두 평생 정치를 해오신 분들이다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002726.wav|전국 대부분이 맑게 갠 이십이일 축제 현장마다 관광객과 미식가들의 발길이 이어졌다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00000731.wav|어느 분야가 가장 쟁점이 되고 있는가.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00002357.wav|나는 저 아이가 신학문이나 익혀 제 앞을 가리기를 바랐는데.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000493.wav|경제에 있어서 십년주기 위기설이 정설은 아니지만 과거를 되돌아 보면 우리 경제가 매십년마다 어려운 상황에 처해 왔던 것이 사실이다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000335.wav|황혼은 매우 아름답지요.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002950.wav|어머니는 강한 어조로 자식의 잘못을 힐책했다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002437.wav|나는 항상 벼락치기로 시험공부를 한다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001807.wav|음악 경연대회 당일이 되자 그녀는 들뜬 한편 초조해졌다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000854.wav|이 부총리의 경제정책에 대해 성장을 앞세웠다가 물가관리에 우선을 두겠다고 하는 등 일관성이 없다는 지적도 있다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000465.wav|슬기 재롱잔치 찍은거 말야 근사해.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001579.wav|내가 직장을 계속 다닐 수 있는 것은 어머니가 아이를 돌봐 주시는 덕분이다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002936.wav|나는 연애하는 것이 시간 낭비라고 생각한다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003992.wav|소소하지만 가슴 따뜻해지는 고양이들과의 시끌벅적 동거 이야기를 펼친다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002564.wav|이 케익은 너무 달아서 도저히 먹을 수가 없다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000191.wav|인도에서의 한국학은 자생적으로 일어났고 지금도 전혀 한국 측으로부터 지원을 받고 있지 않습니다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001314.wav|무통주사와 피통을 뺐습니다 완전 홀가분했져.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001957.wav|니가 선물을 주니까 그사람이 어떤 표정을 지었니.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000418.wav|지금 국회의원들이 국회안에서 처리해야 할 일들은 산적되어 있다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001226.wav|이로써 국내 에이즈 감염자는 모두 칠십오 명으로 늘어났으며 이 중 환자 다섯 명을 포함 아홉 명이 숨지고 한 명이 이민 현재 육십오 명이 보사부의 관리를 받고 있다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000511.wav|나는 어디까지든지 내 방이 마음에 들었다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00000828.wav|남북 사이클선수단이 합동훈련을 한 사실이 남쪽신문에 크게 보도되었는데요.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001754.wav|그래도 사랑하는거 맞죠.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000446.wav|한국의 경제학자도 어떻게 해서 올챙이가 작은 용이 될 수 있었는지를 밝혀낸다면 노벨상을 바라볼 수가 있다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001365.wav|다음 이번 시중은행 주총이 형식상 모양은 갖추되 그 인사 내용은 아직도 관변에서 결정돼 주총은 단순히 이를 확인하는 모임이 될 것이라고 한다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000911.wav|참 아이 잘 챙긴다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003903.wav|구름 한 점 없는 맑은 하늘에 붉으스름한 빛의 아름다운 황혼이 깃들고 있었다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002754.wav|불황 때문에 휴업이나 폐쇄하는 공장이 속출하고 있다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00001678.wav|언제까지나 마음 변치 말고 좋은 친구로 지내자.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00002841.wav|요새 잘못 걸린 전화가 자주 와서 대단히 짜증스럽다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000069.wav|내가 점괘가 됐다는 게 조금도 언짢지 않았다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00002467.wav|명함을 줄까말까 결정할 시간을 벌려는 그의 이런 어색한 동작을 나는 속이 근질근질하도록 귀엽게 바라보았다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000315.wav|반면 이날 시민들이 보여준 행동은 철도청의 엉뚱한 짓과는 확연한 대조를 이뤘다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001643.wav|상사에게 새로운 계획을 제안했는데 거절당했다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000377.wav|입술이 창백하면 아들을 못낳는다는 상법이 통념화돼 있었기에 은밀히 혈색을 돋우는 금지된 입술 화장도 없지는 않았다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00002569.wav|그는 어느 여자에게나 다정다감해서 종종 오해를 사곤 한다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00001680.wav|아내가 어렵게 임신에 성공해서 너무 기쁘다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002841.wav|요새 잘못 걸린 전화가 자주 와서 대단히 짜증스럽다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001871.wav|낯선 사람에게 말을 걸 용기가 나지 않는다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002379.wav|그는 매력적인 외모와 성격때문에 모든 사람으로부터 사랑받는다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001486.wav|셋째 국민을 설득시키기 위한 여야의 협력체제가 이루어져야 한다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002187.wav|그의 마음을 얻으려면 어떻게 하면 될까.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002756.wav|친구에게 내 속마음을 다 털어놓고 나자마자 말하지 말 걸 하는 후회가 들었다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001688.wav|저 녀석 때문에 나까지 선생님 눈 밖에 났어.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000260.wav|아파트를 돌며 현관문마다 초인종을 눌렸고 수표발행은행에도 찾아가 보았다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000385.wav|어른이 다된 학생들의 모양을 보기만 해도 젊은 김강사의 가슴은 두근두근한다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000768.wav|나는 도시의 겨울 풍경에 느닷없이 뭉클한 감동을 맛보았다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001168.wav|그러나 그 뒤 독일과 유럽의 정세는 불과 반년사이에 폭넓은 그리고 귀하가 변화를 보여주고 있다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001910.wav|지인을 길에서 마주쳤는데 이름이 기억나지 않아 당황했다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003592.wav|계속해서 따뜻하고 행복한 드라마가 됐으면 좋겠어요.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002922.wav|그녀가 내 귀에 대고 갑자기 소리를 지르는 바람에 깜짝 놀랐다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000599.wav|이밖에도 인근 낙산사 총무인 마근 스님 등 불교계 인사들도 하산 전 전씨를 보기 위해 백담사를 찾는 모습이다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003361.wav|십이월이 되어 본격적으로 겨울의 느낌을 내 보는 것이 좋을 것 같다는 트친님의 의견이 있어서 바꿨는데 귀엽다고 하시니 기분이 좋네요.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001676.wav|이 주변은 미군 기지가 많아서 미국인 거리로 불리운다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003100.wav|남경 진 기수란 이름을 발견했을 때 야릇한 흥분으로 가슴이 두근거리며 머리 속까지 횡해지는 듯했다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002278.wav|그 집 형제들은 아주 사이좋게 지낸다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002196.wav|다이아몬드가 귀중한 것은 희소가치 때문이다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000421.wav|지금 같아서는 집권당에 집권욕을 버리라고 요구한다는 것은 어리석고도 불가능한 일이나 같다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00001124.wav|옆에 누가 끼어 들어가서는 안 된다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002072.wav|시간이 흘러도 부모에게 받은 상처는 아물지 않았다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001763.wav|이 연못은 물고기에게 먹이를 주는 것이 금지되어 있습니다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000473.wav|집단이기주의를 박차고 미래를 지향하는 젊은이로서 장래 국가의 교육을 짊어진다는 의연한 자세를 가져야 한다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001502.wav|그러나 기본적으로 개인의 사리추구가 시장경제의 뿌리라는 것을 전제 한다면 일단 제도적으로그 허점을 보완하는 게 첩경이다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000525.wav|따라서 독일에서 교사가 되려면 최저 팔년서부터 십년 정도를 대학과 현장에서 연마해야 한다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002043.wav|나는 감정을 잘 드러내지 않는다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001177.wav|올해로 외교관 생활 삼십구년째인 박대사는 사년 구 개월의 최장수 외무장관 기록도 갖고 있다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002937.wav|할머니는 음식을 남기는 것을 굉장히 싫어하신다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001042.wav|감사원직원의 수준이 다른 부처공무원보다 높지 않으면 그런 흐름을 따라잡을 수가 없습니다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002264.wav|티비에 나온 살인자의 험악한 얼굴을 보니 소름이 끼쳤다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003372.wav|워커힐 호텔 아이스링크에서 신제품 체험과 함께 로맨틱하고 신나는 핑크 빛 파티를 즐겨보세요.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000924.wav|그 과정에서 정부측의 압력이나 종용 같은 것은 없었는가.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002722.wav|그가 굳이 말하지 않아도 나를 싫어한다는 것이 표정에 역력히 나타나 있었다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002217.wav|냄새나니까 나한테 가까이 오지 마.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00004046.wav|독립하는 장면은 분산이라는 동물 행동을 이해하는 그림이면서 부모 사랑을 언뜻 느끼게 되는 덤도 주고 있다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00001404.wav|이래 갖고는 누구나 집을 더 가지려 한다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001584.wav|대응이 좀 더 빨랐으면 좋았을걸 구조가 늦어져 피해자가 늘어났다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00002632.wav|그렇게 항상 음식을 남기다 벌 받으면 어쩌려구.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001362.wav|그러나 이번 주총에서는 그 어느 때보다 인사 대상 폭이 넓다는데서 아직도 뚜껑 속의 인사내용에 금융계는 촉각을 기울이고 있는 게 사실이다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000504.wav|몸이 아프다며 연방 우황청심환만 찾을 뿐 식사를 거부하는 문을 상대로 여죄를 추궁하고 옴쭉 달싹 할 수 없는 증거를 확보해야 하기 때문이다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001412.wav|중요한 것은 함께 일하는 곳으로서의 기업이 살아 있게 하는 것이며 그를 위해 노와 사가 화합하는 것이며 나라경제가 융성하는 것이다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003645.wav|아름다운 동화 속 마을 지난해 여름방학 나는 그토록 그리던 정말 천국에 온듯한 느낌을 받을 정도로 눈앞에 펼처지는 광경이 뛰어났더랬죠.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002231.wav|아이들 우는 소리가 너무 듣기 싫어 귀를 막았다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000951.wav|우리 위원회가 낸 의견은 거의 모든 정부정책에 반영되고 있습니다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00000099.wav|국가를 공동경영한다고 했는데 초당 내각이 구성되나.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001294.wav|현재 이루어지고 있는 것은 심원한 개편이다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00002105.wav|나는 불현듯 아직도 마주 잡고 있는 고부의 손 위에 내 손을 포개 보고 싶어졌다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00001328.wav|우리가 생명을 걸고 지켜야 할 신성한 노동현장에 공권력이 투입된 것은 도저히 용납할 수 없는 일이다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000690.wav|지난 이십년간 기업을 경영해 온 기업인으로서 마지막으로 문화사업에 참여해 보고 싶은 생각에 신청을 결심하게 됐다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000517.wav|선량들의 탐욕은 예산심의의 막바지 과정에서 여지 없이 드러났다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001443.wav|김씨 유서의 대필여부는 가능한한 빠른 시일안에 그리고 의혹이 없이 정확히 밝혀져야 한다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003275.wav|행복한 한주 보내세요.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000219.wav|근본적으로 국가간의 관계는 상대방이 있는 만큼 우리 이익에만 집착해서는 곤란하다고 봅니다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000862.wav|세금이 그렇게 잘 걷히면 국민의 조세부담률을 좀 낮출 수도 있지 않은가.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002150.wav|나는 아침마다 토마토를 갈아서 마신다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001879.wav|미국 아이들의 사십퍼센트는 그들의 아버지와 살고 있지 않다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00004074.wav|성탄절 같은 경우는 조선족 치마저고리를 입고서 아기예수의 탄생을 찬송하고 있다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000393.wav|선수들의 선전으로 아시아드에서 이위는 고수될 전망이며 체육수준의 전반향상의 의외의 분야에서 금메달을 거두어 선수단의 사기는 높다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002138.wav|옆 사람의 암내 때문에 견딜 수가 없다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002831.wav|겨우 그런 찰과상으로 입원까지 하다니 정말 엄살이 심하군요.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002218.wav|그는 내가 싫어졌다며 이별을 통보했다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000008.wav|그의 처세의 비결은 더욱 더 순탄히 진척되었다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002942.wav|물가는 지난 달부터 전혀 변동이 없다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00000123.wav|심국장은 도에서도 주민들의 뜻에 발맞춰 삼일부터 칠일까지 산짐승들이 즐겨먹는 옥수수 고구마 시래기 등 열톤을 눈덮인 산간지방의 계곡 능선 등에 뿌렸고 십일에는 산림청의 도움을 받아 접근이 불가능한 오지산골에도 헬기를 동원 먹이를 살포하는 등 이달말까지 먹이주기를 계속할 예정이라고 밝혔다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001373.wav|주택가격의 안정은 시급한 과제다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000265.wav|서울 강남구 개포동 주공아파트에 사는 박두수 김선희씨 부부는 성탄절인 이십오일 아침 자신의 집에 성탄축하카드와 오십만원짜리 수표 한 장을 밀어넣고간 얼굴 없는 은인을 찾을 수 없겠느냐고 이십구일 조선일보사에 부탁해 왔다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00002025.wav|가족들과 모처럼 교외로 드라이브를 갔는데 길이 꽉 막혀 스트레스만 받았다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000068.wav|그곳에서 역 앞 카바레에 들러 술을 마시고 나온 뒤 신문을 사 보고 우리 탈주사실이 크게 보도된 것을 알았다. 그 후 이리역에서 택시를 잡아타고 운전사를 위협 현금과 주민등록증을 빼앗고 대전으로 향했다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000495.wav|최영철 노동부 장관은 요즘 아는 사람들로부터 시중에 최영철 고스톱이 유행한다는 데 본인은 어떻게 생각하느냐는 질문을 가끔 받는다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000137.wav|늘 광짜리이기를 바라는 사람의 버릇으로 영미는 그런 명준의 덤덤한 데를 되레 좋아한다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003803.wav|날 닮은 아이의 얼굴을 처음 봤을 때 너무 감사한 마음이 드는 것과 동시에 세상 그 어떤 것보다 가슴 뭉클한 감동을 느꼈다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00001745.wav|몸도 불편한 그가 금메달을 따다니 정말 감동스러웠다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001470.wav|그는 오랜 정치생활을 해 온 사람으로서 또 집권당의 대표로서 깊은 자책감을 느낀다면서 국민에게 사과했다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000833.wav|양쪽 실무자들이 자연스럽게 만나 의견을 나누게 될 겁니다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000602.wav|전두환 전 대통령은 하산 전야인 이십구일 밤늦게 자리에 들었다 측근 등과 그 동안을 회고하고 마음을 정리하며 시간을 보냈다고 한다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001782.wav|이제는 우리가 연인이라 부를 수 있는 날이 였기를 바랬다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000157.wav|이씨는 실제로 어린이들을 만나보니 우리말이 상당히 서툴러 귀국하는대로 책을 보내주겠다고 약속했다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002474.wav|미국의 바퀴벌레는 우리나라의 것보다 두 배 이상 크다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000591.wav|우리는 사범계 지원생의 면접이 무용하다는 것을 주장하려는 것이 아니다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00000213.wav|앞으로 한국 측의 참여로 그 보고가 열리게 되면 두 나라 관계의 핵심적인 부분이 될 것입니다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002212.wav|우유부단한 내 모습에 화가 난다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002940.wav|단조롭고 지루한 시골 생활에 이젠 질려버렸다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002634.wav|기대를 가지고 파칭코에 갔지만 돈을 하나도 따지 못했다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002113.wav|그는 항상 뒤에서 자신의 상사를 욕한다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000607.wav|보고 싶은 아버지.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001885.wav|판사는 그가 벌금을 내야 한다고 판결했다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001659.wav|성인이 된 이상 부모님에게 신세를 져서는 안 된다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001216.wav|돈을 받고 피를 팔던 매혈자가 국립보건원 검사결과 후천성면역결핍증 감염자로 밝혀졌다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001284.wav|우리는 이 위기를 극복할 수 있다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002612.wav|빨리 손자를 낳아 부모님을 기쁘게 해드리고 싶다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00001273.wav|그러나 지난해 유월 방문과는 달리 이번 소련방문은 대단히 의미 있는 방문이 될 것이다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002932.wav|무엇이든 가장 보편적인 것이 사람들에게 사랑받는 법이다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00004086.wav|사랑스러운 아기곰 바쏠로뮤의 아름답고 따뜻한 마음씨를 닮아보세요.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00002610.wav|벌써부터 내일 새벽이 기다려진다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002902.wav|역에서 일분 거리인 아파트로 이사하게 되어 매우 편하다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000854.wav|할머니는 풀린 눈동자 가운데도 반기는 빛이 역력히 움직였다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00000935.wav|잘 하려다가 결과가 잘못된 일은 시도하지 않은 것보다 더 평가를 해주고 잘한 일은 포상을 더욱 적극적으로 하라고 지시했습니다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001344.wav|정세영 그룹회장은 회사쪽이 할 노력은 다했으니 정도로 간다며 왼주먹을 몇 차례나 내뻗으면서 더 이상의 타협은 있을 수 없다고 되풀이했다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00000495.wav|최영철 노동부 장관은 요즘 아는 사람들로부터 시중에 최영철 고스톱이 유행한다는 데 본인은 어떻게 생각하느냐는 질문을 가끔 받는다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000174.wav|한소 관계 발전은 일본에는 북한과의 관계개선을 더욱 앞당기도록 부추기는 동인이 될 가능성이 큽니다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00002042.wav|그래도 봄처럼 마음은 따듯했다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001020.wav|칼로 끊듯 개인생각은 말 않겠다고 했으나 그는 얘기 말미 다만 조정자로서 막후에서 역할이 있을진 모르지라고 했다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00000149.wav|그리고 공동상점등 가능한 모든 분야에 걸쳐 한국과의 합작 투자를 희망하고 있습니다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000308.wav|군인사 전문가들은 국방행정이 다른 부처와 달리 발전하지 못하고 어떤 측면에서 퇴보하고 있는 가장 큰 요인으로 이 같은 문제점을 들고 있다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003678.wav|로버트는 오히려 처음엔 지옥 인 줄 알았던 베오그라드에서 맥주와 잠자리를 선뜻 내주는 친구를 사귀고 사랑하는 여자까지 만난다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000096.wav|특히 소외계층에 특별한 관심을 갖고 최대한 노력키로 했다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001916.wav|쉴 새 없이 먹어대는 아들의 먹성을 감당하기가 어렵다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002369.wav|이 책이 바로 내가 찾고 있던 책이야.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000139.wav|학과 가운데서 그리스의 자연 철학자들의 학설에 끌린다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003412.wav|그들의 도전과 열정 아름답고 멋있다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000999.wav|그분은 신념이 너무 강해 공정한 사회자는 못됐을 거요.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001542.wav|그 구두는 내게 정말 멋진 선물이었다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000658.wav|지난 일일 서울에 온 그는 브라질 외무관리 출신으로 지난 팔십사년 오에이에스 사무총장으로 선출돼 현재 두 번째 임기를 보내고 있다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000568.wav|임씨는 욕조를 들어낸 자리가 축축하게 젖어 있는 것을 보고 회심의 미소를 지으며 담배 한 개비를 빼어 물었다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002576.wav|나는 건강을 위해 매주 산에 오릅니다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001002.wav|유석 조병옥박사 밑에서 정계에 입문했다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001720.wav|미소짓고 있는 아기의 모습과 행복해하는 너의 모습을 보면서 세상의 시름이 걷히는 듯 내 마음도 행복해지는 데 이렇게 좋은 데도 눈물이 난다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000635.wav|지난 팔십이년과 팔십육년에 이어 세 번째로 방한한 해크총장은 이미 건국대와의 자매결연 외에 십칠일에는 동아대와도 자매결연 국내 다른 십여개 대학과 함께 한국연구소를 설치하고 있는 캘리포니아주립대 해럴드 해크총장이 지난 십사일 방한 국내 자매결연대학을 방문하는 등 분주한 일정을 보내고 있다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001384.wav|아울러 한반도의 개방개혁을 자극하기 위해 고르바초프 대통령의 평양방문도 조만간 고려되기를 바란다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000737.wav|오는 이십일 이후 국회는 어떻게 운영할 것인가.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001373.wav|주택가격의 안정은 시급한 과제다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00002170.wav|아무튼 밖에서 볼라치면 생김새가 재미있고 속에 들면 아늑한 맛이 있다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000235.wav|운이 좋아 은혜를 만났다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000122.wav|강원도청 심종한산림국장은 그런 뜻에서 요즘 산간지방을 중심으로 폭설로 먹이를 구하지 못해 인가로 내려오는 야생조수를 보호하고 먹이를 주는 운동이 주민들사이에 활발히 전개되고 있는 현상에 대해 고마워했다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000127.wav|영업시간의 제한으로 장사가 안되는 입장에서야 이 조치를 완화해주길 바라는 마음 굴뚝 같지만 먼저 퇴폐문화 곧 이태원이라는 인식부터 고쳐지도록 하자는 데 의견을 모았습니다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000829.wav|이라크가 자체적으로 원만한 제안을 가지고 나왔으면 좋겠습니다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002255.wav|과음한 다음날은 업무에 차질이 많다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000234.wav|이 창고에는 그밖에도 다른 공직자들이 낸 도자기 화병 칠보항아리 크리스털항아리 카펫 커프스버튼 리벌버권총 브이티알 촬영기 시계 카메라 등이 있다. 가게를 차려도 몇 개는 차릴 수 있는 값진 것들이다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00002534.wav|초보운전이라 서툴러서 죄송합니다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002247.wav|비가 오는 날은 기분이 괜히 우울해진다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002384.wav|그 전쟁으로 인해 많은 어린이가 목숨을 잃었다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000608.wav|오늘날 남북의 상황은 다른 경우의 외교와는 달리 정상회담의 필요성이 상대적으로 절실하지 않다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000685.wav|남궁씨는 내 관상도 한번 봐 달래고 싶은 충동을 느꼈다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000741.wav|총무 인준이 끝나면 야당 총재를 방문할 생각이며 그후 야당측과 본격적으로 대화를 하겠다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001522.wav|제가 지금까지 했던 복수들중에서 가장 기분 가장 통쾌했습니다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000984.wav|중앙은행의 역할과 기능을 강조했습니다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00001722.wav|승패 여부에 상관없이 열심히 했기 때문에 후회는 안 한다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002680.wav|내게 일언반구도 없이 남편은 마음대로 집을 팔아버렸다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000408.wav|따지고 보면 바로 그런 노력 때문에 지금 우리가 한글날을 기릴 수 있는 것이다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000895.wav|당시 신옹은 남한 단독정부수립에 반대해 김구 김규식선생을 따라 평양에가 통일정부수립을 위한 남북협상을 벌인 남한측 팔인 대표의 한사람이었다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002331.wav|오늘은 안타깝게 못 뵈었지만 다음 모임때는 꼭 만나뵐 수 있기를 바랍니다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00000216.wav|이번 정상회담에서 경제협력 전망이나 그에 따르는 어려움에 관한 이야기가 분명히 나올 것입니다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001214.wav|자율경영체제하에서 경영에 참여하고 있는 가족들의 입장은 어떤 것입니까.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001040.wav|그러나 용기를 잃지 말고 감사활동을 해야 합니다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002314.wav|나는 배가 고플 때도 고기는 먹고 싶은 생각이 안 든다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002807.wav|유나는 항상 뭔가를 먹고 있는데도 전혀 살이 찌지 않으니 이상한 일이다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002363.wav|저에게 유리한 발언을 해주셔서 감사합니다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000550.wav|방송에서 사용되는 말은 표준말이어야 하고 게다가 품위가 있어야 하며 알아듣기 쉽고 분명해야 하며 자연스러워야 한다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000514.wav|더욱이 그처럼 역사적인 정상회담에서 카메라 세례를 받아 가면서도 실수가 없으려면 여간 담이 크지 않으면 안된다. 그런 걸 경험이 적은 통역자를 썼다는 것부터가 경솔한 일이었다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002481.wav|이번 시험에서 꼴찌를 해서 도저히 부모님께 말씀드릴 수가 없다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001198.wav|이를 위해 이시우씨 지지세력들도 집행부에 대폭기용할 생각이다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000920.wav|오로지 보컬리스트 라는 측면으로만 발달된 바다와 작업하게 된 덕분에 길의 매력이 더욱 돋보이게 된 것인데요.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003458.wav|그 짧은 글을 발견해 주고 잘가라고 인사해주는 사람들이 있기에 오늘도 기분좋게 트윗을 마무리 지을 수 있습니다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003290.wav|이천십일년 이상 문학상 대상을 축하드립니다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002873.wav|그런 녀석하고는 앞으로 말도 하지 않을 거야.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00001107.wav|루블화를 미 달러화 및 금화 등과 교환할 수 있도록 하는 태환작업은 어느 정도 추진되고 있습니까.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001015.wav|아메리카노의 영향으로 유일하게 피피엘의 마수에서 벗어날 수 있었던 십센티팀.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00002695.wav|우월감 때문에 남궁씨는 적지 않은 양의 우황청심환을 팔아 보겠다고 떠맡았다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000923.wav|통합으로 어떤 변화가 예상되는가.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001570.wav|틀림없이 두 사람은 결혼할 거라고 생각했는데 헤어졌다는 소식에 깜짝 놀랐다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002126.wav|나는 아나운서 스타일의 여자가 좋다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001039.wav|이번 일을 계기로 감사원이나 감사관들이 스스로 반성해야 합니다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000102.wav|크든 작든 일을 하고 난 느낌은 항상 어깨가 무겁다는 것이다 야에 있든 여로 통합하든 정치인의 어깨는 가벼워지지 않는 것이다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001776.wav|내가 제일 좋아하는 명절은 설날이다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002074.wav|그는 다리를 삐어 절룩거렸다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002731.wav|오늘의 구내식당 메뉴는 소고기 덮밥이래.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001071.wav|한영양국의 교역마찰을 완화하고 앞으로 양국의 경제관계가 더욱 바람직한 방향으로 진전될 수 있는 방법을 협의하기 위해 왔다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00002642.wav|형우는 기표를 아우가 형을 대하듯 스스럼없이 사랑해 주었다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002972.wav|이 섬에서 살아나가지 못하는 건 아닐까 하는 공포에 등골이 오싹해졌다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002403.wav|엄마 내일 아침 일곱시에 좀 깨워주세요.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000659.wav|부시 미국 대통령이 주창한 서반구 자유무역기구 창설에 큰 기대를 걸고 있다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001424.wav|유난히 큰 입을 벌려 가식없이 활짝 웃는 웃음이 모두에게 전이되어 흐뭇했 다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00000427.wav|그렇다고 해서 단식만이 그에게 남는 최선의 방법일까.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000428.wav|이제는 죽어도 여한이 없을 것만 같았다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00002043.wav|나는 감정을 잘 드러내지 않는다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001022.wav|감사원은 있는 듯 없는 듯 조용한 곳이어야 합니다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000298.wav|중국 당나라에 백장회해라는 큰 선사가 있었다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000759.wav|누구를 탓하고 싶지는 않습니다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000065.wav|창살을 자르는데 쓰인 쇠톱과 사다리를 만드는데 사용한 못은 어디서 구했나.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001854.wav|그 부부는 겨울밤을 난방 없이 견뎌야 하지만 함께 있어서 행복하다고 한다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002939.wav|나이를 먹은 탓인지 몸 이곳저곳이 아프다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00002478.wav|그녀가 화장을 지우고 나니 눈썹이 하나도 없어서 나는 그만 기절할 뻔 했다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00002752.wav|이 소설의 치밀한 스토리 전개와 독특한 구성은 누구도 흉내낼 수 없을만큼 훌륭하다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00002860.wav|자신이 올린 서류가 결재가 난 뒤면 타이핑이 되어져 곧 휴지통에 버려진다는 것을 알면서도 그는 정확하고 반듯한 제 글씨에 기쁨과 긍지를 느꼈다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00004040.wav|모든 동물을 사랑하는 깜찍한 아이 스탠리를 통해 동물에 관해 배운다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000672.wav|네그로폰테박사의 이러한 주장은 단순한 이론적인 주장만은 아니다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000304.wav|겨드랑이에 낀 대학신문을 꺼내 들여다본다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00001696.wav|사월부터 수도 요금이 대폭 인상된다고 해서 걱정이다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001433.wav|그녀는 온 느낌으로 다가와 내 마음을 감동시켰였어요.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00002149.wav|나는 그 신산스러운 표정에 얼마쯤 감동이 되어서 그에게 대한 반감이 풀려지는 듯 하였다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00000963.wav|앞으로 당을 이끌어 나갈 지도력을 어디에 둘 것인가.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000165.wav|나 같으면 사랑해 주겠어.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002402.wav|낮잠을 한숨 잤더니 밤에 잠이 오질 않는다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001647.wav|차를 가지고 와서 술을 마실 수가 없다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001355.wav|가령 소련이 한국을 승인하게 될 경우 미국은 북한을 승인해야 한다는 것이 교차승인인데 소련이 미국에 대해 그 같은 요구를 할 것인가.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00002192.wav|나 같으면 사랑해 주겠어.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002167.wav|우리 아이는 구연동화 대회에서 일등을 했다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000212.wav|특히 사람들이 모두 친절하고 우호적이라 무척 마음이 편했어요.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000088.wav|오전 여덟시에 출근해 동료직원들과 증권시황에 대한 정보교환으로 하루일을 시작한다는 배씨는 증권사의 영업업무에는 근면과 성실만이 비책인 것 같다면서 지금 보수는 옛직장의 절반밖에 안되지만 노련한 관리경력을 활용하겠다는 회사의 기대에 어긋나지 않게 열심히 뛰어 보겠다고 의욕을 보였다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00002895.wav|앞으로 반세기도 지나지 않아 세계적인 연료 위기가 온다고 하니 두려운 일이다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000388.wav|티교수의 말을 듣고 있는 동안에 김강사는 그의 말을 깊이 생각해볼 여유도 없이 그저 그에게 감사하는 생각뿐이었다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003251.wav|불꽃의 묘사라던가 시설물에 빛이 반사되는 모습이 괜찮게 표현되고 있습니다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002979.wav|산 정상에 거의 다 왔는데 심한 눈보라로 안타깝게 발길을 돌려야 했다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002562.wav|이 멋진 그림이 겨우 초등학생이 그린 그림이라니 믿어지지 않는다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002291.wav|그는 병으로 한달째 앓아누워 있다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002882.wav|배가 고프니 뭔가 먹을 것좀 줘.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00000050.wav|김씨는 북한측 관계자들이 학생교류계획에 대해 호의적이어서 실현가능성이 매우 높다고 말했다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000524.wav|금년 정치 사회적 갈등이 심각하고 통일논의가 크게 부각되어서 정말 중요한 교육 문제에는 너무 소홀한 감이 없지 않다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000564.wav|우리는 특히 이번의 연쇄사건에 임하는 경찰의 자세에 경악과 분노를 금할 수 없다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001289.wav|지난해 유월 이후 올 일월까지 내면적으로는 삼당 통합을 구체화하면서 표면적으로는 야 삼당 결속을 강조했다면 정치인의 신뢰성이 문제되는 게 아닌가.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00001207.wav|회장은 그룹의 이념과 비전을 제시하는 상징적 존재라고 할 수 있읍니다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001628.wav|친구가 디자인해준 이 목걸이가 정말 마음에 든다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001082.wav|특히 경제는 주택가격이 폭등하고 국제수지가 연속 적자를 보이고 있으며 주가가 곤두박질 치는 등 전에 없는 난조를 보이고 있다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001593.wav|이렇게 성대한 파티에 초청해주셔서 정말 감사합니다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001100.wav|이런 저런 얘기가 있었다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000092.wav|노동자들도 이제 정치의 장에 뛰어들어 스스로 권익을 찾아야 할 때가 왔다고 봅니다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001802.wav|이십일세기에도 아직까지 에이즈와 암에 대한 백신은 발견되지 않았다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00002039.wav|너무나 창피하지만 나는 친구를 위한 군조의 마음이 너무 따듯했다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001486.wav|죽을것처럼 사랑했던 나 였고그리고 너 였는데 다시 한 번 말해줄까.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002978.wav|죄송하지만 회사 사정이 안 좋아서 임금을 삭감해야 할 것 같습니다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001689.wav|일본에 십년이나 있었던 만큼 그는 일본어가 능숙하다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00001381.wav|그러나 노사관계의 안정은 절대적인 과제다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00004013.wav|가마쿠라 마을에 흐르는 따뜻하고도 거대한 시간 귀여운 등장인물들 계절이 바뀌어가는 가운데 펼쳐지는 근사한 일상을 조용하고 사랑스럽게 그렸다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001925.wav|그래도 잠시나마 아침에 상쾌했다우.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00002540.wav|내게는 이 서글픈 분위기가 거리의 티이루움들의 그 거추장스러운 분위기보다는 절실하고 마음에 들었다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001612.wav|이 호텔은 수표를 받지 않기 때문에 미리 현금을 준비하지 않으면 안 된다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003781.wav|그 작은 생명이 움직이는 것을 보면 아마도 누구나 가슴벅찬 감동을 느낄것이다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001637.wav|지역인재육성에 동참할 수 있어 기뻐요.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00002639.wav|우리 엄마는 촌지 봉투로 담임선생을 움직일 수 있다는 확신을 가지고 있었다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00002519.wav|평행광선을 굴절시켜서 한 촛점에 모아가지고 그 촛점이 따근따근해지다가 마지막에는 종이를 그을리기 시작하고 가느다란 연기를 내면서 드디어 구멍을 뚫어 놓는 데까지 이르는 고 얼마 안되는 동안의 초조한 맛이 죽고 싶을 만 큼 내게는 재미있었다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00002527.wav|더러 내 귀에 거슬리는 소리가 있어도 나는 그것이 태연한 목소리로 내 귀에 들렸다는 이유로 충 분히 안심이 되었다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002540.wav|삼촌이 제주도에 출장을 다녀오며 선물로 감귤 초콜렛을 사다 주어 너무 기뻤다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002821.wav|나는 유럽여행을 하는 데 저금한 돈을 다 썼다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001880.wav|많은 사람들이 기후변화가 어떤 부작용을 낳을지 두려워하고 있다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000619.wav|그는 상당기간 포철 회장직을 겸임하겠다는 의사를 분명히 했다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00001062.wav|나는 일관된 입장을 견지해 왔기 때문에 논리적 맥락은 노조원들도 이해하리라고 본다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002328.wav|내 꿈은 일년간 배낭여행을 하는 것이다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00000408.wav|따지고 보면 바로 그런 노력 때문에 지금 우리가 한글날을 기릴 수 있는 것이다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001793.wav|나는 소식과 운동으로 십키로를 뺐다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000459.wav|이에 대한 공사측의 답변은 수치에만 의존하는 기존의 개념에서 벗어나지 못한 인상을 줬다고 해야겠다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001934.wav|햇살은 눈부시게 빛나고 하늘은 청명하고 상쾌했 다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002144.wav|강아지의 보드라운 털의 감촉이 참 좋다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001641.wav|이렇게 늦은 시간에 혼자 밖에 나가면 위험해.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00000975.wav|긴 장래를 보면 소련은 광대한 시장임에 틀림없습니다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001917.wav|한시간이나 지각하자 부장님은 잡아먹을 듯 나를 노려보았다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000094.wav|혁신정당의 출현을 돕기로 했다 국가경영에 대해서는 앞으로 삼 인이 공동책임지기로 했고 이삼십대 신진인사의 육성에 힘쓰기로 했다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002707.wav|천만원의 상금이 걸린 이 대회의 일등이 자신이길 모두 기대하고 있다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001321.wav|그랬더니 그렇게 홀가분할 수가 없어요.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000378.wav|클레오파트라는 나귀젖으로 목욕을 하기 위해 백마리의 나귀를 몰고 여행을 했을 만큼 화장광인데도 루즈칠을 했다는 기록은 없다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002535.wav|비키니 수영복을 입고 늘씬한 몸매를 뽐내는 해변의 미녀들이 너무도 부러웠다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000480.wav|문제는 우리 국민 모두가 불황의 터널 속에서 오래 머물 수 없다는데 얼마나 인식의 일치를 볼 수 있느냐는데 있다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00002511.wav|여자의 마음은 갈대라서 수시로 변한다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002361.wav|어제 비가 많이 와서 길이 온통 진흙탕이다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002696.wav|다음은 사번타자가 나오니까 기대해볼 만 하다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002089.wav|항상 제 곁에 함께 해줘서 고마워요.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00002166.wav|이 놀이는 아이들의 상상력과 창조력을 키워줍니다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001050.wav|일기 속에 오고 가는 두 사람의 마음이 훈훈하다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000123.wav|그는 취흥에 겨워서 우리가 어릴 때 멋모르고 부르던 노래를 읊조렸다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002538.wav|선생님 죄송하지만 한번만 더 설명해 주세요.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002056.wav|메모리 용량이 초과되어 컴퓨터 부팅 속도가 느려졌다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001811.wav|이 로봇은 놀랍게도 말을 할 수 있다고 한다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001154.wav|노대통령과 김최고위원은 예정대로 만났는가.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002408.wav|삼각김밥을 사기 위해 편의점에 들렀다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00002044.wav|창 밖에 불빛이 따뜻하다 마음에 세상이 한결 가깝게 느껴진다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001452.wav|요즘 눈이 잦은 강원도내 대관령 횡계 인제 태백 영월 등 산간지방에서는 덫 올무 함정 독극물 사용등 재래식밀렵이 곳곳에서 벌어지고 있다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001984.wav|쉽게 겁을 먹는 사람을 미국에서는 옐로우라고 표현한다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001309.wav|혁명의 근본적인 바탕이 바뀌어서는 안 된다는 합의가 있어야 한다고 생각한다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003212.wav|첨엔 한 사오 년 일선으루 따라당기다가 너머 고생스럽드라니 그 담엔 대련서 자리 잡구 하다가 신경 와선 자식놈들한테 다 밀어 맽기구 난 작년부터 나오구 말았소.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00001188.wav|김최고위원 일행이 사할린도 방문하게 되는가.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00002351.wav|나는 주말내내 자면서 보냈다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00002373.wav|정말로 그들 사제간을 위해 다행한 것은 스승의 깊은 학문에 대한 제자의 본능적인 외경 못지않게 스승에게도 제자의 타고난 재능에 대한 애정이 남아 있어 늦게나마 화해가 이루어진 일이었다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001899.wav|어떻게 하면 지구 온난화를 막을 수 있을까요.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001640.wav|직장을 그만두고 일 년 동안 세계 여행을 하기로 결심했다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000258.wav|박씨 부부는 성탄 선물을 받은 뒤로 이상하게도 아들 규가 생기를 되찾고 밥도 잘 먹게 됐다며 삶의 가치를 일깨워준 그분께 고마움을 전할 수 없음을 안타까워했다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001489.wav|물론 지난달 정치적 대결이 첨예했던 상황에서도 여야는 저마다 국익을 위한 초당적 협력과 협조를 강조해 왔었다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003998.wav|썩은 의료계에 일침을 가하는 신의 손을 가진 남자의 가슴 따뜻해지는 이야기가 펼쳐지고 있다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002611.wav|이번 달은 공휴일이 많아서 너무 신이 난다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001687.wav|아이들은 선생님의 재미있는 얘기를 듣고 웃지 않을 수 없었다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003480.wav|황홀한고백콘서트에 와주셔서 넘 감사해요.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002800.wav|선거는 국민의 권리이기도 하지만 의미이기도 합니다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002943.wav|정신적인 원인에 의해 정신이나 신체에 증상이 나타나는 것을 노이로제라고 한다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003738.wav|소세지가 콕콕 박혀 있어서 아이들도 무지 좋아하고 어른들도 부담없이 맛있게 즐길 수 있는 여러가지 매력으로 똘똘뭉친 매력덩어리 소세지 머핀이예요.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001627.wav|오늘 당신의 연설은 지금까지 제가 들었던 것 중에 최고에요.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003703.wav|상큼하고 달콤하게 잘 익은 과일을 먹을 때 황홀한 것처럼 맛좋은 것이 연애다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000408.wav|따지고 보면 바로 그런 노력 때문에 지금 우리가 한글날을 기릴 수 있는 것이다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001246.wav|노동계 전체에 태풍의 눈으로 떠오르고 있는 전국노동조합협의회의 결성이 눈앞에 다가 왔다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001288.wav|개각 문제 등에 대해서는 다른 최고위원과 협의해야 할 사항이므로 지금 말할 수 없다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001370.wav|어제 사랑의연탄나눔 배달하고나니 그 단체서 이 핸드폰거리를 줬다면서 자 선물하며 내미내요 우 왕왕 정말 감동적이드라구요.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003950.wav|현실 속의 여러분과 마음속에 떠오른 당신을 밝은 빛이 감싸줍니다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001617.wav|한시간 후에 남자친구가 나를 데리러 오기로 했다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000432.wav|온 세계에 가장 보편적으로 쓰이는 욕말은 짐승을 빗댄 동물형 욕말이다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00000504.wav|몸이 아프다며 연방 우황청심환만 찾을 뿐 식사를 거부하는 문을 상대로 여죄를 추궁하고 옴쭉 달싹 할 수 없는 증거를 확보해야 하기 때문이다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00002225.wav|언제부턴가 수면제를 안 먹으면 진정이 안 되어 잠들지 못하게 되었다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002137.wav|아기가 오줌을 싼 것 같아서 얼른 기저귀를 갈아주었다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003247.wav|게임 월드는 상당히 풍부한 리액션을 보여주었습니다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00002741.wav|맞은쪽 산밑에서 벼들을 베며 기뻐하는 농군의 노래가 들린다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002106.wav|첫눈이 내리면 시계탑 앞에서 만나자.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000623.wav|그분들은 모두 평생 정치를 해오신 분들이다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001052.wav|감사원 내부에도 자체감사 기능이 있습니다 여기에서 자체적으로 해결했어야 할 일이 외부로까지 연결돼 이제 정치 문제가 됐어요.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001335.wav|전농 결성은 팔십년대 농민운동의 성과물이면서 구십년대 농민운동의 출발점이다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000281.wav|동무 앉으시오.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000928.wav|백오십억마르크의 돈을 예상수요 종류별로 새로 찍어 동독전역에 수송 교환하는 엄청난 작업에 걸린 시일과 투입인원은 어느 정도였는가.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003157.wav|하지만 어디선가 나타난 이루수 정근우는 그 공을 귀신같이 잡아내며 페이더 웨이 송구를 일루수 박정권에게 던져주었고 결국 엘쥐의 정주현은 슬라이딩 까지 시도했으나 아웃되고 이닝이 종료되었다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002769.wav|무시무시한 핵병기가 경쟁적으로 실험되고 있는 것에 대해 우려를 금할 수 없다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00001264.wav|이번 중앙위 전체회의의 결과는 고르바초프의 정치적 장래에 어떤 영향을 줄 것으로 보는가.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000587.wav|물론 이 같은 외국의 시각에는 정부의 잘못과 미숙의 탓이 크다 이점 새 정부는 깊은 연구와 노력이 필요하다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00001159.wav|그건 대의원들이 정할 일 아닌가.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001354.wav|그러니까 관계된 나라들이 논의를 해서 공통점을 찾아내야 한다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000055.wav|남한의 학생들과 함께 공부해 보고 싶지만 미군이 주둔하고 있는 현상황에서 자유로운 학문탐구가 가능하겠느냐는 의문을 제기하면서도 많은 학생들은 유학생교환이 실현되길 바란다고 했다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001693.wav|그는 밥을 먹으면서 신문을 읽는 버릇이 있다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001680.wav|아내가 어렵게 임신에 성공해서 너무 기쁘다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001901.wav|나는 지구 온난화에 대해 레포트를 쓰고 있다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003540.wav|바쁜촬영으로 맘졸이던 우리모두 잠시 걱정을 잊고 눈을 즐기고 있어요.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001207.wav|회장은 그룹의 이념과 비전을 제시하는 상징적 존재라고 할 수 있읍니다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000442.wav|가령 석유제품을 만들어 내는 화학회사의 주식을 갖고 있다고 하자.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000009.wav|그분들은 모두 평생 동안 정치를 해와 정치역량이 뛰어나기 때문에 배워가며 정치해야겠다고 생각해요.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000898.wav|케이엔씨씨가 남북대화에 적극적이었던 것은 칠십년대말부터입니다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002926.wav|정부가 내세운 실업자 대책은 참으로 얼빠진 것이었다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001011.wav|그러나 큰 걱정은 안해요.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001135.wav|가슴이 따뜻한 사람만이 아는 따스한 정을 밑바탕으로 읽는 이에게 새로운 흥미와 함께 좋은 삶의 지혜를 얻게 해준다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002295.wav|나는 정신없이 일을 하느라 온종일 아무 것도 먹지 못했다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002273.wav|아폴로 십일호는 천구백육십구년에 달에 착륙했다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002804.wav|귀중품이 있으면 호텔 프론트에 맡겨 주세요.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002519.wav|미디어 규제 법안은 언론의 자유에 역행하는 것이다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000177.wav|저는 인도 네루대 동아시아연구소에서 한국학을 강의하고 있습니다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001590.wav|가족들이 열심히 간병한 보람도 없이 할머니는 돌아가시고 말았다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001872.wav|나는 매 년 잊지 않고 정기검진을 받는다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002041.wav|가장 기억에 남는 영화는 바람과 함께 사라지다이다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002439.wav|나는 아버지가 무서워서 외박은 커녕 친구들과 여행도 제대로 갈 수 없다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000105.wav|김 민주총재의 이번 결단을 어떻게 평가하나.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001030.wav|과거에는 감사원이 이처럼 물의를 일으킨 적이 없었습니다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00002336.wav|표정이 있는 얼굴을 그려보고 싶다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00001072.wav|특별한 방문목적이 있었을 텐데 성과는 어땠는지.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000227.wav|한일 국교정상화 이후 협력관계를 유지해 왔지만 일본인들을 용서해 줄 수는 있어도 결코 과거의 아픔을 잊어서는 안 된다는 얘기입니다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00001694.wav|그녀는 터프하고 씩씩해서 꼭 남자 같다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000792.wav|등소평시대에 와서 개혁 개방이 시작되었다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000120.wav|현재 한국인들이 미군부대에 맡고 있는 업무는 항공기와 각종 군사용 중장비 정비업무로부터 행정업무에 이르기까지 다양합니다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001761.wav|할아버지는 기분좋은 표정으로 소파에 앉아 있다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003543.wav|비록 대설주위보 해제로 많은 눈을 즐길수는 없지만 그래도 블리스 걸은 너무 신나요.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000655.wav|너희들이 잘해 줘서 올해는 퍽 수월하게 넘어갈 것 같구나.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000637.wav|목적지에 이를 때까지 단 한 사람의 낙오자나 이탈자가 없기를 진심으로 기원한다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000900.wav|소비자들의 구매 편의와 복지 향상을 위해 수퍼마켓에서 의약외품을 판매하는 것을 환영한다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003142.wav|만약 출판업계가 아래와 같은 글을 읽고 생각한다면 전자책이 나중에 꼭 성공할 수 있다고 생각한다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003074.wav|이 여행이 아름다운 추억으로 남을 수 있게 된 공로는 오십 가량 이승기의 몫이라 하지 않을 수 없겠습니다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000647.wav|역사를 만든다고 생각하는 사람들이 바로 그런 일사불란하게 움직이고 있는 것을 시치미떼고 바라볼 수 있다는 것은 통쾌한 일이었다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002203.wav|감기에는 약이나 주사보다 비타민씨 복용이 더 효과적이라고 한다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00000965.wav|우리당의 창당정신도 야권통합에 있으며 이 정신에 따라 창당을 추진해 왔습니다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001170.wav|통일정책에 있어서 독일의 사회민주당과 기독교민주동맹사이의 기본적 차이는 무엇인가.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00002538.wav|여기 시계가 어느 시계보다도 정확하리라는 것이 좋았다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00004056.wav|아늑하고 사랑스런 분위기를 이끌어주는 다양한 소품을 통해 포근한 사랑의 보금자리를 만들어 보자.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00002579.wav|그는 아내가 제발 딴소리 없이 이십만 원에서 이만 원이 모자라는 견적 금액을 다 내놓기를 대신 빌었다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000332.wav|부부는 팔만원을 주고 경북 구미행 새마을호차표 두장을 구입했다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001248.wav|그 날 저녁 우리는 늦게 귀가하신 아버지 앞에 모여앉아 맛난 버터구이통닭을 뜯으며 무한 행복했드랬다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002724.wav|나에게는 마음을 털어놓을만한 친한 친구가 없다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002013.wav|저는 새로운 것을 시도하거나 새로운 기술을 배우는 걸 아주 좋아해요.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002684.wav|한국은 겨울이 되면 삼한사온 현상이 나타납니다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002064.wav|그는 한번도 아파본 적이 없다며 자신의 건강을 자신했다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00001121.wav|김총재는 이날 노태우 대통령과의 정상회담 제의요구등 대전역 광장에서 할 강연내용을 김태식대변인을 통해 미리 낭독케 한 뒤 기자들과 일문일답을 했다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001394.wav|최각규 부총리가 구일 대통령에게 보고한 최근 경제동향은 한마디로 희망보다는 비애를 느끼게 하는 대목이 많다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003818.wav|우리를 행복하게 하는 것들로 마음이 설렌다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003172.wav|정대현은 올라오자마자 조인성을 초구에 내야플라이로 잡으며 이아웃을 만들었고 이닝을 쉽게 마무리하는 듯했다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002122.wav|제 얼굴에 어울리는 안경을 추천해 주세요.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00004037.wav|끝없는 몽골의 대초원 이천킬로미터를 달리는 여정을 따라 평화로운 자연의 풍경과 그 속에서 자유롭게 살아가는 사람들의 모습을 글과 사진으로 담아냈다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000414.wav|그가 평민당 소속의원들을 이끌고 국회를 박차고 나온지도 어느새 달포가 넘는다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000133.wav|노대통령은 성실하고 솔직하고 능력 있는 분이다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000093.wav|아무래도 고압선 밑이 안전할 것 같았소.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001859.wav|수십 통의 이력서를 썼지만 모두 떨어졌다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003042.wav|겨싸를 만들 정도로 게스트에 대한 배려도 충분하고 멤버 모두를 대중의 사랑을 받는 팀으로 만들어준 유재석.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002678.wav|가수가 노래를 끝내자 사람들은 우레와 같이 기립박수를 쳤다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002054.wav|사랑하는 마음도 시간이 지나면 변하는가 봐.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00001400.wav|다음달 관계당국의 조사결과가 어떻게 나타날는지 걱정이다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002085.wav|넘치게 주신 팬들의 사랑에 감사드립니다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00002077.wav|나이가 서른이 넘었는데 나이값도 못하고 그런 철없는 행동을 하다니.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001406.wav|우선 수도권 및 대도시지역의 일가구 이주택이상 소유자에게는 누진세를 과감히 매기기 바란다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000426.wav|지난 팔십삼년 오월에 손발이 묶인 김영삼씨가 마지막 항거의 수단으로 단식을 시작한지 이십여일이 지나도록 언론은 단 한마디도 이를 보도하지 못했다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002891.wav|티비를 보고 있는데 내 친구가 화면에 등장해서 깜짝 놀랐다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001892.wav|묵묵히 그대의 무대를 보며 환한미소를 짓던 브이아이피 우리는 당신이 너무나도 그리웠습니다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002176.wav|나는 만화책 한 권을 읽는 데 삼십분도 채 걸리지 않는다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00001154.wav|노대통령과 김최고위원은 예정대로 만나는가.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000481.wav|정치사회가 안정되고 노사화합이 이루어진다면 우리의 위기관리 능력은 분명 배가될 것이고 우리 경제도 다시 도약할 수 있는 새로운 기회를 맞게 될 것이다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001688.wav|저 녀석 때문에 나까지 선생님 눈 밖에 났어.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00002656.wav|아이구 우리 기표 친구들이구만 시상에 이렇게 고마운 친구들이 어디 있겠누.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002571.wav|위가 안 좋아서 식생활에 불편이 많다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000363.wav|이제와서 은행은 약속하던 구백만원 대신에 백여만원밖에 안주겠다는 것이었다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001477.wav|위급한 상황을 맞으면 우선 자기부터 살고 보려는 게 생물의 본성이다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002871.wav|선수 생활 십년 동안 그는 쉬지 않고 오로지 야구만 생각해왔다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000027.wav|그런 의견들도 큰 흐름 속에 수용될 것입니다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001584.wav|﻿대응이 좀 더 빨랐으면 좋았을걸 구조가 늦어서 피해자가 늘어났다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001749.wav|재빨리 처리했으면 좋았을 것을 꾸물대다가 시간을 놓쳐버렸다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00002055.wav|나비처럼 날아다닐 수 있다면 얼마나 좋을까.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001101.wav|왜 갑자기 심야회의를 가졌나.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002315.wav|집에 먹을 것이라곤 하나도 없다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000399.wav|한데 올해 중추를 기하여 진짜 달을 소유하게 됐다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001571.wav|나는 게임을 좋아해서 아르바이트로 번 돈을 모두 게임하는 데 쓴다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001157.wav|어제 내 얘기를 들었던 기자들이 내가 무슨 뜻으로 그런 말을 했는지 분위기를 잘 알것 아니냐며 애써 자신의 강성발언을 톤다운시키려는 어조였다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001482.wav|그렇게 열사람이 나서고 백사람이 끼어드는 사이 모자라지 않은 석유가 모자라게 되고 그틈에 폭리를 보려는 충동이 끼어들게 마련이다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000853.wav|안정기반 위에 기업활력을 회복시켜 성장을 지속하는 것이 변함 없는 기본방향이다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00002592.wav|그녀는 아주 반가운 듯한 얼굴을 하고 여태 어디들 처박혀 있었어 아까부터 아무리 찾아두 원 다들 부처님 참배는 했나 하고 말했다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00001721.wav|그의 가족은 어머니만 빼고 모두 키가 크다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002335.wav|이 가구는 자리를 너무 많이 차지해서 애물단지다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000897.wav|야권의 수뇌로 등장한 김목사는 서울 휘경동 서민주택형 동성빌라 이십오평 남짓한 자택에서 부인 김옥실여사와 둘이서 단촐하게 살고 있다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001690.wav|비록 가난해도 당신만 있으면 저는 행복해요.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00002151.wav|그가 열 네살 적부터 그들 부모들 사이에 혼인 말이 있었고 그도 어린 마음에 매우 탐탁하게 생각하였었다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00002545.wav|다음달은 임시주총이 있을 예정이니 참석해 주시기 바랍니다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002549.wav|하늘에서 천사가 내려오는 꿈을 꾸었다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002765.wav|이 영화는 필요없는 장면이 너무 많고 쓸데없이 길어서 지루하다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000777.wav|나의 숙소에 주석이 와서 국제정세등을 서로 얘기했다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00001893.wav|식사를 채식 위주로 바꿨더니 몸이 가벼워졌다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00002854.wav|부장님은 윗사람에게는 아부를 잘 하지만 아랫사람에게는 매우 함부로 대하는 이중성이 있다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001719.wav|강물처럼 나 정말 이렇게 행복해도 되는 걸까.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000671.wav|노파의 말투로 보아 그게 국산이 아니란걸 스스로 확인해 보면서 대견스러워 하고 싶어 그러는 것 같았다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002886.wav|항상 꼴찌만 하던 그 학생이 일등을 하다니 놀라지 않을 수 없다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001615.wav|보험서류는 안방 화장대 서랍에 들어 있어요.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000402.wav|금도끼 옥도끼를 들고 달에 가서 달 속에 있는 계수나무 꺾고 다듬어서 초가삼간을 짓는다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000313.wav|수재가 안달스레 재우쳐 보챌 제 선뜻 응낙하였다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002968.wav|전쟁은 인류에게 많은 해를 끼치므로 나는 전쟁을 반대한다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002554.wav|요새도 주판 쓰는 사람이 있네.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001547.wav|나는 어머니의 젊은 시절 사진을 바라보며 지금과 너무 다른 모습에 눈을 떼지 못했다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003767.wav|이십오주년 기념공연 당시 전 세계에서 온 오천오백여명의 관객들이 객석을 가득 채웠으며 이는 미국 유럽 캐나다 일본 호주에 생중계 돼 열광적인 호응을 이끌어냈다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003951.wav|그 외 칩거하여 번역하던 일손을 멈추고 서울 나들이를 나갈 때 언제나 뜨겁게 맞아주는 친구 선배님들의 은연한 고마움에 감사드린다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002937.wav|할머니는 음식을 남기는 것을 굉장히 싫어하신다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00000683.wav|독일이 통일을 이룩한 지 삼일로 한 달을 맞았다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000494.wav|이제는 독선과 독단에 침묵하던 다수에서 우리들의 소중한 권리를 요구하고 행동하는 고대인이 됩시다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003949.wav|둘이 함께 화해의 눈물을 흘리는 사이 그녀는 부드럽게 누그러지면서 보다 자신감을 얻는 것 같았습니다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001455.wav|너를 사랑했다 창을 닫으면서 너를 사랑했 다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00001670.wav|지금 내 성적으로 보면 서울 안에 있는 대학에는 너끈히 들어갈 수 있을 것 같다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000334.wav|그러나 두 시간여 동안 입석표도 구하지 못한 채 추위를 떨고 있던 이들에게 가판대 판매원이 도와주겠다며 따라오라는 손짓을 했다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002554.wav|요새도 주판 쓰는 사람이 있네.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001853.wav|신라호텔의 데케던트한 디저트가 너무 그리웠습니다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000810.wav|그러나 중국은 동양적 의리를 중요시한다고나 할까요.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002148.wav|전자파 방지를 위해 가전제품 주위에 숯을 두었다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001758.wav|저기 벽에 기대고 있는 사람이 우리 언니야.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002981.wav|이번 회의 결과 여하로 교육 방침이 결정됩니다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000452.wav|도시의 매력은 뒷골목에 있다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001273.wav|그러나 지난해 유월 방문과는 달리 이번 소련방문은 대단히 의미 있는 방문이 될 것이다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001042.wav|감사원직원의 수준이 다른 부처공무원보다 높지 않으면 그런 흐름을 따라잡을 수가 없습니다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000705.wav|합의라고 말할 수는 없다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001524.wav|하지만 중간에 하이드화 되어서 어터슨에게 버럭하는 장면에서는 은근 통쾌했.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000376.wav|우리나라의 루즈문화는 이와 같은 접객이나 사당 같은 인기직업에 명맥을 유지해 왔다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002697.wav|오늘 보는 선이 무려 백번째 선이다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001202.wav|재벌보다 오히려 서민의 이익을 대변하도록 할 것입니다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001174.wav|동유럽의 실재하는 사회주의 국가는 거의 다 몰락했다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002428.wav|이 의자는 작고 딱딱해서 오래 앉아 있으면 엉덩이가 아프다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001961.wav|퇴근길에 아내에게 꽃을 사다주었더니 아내는 싱글벙글 좋아했다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001752.wav|이번 달을 끝으로 회사를 그만두기로 했다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001539.wav|개인이 진화할 수 있고 사회가 진보할 수 있다는 생각은 나에게 큰 희망을 준다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000336.wav|차차 다시 나타나는 미묘한 표정 커다랗게 뜨인 눈에 비치는 동경의 물결.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001087.wav|대권에만 욕심이 있었다면 삼당통합이 안됐을 것이다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000932.wav|프랑크푸르트의 서독연방은행 본부에서 그를 만나 통화통합에 얽힐 뒷얘기와 독일경제의 전망등을 들어봤다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001319.wav|나에게는 아주 온건하게 얘기했다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000185.wav|그러나 지금은 사정이 다릅니다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001657.wav|해리 포터가 출간되는 날이면 교복도 벗지 않고 서점으로 달려갔다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001386.wav|그러나 고르바초프 대통령의 어려운 선택은 과소평가될 수 없다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000877.wav|이씨와의 전화인터뷰를 통해 쿠웨이트에 남아 있는 교민들의 현황과 탈출경로등을 들어봤다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000662.wav|그것은 이제 국민들이 더 이상 군부의 정치개입을 지지하지 않는다는 표시다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002016.wav|전철에서 휴대폰으로 큰 소리로 통화하는 것은 매너가 아닙니다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00002588.wav|그는 대기업이 아니면 무시하는 경향이 있다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000585.wav|물론 이 같은 외국의 시각에는 정부의 잘못과 미숙의 탓이 크다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000821.wav|그 동안의 경험으로 미루어 남북체육회담이 순조롭지만은 않을 겁니다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002329.wav|난 그의 마음을 상하게 할 의도가 전혀 없었는데 오해받고 말았다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003728.wav|이 기회에 칼라거펠트 인생과 예술관도 직접 들어볼수 있어 좋은거 같아요.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001926.wav|그와 눈이 마주치는 순간 떨려서 심장이 멎을 것만 같았다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000950.wav|그는 경제사회위원회가 만장일치의 찬성결론을 낸 경우엔 의회에서의 법안통과도 쉽고 찬반의견이 엇갈리면 의회에서도 난상토론이 벌어진다고 설명한다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00001401.wav|매매값 이외 전세금이 많이 오르는 것은 유주택자가 생활의 편익때문에 잠시 사는 것과 달리 무주택서민들에게는 치명적이다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001347.wav|회사가 존폐 위협을 받는 한이 있더라도 이번사태는 근절돼야 한다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001366.wav|그러나 보험대상의 확대와 보험재정의 확충 못지 않게 중요한 것이 산재의 예방노력이다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002902.wav|역에서 일분 거리인 아파트로 이사하게 되어 매우 편하다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002023.wav|지난주에 바다낚시를 갔었는데 뱃멀미가 심해서 낚시를 제대로 할 수가 없었어.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002959.wav|커튼의 색을 바꿨더니 방의 분위기가 달라졌다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001095.wav|사태는 서사장 개인의 권위와 임용의 문제로 국한되는 것은 아니다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002256.wav|사업이 잘 풀려 금전적 여유를 갖게 되었다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000317.wav|암 그렇지요.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000583.wav|우리가 시장경제를 꾸려가는 한 가격 메카니즘을 시장의 원리에 가깝게 운영하는 것이 합리적인 것은 상식이다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000802.wav|둘이 걷는다는 사실만으로 충분히 우리들은 즐거웠다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00002176.wav|계단을 내려가면서 그녀는 자기 얼굴을 명준의 팔에 기댈 싸하고 한 단씩 디딜 적마다 울림을 주며 춤추듯 발을 옮긴다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001782.wav|그 마을 사람들은 약 대신 다양한 식물들을 이용해 치료한다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003756.wav|하얀 눈으로 덮힌 도시와 시내에서 벌어지는 불꽃놀이 산타클라우스 퍼레이드 행진과 다양한 파티들을 구경해 볼수있는 기회입니다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001227.wav|지금까지 헌혈과정에서 에이즈감염자로 밝혀진 사람은 열세 명이며 매혈자가 감염자로 확인되기는 이번이 처음이다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003737.wav|매력덩어리 패션매거진 쎄씨 오월호 를 통해 공개된 화보에서 정려원은 여러 사진 속에서 봄에 어울리는 로맨틱한 룩과 함께 눈부신 미모를 보여줬다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00002205.wav|정하고 나니 후련하다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001309.wav|너를 사랑해 언제부터인지 자꾸만 보고 싶어 너무나 그리운 그 얼굴이 자꾸만 떠올라.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000722.wav|자네도 재미가 좋아 보이네 하며 김첨지는 얼굴을 펴서 웃었다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003810.wav|우리 아가 가 찾아온 그날부터 엄마는 세상에서 가장 행복한 사람이 되었단다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002947.wav|그녀는 사람들에게 예쁘다는 칭찬을 몇번 받고부터 아주 거만해졌다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000102.wav|크든 작든 일을 하고 난 느낌은 항상 어깨가 무겁다는 것이다 야에 있든 여로 통합하든 정치인의 어깨는 가벼워지지 않는 것이다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003852.wav|세상 가득한 사람들 중에 단 둘이 만나 결혼으로 사랑의 꽃을 피운 분들이시여 오늘 푸르른 하늘 아래 축복으로 쏟아지는 햇볕과 같이 행복으로 가득하시기 바랍니다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000198.wav|두 분의 말씀을 듣다보니까 새삼 한국학연구에 있어서 연계체제의 필요성을 느끼게 됩니다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000075.wav|우리 앞에 어떤 가능성도 배제하지 말자.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002898.wav|이 드라마는 너무 흥미진진해서 시청률 일위를 할 만 하다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001766.wav|자식을 사랑하는 마음은 인간이나 동물이나 매한가지인가 봅니다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001189.wav|소련측이 우리 정부의 장관이 포함돼도 좋다고 동의했다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001694.wav|그녀는 터프하고 씩씩해서 꼭 남자 같다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00000836.wav|이클 합동훈련 남한언론 크게 보도 고맙다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00002954.wav|이렇게 기도하세요.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00002843.wav|그는 수시로 직업을 바꾸는 변덕스러운 사람이다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001079.wav|정부 여당의 시국에 대한 인식과 대응자세도 갈피를 잡기 어렵다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001521.wav|팀웍이 성공의 열쇠라는 것을 잊어서는 안된다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002578.wav|졸음운전을 방지하기 위해 계속해서 껌을 씹었다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000231.wav|국립중앙박물관내 민속박물관 부속 창고에는 전 현직대통령을 포함한 공직자들이 해외여행중 또는 외국인으로부터 받은 각종 선물 삼백 열점이 쌓여 있다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001992.wav|한동안 소원했던 친구에게 오늘은 전화를 걸어야겠다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001973.wav|요새는 줄무늬가 없는 수박이나 네모난 수박도 있다고 한다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00002607.wav|어머니에게도 내가 쌀밥을 지어 드린다면 얼마나 기뻐하실까.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001854.wav|그래도 새 일을 하면서 정말 자식 같던 이 공간이 더욱 그리웠습니다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00000067.wav|교도소를 나와 박신과 내가 반대방향으로 떨어져 달아나다 전주국도 주변에서 합류한 뒤 전주대학 뒷산에 숨어 있다가 트럭을 훔쳐타고 삼례로 가 시장에서 옷과 식칼 세개를 산 뒤 여인숙에서 옷을 갈아입고 나왔다. 삼례에서 다시 택시를 타고 저녁 여덟시쯤 이리역 앞에 도착했다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001990.wav|월요일은 다른 요일보다 특히 더 힘들다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001734.wav|사장은 내게 당장이라도 회사를 그만 두라는 듯이 호통쳤다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00000763.wav|특히 지난번 판문점 음악제가 무산됐던 것을 생각하면 더욱 그렇습니다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000592.wav|지난 가을 이들 검사의 비율을 이상과 같이 반영하도록 문교부가 대학에 지시했을 때에 이미 우리는 이 점을 염려하여 지적한 바 있었다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00002976.wav|이는 살인사건과 교묘한 교차를 이루며 색다른 흥분을 유발시킨다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002120.wav|나는 전철이나 버스에서 항상 소설책을 읽는다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002017.wav|차선을 바꿀 때에는 반드시 깜박이를 켜야 합니다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001292.wav|대량의 경제지원은 필요 없으며 그다지 많은 투자도 필요 없다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002814.wav|그는 초상화를 주로 그리는 화가이다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00001799.wav|과학 기술의 발달과 함께 이십일세기의 의료는 많은 발전을 했다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002778.wav|외국을 여행하기 위해서는 기본적으로 여권이 있어야 합니다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00002227.wav|난 그가 다시 돌아오기를 간절히 바란다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00001310.wav|아직 구체적으로 정하지 않았다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001230.wav|노동조합은 구일 이 회사 대표 이사로 등기된 양주하씨를 근로기준법 위반혐의로 노동부 제주지방사무소에 고발했다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00001962.wav|나는 양적인 면보다 질적인 면을 중요시 여긴다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000414.wav|그가 평민당 소속의원들을 이끌고 국회를 박차고 나온지도 어느새 달포가 넘는다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000495.wav|최영철 노동부 장관은 요즘 아는 사람들로부터 시중에 최영철 고스톱이 유행한다는 데 본인은 어떻게 생각하느냐는 질문을 가끔 받는다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001490.wav|바야흐로 국제적 조류는 정부차원의 외교에서 국민의 총체적 합의와 협력을 바탕으로 하는 국민외교시대로 변화하고 있다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002804.wav|귀중품이 있으면 호텔 프론트에 맡겨 주세요.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001531.wav|그렇게 열심히 응원했는데도 불구하고 우리팀은 큰 점수차로 지고 말았다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000903.wav|이기택총재와는 이전에도 개인적인 교류가 있었습니까.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000326.wav|황재식씨부부는 맞벌이를 한다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001903.wav|팩토리의 따끈하게 데워 나오는 포카치아가 그리웠습니다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000069.wav|그 후 이리역에서 택시를 잡아타고 운전사를 위협 현금과 주민등록증을 빼앗고 대전으로 향했다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000521.wav|쓰라리다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000447.wav|지금까지 미국은 열여덟 개의 노벨경제학상을 받았다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002765.wav|이 영화는 필요없는 장면이 너무 많고 쓸데없이 길어서 지루하다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000895.wav|당시 신옹은 남한 단독정부수립에 반대해 김구 김규식선생을 따라 평양에가 통일정부수립을 위한 남북협상을 벌인 남한측 팔 인 대표의 한사람이었다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003618.wav|지금도 조금씩 내리고는 있지만 오늘의 기분은 좋다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00002064.wav|서울집 이라는 옥호가 엷은 송판에 아무렇게나 씌여져서 걸려 있다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000494.wav|이제는 독선과 독단에 침묵하던 다수에서 우리들의 소중한 권리를 요구하고 행동하는 고대인이 됩시다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000367.wav|나중에 정박사가 몇 번이고 감탄했던 것처럼 거의 초인적인 정신력이었다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000905.wav|어짜피 언젠가는 내거나 보내야 할 준비물인데 하루라도 빨리 챙겨주면 서로서로 맘 편한 일이지요.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00004012.wav|이 책을 읽은 아이들이 성장한 몇 년 뒤에는 좀 더 평화로운 세상이 되리라 흐뭇한 기대를 가져보게 된다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001455.wav|밀렵이 성행하는 주된 원인은 허술한 총포관리의 허점때문이다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001364.wav|이번 샌프란시스코 정상회담의 결과에 달려 있다고 본다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00002759.wav|아내는 턱없이 즐거워서 재잘거리고 걷고 있는 아이들을 사랑스러운 눈으로 내려다보면서 걷고 있었다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001021.wav|혹시 막후에서 개헌 문제를 조정하려는 것 아니냐고 물었다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001493.wav|중동에서도 궁극적으로는 민주적가치가 실현되기를 바란다 그러나 당장의 관심은 전쟁폭발을 막는 것이다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002896.wav|나는 부모님을 원망만 해왔지만 내 아이를 낳고 보니 부모님의 고마움을 느끼게 되었다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000733.wav|상식적으로는 보조금을 사십오에서 오십퍼센트정도 줄이는 수준에서 타협될 가능성도 있다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002654.wav|저는 서울역 근처에 있는 아파트에 살고 있어요.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003921.wav|특히 해 지는 바닷가에서 갈대를 배경으로 찍은 사진은 눈을 떼기 힘들 만큼 아름다웠다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002427.wav|일본어에는 띄어쓰기가 없다고 합니다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002589.wav|주식으로 큰 돈을 번 친구가 부럽다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00001640.wav|직장을 그만두고 일 년 동안 세계 여행을 하기로 결심했다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002616.wav|미안하지만 선반 위에 있는 상자 좀 내려주시겠어요.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00000136.wav|다른 나라에는 정통야당이란 말이 없다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002805.wav|지금 우리가 서 있는 이 곳은 과거에는 바다였다고 한다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000639.wav|대단한 담임을 만났다는 기대로 아이들은 가슴을 부풀이며 앉아 있었다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000018.wav|보혁이 단시간에 소망스런 형태로 갈라지리라고는 누구도 보지 않을 것이다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002440.wav|나 한번만 더 외박하면 아버지한테 맞아 죽을지도 몰라.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001228.wav|몇개씩 되는데도 왠지 파우치를 보면 어머 저건 꼭 가져야해 라는 마음 이거받고 마음이 참 행복했다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000792.wav|그들의 대화에 다들 와아 하고 웃었다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000250.wav|더욱이 종이포장이 비닐포장으로 전환되면서 환경공해의 원흉으로 원흉삼관왕이 되고 있다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001470.wav|이 영화를 보면 내가 사랑했 던 그녀와 나를 사랑하던 그녀의 모습이 생각날 것 같아서.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002858.wav|무리한 부탁을 했더니 선배의 얼굴에 난처한 기색이 역력했다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001235.wav|서울시내 자동차대수가 이달중 백만대를 넘어설 것으로 예상되자 서울시는 올 상반기부터 자가용 승용차의 십부 운행제를 시행할 방침이다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002410.wav|이 가게에는 아기자기하고 독특한 패션 아이템이 많다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000159.wav|이씨는 앞으로도 지속적으로 책을 보내 중국 각지에 민족문고를 설치할 수 있도록 하겠다는 계획이다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001669.wav|남자와 여자는 제작 원리가 다르다는 사실을 기억해야 사랑이 쉽습니다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003168.wav|이 경기에서 처음 상대하는 타자 서동욱을 상대로 직구와 체인지업을 자신있게 던졌으며 결국 헛스윙 삼진으로 이닝을 마무리했다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00002290.wav|엄마가 만들어주는 애플파이는 아주 맛있다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00000827.wav|남쪽 신문들이 이 같은 사실을 자주 크게 보도해 북남간의 동질성회복과 화해에 기여해야 합니다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001099.wav|사원들의 반응은 긍정적이었다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001393.wav|국빈방문은 국가적 행사의 성격을 띠는 상징성과 이 때문에 내용의 중요성이 뒤따르고 여기에 의전절차도 까다롭다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001485.wav|우리가 맞고 있는 시대적 상황은 십구세기말의 혼돈과 격동을 연상시키고 있지 않은가.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002418.wav|여행을 가거나 중요한 일이 있는 날이면 꼭 비가 와서 짜증난다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000859.wav|영향이 다소 있을 수밖에 없지만 기본적으로 세입내 세출의 균형예산이기 때문에 정부부문의 통화 증발에 의한 인플레 요인은 되지 않는다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000446.wav|아주 듣기 좋은 저음이었다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000802.wav|거부권을 가지고 있는 중소는 유엔가입 문제와 관련 먼저 남북한간에 얘기를 해 보라고 권유하고 있습니다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000085.wav|집을 구경하고 복덕방의 사무실로 돌아와서 딱딱한 나무의자에 걸터 앉아 나는 두둑한 뱃심으로 말했다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003440.wav|목소리가 깨끗하고 귀엽다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001422.wav|나의 삶이 주로 인하여 즐거워 하리라.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002208.wav|중요한 발표를 해야하는데 목감기 때문에 목소리가 나오지 않아 낭패다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003558.wav|이날 정려원은 화이트와 누트톤의 드레스를 입고 등장한 여배우들과 달리 핑크컬러 드레스로 귀여움과 섹시미를 동시에 발산했다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001647.wav|차를 가지고 와서 술을 마실 수가 없다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001833.wav|이번 주 워싱턴에서 백팔십사개국 재정장관의 모임이 있을 것이다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001115.wav|행복은 마음먹기에 달려있다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001207.wav|회장은 그룹의 이념과 비전을 제시하는 상징적 존재라고 할 수 있읍니다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002450.wav|그는 말솜씨가 좋아서 어딜 가든 인기가 있다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002903.wav|아무리 상사라고 해도 내 사생활까지 간섭하다니 참을 수 없다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000564.wav|우리는 특히 이번의 연쇄사건에 임하는 경찰의 자세에 경악과 분노를 금할 수 없다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000708.wav|지난번 단식 중 김 대표와의 단독요담 때 이 문제에 대해 어떤 합의가 있었는가.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000557.wav|최근 범법자들의 범행이 전국을 무대로 이루어지고 있는 만큼 경찰의 수사공조체제는 필수적인 요소이다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001792.wav|멀고도 험난한 길이었지만 내 꿈은 마침내 이루어졌다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000173.wav|더욱이 북한이 경제난 해소를 위해 대일 접근을 강화하고 있는 만큼 일 북한 관계개선은 예상보다 빨리 이뤄질 가능성이 큽니다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001966.wav|어떻해 두근두근대 어떻해 넌 나만의 반쪽 난 너만의 반쪽 늘 매일매일 알콩달콩 하루가 즐거운걸.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003199.wav|차표를 뒤져내고 어감만으로도 불안한 검사가 무사히 끝나서 다시 차표를 간직하고 난 사람들은 사소한 흥분과 긴장이나마 치르고 나서 안도하는 낯빛이었다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000067.wav|교도소를 나와 박 신과 내가 반대방향으로 떨어져 달아나다 전주국도 주변에서 합류한 뒤 전주대학 뒷산에 숨어 있다가 트럭을 훔쳐타고 삼례로 가 시장에서 옷과 식칼을 세 개를 산 뒤 여인숙에서 옷을 갈아입고 나왔다. 삼례에서 다시 택시를 타고 저녁 여덟 시쯤 이리역 앞에 도착했다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000617.wav|정치를 하지 않겠다는 결심은 언제한 것인가.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002353.wav|클래식 음악은 마음을 편안하게 해준다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001244.wav|현재까지는 대부분의 업종별 노조협의회가 전노협 참가에 유보적인 자세를 보이고 있는 것으로 아는데.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00000707.wav|김염삼 민자당 대표도 사실상 내각제를 반대하고 있다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000678.wav|시간이 지날수록 그 말은 더욱 타당하다고 느껴진다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002155.wav|이 식당의 음식들은 마치 엄마가 해주는 음식처럼 푸근하고 정겹다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000873.wav|대체로 안전하게 지내고 있다 대사관에 스물네시간 상주하는 교민도 있고 집과 대사관을 왕래하는 사람들도 있어 대체로 백명 안팎이 대사관에 머물고 있는 셈이다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001632.wav|내일 어머니의 수술이 있어 너무나 걱정이 된다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002167.wav|우리 아이는 구연동화 대회에서 일등을 했다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001216.wav|이천십년의 마지막 날 애기들과 함께여서 행복했슨니당.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001172.wav|단 한순간도 행복하지 않았던 추억이 없었기에 그렇다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000458.wav|공사 책임자들의 이 같은 안이한 발상이야말로 시민들의 과격행동을 낳은 근인인지도 모른다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002034.wav|우리집은 대가족이어서 항상 북적거린다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001715.wav|일 더하기 일이 삼이 될 리 없다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000116.wav|정치적 격변기의 와중에서 갑작스레 남편의 죽음을 맞은 백씨는 그 충격으로 양쪽 눈의 시력을 완전히 상실 한때 깊은 절망에 빠지기도 했다. 그러나 퇴직하면 사회봉사활동에 여생을 바치자던 남편의 생전 뜻에 따라 백씨는 지난 팔십삼년부터 부산 영도구 영선동에 불교자비원이라는 봉사단체를 만들어 생활상담과 함께 나환자 정박아 등 불우이웃을 돕고 있다. 백씨는 지난해 시월 국회에 김오랑소령에 대한 일계급 특진 서훈및 보상을 요구하는 청원을 제출했었다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002972.wav|이 섬에서 살아나가지 못하는 건 아닐까 하는 공포에 등골이 오싹해졌다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002881.wav|부모로부터 학대를 받고 자란 아이는 정신적 외상을 입게 된다고 한다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003262.wav|마치 모두 완성된 영화를 집에서 감상하기만 하는 것처럼 구현은 중앙 서버에서 하고 개인 사용자는 받아서 사용하면 되기때문에 간편합니다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000141.wav|신여당이 성장위주 경제정책쪽으로 기우는 듯한 인상을 주고 있는데.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001762.wav|그는 겸연쩍은 듯이 머리를 긁적였다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000321.wav|만약 의사와 환자의 접촉 없이 원격진료를 할 수 있었던들 우리 역사는 전혀 다르게 바뀌었을지도 모를 일이다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002590.wav|미국에 가려면 우선 비자를 취득해야 한다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00002926.wav|정부가 내세운 실업자 대책은 참으로 얼빠진 것이었다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001393.wav|국빈방문은 국가적 행사의 성격을 띠는 상징성과 이 때문에 내용의 중요성이 뒤따르고 여기에 의전절차도 까다롭다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00002238.wav|그녀가 잠든 모습을 스케치북에 그렸다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00004052.wav|육년 만에 다시 돌아온 나옹 이 작고 폭신폭신한 존재가 너무나 사랑스럽다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003076.wav|첫방송 후 인터뷰를 할 때 새침떼기인 둘째딸이 요즘은 자꾸 옆에 와서 친한 척 해주고 즐겁습니다 라고 말하는 것을 보니 아버지의 마음이 진하게 느껴졌습니다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002918.wav|미국 여행을 통해 나는 영어에 대한 흥미가 생겼다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00002208.wav|중요한 발표를 해야하는데 목감기 때문에 목소리가 나오지 않아 낭패다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001311.wav|보수연합및 민주사회주의당과는 연정이 불가능하다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002294.wav|내가 선물로 사준 셔츠를 동생이 무척 맘에 들어했다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001279.wav|나는 노 대통령이 우리나라를 안정시키고 훌륭한 대통령으로 주어진 임기를 마치도록 긴밀하게 협조할 것이다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002112.wav|나는 섹시한 여자에게 끌리는 편이다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00002207.wav|부두를 낀 거리를 모자를 눌러쓰고 기웃거리는 시간에 그는 즐겁다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001114.wav|노대통령과 만나자는 것이다 민자당은 아직 당으로서 체제를 갖추지 않았다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00002008.wav|나는 운동을 위해 걷는 것이 아니라 기분전환을 위해 걷는다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003053.wav|줄거리는 이 정도만 아셔도 충분합니다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000420.wav|국민은 꿈을 먹고 사는 이상주의자가 아니라 밥을 먹고 사는 현실주의자들이다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000576.wav|일꾼들한테는 막걸리가 최고예요.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00002896.wav|나는 부모님을 원망만 해왔지만 내 아이를 낳고 보니 부모님의 고마움을 느끼게 되었다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002347.wav|아끼는 스웨터를 세탁기에 넣고 빨았더니 그만 쪼그라들었다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002673.wav|아버지는 휴일에 친구분들과 테니스나 골프를 치러 가신다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00000778.wav|나는 이라크 문제에 관해 교전상태가 되면 안 된다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000849.wav|하파르 알 바튼지역 기계화사단 인접 동부지역에는 이라크군의 쿠웨이트 침공시 사우디로 탈출한 쿠웨이트군 병사들로 구성된 부대가 있었다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000193.wav|연세대는 지난 팔십칠년 국내에서 최초로 지역학 연구과정을 개설해 한국학 전문인력을 양성해 오고 있습니다. 외국에서의 한국학을 보다 깊이 있게 다루기 위해서입니다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000128.wav|지난 구일 건전 위락문화 조성 결의대회를 가진 서울용산구 이태원 일대 유흥요식업자들의 모임인 한남동 이태원 업주협의회회장 이석우씨는 이태원은 널리 알려진 지역이어서 오히려 퇴폐업소가 없는 편이지만 일반인들의 인식을 바꾸기 위해 미성년자 입장규제 거리질서 확립작업을 벌이기로 했다고 말했다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001243.wav|전노협을 결성해야 하는 당위성은 무엇인가.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001712.wav|우리 회사는 월급은 많이 주지만 휴일이 별로 없다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002323.wav|당신과 같은 팀에서 일하게 되어 정말 기뻐요.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001763.wav|이 연못은 물고기에게 먹이를 주는 것이 금지되어 있습니다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00002033.wav|밖은 춥지만 안은 따듯하다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000312.wav|이십팔일 오후 발생한 서울 대방역 열차 충돌사고를 조사하던 경찰은 초동수사단계에서 의외의 어려움을 겪어야 했다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000508.wav|그러나 통역이란 그리 쉬운 게 아니다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001866.wav|나는 내 감정을 거의 보이지 않는 반면 내 동생은 하고 싶은 말을 항상 다 한다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002291.wav|그는 병으로 한달째 앓아누워 있다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00002941.wav|아무래도 개인적으로는 장재인이 더 마음에 들지만.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00000215.wav|그쪽은 전문가가 아니기 때문에 잘 모르겠습니다만 북한에 경제적인 문제가 많다는 것 정도는 알고 있습니다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000583.wav|우리가 시장경제를 꾸려가는 한 가격 메카니즘을 시장의 원리에 가깝게 운영하는 것이 합리적인 것은 상식이다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000410.wav|지금 마음에 자꾸 걸리는 점은 통석이란 단어에 뼈아프게 뉘우치고 후회한다는 사전에도 없는 뜻을 만들어냈던 우리 정부의 일본어 해독력이다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002877.wav|농작물의 수확은 기상 조건에 크게 좌우된다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000056.wav|황 교수는 따르면 백 사십여 명에 달하는 출제위원들이 처음 보름 동안 문제를 출제할 때는 호텔에 갇혀 생활하는 게 그런데로 견딜만 했으나 그 뒤 십여일 동안 아무 일도 하지 않으면서 시간을 때우느라 무척 애를 먹었다며 홀가분한 표정이었다. 이날 출제위원들은 자신이 맡은 과목의 고사가 시작되는 것과 동시에 그 동안 머물러 있었던 서울 캐피탈호텔에서 해방됐다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00002203.wav|그녀는 까르르 웃다가 정 그러시다면 내일 떠나세요 저희 형편은 며칠이라도 괜찮지만 하고 말한다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000390.wav|스웨덴은 복지천국이라는 말을 들을만도 하다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001092.wav|난국극복을 위해 총체적 개혁을 하겠다고 했는데 국회에서의 안기부법 국가보안법 개정에 관한 여당입장도 바뀌어 전향적이 될 수 있다는 뜻인가.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002333.wav|학생이 그런 저속한 말을 사용해서는 안 됩니다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002693.wav|학점도 다 땄고 이제 논문만 쓰면 기다리면 졸업이다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000118.wav|미군철수에 앞서 주한미군 부대에서 일하는 이만 오천여명의 한국인 노동자들에 대한 사후대책을 마련해 달라는 것입니다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001727.wav|나이 탓인지 단어를 외우자마자 잊어버린다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002521.wav|이번 월드컵 대회에서 우리나라는 조편성에서 유리하게 되었다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000921.wav|그 수치보다 별로 나빠질 이유가 없다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001001.wav|혹시 역대 국회의장 중 이런 분이 의장의 귀감이라고 생각하는 분이 있는지.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002614.wav|어깨가 심하게 결려서 마사지를 받았더니 한결 낫다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000361.wav|은행은 사기꾼도 아니요 무쪽 같이 곗돈 떼어 먹고 달아나는 악덕 계주도 아니다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002001.wav|매일 컴퓨터 키보드만 치다가 오랜만에 손으로 글씨를 쓰려니 잘 되지 않네.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002563.wav|아버지는 뜨거운 국물을 후루룩 마시면서 시원하다고 말했다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00000771.wav|우리는 모든 우호관계의 증진을 환영한다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001251.wav|상탔쪄요 좋았여요 행복했져요 헉헉 아이 신나 아 급 생각났는데 기사 아저씨 오셨을때 되게 민망했음 왜냐면 까만 바탕화면에 아이콘이 딱 삼개 있는데 하나는.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00002746.wav|나는 한번 여행을 떠나면 한 달 정도는 집에 돌아오지 않는다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00002095.wav|정말 대사업을 힘껏 보필하는 이의 사명감과 긍지로 아주머니의 얼굴이 은은히 빛나 보이기까지 했다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001809.wav|그녀의 뛰어난 연주와 매너는 모든 관객들을 감동시켰다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002947.wav|그녀는 사람들에게 예쁘다는 칭찬을 몇번 받고부터 아주 거만해졌다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003907.wav|프랑스 보르도 및 이탈리아 호주 미국 칠레 등에서 재배되고 있으며 섬세한 향과 부드러운 맛으로 최근에 인기를 끌고 있다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001383.wav|주택정책은 물량공급뿐이 아니다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002725.wav|그녀는 무리한 다이어트로 현기증이 나서 쓰러졌다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000749.wav|이창호사단은 스승인 조훈현구단을 꺾고 국수가 된 뒤 대국 전에는 질 것 같은 기분이 들었으나 막상 최고권위의 국수가 되고 보니 기쁘다고 소감을 밝혔다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001562.wav|아침부터 좋은 일이 연달아 있어서 기분이 최고다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001935.wav|우물우물하지 말고 네 의견을 당당히 말해.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001723.wav|그는 일단 잠이 들면 주위가 아무리 시끄러워도 절대 깨지 않는다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00000507.wav|드골과 회담을 잘하려면 프랑스 말을 잘해야 한다고 믿은 때문이었다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000714.wav|여권의 반응을 지켜보면서 향후 정국에 대한 근본적인 대응책을 당 간부들과 새롭게 논의하겠다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00002509.wav|진학문제에 관해 담임선생님과 상담을 했다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001505.wav|북한이 국제원자력기구와 핵안전조치협정을 맺더라도 그들이 핵무개기발 의도를 효과적으로 제어할 수는 없다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000250.wav|지금쯤은 함경도 쪽을 돌고 있으려니 짐작하고 있던 그녀를 여기서 만날 생각을 하니 몸이 떨리도록 기뻤다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001440.wav|그 같은 전환의 계기는 집권자인 노태우 대통령과 집권당인 민자당이 만들어내야 한다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000753.wav|참 반갑구마 나도 서울까지 가는데.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002910.wav|밀레의 그림을 보고 있자 큰 감흥이 솟아났다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002728.wav|그에게는 사람 얼굴을 빤히 쳐다보는 버릇이 있다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000496.wav|이처럼 소신을 중하게 여기고 엄정 중립자이기를 스스로 원하는 최 장관에게 최근 난처한 일들이 잇따르고 있다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001344.wav|정세영 그룹회장은 회사쪽이 할 노력은 다했으니 정도로 간다며 왼주먹을 몇 차례나 내뻗으면서 더 이상의 타협은 있을 수 없다고 되풀이했다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00000933.wav|동서독 통화통합에 따라 지난 일일부터 시작된 마르크화 교환작업은 한치의 오차도 없이 톱니바퀴처럼 착착 돌아가고 있다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002524.wav|이 음식점은 학생증을 보여주면 이십퍼센트 할인해준다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001953.wav|친구들이 내 생일날 깜짝파티를 해주었다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000109.wav|치안본부 고속도로 순찰대장 안정희경정은 이십칠일까지 귀향길이 원활할 수 있었던 공로를 높은 시민의식과 부하직원들의 고생으로 돌렸다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002517.wav|그 가수의 본명을 듣고 너무 촌스러워서 배를 잡고 웃었다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00001354.wav|그러니까 관계된 나라들이 논의를 해서 공통점을 찾아내야 한다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000234.wav|이 창고에는 그밖에도 다른 공직자들이 낸 도자기 화병 칠보항아리 크리스털항아리 카펫 커프스버튼 리벌버권총 브이티알 촬영기 시계 카메라 등이 있다. 가게를 차려도 몇 개는 차릴 수 있는 값진 것들이다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003236.wav|그래 너이년들 둘이 트리했던 거로구나.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003066.wav|그리고 이승기는 김정태가 소외되지 않도록 계속 그의 옆에 붙어앉아 대화하며 칼국수 면발이 완성되는 과정을 감탄하며 지켜보았습니다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000456.wav|건서라면 이상하게 볼게 한 두 가지가 아니다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000517.wav|평행광선을 굴절시켜서 한 촛점에 모아가지고 그 촛점이 따근따근해지다가 마지막에는 종이를 그을리기 시작하고.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003196.wav|그러나 그 옆의 당꼬 바지가 빙그레 웃었을 뿐 아무런 반응도 없고 말았다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003189.wav|정말로 소비자에게 싸고 좋은 서비스를 제공하려고 하기보다는 미리 들어가서 선점해 둠으로서 횡포를 부리고 정당한 경쟁구도를 만들지 않으려는 것이다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002183.wav|엄마 지갑에서 몰래 만원을 가져간 것이 들켜서 엄마에게 호되게 혼이 났다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001881.wav|과학자들은 항상 문제에 대한 해결책을 찾고자 노력한다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002464.wav|그는 여자에게 손찌검 하는 나쁜 버릇을 가졌다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00001091.wav|개혁이란 난국극복에 운명을 걸고 당과 정부가 나선다는 뜻이다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000126.wav|아까와는 딴판으로 그 일에 내놓고 티를 보이는 폼이 곧아서 좋다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000532.wav|뇌세포 프린팅이 고속으로 진행되고 있는 요즈음 세상이다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00000457.wav|광화문앞 옛 도청 자리에는 손이 많이 가는 값진 소나무 소공원이 있다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002599.wav|그녀는 아들을 의사로 키우기 위해 갖은 노력을 다 했다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001088.wav|국리민복을 위해 최선을 다하겠다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002692.wav|이 강좌의 신청 마감은 오늘 다섯시까지입니다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001416.wav|강력한 스매싱과 드라이브에 날카로운 백핸드로 응수하는 세계최강자의 공방전은 묘기의 백출이었다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000870.wav|그러나 부인과 딸및 갓백일이 지난 아들을 볼 때 쿠웨이트를 빠져 나오기로 생각할 수밖에 없었다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000926.wav|서독연방은행의 독립성과 중립성은 엄격하기로 유명하다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001311.wav|내가 사랑해 줄텐데 절대로 배신하지 않을텐데.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001678.wav|우리 슈퍼주니어 패밀리가 완전 행복한다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001823.wav|시민들은 정부의 서투른 재난 대처 방식을 비난했다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001353.wav|최근 미국 언론은 소련내의 여러 가지 어려움으로 과연 고르바초프 대통령이 앞으로 일년을 더 견딜 수 있을까 하는 의문을 강력히 제기하고 있는데.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001432.wav|우리는 체제전복세력이 이렇게 많다고는 생각지 않는다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001531.wav|그렇게 열심히 응원했는데도 불구하고 우리팀은 큰 점수차로 지고 말았다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002420.wav|마마보이는 여자들에게 비호감 대상이다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000664.wav|시상에 이렇게 고마운 친구들이 어딨겠누.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002608.wav|그는 화가 나면 주위의 물건을 다 던지고 부수는 못된 성미가 있다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000214.wav|짧은 기간이지만 한국을 방문한 소감과 앞으로의 전망에 대해 말씀해 주십시오.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001108.wav|금년 중 가격자유화 세제개혁 인플레억제책 기업지원 조치등이 나올 것입니다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00001133.wav|그 이야기는 할 필요가 없다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002787.wav|그는 사람들의 거센 비판에도 전혀 기가 죽지 않는 성격이다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002043.wav|나는 감정을 잘 드러내지 않는다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000947.wav|그는 또 토론의 전과정이 공개되며 어떤 사안에 대한 찬성 반대자들의 명단과 입장이 그대로 공표되기 때문에 더욱 권위 있는 기구가 되고 있다고 덧붙였다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003310.wav|여튼 더 많은 예술가들이 돈을 더 많이 벌어서 더 멋진 예술작품으로 우리를 더 황홀하게 하는 그런 세상을 꿈꿉니다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00001713.wav|젊은 사람일수록 늦잠을 많이 잔다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001512.wav|여름을 타는지 아무것도 하기 싫고 식욕도 없다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000641.wav|이해당사자들 사이의 첨예한 의견대립이 있을 것으로 봅니다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001791.wav|나는 열두 살 때부터 줄곧 가수가 되기를 원해왔다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001280.wav|재야의 정치세력화는 어떻게 이룰 것인가.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00002905.wav|저 연예인의 아니꼬운 모습은 정말이지 차마 눈 뜨고 볼 수 없어.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000276.wav|아들의 병원입원비만 일주일에 칠십만원이 들었고 약값과 치료비를 합치면 그 액수는 엄청나게 불어 나갔다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001634.wav|차에 문제가 생긴 것 같아 보닛을 열어 보았다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000365.wav|이십년 동안이나 적금을 부어 나간다는 건 보통 정성이 아니다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001201.wav|과감한 분배 복지정책 확충으로 소외계층을 보호하겠습니다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002227.wav|난 그가 다시 돌아오기를 간절히 바란다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002758.wav|나는 장동건의 사진을 이백장이나 가지고 있어요.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000066.wav|박이 교도소내 목공소에서 쇠톱과 못을 구해 왔다 내가 알기로는 외부나 교도관들이 전해 준 것은 아니다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000827.wav|남쪽 신문들이 이 같은 사실을 자주 크게 보도해 북남간의 동질성회복과 화해에 기여해야 합니다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000554.wav|그러니 전국 도처에 산재한 문화재 도굴과 도난을 방지한다는 것은 오히려 부차적일 수밖에 없다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001919.wav|노래 경연에서 내 차례가 다가오자 입술이 바싹바싹 타들어갔다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00000971.wav|요즘 한국의 대소 분위기를 보면 너무 요란하고 부산을 떠는 것 같은데 이럴수록 실리를 찾아야 되는 것 아닙니까.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00002094.wav|장에 삭힌 깻잎이니 풋고추 더덕 등 짭짤한 솜씨의 밑반찬과 김치 깍두기 무국 등은 조금도 영업집 밥상 같지 않고 시골 친척집에 들러서 받는 밥상 같아서 흐뭇했다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000119.wav|노조측이 제시하는 사후대책은 정부가 주한미군 종사자들에 대한 전업을 알선해 주고 전업하기 어려운 사람들에게는 재교육을 통해 취업의 길을 열어달라는 것이다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002246.wav|비를 맞고 걸어가고 있는데 모르는 사람이 친절하게 우산을 씌워 주었다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001443.wav|김씨 유서의 대필여부는 가능한한 빠른 시일안에 그리고 의혹이 없이 정확히 밝혀져야 한다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002360.wav|우리 아버지는 너무 엄격하고 무서워서 감히 거역할 엄두가 나지 않는다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001995.wav|나는 흑백사진의 특별한 매력에 매료되었다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002501.wav|이 역의 근처에는 대학교가 많다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001000.wav|승기의 품속에서 승기 체온과 함께 숙성된 반죽 밀가루에게 바치는 승기의 노래까지.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002612.wav|빨리 손자를 낳아 부모님을 기쁘게 해드리고 싶다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000470.wav|다만 기탁자가 누군지 그 돈이 어떤 돈인지 알게 되면 대단히 놀랄 것이라는 얘기를 들은 게 소득이라면 소득이었고 호기심은 더욱 커갔다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002313.wav|나는 서울대에 합격한 내 아들이 너무나 자랑스럽다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001350.wav|그에게 행운이 있기를 빈다 그는 정치적으로 어려운 시련을 겪었다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000902.wav|수퍼마켓 등 판매자 및 해당 관리자들은 교육에 참석하여 오남용의 사고가 발생하지 않도록 노력해주길 바란다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00001923.wav|그녀는 부모를 한꺼번에 잃은 슬픔에 몹시 흐느꼈다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002567.wav|압구정에서 우연히 고등학교때 선배와 마주쳤다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002919.wav|핸드폰은 현대사회에 없어서는 안 될 유용한 도구이다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002546.wav|다음달 오바마 대통령이 한국에 방문한데.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001084.wav|나는 특히 정신적 위기상태로 봅니다 국민학교 어린이에서부터 청소년 기업인 정치인들에 이르기까지 우리 사회 전반이 정신적 위기상태에 있다고 봅니다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002610.wav|계산을 하려고보니 지갑에 돈이 하나도 없었다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00002005.wav|가장 좋은 운동은 걷는 것이다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000293.wav|그래서 통장수는 수지가 맞는다는 것이다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001370.wav|지력강화를 위한 대책은 땅에 유기물함량을 높이는 길밖에 없으며 이를 위한 정부의 장기대책과 함께 농민들의 배전의 노력이 뒤따라야 한다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001556.wav|사람들이 아무리 반대하더라도 나는 내 결정을 밀고 나가겠다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000957.wav|유리상자의 신랑에게란 노래를 듣고 불현듯 생각이 난 사전 엠씨의 결혼을 기억해 내곤 그를 무대로 불러 올려서 축하무대를 만들었다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000214.wav|짧은 기간이지만 한국을 방문한 소감과 앞으로의 전망에 대해 말씀해 주십시오.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00002543.wav|이걸 보고서 점순이가 깔깔거리고 되도록 이쪽에서 많이 들으라고 웃는 것이다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00002481.wav|이번 시험에서 꼴찌를 해서 도저히 부모님께 말씀드릴 수가 없다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002711.wav|부모는 아이가 언젠가 자신의 곁을 떠나간다는 사실을 받아들여야 한다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00000045.wav|미 알려진대로 미국은 대북 접촉시 사전사후에 걸쳐 우리정부와 긴밀한 협의를 하고 있는 게 사실이에요. 북한은 대미관계개선을 원하고 있겠지만 미국은 자국의 국익에 입각 자기페이스를 착실히 지켜 나가고 있다고 봅니다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000743.wav|여야간의 입장이 정리단계에 와 있다고 본다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00002637.wav|동남아는 일년 내내 덥다고 한다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000383.wav|스웨덴은 복지천국이라는 말을 들을만도 하다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000075.wav|우리 앞에 어떤 가능성도 배제하지 말자.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002093.wav|그의 사귀자는 말에 뛸듯이 기뻤는데 농담이었다니.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00001668.wav|부모가 그 모양이라면 아이도 안 봐도 뻔하다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001500.wav|여야 각 정당의 냉정한 정치적 판단과 선거관리기관들의 보다 공정한 법적용을 촉구한다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00002135.wav|좋아요 형사 아저씨가 그렇게 다 알고 있으니까 정말 마음이 턱 놓이 누만요.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001106.wav|대단히 복잡하고 어렵기 때문에 점진적으로 추진할 수밖에 없습니다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00002930.wav|외부 공연도 아닌 스케치북 녹화현장에서 앵콜을 외치는 청중은 뭐며 그걸 또 신나게 헤벌쭉 받아들이는 장기하는 뭐란 말이냐.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003629.wav|인터라켄에서 맞이한 첫 아침 하루 종일 흐리긴 했지만 일출의 풍경만큼은 따뜻하고 환했다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001450.wav|따라서 노대통령은 수서사건과 관련되어 구속된 기업인과 공무원의 수가 이 시점에서 상대적으로 적다는 점을 지나치게 의식해서는 안될 것이다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001382.wav|물론 지난 이월 새로 입각한 최부총리에게 어떤 혁신적 조치를 기대한 것은 아니다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00000236.wav|육공의 공직자 기강은 확실히 점검해 볼 필요가 있다는 느낌을 지울 수 없다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00002157.wav|병마개를 뽑고 한 모금 빤다 향긋하고 찌르르한 흐름이 혓바닥 위로 흘러든다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00004070.wav|그런 사유키도 드디어 여름의 바닷가에서 멋진 남자를 만난다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002825.wav|요사이의 젊은이들은 언뜻 보기에 야무진듯 보이지만 정신적으로는 약한 면이 많은 것 같다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000940.wav|칠월초에 열리는 소련 공산당전당대회가 끝나봐야겠습니다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000841.wav|현재 사우디내 쿠웨이트군의 병력과 사기는 어떤가.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003917.wav|작은 소망은 소박한 여운이 있어 아름답게 느껴지는 것이다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000586.wav|이런 모든 현안 문제들은 결국 우리가 보기에는 결코 양국간의 기본적 현안은 아닐 것이다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00002296.wav|전체 인민은 동무가 돌아오기를 기다리고 있소.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000443.wav|기름값이 올라가면 생산비가 늘어나고 그러면 이윤과 주가가 떨어지게 된다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002904.wav|더운 여름날 운동 후 마시는 생맥주의 시원함은 무엇에도 비길 수 없다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000013.wav|왕서방이 돌아간 뒤에는 그들 부처는 일원 혹은 이원을 가운데 놓고 기뻐하곤 하였다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00002268.wav|친구가 뒤에서 내 욕을 하고다니는 걸 알고 분개했다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000350.wav|한창 술자리가 무르익어 갈 무렵 그 자리를 마련한 듯 보이는 동척의 조선인 간부가 기생들을 향해 빙글거리며 물었다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001642.wav|저 오늘 그래서 너무 행복하구 기뻐여.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002701.wav|자동차의 외관으로 자신을 어필하려는 사람들이 늘고 있다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003276.wav|행복한 주말이다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000462.wav|일호선 구간의 화장실 문제는 지금 당장 손을 쓰지 않으면 안 된다고 촉구했다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00002363.wav|저에게 유리한 발언을 해주셔서 감사합니다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000326.wav|황재식씨부부는 맞벌이를 한다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000732.wav|낯익은 집 앞에 섰을 때 사내는 문득 자랑스러운 마음이 되어 등에 있는 아이를 토닥거렸다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000512.wav|이번에 대통령을 따라 모스크바에간 우리 쪽 통역이 도중 하차당했다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000995.wav|평양이 어떻게 반응하는가를 예측하기는 어렵다 또 그런 성명이 나올 가능성도 있다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000074.wav|연합공천은 우리가 그런 필요가 있을 때 하자고 길을 열어놨으니 필요할 때 할 것이다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000560.wav|오히려 범인들이 저지르는 범죄를 쉬쉬 숨기기에 바빴다고 한다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000272.wav|카드에 적힌 내용은 그것이 전부였다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002633.wav|도박을 하느라 전재산을 탕진한 내 자신이 바보같이 느껴진다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000466.wav|이 할머니에 관한 첫 보도가 나간 이십구일 아침부터는 병실문에 면회사절의 팻말을 붙여 놓고 있었다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002609.wav|선생님은 피곤한지 책상에 앉아 꾸벅꾸벅 졸고 계신다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001303.wav|국민들은 그들의 선택을 정당하게 행사했다 그러나 머리에 총이 겨누어진 채로 말이다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002501.wav|이 역의 근처에는 대학교가 많다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000008.wav|포철은 구십이년에 연산 이천만톤의 목표가 끝나는데 그 일이 진행되는 가운데 당장은 해외에 제 얼굴이 필요할 때도 있을 것 같아 그 문제를 해결 해나가면서 처리하겠습니다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001969.wav|붉은 장미 흰 장미는 봤어도 파란장미는 처음 본다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001728.wav|국회의원인 이상 국민과의 약속을 지켜야 한다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000264.wav|병원측이 박씨 부부에게 마지막준비를 해주도록 귀띔을 한 것도 이때였다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00001402.wav|정부가 정권차원에서 단속하려 들면 못할 것이 없다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002983.wav|호화 여객선을 타고 일년에 걸쳐서 세계 일주 여행을 하다니 둘도 없는 사치다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00002849.wav|자기 아들이 무슨 큰 벼슬이나 한 것같이 여기며 만나는 사람마다 자기 아들 자랑하기가 일이었다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002275.wav|어제 축구경기에서 너무 열심히 응원한 탓인지 목이 다 쉬어버렸다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000611.wav|이러는 가운데 행정 각 분야의 사회 모든 분야에서는 기강이 해이해져 민심이 방만해지고 인플레와 침체 범죄와 규범문란이 도를 넘어서고 있다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001665.wav|도박에 손을 댔다가는 자칫 인생을 망쳐버릴지도 모른다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000511.wav|카터는 폴란드측의 희망을 이해하기 위해 왔다고 인사했다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00002409.wav|티교수는 빙글빙글 웃으면서 말했다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001214.wav|자율경영체제하에서 경영에 참여하고 있는 가족들의 입장은 어떤 것입니까.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00000784.wav|나는 정도를 걸으면서 양국은 하나라는 생각을 응원한다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002687.wav|그 마라톤 선수는 약물복용을 한 혐의가 밝혀져 안타깝게 금메달이 취소되었다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003660.wav|서울내과외과에서는 정맥류 질환에 관한 풍부한 치료 경험을 바탕으로 특수제작 된 미세바늘로 시술하여 환자들이 통증을 거의 느끼지 못하고 충분한 만족감을 얻을 수 있도록 돕는다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000562.wav|경찰의 치안 능력을 의심받는 사건이 터진 것은 최근에만도 한두 차례가 아니다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000963.wav|앞으로 당을 이끌어 나갈 지도력을 어디에 둘 것인가.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000127.wav|영업시간 제한으로 장사가 안되는 입장에서야 이 조치를 완화해주길 바라는 마음 굴뚝 같지만 먼저 퇴폐문화 곧 이태원이라는 인식부터 고쳐지도록 하자는 데 의견을 모았습니다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001048.wav|제가 재직하던 시절 그런 경우는 한번도 없었어요.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001928.wav|공공장소에서 커플들의 지나친 애정행각은 보는 이의 눈살을 찌푸리게 한다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001732.wav|저런 멍청한 녀석에게 그렇게 예쁜 애인이 있다니.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001818.wav|그는 핵실험을 반대하는 운동을 펼쳤다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001405.wav|집담보로 은행대출받고 나머지는 전세주면 거의 자기돈 없이 집을 소유할 수 있는 제도적 규멍이 시정돼야 한다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00001760.wav|벤치에 서로 기대어 앉아 있는 커플이 행복해 보인다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00002586.wav|누가 간 크게 그랬을까요 아내는 숭늉을 떠오며 짜장 통쾌한 듯이 물었다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001821.wav|나는 고흐의 그림중에 해바라기를 가장 좋아한다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000621.wav|어느 분하고 특별하게 깊은 관계가 있는 것은 아니다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001562.wav|아침부터 좋은 일이 연달아 있어서 기분이 최고다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000019.wav|명백한 것은 각 당이 투사하고 있는 실상과 허상이 있다면 이제 허상은 걷어들여야 한다는 것이다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002867.wav|우리나라의 전통적인 설날 풍경이 점점 사라지고 있다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002215.wav|나는 사교성이 없어 반 친구들과 잘 어울리지 못한다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000150.wav|페디르코회장은 소련이 이 같은 분야에 대한 한국의 참여를 바라는 것은 국내생산및 자본만으로는 도저히 수급을 충족시킬 수 없기 때문이라고 설명했다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002377.wav|어떻게 이 많은 음식을 혼자서 다 만드셨어요.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00002535.wav|모든 것이 성가시고 귀찮았으나 그러나 불의의 재난이라는 것은 즐겁다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002301.wav|겨우 세살인데 이렇게 영어를 잘 하다니.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000950.wav|그는 경제사회위원회가 만장일치의 찬성결론을 낸 경우엔 의회에서의 법안통과도 쉽고 찬반의견이 엇갈리면 의회에서도 난상토론이 벌어진다고 설명한다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003071.wav|덕분에 자칫 무겁고 재미없게 흘러갈 수도 있었을 분위기는 더없이 화기애애하게 진행되었습니다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00002478.wav|젊고 예쁘고 싱싱한 것 그건 얼마나 좋은 건가.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000522.wav|그러나 궁극적으로 오늘의 기형적 입시제도를 그대로 두고는 어떠한 법도 실효를 거두기 어렵다는 생각이다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001948.wav|너희 어머니는 어떤 분이시니.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001572.wav|그 강한 팀이 예선에서 떨어지다니 전혀 예상외였다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00000940.wav|칠월초에 열리는 소련 공산당전당대회가 끝나봐야겠습니다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002757.wav|그 형제는 어렸을 때 미국에서 자랐기 때문에 영어발음이 네이티브 수준으로 좋다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002595.wav|경기가 안 좋아서 다음달부터 월급이 삭감된다고 한다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00000851.wav|어느 곳에든 문제는 있게 마련이다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001712.wav|우리 회사는 월급은 많이 주지만 휴일이 별로 없다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000281.wav|조화와 균형은 개인의 사고와 행동에서뿐만 아니라 조그만 조직체 더 나아가 국가경영에서도 필수적인 것이다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000601.wav|관계자들은 전씨 내외가 백담사생활 이년 일 개월 팔일 칠백 육십구일 만에 서울로 되돌아간다는 변화에 애써 마음의 동요를 다지려하는 것 같았다고 전했다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000891.wav|남한측이나 북한측이나 통일에 대한 열망은 마찬가지라고 생각합니다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000887.wav|통일의 기운이 충만한 요즘 소원이 이루어질 것 같은 기대로 감격에 차 있습니다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00002459.wav|칭찬 한마디에 제 딸이 주연이라고 핏대를 올릴 때와는 딴판으로 겸손해지는 그가 보기 좋았다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001682.wav|긴장되었던 마음이 조금 누그러지다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000662.wav|그것은 이제 국민들이 더 이상 군부의 정치개입을 지지하지 않는다는 표시다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001783.wav|나는 아마존 강에서 보트를 탈 예정이다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00000932.wav|프랑크푸르트의 서독연방은행 본부에서 그를 만나 통화통합에 얽힐 뒷얘기와 독일경제의 전망등을 들어봤다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000558.wav|며칠 내에 부쩍 자란 듯싶은 점순이가 여간 반가운 것이 아니다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001022.wav|감사원은 있는 듯 없는 듯 조용한 곳이어야 합니다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003048.wav|특히 정형돈의 손가락을 무는 장면에서 자막으로 핫도그다 라고 말하는 넌는 김태호 피디의 센스는 정말 탁월했습니다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000538.wav|종합토지세를 시행도 하기 전에 다시 개정한다는 것은 어떤 이유로도 국민을 납득시키지 못할 것이다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00000563.wav|이래서야 국민들이 한시인들 마음놓고 살아갈 수 있겠는가.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002415.wav|계단에서 그만 굴러서 깁스를 하게 되었다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002647.wav|그녀는 친구의 외국생활을 몹시 동경한다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002530.wav|밭을 매는 것보다 아이를 보는 것이 더 어려운 일이다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001763.wav|우리말 사랑하는건 좋은데 너무 어려운 말이 많아요.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00002011.wav|만약에 로또에 당첨된다면 무엇을 하시겠어요.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001299.wav|이곳에서 목격되는 것은 미국이 니카라과에 가한 협박과 위기에 대한 엄청난 반응뿐이다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002723.wav|에너지 절약형 상품은 국내는 물론이고 국외에서도 큰 기대를 받고 있다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001767.wav|길이 막혀 할 수 없이 훨씬 먼 길로 돌아갔다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001055.wav|남자를 알아야 행복하고 여자를 알아야 행복하다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00000016.wav|다소 극단적으로 표현한다면 앞으로 적어도 삼십년간 요지부동하게 우리나라를 이끌어 나갈 그런 정치세력을 만들어야 되지 않느냐는 게 정계개편의 시발이자 알맹이다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001933.wav|자 긴장을 풀고 깊은 숨을 천천히 내쉬세요.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002415.wav|계단에서 그만 굴러서 깁스를 하게 되었다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001104.wav|행복은 자기의 내부에 있다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000256.wav|교통부가 작년 말 대한항공 창립 후 최대 규모의 감사를 시작한 이후 교통부 주변에는 이와 관련한 갖가지 풍설들이 난무했다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000656.wav|너희들이 알다시피 우리 반이 이학년 전체에서 제일이거든.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002772.wav|대출하신 도서를 내일까지 반납해주세요.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000844.wav|태식이보다 몇 갑절이나 잘 사랑 하겠다고 뻐겼다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000260.wav|명준은 담배를 꺼내서 붙여 물었다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003989.wav|애국심을 마구마구 느꼈답니다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002443.wav|이 롤러코스터는 눈이 돌아갈 정도로 속도가 빠르다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002152.wav|일본의 음식은 대체로 담백한 편이다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001352.wav|하나의 모델로 시작했다가 그 모델을 사회의 이익에 따라 바꿀 수도 있는 것이다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000791.wav|계자인 화국봉은 오래가지 못했다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002897.wav|그 회사의 도산은 아무도 생각지 못한 것이었다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001820.wav|미국은 천연자원이 풍부한 나라이다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000369.wav|중소도시에서는 기자들 등쌀에 작은 기업 하나 하기가 힘든다는 얘기까지 나오고 있을 정도.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00000201.wav|육십년대 미국에서 한국사를 연구할 때는 일본인 하다다씨가 쓴 영문역사책을 활용했습니다. 물론 지금은 한국에서 출간된 영문한국사가 나와 있습니다. 그러나 한국을 알리고 설명하는 간행물과 서적은 더욱 늘어나야 합니다. 한국학자들도 국제화시대에 발맞춰 영문저술을 활발히 해 주었으면 합니다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001366.wav|감동적인글과 마음에서 울어나오는 감동적인글 제가 감명있게 읽은 감동적인글입니다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00002981.wav|어디 저기 시원한 계곡 물에 발 담그며 차게 얼려 놓은 수박을 먹으면서 읽으면 모를까.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000686.wav|나 자신은 건설업분야에서 손을 떼고 방송이 정상궤도에 오를 때까지 방송사업에만 전념하겠다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002422.wav|레이싱걸들은 어쩌면 저렇게 하나같이 몸매가 좋을까.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00002338.wav|자기의 아내로서의 미녀상을 그려보고 싶어졌다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001136.wav|상당부문 얘기했고 시정방법도 구체적으로 논의했다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001005.wav|내정자가 어떻게 직접 나서요.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000285.wav|따라서 우리 사회는 방향감각을 잃은 채 집단이기주의에 따라 이리 쏠리고 저리 밀리면서 거대한 사술로부터 못 헤어나고 있는 것이다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003628.wav|꼭 융프라우를 오르지 않더라고 인터라켄이라는 마을 자체를 거니는 것도 큰 매력이다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000829.wav|이제 떠난다고 하면 틀림없이 석굴암에서는 그녀를 만날 수 있으리라고 생각하자 한결 마음이 가벼웠다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000341.wav|그래 웬만한 건 못 본 체 하기로 했다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001230.wav|아 정말 이분이라는 짧으면서도 긴 시간동안 영상을 보며 너무 행복했습니다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002720.wav|딸이 다른 아이들에 비해 야무지지 못해서 걱정입니다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001878.wav|나는 당신이 그리웠습니다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002644.wav|길에서 우연히 초등학교때 선생님을 만났다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000470.wav|다만 기탁자가 누군지 그 돈이 어떤 돈인지 알게 되면 대단히 놀랄 것이라는 얘기를 들은 게 소득이라면 소득이었고 호기심은 더욱 커갔다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000877.wav|이씨와의 전화인터뷰를 통해 쿠웨이트에 남아 있는 교민들의 현황과 탈출경로등을 들어봤다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001223.wav|그는 세개 정파간의 융화를 위해 총무단회의 의원간담회를 정례화해 보겠다고 말했다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000563.wav|이래서야 국민들이 한시인들 마음놓고 살아갈 수 있겠는가.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001129.wav|김윤환 신임장관은 아주 능력이 있으니 잘할 것으로 생각한다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00002281.wav|다시 만날 수 있는 것만으로 너무 고마웠다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002423.wav|우리 아들은 착해서 엄마 말이라면 뭐든지 듣는다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00001234.wav|검찰은 또 노씨와 함께 마약을 상습투여해 온 여자모델 아홉 명과 예비역대장의 아들인 김수창씨 등 열 명을 같은 혐의로 수배했다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001653.wav|나는 감탄과 희열을 느끼며 그 소설을 읽어내려갔다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000361.wav|은행은 사기꾼도 아니요 무쪽 같이 곗돈 떼어 먹고 달아나는 악덕 계주도 아니다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001515.wav|사회적으로 이슈되는 이야기를 재밌게 풀어가면서 비판하는데굉장히 통쾌했다잉.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001368.wav|산재보험은 산업현장에서 재해를 당하는 근로자와 그 가족이 입게 될 경제적 손실을 보상하기 위한 사회보험이다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002037.wav|이번 추석연휴는 열흘이나 된다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001491.wav|노태우 대통령과 김대중 평민당총재가 칠 개월만의 회담에서 페르시아만전쟁에 초당적인 공동대처를 다짐한 것은 적절한 대응으로 보인다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002900.wav|오늘 시험은 그다지 어렵지 않았기 때문에 좋은 점수를 얻을 수 있을 것 같다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001937.wav|아이들은 모여서 여름방학동안 뭘 했는지 각자 신나게 떠들었다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001041.wav|많은 감사원직원들이 이번 이씨 구속사건으로 갈등을 겪고 있던데요.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000467.wav|그 과정에서 이십팔일 낮 이 할머니가 세운 장학회의 발기모임이 있었다는 사실과 학교측인사 세 명이 그 자리에 참석했다는 사실을 확인할 수 있었다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002288.wav|그와 나는 테니스 클럽의 회원이다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002560.wav|아내는 눈만 마주치면 잔소리를 늘어놓기 때문에 집에 들어가기가 싫다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001963.wav|혼자 밥을 먹고 있으려니 처량한 기분이 들었다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001719.wav|지구는 태양을 중심으로 도는 흑성이다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002268.wav|친구가 뒤에서 내 욕을 하고다니는 걸 알고 분개했다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001409.wav|근로자에게도 정치에 참여할 권리가 있으며 정치적 요구나 주장을 펼 권리는 있다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00001397.wav|그런데 한국경제는 다행히 이 유형들과는 다르다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00001638.wav|새로 산 드레스에 음료수를 흘려 얼룩이 졌다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002603.wav|그 아가씨 싹싹해서 내 며느리로 삼고 싶다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002628.wav|주번 학생은 나와서 칠판을 좀 닦으렴.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000999.wav|그분은 신념이 너무 강해 공정한 사회자는 못됐을 거요.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000160.wav|우리 외교도 앞으로 단순한 양국 관계보다는 다자간 이해가 얽히는 상황에 계속 직면할 것이니 만큼 근시안적인 대응보다는 중장기적 정책수립이 절실히 요구됩니다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002505.wav|그 소설가의 강연은 많은 사람들의 가슴을 뭉클하게 했다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001213.wav|어느 조직이나 후계자양성은 매우 중요한 과제입니다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00000545.wav|대부분의 국민이 늘 쓰는 말이고 글이니까 잘못이 없으려니 생각하지만 의외로 우리의 언어와 문자생활에는 문제가 많다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001506.wav|정부는 이에 대해 어떤 입장을 밝힐 것인가.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000934.wav|부동산투기는 어떤 일이 있더라도 뿌리뽑겠습니다 오 칠 특별담화는 국민들에 대한 약속이며 이 약속을 지키는 주체는 공직자들입니다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000015.wav|그래요 그거 참 재미있게 되었는데요.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000254.wav|여기에 일찍 눈을 돌린 이탈리아 정부는 팔십구년 정초부터 비닐로 만든 쇼핑봉지 한장당 약 오십원가량의 세금을 물렸더니 전년비 삼십사퍼센트나 줄었고 생활 협동조합에서만도 월평균 천 이십오만장 쓰던 것을 작년 월평균 백만장으로 감소시키고 있다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000394.wav|경기의 메인 스타디움이 피땀흘린 선수와 코치의 활동무대가 아닌 정치인들의 인기놀이터가 되지 않을까 우려되기조차 한다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001299.wav|이곳에서 목격되는 것은 미국이 니카라과에 가한 협박과 위기에 대한 엄청난 반응뿐이다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000322.wav|우리나라 최초의 양의로서 어의였던 알렌 박사도 그 고충을 겪고 있다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001769.wav|저 신호등은 고장이 났는지 계속 빨간불이다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001437.wav|거기다 선정 기업들의 대주주 일인 지분이 너무 높다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001148.wav|무슨 이유인지 자세히는 모르겠으나 회의불참의 진의와 겉으로 알려진 이유와는 차이가 있는 것으로 알고 있다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002264.wav|티비에 나온 살인자의 혐악한 얼굴을 보니 소름이 끼쳤다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000733.wav|상식적으로는 보조금을 사십오에서 오십퍼센트정도 줄이는 수준에서 타협될 가능성도 있다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000060.wav|총재구상이 구체화되면 못따라가겠다는 사람도 적지 않은 것 같은데요.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002442.wav|성공의 지름길은 넓은 인맥이다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00000222.wav|방금 하신 말씀은 한일관계에서 우리측에도 좀 더 자중자애하는 정신이 필요하다는 지적과 연관되는 것 같습니다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00002831.wav|겨우 그런 찰과상으로 입원까지 하다니 정말 엄살이 심하군요.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000721.wav|우리는 모든 인민들이 사회의 주인이 되는 사회를 창조했다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001676.wav|이 주변은 미군 기지가 많아서 미국인 거리로 불리운다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001722.wav|승패 여부에 상관없이 열심히 했기 때문에 후회는 안 한다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000728.wav|페르시아만 사태가 유알협상에 미치는 영향을 어떻게 분석하는가.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000242.wav|우리 한국사람 하고 싶으면서 하고 싶지 않다고 말한 경우가 얼마나 많으며 예스 노를 애매하게 한 경우 또한 비일비재하다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00000160.wav|우리 외교도 앞으로 단순한 양국 관계보다는 다자간 이해가 얽히는 상황에 계속 직면할 것이니 만큼 근시안적인 대응보다는 중장기적 정책수립이 절실히 요구됩니다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00002146.wav|나는 나와 마주 앉은 그를 매우 흥미있게 바라보고 또 바라보았다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000679.wav|자원이 있는데도 원자력을 하는 것이 아니잖는가.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00001989.wav|차가운 물에서 너무 오래 수영하면 입술이 새파래진다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003083.wav|학교 다닐 때 수학을 가장 못했고 제일 잘했던 과목은 국어였지요.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00002289.wav|자기 몸이 아니고서야 이렇게 사랑스러울 리 없다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000804.wav|이번 총회에서 유엔가입을 신청할 생각이라도 있는지.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001561.wav|꼭 사과해 주시기 바랍니다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001608.wav|오늘 점심은 새로 개업한 가게에 가서 먹었다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00002526.wav|나는 한밤중에 인기척에 놀라 잠에서 깼다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000635.wav|지난 팔십이년과 팔십육년에 이어 세 번째로 방한한 해크총장은 이미 건국대와의 자매결연 외에 십칠일에는 동아대와도 자매결연국내 다른 십여개 대학과 함께 한국연구소를 설치하고 있는 캘리포니아주립대 해럴드 해크총장이 지난 십사일 방한 국내 자매결연대학을 방문하는 등 분주한 일정을 보내고 있다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00002343.wav|나이는 열 일고여덟이고 그 얼굴 생김이 아름답다기보다 얼굴 전면에 나타난 표정이 놀랄 만큼 아름다웠다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000164.wav|북한이 이처럼 남한 적화가 가능하다는 희망을 갖고 있는 한 대화는 대남 혁명노선의 한 방편일 뿐입니다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000765.wav|음악회가 십이일부터 시작되므로 최소한 십일일까지는 도착할 예정입니다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003740.wav|내 눈엔 나의 님이 제일 멋있고 제일 잘 생겼고 제일 근사하다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00001370.wav|지력강화를 위한 대책은 땅에 유기물함량을 높이는 길밖에 없으며 이를 위한 정부의 장기대책과 함께 농민들의 배전의 노력이 뒤따라야 한다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00000204.wav|역사를 바라보는 시각이 크게 다르다고 들었습니다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001110.wav|올해 일련의 혁신적인 경제정책들이 마련된다고 하던데요.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002895.wav|앞으로 반세기도 지나지 않아 세계적인 연료 위기가 온다고 하니 두려운 일이다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002317.wav|등에 뭔가 기어가는 느낌이 들어 봤더니 바퀴벌레였다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001686.wav|나는 친구의 힘든 과거를 듣고 울지 않을 수 없었다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001310.wav|아직 구체적으로 정하지 않았다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002011.wav|만약에 로또에 당첨된다면 무엇을 하시겠어요.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00001003.wav|경북고를 나와 서울대 미 브라운대학원 컬럼비아 대학원 등에서 수학했으며 모교인 서울대 강단에 선 바도 있다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00002674.wav|내 관상은 못 속인다니까 노파가 일행 쪽을 돌아다보면서 의기양양하게 외쳤다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001941.wav|주부는 세상에서 가장 힘든 직업이다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001660.wav|현재 세계적으로 자녀를 적게 두는 것이 추세이다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00001220.wav|그분들이 무조건 극한투쟁으로 나가진 않을 것으로 확신합니다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00000228.wav|일본 회사와 거래가 있는 우리나라 회사서 업무 협의차 직원 한 명이 동경 출장을 가면 상대방 회사의 중역들이 공항까지 나와 정중하게 영접을 한다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000506.wav|도시와 더불어 내 집 또한 뒤로 뒤로 멀어져 가는 기분 또한 상쾌했다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001670.wav|단순히 우리가 바그다드 카페 를 사랑하는 이유는 이런 것 때문만은 아닐 거다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001710.wav|오일간이나 회의를 했지만 결론은 끝내 나지 않았다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002582.wav|니가 웬일로 청바지를 입었어.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00000002.wav|국회의원 당직자이기 전에 당원의식을 갖는 것이 중요하다고 생각합니다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001414.wav|그리고 무엇보다 즐거워보인달까.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001673.wav|누구에게도 지지 않을 정도로 강해지고 싶다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001989.wav|차가운 물에서 너무 오래 수영하면 입술이 새파래진다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002606.wav|동생이 생일 케익의 촛불을 후 하고 불어서 껐다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00000241.wav|우선 마음부터 싸놓고 산다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002364.wav|어머 저기 길에서 벌거벗고 있는 사람좀 봐요.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002767.wav|한국은 세계에서 유례를 보기 힘들 정도로 짧은 시간 안에 눈부신 경제 성장과 발전을 이루었다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002045.wav|학창시절 이후로는 일기를 써 본 적이 없다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000103.wav|나는 김영삼총재가 한 시대의 새 장을 여는 데 주역이 되려 결연히 합당에 뜻을 같이한 것은 아주 대단한 결단이라고 평가한다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002567.wav|압구정에서 우연히 고등학교때 선배와 마주쳤다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000444.wav|안 되겠다 싶었는지 음악이 멎고 아이들도 깔깔대며 무대 뒤로 사라졌다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001964.wav|건망증이 심해서 열쇠를 어디에 두었는지 자주 잊어버린다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00001953.wav|친구들이 내 생일날 깜짝파티를 해주었다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000711.wav|현재 합의각서 유출사실 외에는 이에 대한 민자당측의 어떤 결정도 나오지 않았다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001902.wav|그녀는 세 번 결혼하고 여덟 명의 아이를 낳았다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003068.wav|그리고 다른 한쪽에는 비교적 예능 출연의 경험이 적은 배우들이 둘러앉아 이야기꽃을 피웠습니다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002011.wav|만약에 로또에 당첨된다면 무엇을 하시겠어요.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001369.wav|이번 포스팅은 감동적인글입니다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000087.wav|새로 익히고 있는 증권업무도 전혀 낯선 일입니다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002202.wav|아빠의 구두를 닦아드리고 용돈을 받았다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001439.wav|따라서 노대통령은 조속히 개각을 단행해야 된다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002165.wav|할아버지가 들려주시는 옛날 이야기들은 언제나 재밌다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001962.wav|굳이 나에게 대입하는 게 아니라 그러는 이쁜이 모습을 생각하는 게 너무 설레.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001788.wav|로큰롤은 신나는 박자와 가사로 청소년들에게 특히 어필했다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002136.wav|백화점 일층에서 나는 화장품과 향수 냄새가 참 좋다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001699.wav|출발하기 전 선생님은 인원수를 체크했다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001279.wav|나는 노 대통령이 우리나라를 안정시키고 훌륭한 대통령으로 주어진 임기를 마치도록 긴밀하게 협조할 것이다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00001007.wav|기분이 그다지 좋지 않아 보입니다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001888.wav|터키의 카파도키아에는 기묘한 모양의 화산암들이 많이 있다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003552.wav|그럼에도 불구하고 자신의 마음을 알아주지 않는 봉선 때문에 속이 상한 재희는 술에 흠뻑 취한 채 봉선의 다리에 매달리며 주사연기와 취중고백으로 다시 한 번 귀여움을 발산했다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002941.wav|아버지의 수술 결과가 좋다고 해서 가족 모두 기뻐했다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001980.wav|그 일본인 아주머니는 욘사마의 열렬한 팬이다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00000715.wav|노태우 대통령에 대한 시국수습 제안이 수용되지 않을 때는 어떻게 대응할 것인가.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001341.wav|대기업에도 이런 의지를 강력히 전달 협조분위기가 형성되고 있다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001133.wav|그 이야기는 할 필요가 없다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000582.wav|공공요금도 그런 범주의 한 전형이다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003999.wav|우리네 이웃들의 이야기는 잊고 있었던 일상의 행복을 투박하고 단출하지만 받으면 마음 따뜻해지는 작은 선물이다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001893.wav|식사를 채식 위주로 바꿨더니 몸이 가벼워졌다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001092.wav|난국극복을 위해 총체적 개혁을 하겠다고 했는데 국회에서에 안기부법 국가보안법 개정에 관한 여당입장도 바뀌어 전향적이 될 수 있다는 뜻인가.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002735.wav|치한이 가장 많은 것은 아무래도 전철 안이다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000359.wav|우리 은행의 적금은 여러분의 가정에 행복을 안겨 드립니다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000890.wav|때는 시일이 촉박해 여유가 없었어요 남한단독 정부수립을 위한 오 십 총선거가 이십여일밖에 남지 않은 상황이었으니까요.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00002012.wav|어머니는 노래교실에 다니게 되면서 삶이 훨씬 활기차게 변한 것 같다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002351.wav|나는 주말내내 자면서 보냈다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002088.wav|너에게 꼭 하고 싶은 말이 있어.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000088.wav|오전 여덟 시에 출근해 동료직원들과 증권시황에 대한 정보교환으로 하루일을 시작한다는 배씨는 증권사의 영업업무에는 근면과 성실만이 비책인 것 같다면서 지금 보수는 옛직장의 절반밖에 안되지만 노련한 관리경력을 활용하겠다는 회사의 기대에 어긋나지 않게 열심히 뛰어 보겠다고 의욕을 보였다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000379.wav|그의 연인인 안토니우스가 루즈 칠한 입술에의 키스를 싫어했기 때문이라기도 하고 당시 루즈칠은 가희 무희나 하는 것으로 통념화되어 있었기 때문이라고도 한다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000318.wav|이런 의미에서 이 법조항은 현재 우리 형법에 규정된 유기죄와는 다른 것이다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001141.wav|십이일 서울에 온 하마모리 시장은 무척 바쁜 하루를 보냈다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002520.wav|월드컵 조 추첨에서 한국은 디조가 되었다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001789.wav|펑크록은 젊은이들의 절망과 반항적인 정신을 반영했다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000500.wav|러시아 문화는 그 깊은 뿌리에서부터 사유 재산에 대한 불신을 갖고 있다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001923.wav|날은 생각보다 추워서 좀 놀랐지만 그래도 좀 상쾌했 었 다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002423.wav|우리 아들은 착해서 엄마 말이라면 뭐든지 듣는다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001076.wav|이 노교수가 고향에 돌아가 그리운 혈육을 만날 날은 언제나 올 것인지.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002160.wav|사람마다 아픔을 견디는 방법이 다르다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000868.wav|물가 유가 수출 증시 등을 걱정하는 국민이 많다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003550.wav|주인공 수애와 김래원 느낌이 참 비슷하고 잘 어울려요.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002499.wav|에어컨을 켠 채로 자면 감기에 들기 쉬우니 조심하세요.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00002830.wav|태식이보다 몇 갑절이나 잘 사랑 하겠다고 뻐겼다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000249.wav|포장문화의 발달은 그로써 단가를 높이는 원흉이기도 하려니와 쓰레기 양산의 원흉이기도 하다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000023.wav|두 김총재간의 정계개편 논의에서 지역주의 문제에 관한 얘기는 없었나.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002626.wav|머리가 너무 길어 더워보이는데 좀 자르지 그래.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003559.wav|박용하를 사랑하는 사람들은 저 미소를 특히 사랑했다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002758.wav|나는 장동건의 사진을 이백장이나 가지고 있어요.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001544.wav|개그우먼 박지선 트위터 정말 웃겨.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000949.wav|우리 위원회는 매월 한 차례의 전체회의 외에 거의 매일 회의를 갖기 때문에 서로가 서로를 잘 이해하고 있습니다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000521.wav|즉 대학에서 기초과정을 사오년 밟고 전공과정도 그만큼 이수해야 승인 논문을 쓸 수 있는데 그것도 한 두학기 걸리며 제일차 시험을 치르는 데만 사 개월여 구두와 필답고사를 본다 그 시험에 낙방되면 단 한번의 재시험기회가 주어질 뿐이다. 거기에 합격된다고 해서 곧바로 교사가 되는 것도 아니다. 예비교사로서 이년간 근무하면서 세번의 적성심사를 받고 제이차 국가고시에 합격해야 비로소 정교사가 되는 것이다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000509.wav|드골 대통령이 소련을 방문했었을 때의 통역은 프랑스 외무부에 근무하는 러시아인이었다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001188.wav|김최고위원 일행이 사할린도 방문하게 되는가.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002371.wav|비틀즈는 천구백육십년대 최고의 전성기를 누렸다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000150.wav|페디르코회장은 소련이 이 같은 분야에 대한 한국의 참여를 바라는 것은 국내생산및 자본만으로는 도저히 수급을 충족시킬 수 없기 때문이라고 설명했다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00000843.wav|군인이 그런 자세를 취한다는 것은 큰 문제가 아닌가.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000121.wav|반갑다마다 죽은 사람을 만난 것 같더마.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003470.wav|오늘은 새로운 일주일이 시작하는 하루니까 기분좋게 시작해 보자구.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000658.wav|지난 일일 서울에 온 그는 브라질 외무관리 출신으로 지난 팔십사년 오에이에스 사무총장으로 선출돼 현재 두 번째 임기를 보내고 있다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002016.wav|전철에서 휴대폰으로 큰 소리로 통화하는 것은 매너가 아닙니다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00001155.wav|내 계획의 문제는 아니지 않는가.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001166.wav|독일과 다른 점은 한국의 경우엔 두 개의 강대국 나에겐 비교적 생소한 중국과 일본이라고 하는 두 개의 강대국 이 관련되어 있다는 점이다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001900.wav|명이나물 권참치 명이나물이 너무 그리웠습니다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000799.wav|역시 선생님은 멋진 목사님이에요 호호호호호.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001752.wav|별을 짝사랑하지 않던가.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000489.wav|여북해야 나보다 출세하고 돈도 더 잘 버는 친구들 사이에서도 기가 죽기는 커녕 자신을 군계일학처럼 느낄 적이 있는 걸요.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002590.wav|미국에 가려면 우선 비자를 취득해야 한다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000091.wav|쌍용투자증권이 정년 퇴직자를 대상으로 실시한 신입사원 공채에서 다른 열일곱명과 함께 채용돼 지난해 십이월 이십구일부터 서울 영동지점 상임고문으로 일하며 새 인생을 시작한 배경주씨는 회사측에서 고문이란 과분한 직책을 맡겼지만 수습사원으로 생각하고 있다고 말했다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001762.wav|그는 겸연쩍은 듯이 머리를 긁적였다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000871.wav|쿠웨이트시를 출발해 한시간쯤후 국경부근의 사막지대에 들어섰다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000341.wav|그래 웬만한 건 못 본 체 하기로 했다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002665.wav|가난하다고 해서 반드시 불행한 건 아니다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001618.wav|죄송하지만 월요일에 만나기로 한 약속을 금요일로 변경해도 될까요.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000707.wav|김염삼 민자당 대표도 사실상 내각제를 반대하고 있다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001307.wav|양쪽의 협상이 중요한 뜻을 갖는 이유도 바로 거기에 있다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001089.wav|그대가 소망을 버리고 이미 목표도 욕망도 없고 행복에 대해서도 말하지 않게 되었을 때에야 세상의 거친 파도는 그대 마음에 미치지 않고 그대의 마음은 비로소 휴식을 안다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00002026.wav|캠핑을 갔다가 모기에 잔뜩 물려서 돌아왔다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000923.wav|통합으로 어떤 변화가 예상되는가.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000201.wav|육십년대 미국에서 한국사를 연구할 때는 일본인 하다다씨가 쓴 영문역사책을 활용했습니다 물론 지금은 한국에서 출간된 영문한국사가 나와 있습니다. 그러나 한국을 알리고 설명하는 간행물과 서적은 더욱 늘어나야 합니다. 한국학자들도 국제화시대에 발맞춰 영문저술을 활발히 해 주었으면 합니다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000328.wav|맞벌이부부가 감수해야 하는 불편은 그러나 하나 둘이 아니어서 황씨부부는 설날연휴 귀성길에도 설움을 톡톡히 맛봤다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000463.wav|충남대에 오십억원의 재산을 기탁한 주인공이 칠십대의 할머니라는 사실은 뜻밖이었다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000973.wav|이걸 확대해서 투자를 하는 겁니다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000392.wav|아무 감상도 없었습니다마는 생각던이보다도 학생들은 얌전하더구만요 김강사는 약간 득의의 어조로 대답하였다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001087.wav|대권에만 욕심이 있었다면 삼당통합이 안됐을 것이다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001108.wav|금년 중 가격자유화 세제개혁 인플레억제책 기업지원 조치등이 나올 것입니다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002613.wav|책만 펴면 이상하게 하품이 난다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00001351.wav|해체라고 생각하지 않는다 새로운 사회주의를 찾는 것 진정한 사회주의를 갖는 것이라고 생각한다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001586.wav|이 빛깔이 얼마나 그리웠느지요.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000776.wav|최호중 장관과 셰바르드나제 장관은 안보리 소회의실에서 공동 코뮈니케에 서명한 뒤 회의실을 나서다 각국 기자들에 둘러싸여 질문공세를 받았다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00002084.wav|밭에서 곡식을 키우는 것도 좋지만 집을 짓는 것도 얼마나 보람있는 일이니.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00002170.wav|우리집의 통금시간은 밤 열한시로 정해져 있다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00001417.wav|이로써 우리는 지난 칠십삼년 사라예보에서 중국을 꺾고 우승을 차지한 이후 십팔년만에 여자단체전 우승을 안았다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001543.wav|나는 패션에 있어서 미니멀리즘을 선호한다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00000196.wav|우리는 한국학을 배우는 학생들에게 일년간 한국어를 집중적으로 강의합니다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000403.wav|지상의 토끼는 모두가 암컷들이요 유일하게 달 속에 사는 월토만이 수컷이다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001697.wav|뭐든지 많다고 좋은 것은 아니다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000168.wav|이번 한소 정상회담으로 한소 관계가 한층 더 진전됨에 따라 소련으로서는 남북한과의 관계에서 균형을 잡는 문제가 러나 소련은 그런 반발을 아주 무시한 것은 아니지만 거기에 구속받지 않고 대국으로서 자기 필요에 따라 정책을 추진해 왔지요 더욱 미묘해졌다고 하겠습니다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000263.wav|박씨 부부는 점차 자신을 잃어가고 있었다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002858.wav|무리한 부탁을 했더니 선배의 얼굴에 난처한 기색이 역력했다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00002683.wav|건강하고 감정이 섬세하지 않을 것 같은 목소리에 남궁 씨는 친화감을 느꼈다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000637.wav|한마디로 조세부담의 공평과 적정화라고 하겠습니다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001423.wav|지금 우리가 할 일은 강군의 죽음의 의미를 되새겨 그 죽음을 의롭게 하는 것이다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002459.wav|너무 무뚝뚝한 여자는 매력이 없다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003191.wav|공공기관 입찰에 유리한 가산점을 준다든가 세제 혜택을 주는 것도 좋은 방법이다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000001.wav|제이피는 삼공때 제철소를 시작할 당시 총리도 하고해 자연스럽게 자주 만났을 뿐입니다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001723.wav|어떻게 살아야 행복할 수 있을까 이 물음을 언젠가부터 갖고 있었는데 편견 하나를 깨 부수게 된 거다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001409.wav|아이와 함께하는 영어공부 정말 즐거워요.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001531.wav|그렇게 열심히 응원했는데도 불구하고 우리팀은 큰 점수차로 지고 말았다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001830.wav|그 학급의 칠십퍼센트가 흑인이다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00002605.wav|그는 나는 새도 떨어뜨리는 명수이다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002668.wav|이번 세미나의 테마는 무엇이었습니까.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002370.wav|여기는 그와 내가 가장 좋아하는 아지트이다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00001095.wav|사태는 서사장 개인의 권위와 임용의 문제로 국한되는 것은 아니다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00002351.wav|밝은 천지도 천지려니와 당신을 어서 눈뜨고 보고 싶어.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001702.wav|선로를 따라 걷다보니 큰 다리가 보였다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000406.wav|왕조시대인 조선에도 이미 국가의 어문정책 기구는 있었다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001474.wav|넉장의 이색적인 구속영장이 신청되었다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001745.wav|몸도 불편한 그가 금메달을 따다니 정말 감동스러웠다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00002279.wav|이 책은 너무 어려워서 이해하기가 힘들다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000809.wav|앞으로 대중국 관계개선에 모든 외교적 노력을 집중해야겠지요.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00001090.wav|외무부차원에서 내가 고르바초프대통령을 만난 이후 충분히 노력하고 있는 것으로 안다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003825.wav|네 방이 정말 깔끔하게 정리되었구나.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00004065.wav|꿈꾸는 삶이 아름답다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00000233.wav|노태우대통령이 기증한 것은 아직 칠점이다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001837.wav|이번 주 일요일은 우리 어머니의 예순번째 생신이다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002971.wav|나는 목이 너무 말라서 집에 도착하자마자 물을 벌컥벌컥 마셨다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001049.wav|설사 그런 압력이 있었더라도 받아들이지 않았을 것입니다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002274.wav|셰익스피어는 많은 희곡을 썼다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001799.wav|과학 기술의 발달과 함께 이십일세기의 의료는 많은 발전을 했다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000663.wav|아이구 우리 기표 친구들이구만.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000020.wav|발전단계에 따라서는 독재에 가까운 강력한 대통령제가 필요할 때도 있었겠지만 기본적으로 정당정치는 내각제다 이제 국민의사를 소화해내면서 정치를 하고 여러 복합적인 사회요인들에 대응하려면 이 제도밖에 없다고 본다. 통일에 대비해서도 그 같은 정치적 고도화가 필요하다고 본다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00002222.wav|네가 뿌린 향수 참 달콤하고 좋은 향이 나.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001243.wav|전노협을 결성해야 하는 당위성은 무엇인가.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001596.wav|오렌지 키위 바나나가 들어가 있었는데 딸기가 그리웠.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001300.wav|동유럽 사태와 니카라과 선거를 보면서 세계적으로 반마르크스주의가 번지고 있다는 주장도 있다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001591.wav|환경파괴를 하면서까지 공업화를 추진하는 것은 지양되어야 한다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000879.wav|제가 떠날 때까지 한국인들은 물리적 피해를 보지 않았다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001892.wav|탄산음료의 과다한 섭취는 비만으로 이어진다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001748.wav|부모님은 물론 선생님도 내가 대학에 진학하기를 바라고 있다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002890.wav|이십년만에 첫사랑과 재회하게 되어 너무나 기뻤다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002480.wav|공무원 시험 결과는 두달 후에나 나온다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002709.wav|선생님이라고 해서 세상의 모든 지식을 아는 것은 아니다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003141.wav|아이티 기술이 발전하면서 언젠가는 도래할 전자책 시대 또한 무제한 서비스를 택할 것이다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002575.wav|과거에 따돌림 당했던 기억은 다시는 떠올리고 싶지 않다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000693.wav|세계적으로 정치지도자들간의 많은 약속이 이십년 삼십년까지 또 무덤에 갈 때까지 비밀에 부쳐지는 것이 관례다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000694.wav|준병 총장에게 동정을 한다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00002181.wav|여자친구가 살찐 것 같냐고 물었을 때 절대 그렇다고 해서는 안됩니다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003980.wav|어머니는 내 어깨를 다독여주셨다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002769.wav|무시무시한 핵병기가 경쟁적으로 실험되고 있는 것에 대해 우려를 금할 수 없다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00001307.wav|양쪽의 협상이 중요한 뜻을 갖는 이유도 바로 거기에 있다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002011.wav|만약에 로또에 당첨된다면 무엇을 하시겠어요.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001598.wav|오늘 중요한 프레젠테이션이 있어서 아침부터 긴장이 된다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002313.wav|나는 서울대에 합격한 내 아들이 너무나 자랑스럽다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002641.wav|그 집은 요새 신혼이라 깨가 쏟아지는듯 하다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002589.wav|주식으로 큰 돈을 번 친구가 부럽다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001218.wav|프롤로프박사는 소련에서는 최근 이백 오십톤급의 화물항공기개발에 성공했으며 이는 우주선에 실을 갖가지의 화물을 운송할 수 있는 능력이라고 소개했다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00000210.wav|한국은 처음인데도 벌써 많은 한국사람이 소련을 다녀갔기 때문에 이리저리 연락할 데가 많았습니다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000807.wav|일본과 인도네시아가 주최하는 아시아지역 외무부장관 만찬회 등에서 자연스럽게 만날 수 있을 것입니다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002226.wav|나는 혼자 밥 먹는 걸 정말 싫어한다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001279.wav|나는 노 대통령이 우리나라를 안정시키고 훌륭한 대통령으로 주어진 임기를 마치도록 긴밀하게 협조할 것이다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000860.wav|그러나 재정규모가 확대되면 결국 물가에 영향을 미칠 수밖에 없지 않은가.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002233.wav|한국의 가을 하늘은 높고 청명하다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002259.wav|나는 아무리 큰 소리가 나도 잠에서 잘 깨지 않는다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001557.wav|논문을 다 완성하지 못해서 유원지에 놀러갈 수 없게 되었다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00001710.wav|오일간이나 회의를 했지만 결론은 끝내 나지 않았다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002536.wav|그는 음란물을 배포한 혐의로 체포되었다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000977.wav|박정현의 경우 노래를 부르면서 연기력이 무엇보다 뛰어납니다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001333.wav|그래도 조금은 사회에서 학교에서 필요한 인간이구나 조금 능력있는 인간이 된 거 같아 한없이 긍정적인 이 순간 나는 기뻤다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001511.wav|결혼기념일에 류빈이만 신나다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00001093.wav|내가 사원들로부터 신임을 받지 못해 위원장직을 수행할 수 없었기 때문이다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001622.wav|안젤라는 영국인인가요 미국인인가요.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00000952.wav|퀘네씨가 위원장으로 있는 이 위원회는 경제 및 사회 문제에 대해 정부에 조언을 해주는 정책자문기관.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000568.wav|국민은 사당체제하의 일부 정치적 표류 현상에도 우려를 표했지만 동시에 거대여당의 일방통행적 휩쓸기의 가능성 역시 달가워하지 않는다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00002786.wav|친구와 허심탄회하게 얘기하다보니 그동안의 오해가 다 풀렸다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00001747.wav|담배를 피우다니 학생이 해서는 안 될 행위다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003650.wav|아까 사뒀던 간식들을 먹으며 풍경을 보고 있으니 천국이 따로 없다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00000468.wav|그 결과 대전사는 비슷한 나이 또래의 이복순이란 이름이 여섯개나 나왔고 여섯명 모두 해당지번의 통장들에게 문의해 봤으나 그런 사람은 알지 못한다는 대답이었다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002637.wav|동남아는 일년 내내 덥다고 한다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001139.wav|일본 훗카이도 최북단에 위치한 왓카나이시는 지난 팔십삼년 구월 일일 발생했던 칼기 피격사건에 현장으로 세계매스컴에 부상했던 곳이다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00001437.wav|거기다 선정 기업들의 대주주 일 인 지분이 너무 높다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000817.wav|교감은 정말 어린애처럼 웃었다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001396.wav|물가불안 수출부진 속에 그런대로 성장은 제몫을 한다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001018.wav|개인적이란 얘기가 나왔으니 말인데 개인적으로 내각책임제 신봉자 아닙니까.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001564.wav|삼차 세계대전이 일어난다는 것은 생각만 해도 무서운 일이다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000269.wav|그러나 봉투 속에는 뜻밖에도 오십만원짜리 자기앞수표 한장과 함께 촛불바구니가 그려진 성탄절카드가 들어 있었다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001191.wav|소련단에 정부측 인사도 포함되는가.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002706.wav|노화를 멈추게 할 수 있는 것은 세상에 존재하지 않는다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002054.wav|사랑하는 마음도 시간이 지나면 변하는가 봐.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000880.wav|신옹은 그러나 최근 복잡한 국내정치상황도 간접적이나마 한 요인이 됐다고 보느냐는 질문에 대해서는 더 이상 묻지 말라는 듯 손을 내저으며 고개를 돌렸다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000680.wav|또 이 문제는 우리 공동체의 문제인만큼 스스로 해결해야 할 문제다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000206.wav|한국방문은 이번이 처음이지만 작년에 한국기업인들을 만난 적이 있어 생소하지는 않습니다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001717.wav|사랑과 행복은 차고 넘쳐도 되는 건가요.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001922.wav|그는 하루종일 걱정만 하는 한심한 인간이다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001197.wav|노총전체가 한식구 같이 화합적 분위기가 되도록 노력하겠다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001044.wav|그렇게 볼 수 있는 시각도 있을 것입니다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001753.wav|나는 불쌍한 사람을 보면 동정을 금치 못한다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000471.wav|익명의 기탁자가 누구인가를 확인하는 작업은 이 때문에 쉽지 않았다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001885.wav|판사는 그가 벌금을 내야 한다고 판결했다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00000417.wav|이렇게 볼 수 밖에 없는 어제 오늘이었다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000108.wav|선생님은 그렇게 인정 있는 좋은 분이었어요.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001263.wav|강제해직 철회 및 민주경향쟁취 투쟁위원회 위원장인 이성수 초대 노조위원장은 강제해직 조처의 부당성을 이렇게 강조했다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001147.wav|원인을 제공한 김영삼 최고위원회 청와대 회의불참도 문제가 있지 않은가.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000965.wav|우리당의 창당정신도 야권통합에 있으며 이 정신에 따라 창당을 추진해 왔습니다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00004083.wav|집을 잃은 꼬마와 아이들이 너무나도 좋아하는 귀여운 곰돌이가 주인공인 이야기입니다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003177.wav|그 이후 당연히 에쓰케이는 임훈에게 희생번트를 지시했고 임훈은 안전하게 희생번트를 잘 대주었다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002712.wav|그사람처럼 어떤 상황에서도 냉정함을 잃지 않는 침착한 사람이 되고 싶다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00000193.wav|연세대는 지난 팔십칠년 국내에서 최초로 지역학 연구과정을 개설해 한국학 전문인력을 양성해 오고 있습니다. 외국에서의 한국학을 보다 깊이 있게 다루기 위해서입니다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002861.wav|그 아이는 내가 안아올리자 울어제끼기 시작했다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001545.wav|나는 시나리오를 쓸 때면 라디오 헤드의 노래를 듣는다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002795.wav|불을 끄는 데에는 물 뿐만 아니라 모래도 도움이 된다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001900.wav|자동차를 덜 이용하면 에너지를 절약할뿐 아니라 대기 오염도 줄일 수 있다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001748.wav|부모님은 물론 선생님도 내가 대학에 진학하기를 바라고 있다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001506.wav|그녀 요새 신나다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002623.wav|나도 너처럼 과일을 예쁘게 깎았으면 좋겠는데.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000667.wav|소련의 산업분야에 적용하고 싶은 우리업체의 장점은 무엇이라고 보는가.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00002772.wav|대출하신 도서를 내일까지 반납해주세요.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000676.wav|동양전통의 우리 사회는 자연으로의 회귀를 강력히 요구하는 분위기가 있다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00000550.wav|방송에서 사용되는 말은 표준말이어야 하고 게다가 품위가 있어야 하며 알아듣기 쉽고 분명해야 하며 자연스러워야 한다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001849.wav|버스를 탔는데 운전사가 너무 과격하게 운전을 해서 무서웠다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002058.wav|과거의 기억을 선택해서 삭제할 수 있다면 얼마나 좋을까.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001761.wav|할아버지는 기분좋은 표정으로 소파에 앉아 있다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001052.wav|감사원 내부에도 자체감사 기능이 있습니다 여기에서 자체적으로 해결했어야 할 일이 외부로까지 연결돼 이제 정치 문제가 됐어요.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000715.wav|집이 차차 멀어갈수록 김첨지의 걸음에는 다시금 신이 나기 시작하였다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000577.wav|물론 이 같은 외국의 시각에는 정부의 잘못과 미숙의 탓이 크다 이점 새 정부는 깊은 연구와 노력이 필요하다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000613.wav|일본정부는 언필칭 북한의 고립을 막고 북한과의 대화의 창구를 확보함으로써 핵안전협정 서명을 유도하는 등 긴장완화에 도움을 줄 수 있다고 할지는 모른다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000089.wav|배씨는 처음엔 퇴직자를 대상으로 한 채용공고를 신문에서 보고 망설였지만 그대로 눌러앉았다가는 폐인이 될 것 같아 용기를 냈다며 그 때 입사원서 내기를 백번 잘했다고 말했다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002531.wav|부모님께 효도하지 않으면 돌아가시고나서 후회한다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000898.wav|케이앤씨씨가 남북대화에 적극적이었던 것은 칠십년대말부터입니다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001409.wav|근로자에게도 정치에 참여할 권리가 있으며 정치적 요구나 주장을 펼 권리는 있다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002975.wav|그녀는 아버지를 잃은 슬픔에서 헤어나오지 못하고 있다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003445.wav|완득이 는 주연 배우 김윤석 유아인 씨의 열연과 다양한 사회적 메시지들을 유쾌하게 풀어내며 최종병기 활 써니 에 이어 올해 개봉한 한국영화 중 삼번째로 흥행한 작품으로 등극했습니다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00001776.wav|내가 제일 좋아하는 명절은 설날이다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00004036.wav|그곳은 따뜻한 인정과 넉넉함이 묻어나는 공간이었다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000674.wav|빨리 내 나라 땅을 밟고 내 식으로 퍼지고 싶은 욕망은 우선 내 나라 비행기만 타도 반은 충족될 것 같았다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001220.wav|유치하다고 하는 사람들도 있었지만 나는 그 유치하고 풋풋한 아오리같은 느낌이 좋았고 훈훈한 야마삐의 얼굴을 보는 것 만으로도 충분히 행복했드랬다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002235.wav|이 과자는 불량식품이라 먹기 겁이 난다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002162.wav|병원에 가서 아픈 환자들을 보면 건강의 소중함을 느끼게 된다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000978.wav|모든 경제체제가 유동상태에 있으니까 누가 이렇게 저렇게 하라고 얘기할 사람이 없습니다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001894.wav|이 꽃의 이름은 우리 중 누구도 알지 못한다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001791.wav|나는 이런 장면이 나오길 바랬다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000379.wav|그의 연인인 안토니우스가 루즈 칠한 입술에의 키스를 싫어했기 때문이라기도 하고 당시 루즈칠은 가희 무희나 하는 것으로 통념화되어 있었기 때문이라고도 한다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00002003.wav|운동을 해야겠다고 생각을 하면서도 정작 실천에는 옮기지 못하고 있다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000073.wav|남남끼리이면서 가장 친한 두 손 대사업의 동업자끼리이기도 한 이 두 손 사이를 맥맥히 흐르는 그 무엇을 직접 내 손으로 맥짚어 보고 느끼고 오래 기억해 두고 싶었다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002755.wav|임금 인하에 대항하는 파업이 빈번해지고 있다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002793.wav|미혼자들은 결혼이라는 것에 큰 환상을 품고 있다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00002103.wav|나도 오늘 안으로 서울로 가리라는 결정을 나는 순식간에 내렸고 그러자 마음이 그렇게 편안해질 수가 없었다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002929.wav|기차건널목 앞에서는 일시정지를 해야 합니다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000839.wav|보람 있는 일이라면 도깨비하고 흥정해도 좋다고 뽐낸다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001027.wav|잘했든 못했든 간에 이처럼 물의를 일으켜 그 같은 보루가 무너져 버린 것 같아 안타깝기 그지 없습니다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000773.wav|고르바초프 대통령의 방한이나 노태우 대통령의 방소에 대한 계획이 있는가.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000422.wav|이인국 박사는 자기 변명을 합리화시키고 나면 가슴이 좀 후련해 왔다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00002791.wav|나는 살인범이라는 억울한 누명을 쓰고 감옥에 들어가게 되었다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002214.wav|그의 차가운 눈빛에 심장이 얼어붙을 것 같았다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002949.wav|다른 사람의 욕을 뒤에서 하는 모습은 굉장히 추해 보인다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001968.wav|나는 반짝이는 루비 목걸이에 도취되어 한동안 아무 생각도 나지 않았다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002531.wav|부모님께 효도하지 않으면 돌아가시고나서 후회한다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002893.wav|오늘이 마지막 승부라는 각오로 선수들은 기세 좋게 입장했다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000422.wav|솔직하게 말해서 그동안 김대중 총재는 너무나도 빈번하게 중대선언을 발표해 왔다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000956.wav|박찬종 조순형창당부위원장을 비롯한 몇몇 분들과 만나 남은 부총재를 선출하는 방향에 대해 논의할 것입니다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001127.wav|행복이란 대개 사람에게 불림을 받지 않고 찾아오는 것이며 멀리 하면 멀리 할수록 더욱 찾아드는 것이다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00000458.wav|공사 책임자들의 이 같은 안이한 발상이야말로 시민들의 과격행동을 낳은 근인인지도 모른다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000483.wav|예를들면 유가인상으로 원가부담이 과중할 때 경비는 절감하는 노력도 해야겠지만 그것보다는 부가가치를 더 높일 수 있는 제품과 기술을 개발하는 적극적인 자세가 훨씬 효과적인 위기관리인 셈이다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002311.wav|운전을 할 때는 항상 좌우를 잘 살펴야 한다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000612.wav|미국정부는 북한의 대미 관계정상화에 응하는 네가지 확립된 조건을 내세우고 있다네.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000729.wav|공개적으로는 모든 나라가 이 문제를 논의하기를 꺼린다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00001695.wav|솔로 생활을 오래하다 보니 외로워서 어찌할 바를 모르겠다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002418.wav|여행을 가거나 중요한 일이 있는 날이면 꼭 비가 와서 짜증난다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003345.wav|그리고 맛있는 음식을 가족과 함께 먹고 크리스마스 공연을 함께 즐긴다면 정말 뜻깊고 재밌는 성탄절이 되지 않을 까 싶습니다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00000668.wav|삼성전자에 와서 인상적인 것은 근로자들이 매우 열심히 일하고 있고 작업기술이 대단히 높다는 점이다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000660.wav|병원에서 지내는 동안 혈색이 더 좋아진 형우가 자신있게 말했다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001550.wav|그 돈으로 책 사고 배우고 싶어하는 걸 가르치리라 마음정하고 나니 마음이 편하다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000316.wav|법학을 하는 사람으로 나는 이 문제에 대하여 보다 근본적인 성찰이 있어야 된다고 생각하고 이른바 착한 사마리아인 법이라는 것을 곰곰이 생각해 보게 된다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000399.wav|한데 올해 중추를 기하여 진짜 달을 소유하게 됐다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001351.wav|누구보다 결혼을 하고파했던 그녀였기에 좋은 분을 만나 결혼하게 된 이날 누구보다 행복해보였고 저 또한 기뻤더랬습니당.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00001415.wav|여자단체전에서 지난 칠십오년 이후 팔연패를 기록하고 구연패를 시도하던 강적 중국과의 대전은 그야말로 치열한 백열전이었다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00002800.wav|나는 언젠가는 꼭 명숙을 만나리라고 하는 막연한 기대를 버릴 수가 없었다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003390.wav|구원자이신 주의 은혜가 베푸시는 이런 아름다운 기적의 삶을 오늘도 경험하소서.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000517.wav|선량들의 탐욕은 예산심의의 막바지 과정에서 여지 없이 드러났다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00002245.wav|산성비를 많이 맞으면 대머리가 될 수도 있어.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003255.wav|갓오브워처럼 마초적인 게임을 하며 술 여자 폭력 등 남자의 향기를 만끽하고 싶은 분들 그리고 과거의 향수를 지닌 이들에게 추천합니다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003363.wav|어제 오늘 트러블메이커 응원와주신 팬여러분 진심으로 고마워요.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00001810.wav|그녀는 연주회에서 대상을 받자 뛸 듯이 기뻐했다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001496.wav|심각한 국면이다 미 이라크 외무장관회담이 성공하리라는 기대는 당초부터 희박했다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002601.wav|영어 선생님은 숙제를 너무 많이 내줘서 학생들의 불만을 산다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002511.wav|여자의 마음은 갈대라서 수시로 변한다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001045.wav|그러나 감사원자체내의 내부절차를 그대로 밟았더라면 하는 아쉬움이 있습니다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001852.wav|저 백화점은 팔월 말에 오픈한다고 한다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000323.wav|처음에는 그 그림에 대하여 아무 불만도 느껴보지 않았다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00000943.wav|크게 보면 사회각계각층의 갈등과 위화감의 해소라고 봅니다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002559.wav|나는 일본 음식 중에 초밥이 가장 좋다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001964.wav|남의 자식들이 와도 그냥 맘이 설레요.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000199.wav|국내에 있는 학자들은 물론 세계 여러 나라에 산재한 한국학 전문가들의 연구결과를 서로 유기적으로 교환하고 의견을 나눈다면 한국학은 질적으로도 충분히 발전할 수 있으리라 생각됩니다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000684.wav|고도의 기술축적이 요구되는 상하수도 공사분야에 치중 기술개발을 계속해와 인정을 받은 결과일 뿐 특혜를 받은 일은 없다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001919.wav|이른 아침에 일어나 바깥공기를 마시는게 얼마나 상쾌한줄아세요.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000228.wav|일본 회사와 거래가 있는 우리나라 회사서 업무 협의차 직원 한 명이 동경 출장을 가면 상대방 회사의 중역들이 공항까지 나와 정중하게 영접을 한다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001946.wav|안씨는 홍화가 빚어내는 무한한 색채의 아름다움에 아직도 설레인다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002956.wav|십년이나 사귀었던 그녀와 헤어지는 것은 괴로운 일이었다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001338.wav|앞으로 전농을 어떻게 끌어갈 생각인가.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001449.wav|죽을 만큼 사랑했어요.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003925.wav|또한젖으로부터 영양과 안락 그리고 따뜻한 온기 접촉의 즐거움을 느낌으로써 만족을 한다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002152.wav|일본의 음식은 대체로 담백한 편이다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002051.wav|가질 수 없는 사랑일수록 간절하고 애틋하다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002961.wav|그녀는 어머니와 눈매가 꼭 닮았네요.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002240.wav|아버지는 실직 이후 어깨가 축 처져 있다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002099.wav|내 마음을 몰라주는 그가 너무 야속하다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001628.wav|모두 다 기뻐 노래 하고 기뻐 춤을 추어라.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000594.wav|전씨의 귀경 경호에는 강원도경 산하 경찰 삼백 오십명을 비롯 연인원 천여 명이 동원된다고.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002193.wav|도움을 준 그에게 고맙다는 말을 하지 못한 것이 후회되었다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002151.wav|이 주스는 무설탕이라 맛이 별로 없다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000551.wav|협의를 하지 않을 때는 하지 않을 만한 이유가 그들 나름대로 있는 것이다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000402.wav|금도끼 옥도끼를 들고 달에 가서 달 속에 있는 계수나무 꺾고 다듬어서 초가삼간을 짓는다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001612.wav|이 호텔은 수표를 받지 않기 때문에 미리 현금을 준비하지 않으면 안 된다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001274.wav|집권 실무 경험만으로 생각해서는 안될 것이다 경험 없는 사람도 섞여 조화를 이루어야 한다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001957.wav|최고의 공연 무대에 서게돼 가슴 설레요.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000045.wav|보고 있던 흙덩이가 나직이 강아지 똥아 하고 부릅니다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00001256.wav|시간이 갈수록 커질 것이며 팔십퍼센트 이상의 지지가 있으리라 믿는다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001059.wav|법처리는 최소화하도록 노력하고 내부처리는 사규 인사규칙 등에 따라 사안별로 처리될 것이다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002869.wav|한국과 북한의 생활 수준에는 엄청난 차이가 있다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002308.wav|너무 늦어서 이만 집에 돌아가 봐야 할 것 같아.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000601.wav|이튿날 아침 철한이는 안골 논에서 콧노래를 흥얼거리면서 바쁘게 낫을 휘둘렀다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002299.wav|이 접시는 뜨거우니 만지지 마세요.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000581.wav|이런 습성은 권위주의 시대의 잔재일지도 모른다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001807.wav|음악 경연대회 당일이 되자 그녀는 들뜬 한편 초조해졌다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002134.wav|쓰레기에서 고약한 냄새가 나서 코를 움켜쥐었다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000286.wav|요즘 꽤나 맑은 달이 중천에 떠 있는 것을 바라보면서 어느덧 짜릿한 겨울의 스산함을 느끼게 된다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003233.wav|때릴 수 있어 때리고 맞을 처지니 맞는 것뿐이었다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002247.wav|비가 오는 날은 기분이 괜히 우울해진다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000945.wav|노태우대통령은 이십팔일 육이구선언 삼주년을 맞아 청와대 출입기자들과 약 힌시간반 동안 오찬간담회를 갖고 최근의 국내외정세등에 관한 견해를 밝혔다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001525.wav|이 사진을 보고 기분이 매우 통쾌했다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002909.wav|친구가 보험에 가입하라고 끈질기게 권유를 해서 짜증난다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00001985.wav|금의 가격은 나날이 치솟고 있다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002217.wav|냄새나니까 나한테 가까이 오지 마.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00002718.wav|사내는 아이의 별스럽지 않은 질문이 몹시 대견한 모양이었다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000799.wav|북경에서 벌어지고 있는 일은 분명히 감동적이다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001450.wav|따라서 노대통령은 수서사건과 관련되어 구속된 기업인과 공무원의 수가 이 시점에서 상대적으로 적다는 점을 지나치게 의식해서는 안될 것이다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000110.wav|안경정은 이번 귀향작전에서는 단거리 고속도로 통행을 막고 교통량을 분산시키는 등 정체요인을 해소하는 데 가장 큰 역점을 두었다고 말했다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002314.wav|나는 배가 고플 때도 고기는 먹고 싶은 생각이 안 든다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000282.wav|바로 그 점에서 우리 교육은 큰 문제점을 안고 있는 것이고 오늘날 정신화폐에 따른 각종 사회악도 교육과 직결시켜 보아야 할 필연성이 있는 것이다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002012.wav|어머니는 노래교실에 다니게 되면서 삶이 훨씬 활기차게 변한 것 같다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000426.wav|지난 팔십삼년 오월에 손발이 묶인 김영삼씨가 마지막 항거의 수단으로 단식을 시작한지 이십여일이 지나도록 언론은 단 한마디도 이를 보도하지 못했다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001114.wav|노대통령과 만나자는 것이다 민자당은 아직 당으로서 체제를 갖추지 않았다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002472.wav|아버지는 무좀으로 평생을 고생하신다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001539.wav|암튼 굉장히 맘에 들어해서 뿌듯했숴영.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000301.wav|인도네시아의 숲이 황폐화되면 기상에 악영향을 준다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002252.wav|술은 좋은 점도 있지만 유익함보다는 해가 더 많다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001042.wav|감사원직원의 수준이 다른 부처공무원보다 높지 않으면 그런 흐름을 따라잡을 수가 없습니다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002049.wav|사랑에 대한 환상은 산산이 부서져 버렸어.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00002217.wav|그녀는 얼른 고개를 숙여 버린다 사랑스럽다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001220.wav|그분들이 무조건 극한투쟁으로 나가진 않을 것으로 확신합니다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00002798.wav|나는 나의 아버지가 만일 고아들을 위하여 도둑질을 하다가 감옥살이를 한 대도 나는 아버지를 사랑할 수 있을 것 같았다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00002502.wav|세상 참 좋아졌지 뭐냐 옛날 같으면 꼼짝없이 또 딸을 낳을뻔 했구나.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000894.wav|민간차원에서부터라도 통일의 물꼬를 터야 합니다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00001982.wav|수족관 안에는 예쁜 열대어들이 바쁜듯이 헤엄쳐다니고 있습니다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001427.wav|재벌기업들은 비주력기업의 경우 최소한 현재 수준의 돈은 계속 쓸 수 있고 주력 기업들은 앞으로 은행과의 협의에 따라 이론적으로는 무제한 대출이 가능하다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001496.wav|심각한 국면이다 미 이라크 외무장관회담이 성공하리라는 기대는 당초부터 희박했다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000154.wav|대학친구들이 장애자라는 점을 의식해 불편을 주지 않으려 조심하는 것이 오히려 부담이 됐을뿐 다른 어려움은 없었다는 오양은 대만 미술전과대학에 유학해 공부를 더 한 뒤 돌아와 교단에 서고싶다고 말했다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000210.wav|어쨌든 나는 사랑했어.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000260.wav|아파트를 돌며 현관문마다 초인종을 눌렸고 수표발행은행에도 찾아가 보았다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000756.wav|제발 언론에서 잘 되도록 미리 도와주십시오.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001775.wav|속편 영화는 전작의 기대치를 만족시키면서 새로운 관객까지 공략해야 한다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00002855.wav|나는 제법 홀가분한 기분으로 눈을 감고 잠을 청했다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002042.wav|톰 행크스는 포레스트 검프라는 영화에서 명연기를 펼쳤다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000346.wav|고양이는 맛 있는 음식들만 마음놓고 먹다보니 살이 투실투실 쪄갔다. 그러다보니 움직이는 게 귀찮아졌다. 쥐들이 이제는 감히 쥐구멍 바깥으로 나올 엄두도 내지 못했다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002239.wav|그녀 콧등의 주근깨마저도 내겐 사랑스럽다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00002627.wav|나의 힘없는 되물음에 순사는 킬킬거리며 웃는다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002748.wav|성수는 공부에 너무 몰두한 나머지 내가 말을 걸어도 알아차리지 못했다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00001767.wav|길이 막혀 할 수 없이 훨씬 먼 길로 돌아갔다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00002782.wav|어쩐지 자네가 주는 술이라면 마셔도 좋을 것 같애.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000202.wav|인류는 최근 독일의 실질적인 통일을 목격했습니다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002910.wav|밀레의 그림을 보고 있자 큰 감흥이 솟아났다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001519.wav|이 서류 회의가 시작되기 전까지 복사해 주겠니.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000943.wav|크게 보면 사회각계각층의 갈등과 위화감의 해소라고 봅니다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00002536.wav|그는 음란물을 배포한 혐의로 체포되었다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002444.wav|몇 번을 전화해도 그가 받지 않아 무슨일이 있는 게 아닌지 걱정이 된다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001508.wav|그러나 이 같은 국민정서 공감대의 건재에도 불구하고 일본의 대중문화내지 왜색종교는 어느새 우리 가까이 와 있는 것을 부정할 수 없다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00002679.wav|편지는 연변으로부터였고 한문을 섞어 쓴 한글은 유려한 달필이었다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002255.wav|과음한 다음날은 업무에 차질이 많다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002089.wav|항상 제 곁에 함께 해줘서 고마워요.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002303.wav|간발의 차로 경찰은 도둑을 놓치고 말았다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001886.wav|국제원자력기구는 북한이 즉시 핵시설을 시찰받아야 한다고 촉구했다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00001964.wav|건망증이 심해서 열쇠를 어디에 두었는지 자주 잊어버린다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000166.wav|명준은 수박 씨를 손바닥에 뱉으면서 웃어 보인다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002207.wav|잠을 자면 몸도 마음도 치유가 된다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00002319.wav|나는 속마음을 털어놓을만한 친구가 한 사람도 없다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001685.wav|내일 시합이 열릴 수 있을지 어떨지는 날씨에 달려 있다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002406.wav|아침잠이 많아서 엄마가 흔들어 깨워도 잘 일어나지 못한다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000885.wav|과거에 반통일세력이었다 할지라도 뉘우치고 이번 대회에 동참하기를 원한다면 좋은 것입니다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001727.wav|그 동안 많은 웃었고 감동했다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001568.wav|감독의 열의와 출연자의 노력이 어우러져 멋진 프로그램이 완성되었다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00001751.wav|돈이 없어 자식을 대학에 보낼 수 없었다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002857.wav|탕수육은 소스를 조절하는 것이 힘들어서 두번 만들어봤지만 모두 실패였다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00002348.wav|그는 키가 매우 커서 농구선수로 종종 오해받는다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00000112.wav|주요 간선도로에 쌓인 눈을 녹이는 데 쓰인 염화칼슘만도 예년의 연간소비량 칠백오십톤의 세배가 되는 이천이백오십톤을 썼습니다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000631.wav|우선 한국연구소의 처음 취지에 맞게 한국어강습을 강화해 나가다가 정식 교과과정에 한국어를 편입시킨 뒤 장기적으로 여건이 성숙되면 한국학과를 신설하겠습니다. 또 앞으로 한국대학생과 미국대학생을 교환 유학시키는 일도 추진할 생각입니다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000146.wav|우리나라가 누가 시키는 대로 할 만큼 그렇게 작은 나라가 아니다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00000872.wav|주쿠웨이트 한국대사관의 기능은 정상적인가.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002309.wav|나는 다이어트를 하기 위해 집에서 회사까지 걸어다닌다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00002727.wav|두부물이 가마에서 몹시 끓어 번질 때에 우유빛같은 두붓물 위에 버터빛같은 노란 기름이 엉기면 우리는 안심한다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000964.wav|야당세를 하나로 뭉쳐야 한다는 것은 시대적 요청이라고 생각합니다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000793.wav|북한이 전보다 개방적인 것은 틀림없다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002063.wav|얘들아 티비를 그렇게 오랫동안 보면 눈이 나빠진단다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001388.wav|다시 만나 이야기를 나누게 될 한소 정상회담의 의제가 따지고 보면 무겁기 때문이다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00001225.wav|노조는 또 오는 십오일 대의원대회에서 단체협약안을 확정한 뒤 곧 회사쪽과 단체교섭에 들어가기로 했다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000408.wav|따지고 보면 바로 그런 노력 때문에 지금 우리가 한글날을 기릴 수 있는 것이다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002835.wav|우리 애는 공부는 제쳐두고 놀기만 해서 걱정이다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000156.wav|그래서 뿌리를 잊기쉬운 중국 동포들의 민족혼을 일깨우기 위해 책보내기 운동을 펴고 있습니다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000451.wav|천사원의 이응무 사무국장은 그림한장 그리기 위해 밤을 새고 끼니까지 거른 채 작업에 열중하는 어린 원생들의 모습에서 인생을 다시 배운다고 말했다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000037.wav|앞으로 필요하다면 국가발전에 기여할 정당에 다시 들어갈 생각이 있으나 국회의원은 되지 못하면 들어갈 필요가 없다 또 나는 야당 체질이 아니다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001639.wav|나는 다른 사람들이 나를 어떻게 생각하는지 신경쓰지 않는다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000056.wav|황 교수는 따르면 백 사십여 명에 달하는 출제위원들이 처음 보름 동안 문제를 출제할 때는 호텔에 갇혀 생활하는 게 그런데로 견딜만 했으나 그 뒤 십여일 동안 아무 일도 하지 않으면서 시간을 때우느라 무척 애를 먹었다며 홀가분한 표정이었다. 이날 출제위원들은 자신이 맡은 과목의 고사가 시작되는 것과 동시에 그 동안 머물러 있었던 서울 캐피탈호텔에서 해방됐다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002804.wav|귀중품이 있으면 호텔 프론트에 맡겨 주세요.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002398.wav|그가 중간에 넘어지지만 않았더라면 달리기에서 일등을 했을텐데.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000674.wav|컴퓨터가 통신에 이용되면서 각종 대중매체들에 큰 변혁이 일어나고 있다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000863.wav|공공요금을 무리하게 묶어 두면 결국 나중에 추가인상 요인으로 나타나는 것 아닌가.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000998.wav|그간 음치임을 보여준 일박이일 에피소드도 몇번 있었지만 자기노래를 승기에게 지도받는 모습은 웃음은 나왔지만 가수이미지 걱정도 되더라죠.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000760.wav|여건이 그만큼 성숙되지 않았던 탓이겠지요.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002140.wav|빵 냄새를 맡으면 어쩐지 어린 시절이 떠오른다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003662.wav|장근석이 자신의 신작 영화 너는 펫 에 대해 높은 만족감을 표했다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00001324.wav|특히 중소기업을 중심으로 한국과 경제협력이 이뤄지길 기대한다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002967.wav|오로지 나의 계획에 따라 행동하고 결코 타협을 허용하지 않는 것이 나의 신조입니다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001316.wav|소련쪽과 모스크바를 떠날 때까지 비밀로 하기로 약속했다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001132.wav|전혀 가치를 느끼지 않는다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002928.wav|갑자기 아이가 뛰어나왔기 때문에 급브레이크를 밟았다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00000139.wav|세상은 변하는데 나는 죽어도 안변한다고 할 수 없다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003531.wav|입는 순간 순수한 소녀처럼 만들어 줄 오즈세컨의 화이트 컬러 아이템을 소개합니다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00002994.wav|앞문이건 뒷문이건 장애민중의 삶을 파탄 내는 정당에까지 장애계가 정당성을 부여해주고 장애인후보라며 정치권 줄서기를 하려던 총선연대의 모든 방향과 방침이 잘못된 것이고 또 실패한 것이다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000953.wav|매사에 합리적이지만 지나치게 앞뒤를 재기 때문에 결단력이 부족하고 기회주의적이란 지적을 받기도 한다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00001263.wav|강제해직 철회 및 민주경향쟁취 투쟁위원회 위원장인 이성수 초대 노조위원장은 강제해직 조처의 부당성을 이렇게 강조했다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00001219.wav|나는 과거 야당에서도 김영삼 김대중 이민우씨 등 이 지도부에 있는 집단지도체제 때 총무를 했는데 이번에도 공교롭게 집단지도 여당의 총무가 됐습니다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/neu/neu_00000876.wav|구체적인 논의와 준비는 십일부터 했다.|0|0
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000208.wav|그러나 거기서 멈춰서는 안될 것입니다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00000058.wav|주관식 문제의 경우 서술적 단답형의 문제가 차지하는 비율을 작년의 사십오퍼센트에서 오십오퍼센트로 늘린 대신 단구적 단답형의 비중을 줄여 주관식 출제의 의도를 살리도록 했으며 서술적 단답형의 비율을 계속 늘려가야 한다는 생각이라고 황 교수는 말했다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00001896.wav|담배를 못 피우니 집중이 안되고 머리가 흐릿하다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001326.wav|별명은 오학년 이래서 남편 출장가고나면 이렇게 홀가분할수가 없어요.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001496.wav|심각한 국면이다 미 이라크 외무장관회담이 성공하리라는 기대는 당초부터 희박했다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00000446.wav|한국의 경제학자도 어떻게 해서 올챙이가 작은 용이 될 수 있었는지를 밝혀낸다면 노벨상을 바라볼 수가 있다.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002076.wav|내 친구는 허구헌날 사랑타령만 해서 듣기가 지겹다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001753.wav|사랑도 짝사랑으로 끝낼 줄 알았는데 이번 사랑은 이루어졌네.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000094.wav|혁신정당의 출현을 돕기로 했다 국가경영에 대해서는 앞으로 삼인이 공동책임지기로 했고 이삼십대 신진인사의 육성에 힘쓰기로 했다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00002057.wav|내 컴퓨터는 십년 가까이 된 낡은 것이지만 어차피 간단한 문서작성만 하니 새 걸 살 필요는 못 느낀다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003854.wav|부모의 경황 없는 마음은 곧 자식에 대한 끝없는 사랑의 내비침이라 생각합니다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00000201.wav|마음이 푹 놓인다.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00003392.wav|그녀의 아름다운 마스크가 오늘 더 빛이 나네요.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00000887.wav|통일의 기운이 충만한 요즘 소원이 이루어질 것 같은 기대로 감격에 차 있습니다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/hap/hap_00001973.wav|비담이 설레는것보다 내가 백배는 설레어요.|0|3
+/data1/jinhan/KoreanEmotionSpeech/wav6/fea/fea_00001920.wav|내 짝궁이 나를 싫어하는 것 같아 속상하다.|0|5
+/data1/jinhan/KoreanEmotionSpeech/wav6/dis/dis_00001334.wav|우리도 명분 없는 극한투쟁은 원치 않고 산업평화를 갈망한다.|0|4
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00000082.wav|밖에서 보는 정도의 심도 있는 얘기까지는 아직 안가 있다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002819.wav|상혁이가 쓴 소설을 읽어봤는데 솔직히 그다지 재미가 없더라.|0|1
+/data1/jinhan/KoreanEmotionSpeech/wav6/ang/ang_00002785.wav|내가 미니스커트를 즐겨입는 것을 남자친구는 불만스러워 한다.|0|2
+/data1/jinhan/KoreanEmotionSpeech/wav6/sad/sad_00002523.wav|어제 옆 학교와 한 축구시합은 무승부로 끝났다.|0|1
