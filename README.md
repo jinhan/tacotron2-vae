@@ -1,4 +1,4 @@
-`# tacotron2-vae
+# tacotron2-vae
 
 ## Overview
 ![overview](./res/overview.png)
