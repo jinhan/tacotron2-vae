@@ -1,0 +1,449 @@
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_M/neu/psn1M_neu_s410_orgn.wav|that's it|1|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session5_F/sad/psn5F_sad_s324_orgn.wav|did you talk to him|8|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_F/neu/psn1F_neu_s395_orgn.wav|what do you mean|0|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_M/ang/psn3M_ang_s422_orgn.wav|you know what i'm just going to patient i'm a busy man|5|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_F/hap/psn3F_hap_s057_orgn.wav|++laughter++ oh joe i'm so happy|4|3
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_F/ang/psn1F_ang_s015_orgn.wav|they are away in tunis|0|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_F/neu/psn1F_neu_s289_orgn.wav|how was sick|0|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session5_F/neu/psn5F_neu_s360_orgn.wav|fair enough|8|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_M/hap/psn1M_hap_s031_orgn.wav|ann i love you i love you|1|3
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session5_F/neu/psn5F_neu_s059_orgn.wav|well your mother first of all pretty much told me to leave|8|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_M/hap/psn3M_hap_s311_orgn.wav|i i guess that's why i asked you to come|5|3
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session5_M/neu/psn5M_neu_s397_orgn.wav|so did you see much of peter burden after the divorce|9|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session5_F/neu/psn5F_neu_s460_orgn.wav|yeah i think it's really also if you if you consider yourself like us and them kind of thing if you think you're part of your community then you going to like it more|8|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session5_F/sad/psn5F_sad_s380_orgn.wav|dancing barefoot in the sand drinking champagne out of the bottle|8|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session4_M/sad/psn4M_sad_s258_orgn.wav|i know i just i don't know it's just weird because you have somebody who's you know|7|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_M/sad/psn1M_sad_s298_orgn.wav|no|1|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session4_M/neu/psn4M_neu_s211_orgn.wav|as a matter of fact the real cause of that row was peter burden|7|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_F/sad/psn3F_sad_s155_orgn.wav|i don't know i just don't|4|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_F/sad/psn3F_sad_s384_orgn.wav|well then tell me what's wrong i mean even in your letters there's something ashamed|4|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_F/ang/psn1F_ang_s266_orgn.wav|from father's point of view he is not dead and you have no right to take his girl i'm just saying that you can go on from there if you know where to go but i'm saying i don't know where to go see i don't know|0|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_F/ang/psn1F_ang_s200_orgn.wav|fine if you insist on being boorish and idiotic|0|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_F/sad/psn3F_sad_s348_orgn.wav|a whole year we're not talking about like a couple months here i mean this is a whole year|4|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_M/neu/psn3M_neu_s167_orgn.wav|yes on this i would|5|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_F/sad/psn3F_sad_s096_orgn.wav|yeah god i loved that kid|4|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session2_M/hap/psn2M_hap_s009_orgn.wav|yea that way she was guaranteed that she could not say no|3|3
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_F/sad/psn3F_sad_s211_orgn.wav|and and then i'll stop working and i'll stay home with the baby|4|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session5_M/ang/psn5M_ang_s281_orgn.wav|she is not larry's girl|9|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session2_F/neu/psn2F_neu_s256_orgn.wav|that's i mean there are more factors then just whether you're good or not you know what i mean like|2|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_M/neu/psn3M_neu_s348_orgn.wav|if you really want to do it i mean|5|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_M/neu/psn1M_neu_s198_orgn.wav|no i don't have a passport|1|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session4_F/ang/psn4F_ang_s298_orgn.wav|i ignore what i got to ignore the girl is larry's girl|6|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session4_M/neu/psn4M_neu_s332_orgn.wav|'cause you know i mean it's like if i ever want to go south of campus|7|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_F/ang/psn1F_ang_s422_orgn.wav|you're kidding me this is a joke|0|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_M/ang/psn3M_ang_s368_orgn.wav|you let him kiss you you said so what of it|5|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session2_M/neu/psn2M_neu_s391_orgn.wav|okay all right then we'll get it sent out there and|3|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_F/neu/psn3F_neu_s165_orgn.wav|it's going to get better i promise you you just got to hang in there everyone i mean you know|4|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_F/neu/psn3F_neu_s539_orgn.wav|well um we have a little problem with the system going on one of our satellites is down and i|4|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_M/hap/psn3M_hap_s312_orgn.wav|oh annie|5|3
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_M/hap/psn3M_hap_s291_orgn.wav|i couldn't i couldn't afford the red lobster ++laughter++ what anyway|5|3
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_F/sad/psn1F_sad_s285_orgn.wav|you've been taking care of it all|0|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session4_F/ang/psn4F_ang_s207_orgn.wav|why did he invite her here|6|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session5_F/neu/psn5F_neu_s373_orgn.wav|it's ridiculous|8|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session2_F/hap/psn2F_hap_s078_orgn.wav|yeah yeah i called them i called them and of course they were so excited'cause they love him like they always have um|2|3
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session2_M/hap/psn2M_hap_s012_orgn.wav|sure oh yes|3|3
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_M/hap/psn3M_hap_s297_orgn.wav|you're my guiding light then they put on that song the i've had the time of my life that song|5|3
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session4_M/neu/psn4M_neu_s145_orgn.wav|you know so i mean are you doing anything later or um|7|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_F/ang/psn3F_ang_s532_orgn.wav|sir sir sir sir|4|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_M/ang/psn1M_ang_s008_orgn.wav|i suppose you two had a riotous time huh no restrain at all very enjoyable he never had much any how|1|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session2_M/neu/psn2M_neu_s223_orgn.wav|as a matter of fact that's perfectly true|3|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session2_M/neu/psn2M_neu_s186_orgn.wav|okay yeah sure i see it now listen you wanna dance|3|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_M/hap/psn3M_hap_s318_orgn.wav|you felt something that far back|5|3
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session5_F/neu/psn5F_neu_s160_orgn.wav|all right|8|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_M/hap/psn1M_hap_s242_orgn.wav|do you want to take off your shoes|1|3
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session5_M/neu/psn5M_neu_s171_orgn.wav|absolutely|9|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session4_F/neu/psn4F_neu_s005_orgn.wav|why|6|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session2_F/sad/psn2F_sad_s244_orgn.wav|i mean and your money there's there's nothing wrong with your money i mean your father put hundreds of planes in the air a man should be paid for that|2|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_M/hap/psn1M_hap_s335_orgn.wav|oh|1|3
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session5_F/neu/psn5F_neu_s253_orgn.wav|i kwon it is ridiculous|8|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_M/ang/psn1M_ang_s003_orgn.wav|you know it's a pity you didn't have any more brandy it would have made you just a little less disagreeable|1|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session4_F/sad/psn4F_sad_s352_orgn.wav|it was about four years ago right after we got married we thought i was pregnant and we had a bottle of champagne but no glasses you asked me to dance so we took off our shoes and you popped the cork|6|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session5_F/ang/psn5F_ang_s084_orgn.wav|um it doesn't seem to have worked such wonders with you|8|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_F/ang/psn1F_ang_s210_orgn.wav|for god grow up augie the fish are not going to arrive|0|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_F/neu/psn3F_neu_s312_orgn.wav|is that a demand sir|4|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_M/hap/psn1M_hap_s473_orgn.wav|oh see i don't care what you do see you can paint yourself green and run naked through the place vendome and run off with all of the men of the world i shan't say a word just as long as you love me best|1|3
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_M/neu/psn1M_neu_s419_orgn.wav|uh huh|1|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_F/ang/psn1F_ang_s448_orgn.wav|what is going on here joe|0|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session5_F/neu/psn5F_neu_s074_orgn.wav|you knew there was nothing in that|8|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session4_F/ang/psn4F_ang_s266_orgn.wav|i don't even i mean you have to have some kind of an idea something you could possibly throw out there that i could maybe use|6|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session2_F/hap/psn2F_hap_s293_orgn.wav|it went on intermittently for days|2|3
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session2_M/neu/psn2M_neu_s294_orgn.wav|yes all right there you go now you can file a claim over to the left and they'll help you out|3|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session2_M/neu/psn2M_neu_s250_orgn.wav|um sorry|3|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session4_M/ang/psn4M_ang_s011_orgn.wav|the business the business doesn't inspire me|7|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session4_M/ang/psn4M_ang_s058_orgn.wav|very good idea i will|7|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session5_F/neu/psn5F_neu_s166_orgn.wav|uh yeah looks no no it's set to zeros|8|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_M/sad/psn1M_sad_s319_orgn.wav|like i can't it's like you know it's like pinch me it's like i can't believe like i'm dealing with this you know|1|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session2_M/hap/psn2M_hap_s010_orgn.wav|oh yes they they you know they love her and so i mean|3|3
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session2_M/neu/psn2M_neu_s170_orgn.wav|i didn't hit you very hard|3|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session2_M/sad/psn2M_sad_s418_orgn.wav|i want you to you know take lots of video pictures and i can see you when i get back or while i'm there i'm going to miss you|3|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_M/ang/psn3M_ang_s366_orgn.wav|you went out of your way to torture me over peter burden|5|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_F/sad/psn1F_sad_s146_orgn.wav|i don't even know what to tell you|0|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session5_F/sad/psn5F_sad_s295_orgn.wav|that's really hard to hear|8|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_M/sad/psn3M_sad_s332_orgn.wav|for instance one time it had to have been raining several days there was this one kid he came up to me and he gave me his last pair of dry socks put them in my pocket|5|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_M/neu/psn3M_neu_s114_orgn.wav|i think that's kind of stupid that you put a hundred thousands of dollars in the bag|5|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_F/ang/psn3F_ang_s518_orgn.wav|and what are you going to do about it you going to call someone you going to send me somewhere else|4|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_F/neu/psn3F_neu_s450_orgn.wav|what i can do for you is uh we can uh report lost lost property|4|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_F/sad/psn3F_sad_s209_orgn.wav|i will come back|4|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session4_F/ang/psn4F_ang_s271_orgn.wav|i'm really good at what i do i'm smart i'm trained i have the education i'm talented i cannot|6|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_M/hap/psn3M_hap_s398_orgn.wav|i love you|5|3
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session2_F/neu/psn2F_neu_s257_orgn.wav|and the fact that you know there is always different types of things and what kind of people they want in the office and whether it's male or female or you know what i mean like things are out of your control|2|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_F/ang/psn1F_ang_s366_orgn.wav|i feel like my whole life is going to be spent here on the beach with my eyes wide open and my hands clasped expectantly waiting for fish to show up and the fish never show|0|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_F/neu/psn1F_neu_s399_orgn.wav|i don't know just sometimes you get kind of no i'm not saying that i just|0|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session5_M/sad/psn5M_sad_s026_orgn.wav|it's so mixed up with so many other things|9|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session4_F/ang/psn4F_ang_s170_orgn.wav|not very funny dear you'd better have some more brandy|6|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session4_M/sad/psn4M_sad_s024_orgn.wav|you know it's inevitable and i mean honestly it's it's almost like|7|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session4_M/ang/psn4M_ang_s218_orgn.wav|i knew nothing of the sort you took presents from him|7|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session4_F/hap/psn4F_hap_s038_orgn.wav|++laughter++ you're probably right he probably would be pissed if we were all sitting around being upset about it he'd want us to have a party|6|3
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session4_F/sad/psn4F_sad_s353_orgn.wav|dancing barefoot in the sand drinking champagne from the bottle|6|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session5_M/neu/psn5M_neu_s041_orgn.wav|i'll have a little i think|9|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session4_M/sad/psn4M_sad_s376_orgn.wav|these years when i think of someone for my wife i think of annie what do you want a diagram|7|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_F/ang/psn3F_ang_s530_orgn.wav|you're the manager you don't know where you work for you don't know where you're at and you're the manager|4|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session5_F/sad/psn5F_sad_s176_orgn.wav|++breathing++|8|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_M/hap/psn3M_hap_s305_orgn.wav|oh that's great my mom said we can move in with her again if we run out of money|5|3
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session4_M/ang/psn4M_ang_s067_orgn.wav|no you're not|7|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_M/neu/psn3M_neu_s350_orgn.wav|you could you could we just|5|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session5_M/neu/psn5M_neu_s272_orgn.wav|oh i didn't hit you very hard|9|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_M/ang/psn1M_ang_s278_orgn.wav|see then it's not just my business sometimes you infuriate me you know that you know it's just your business too if i tell father and he throws a fit about it huh|1|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session4_M/neu/psn4M_neu_s137_orgn.wav|what i can do for you is give you a hundred( dollars right now and fill out complaint form|7|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_F/ang/psn1F_ang_s008_orgn.wav|oh mind you own business|0|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session2_F/sad/psn2F_sad_s114_orgn.wav|you're the one who probably wishes he was with someone else someone who knew how to enjoy herself and didn't take everything so hard|2|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session2_M/neu/psn2M_neu_s407_orgn.wav|well so what do you think|3|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session2_F/sad/psn2F_sad_s119_orgn.wav|i feel so worthless|2|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_F/neu/psn1F_neu_s121_orgn.wav|and your future|0|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session5_F/sad/psn5F_sad_s045_orgn.wav|no i figured it was best to leave him alone|8|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_F/neu/psn1F_neu_s207_orgn.wav|that's the wind|0|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session5_M/sad/psn5M_sad_s384_orgn.wav|you know why i asked annie here don't you|9|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session5_F/neu/psn5F_neu_s159_orgn.wav|uh huh|8|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_F/hap/psn3F_hap_s362_orgn.wav|you had the mouse|4|3
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session4_F/ang/psn4F_ang_s250_orgn.wav|well i'll come back what is that supposed to mean you're not willing to wait for me to come back|6|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session4_F/neu/psn4F_neu_s117_orgn.wav|++laughter++|6|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session2_M/ang/psn2M_ang_s366_orgn.wav|what have i got to hide what the hell is the matter with you kate|3|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_F/neu/psn1F_neu_s127_orgn.wav|what was that|0|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_F/neu/psn1F_neu_s132_orgn.wav|that's not no|0|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session5_F/neu/psn5F_neu_s248_orgn.wav|what flashlight|8|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_F/sad/psn3F_sad_s079_orgn.wav|kind of a whole year i mean he suffered with this this monster this thing this disease|4|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session2_M/neu/psn2M_neu_s284_orgn.wav|right well by checking in your bags you agreed to you know at the will of the|3|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session5_F/sad/psn5F_sad_s384_orgn.wav|no|8|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session4_M/hap/psn4M_hap_s079_orgn.wav|i kissed annie how long how long i've been waiting to kiss you|7|3
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session5_M/neu/psn5M_neu_s080_orgn.wav|well it's like any kind of insurance you don't when you get it then you get more you know like if you|9|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session5_M/sad/psn5M_sad_s296_orgn.wav|i'll need it|9|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_M/hap/psn1M_hap_s330_orgn.wav|ahh who knows|1|3
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_M/sad/psn3M_sad_s282_orgn.wav|they want me there two years but i could probably get|5|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session2_F/neu/psn2F_neu_s381_orgn.wav|well it's it's just sort of help with the fact uh that you lost some of your possessions and we rather do that than|2|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session5_M/neu/psn5M_neu_s137_orgn.wav|okay can you tell me what that says|9|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_F/neu/psn1F_neu_s051_orgn.wav|i umm i guess i guess that's kind of why i came|0|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_F/neu/psn3F_neu_s265_orgn.wav|it's become a habit with you|4|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_F/neu/psn1F_neu_s252_orgn.wav|and your mother is close by|0|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_F/sad/psn3F_sad_s341_orgn.wav|do this whole thing by myself|4|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_M/hap/psn1M_hap_s258_orgn.wav|that's how you get the big bucks are you messing with the chair don't ruin it|1|3
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_F/ang/psn3F_ang_s412_orgn.wav|you've always had a weak head|4|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session2_M/neu/psn2M_neu_s049_orgn.wav|but look at the he look at the life he did get to lead i mean for his age he'd done so much and|3|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session2_F/sad/psn2F_sad_s035_orgn.wav|i don't think so|2|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_M/neu/psn3M_neu_s176_orgn.wav|you want this to be like the other time right that's it right|5|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session4_M/neu/psn4M_neu_s250_orgn.wav|greens and blues and maybe a little light yellow|7|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session5_M/hap/psn5M_hap_s333_orgn.wav|exactly laugh|9|3
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session2_F/sad/psn2F_sad_s036_orgn.wav|well we can do the best we can and and with um you know like wireless internet these days i think that we could talk every once in awhile|2|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session2_F/hap/psn2F_hap_s115_orgn.wav|well i guess we don't need glasses|2|3
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_F/ang/psn3F_ang_s230_orgn.wav|you're just going to leave the business you have a business here you can't do that|4|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session4_F/ang/psn4F_ang_s167_orgn.wav|you always had a weak head|6|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session2_M/sad/psn2M_sad_s299_orgn.wav|well i lost them|3|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session2_M/ang/psn2M_ang_s076_orgn.wav|shut up shut up|3|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_M/ang/psn3M_ang_s123_orgn.wav|look at you you're shaking|5|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_M/ang/psn1M_ang_s407_orgn.wav|what|1|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_M/ang/psn1M_ang_s216_orgn.wav|nonsense they have a bag of venom behind their fangs and they snap they snap|1|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session5_F/neu/psn5F_neu_s362_orgn.wav|well not off the top of head it will just take you know take a minute but do you have any like special skills|8|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session4_M/neu/psn4M_neu_s341_orgn.wav|you know you need to just you need i mean it takes time to get a good job i mean|7|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_F/ang/psn1F_ang_s185_orgn.wav|oh it's a woman's duty to allure the man|0|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session2_M/sad/psn2M_sad_s108_orgn.wav|then i came back and it was incredible there was no meaning in it here the whole thing to them seemed like sort of a bus accident i went to work with dad and that rat race again|3|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_M/neu/psn3M_neu_s211_orgn.wav|this is no time of the year for tunis|5|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session5_F/ang/psn5F_ang_s099_orgn.wav|i i hate you|8|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_F/neu/psn3F_neu_s043_orgn.wav|yeah i can see that|4|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session5_F/neu/psn5F_neu_s340_orgn.wav|right|8|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_F/ang/psn3F_ang_s398_orgn.wav|presents a trivial little broach|4|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_M/sad/psn1M_sad_s291_orgn.wav|you didn't even hear|1|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_M/neu/psn1M_neu_s135_orgn.wav|yeah but this this moment on the beach is like the highlight of their little lives all that flopping around is laying eggs or what to do spawning or mating or whatever|1|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_F/sad/psn3F_sad_s443_orgn.wav|that includes me too i mean and the money you have right to that money your father put planes up in the air good planes and he deserves it you should be proud of that a man should be paid for that|4|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session4_M/neu/psn4M_neu_s215_orgn.wav|right|7|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_F/ang/psn1F_ang_s174_orgn.wav|maybe you never been to the d m v before maybe you should get back in line you know what sit in line again and if you get my number ask for different one|0|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_M/ang/psn1M_ang_s465_orgn.wav|what have i got to hide what the hell is the matter with you kate|1|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session4_F/hap/psn4F_hap_s084_orgn.wav|i'll never forgive you why did you wait all these years all i've done is sit and wonder if i was crazy for thinking of you|6|3
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session5_M/sad/psn5M_sad_s317_orgn.wav|he was a designer you know but he did everything you know he painted and he and he did costume design he did set design he did lighting he was|9|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session4_M/sad/psn4M_sad_s019_orgn.wav|hey i'm uh i'm really sorry about what happened i don't um i mean what you can you do i mean it's|7|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_F/sad/psn1F_sad_s254_orgn.wav|and i want lots and lots and lots of pictures|0|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session4_F/neu/psn4F_neu_s025_orgn.wav|okay this is the wrong form i'm sorry|6|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session2_F/hap/psn2F_hap_s077_orgn.wav|and um my parents want to like be part of it and help out and everything so we want to give it lots of time to like|2|3
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session2_M/ang/psn2M_ang_s261_orgn.wav|see it isn't just my business|3|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_M/neu/psn3M_neu_s162_orgn.wav|but if i can't have that here i'll get out|5|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session4_M/neu/psn4M_neu_s399_orgn.wav|it's not champagne|7|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_M/neu/psn1M_neu_s441_orgn.wav|if you want you can write a letter i can give you the address yes an angry|1|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_F/neu/psn1F_neu_s351_orgn.wav|yeah|0|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session2_F/neu/psn2F_neu_s057_orgn.wav|just seems so silly to go on and on and on with such a thing|2|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session4_M/neu/psn4M_neu_s359_orgn.wav|he saw it|7|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session5_F/ang/psn5F_ang_s290_orgn.wav|i still can't live on in six seven and five it's not possible in los angeles housing is too expensive|8|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session4_F/neu/psn4F_neu_s230_orgn.wav|uh okay i first of all i'm very sorry you lost your bag|6|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_M/ang/psn1M_ang_s004_orgn.wav|you know what you snap you snap you snap you're like a little adder|1|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_F/sad/psn3F_sad_s388_orgn.wav|how many|4|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session5_M/neu/psn5M_neu_s168_orgn.wav|yeah|9|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_F/ang/psn1F_ang_s428_orgn.wav|oh oh it's a gift you're you're helping me out here|0|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_F/sad/psn1F_sad_s220_orgn.wav|i know you are augie i know|0|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_M/ang/psn3M_ang_s127_orgn.wav|i can't no i can't do this alone|5|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session5_F/neu/psn5F_neu_s105_orgn.wav|hi um i think my baggage was lost and i need to i guess file a claim or i don't know what|8|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_M/neu/psn1M_neu_s175_orgn.wav|you've been looking for a job for a long time that was a long time ago right|1|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_M/sad/psn3M_sad_s135_orgn.wav|it doesn't look very good|5|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session5_F/ang/psn5F_ang_s498_orgn.wav|right well last time they told me it was this line and obviously it's not true|8|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session2_F/sad/psn2F_sad_s019_orgn.wav|it seemed like he had a little bit longer like just last week he was doing was so well|2|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_M/neu/psn3M_neu_s197_orgn.wav|i'll have a little i think|5|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_M/hap/psn1M_hap_s413_orgn.wav|uh huh|1|3
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session5_F/hap/psn5F_hap_s396_orgn.wav|or not|8|3
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session5_F/hap/psn5F_hap_s437_orgn.wav|oh|8|3
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session2_M/neu/psn2M_neu_s152_orgn.wav|hello hello what wrong number|3|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session2_F/neu/psn2F_neu_s315_orgn.wav|okay great four seats i'll book you for four seats|2|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_F/sad/psn1F_sad_s086_orgn.wav|and i you know i mean i said i was sorry and i brought it back to her kind of and i like put it on the ground and she was like no it's fine she was like i would rather have her back honestly|0|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session5_M/neu/psn5M_neu_s261_orgn.wav|like what's your ideal job what do you want to do|9|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_F/hap/psn3F_hap_s382_orgn.wav|like larry's brother do it like you chris|4|3
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_F/sad/psn3F_sad_s078_orgn.wav|his poor parents you know it's their only son|4|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_M/ang/psn3M_ang_s382_orgn.wav|oh what an interesting( topic what about a child of four and a child of six a child of nine|5|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_M/sad/psn3M_sad_s063_orgn.wav|i didn't know him tricia but uh i heard that he was a great man|5|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session2_F/ang/psn2F_ang_s230_orgn.wav|because you don't seem to care very much you know|2|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_M/neu/psn3M_neu_s174_orgn.wav|it was in the car right driving past the knickerbocker liquor locker|5|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_M/hap/psn1M_hap_s025_orgn.wav|yeah that kind of went out of style didn't it|1|3
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_F/sad/psn3F_sad_s394_orgn.wav|it's not funny i just don't know what i'm going to do|4|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session5_M/sad/psn5M_sad_s374_orgn.wav|he was out here when it broke|9|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session5_M/neu/psn5M_neu_s067_orgn.wav|okay and what is that what kind of bag is it|9|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_F/ang/psn3F_ang_s286_orgn.wav|that you better be sorry|4|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session5_F/neu/psn5F_neu_s078_orgn.wav|and what of it|8|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_F/sad/psn1F_sad_s251_orgn.wav|we've got friends that's why we moved here huh because there is a day care down the street|0|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_F/ang/psn1F_ang_s166_orgn.wav|my window is open|0|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_M/sad/psn3M_sad_s141_orgn.wav|he saw it|5|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session5_F/sad/psn5F_sad_s151_orgn.wav|okay|8|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session2_F/neu/psn2F_neu_s128_orgn.wav|well how long will it last us this ludicrous overbearing love of ours|2|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session5_M/hap/psn5M_hap_s354_orgn.wav|yeah and she said yes and she cried of course|9|3
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session5_M/ang/psn5M_ang_s280_orgn.wav|isn't it your business too if dad if i tell dad and he throws a fit about it i mean you have such a talent for ignoring things|9|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_M/neu/psn1M_neu_s204_orgn.wav|however i believe the real cause of that row was peter burden|1|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_F/ang/psn1F_ang_s211_orgn.wav|because they never do have they have they ever|0|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session5_F/neu/psn5F_neu_s368_orgn.wav|that's rough i'm really sorry ryan|8|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session2_F/ang/psn2F_ang_s073_orgn.wav|oh yes i am|2|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session2_F/sad/psn2F_sad_s264_orgn.wav|what was he doing out here at that hour|2|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session4_F/neu/psn4F_neu_s111_orgn.wav|i mean i'm not saying that you should you know|6|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session4_F/ang/psn4F_ang_s051_orgn.wav|oh no it isn't|6|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session5_F/neu/psn5F_neu_s164_orgn.wav|uh it it's like a bunch of different letter and numbers and stuff|8|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session2_F/hap/psn2F_hap_s197_orgn.wav|oh totally totally|2|3
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session2_F/ang/psn2F_ang_s072_orgn.wav|this is the end finally and forever do you hear me the end|2|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session2_M/hap/psn2M_hap_s197_orgn.wav|i don't know it seemed like a pretty good spot to me i mean look at the view you have of the moon from here|3|3
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session4_M/ang/psn4M_ang_s064_orgn.wav|you're a vile tempered loosed living|7|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_F/ang/psn1F_ang_s023_orgn.wav|oh yes i am oh yes i am let go of me you let go you urgh you're a cruel friend i loathe and i hate you marry you again ha never never never never i hope you die in torment you beast|0|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session4_F/sad/psn4F_sad_s200_orgn.wav|when's the service can can we help is there anything i mean|6|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session4_F/ang/psn4F_ang_s212_orgn.wav|it's got that about it|6|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_F/sad/psn3F_sad_s330_orgn.wav|i'm so sorry|4|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_M/hap/psn1M_hap_s331_orgn.wav|before your body rots and worms pop out of your eye sockets|1|3
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_F/neu/psn3F_neu_s506_orgn.wav|i am the manager sir|4|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_F/sad/psn3F_sad_s071_orgn.wav|turned around for the worst you know|4|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_M/sad/psn1M_sad_s055_orgn.wav|i want you to know annie|1|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session4_F/ang/psn4F_ang_s351_orgn.wav|i did want to see it i always do i keep thinking this time will be the time but it never is|6|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session4_F/ang/psn4F_ang_s063_orgn.wav|why|6|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session4_F/sad/psn4F_sad_s036_orgn.wav|it just doesn't seem fair|6|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session5_M/ang/psn5M_ang_s270_orgn.wav|i'm not getting a well you wait in this line and not get an attitude|9|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_M/neu/psn1M_neu_s181_orgn.wav|no you can or you can just bring it in person but they need generally something to see you know what kind of what that you've done what kind of|1|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_M/ang/psn3M_ang_s164_orgn.wav|i've been a good son too long a good sucker and i'm through with it|5|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session2_F/hap/psn2F_hap_s286_orgn.wav|now and always sweet|2|3
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_F/ang/psn1F_ang_s192_orgn.wav|you've always had a weak head|0|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session5_F/hap/psn5F_hap_s217_orgn.wav|what would i do with a fortune|8|3
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_M/sad/psn1M_sad_s312_orgn.wav|a lot of people loved him|1|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_M/sad/psn1M_sad_s288_orgn.wav|no you don't i'm a pretty tough guy|1|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_F/sad/psn3F_sad_s068_orgn.wav|it's weird'cause it's like you expected it to happen and eventually|4|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session2_F/ang/psn2F_ang_s220_orgn.wav|what the hell is this are you crazy|2|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_F/ang/psn3F_ang_s232_orgn.wav|i mean what the hell have we worked for then i mean it's all for you chris the whole shooting match is for you|4|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session4_M/neu/psn4M_neu_s346_orgn.wav|clearly cle clearly you're doing something wrong|7|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_M/sad/psn3M_sad_s101_orgn.wav|i'm just so tired all the time|5|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session5_M/ang/psn5M_ang_s055_orgn.wav|you are a vile tempered loose living wicked little beast and i never want to set eyes on you again|9|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session5_F/hap/psn5F_hap_s394_orgn.wav|yes i did notice that it does look really beautiful over the water big old white moon|8|3
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_F/neu/psn1F_neu_s394_orgn.wav|you seem kind of down|0|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session4_M/neu/psn4M_neu_s155_orgn.wav|seriously what's your major|7|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_M/hap/psn3M_hap_s399_orgn.wav|you felt something that far back|5|3
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_M/neu/psn1M_neu_s359_orgn.wav|yeah we have like away games and stuff|1|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session2_F/neu/psn2F_neu_s183_orgn.wav|no i'm just making myself fascinating for you|2|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_M/sad/psn3M_sad_s106_orgn.wav|no|5|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session4_F/ang/psn4F_ang_s281_orgn.wav|look fifty dollars is unacceptable my bag itself cost over a hundred( and fifty dollars you can't just give me fifty dollar gift certificate to percoes or whatever the hell and then send me off like that's that's good enough like that's all i needed was fifty dollars my bag is worth more than that|6|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_F/neu/psn3F_neu_s470_orgn.wav|uh|4|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session2_F/sad/psn2F_sad_s148_orgn.wav|and while we were dancing you said the softest most intimate things to me right into my ear so that i could feel them as much as hear them|2|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_F/sad/psn3F_sad_s185_orgn.wav|it's like i know as long as she's waiting i'm right again|4|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session5_F/sad/psn5F_sad_s399_orgn.wav|what did he do|8|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_M/ang/psn1M_ang_s107_orgn.wav|are you insinuating that i don't have a college education and that for some reason that makes you a better person than i am|1|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session2_M/ang/psn2M_ang_s210_orgn.wav|it's standard i mean i don't work at the d m v how am i supposed to know that like i stand in line i get my|3|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_F/hap/psn3F_hap_s367_orgn.wav|sure who says sure you say yes i don't like|4|3
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_F/sad/psn1F_sad_s245_orgn.wav|things just aren't what they seem|0|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session5_F/sad/psn5F_sad_s479_orgn.wav|did you talk to him|8|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session4_M/sad/psn4M_sad_s128_orgn.wav|you have to be a little better because of that otherwise we have is really loot and there's blood on it i don't want to take any of it i guess that included you|7|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session5_F/ang/psn5F_ang_s032_orgn.wav|i can't help it|8|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session4_F/ang/psn4F_ang_s292_orgn.wav|you can't say that to him|6|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session4_F/ang/psn4F_ang_s305_orgn.wav|are you crazy|6|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session2_M/ang/psn2M_ang_s063_orgn.wav|well what about me|3|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session4_M/neu/psn4M_neu_s115_orgn.wav|so um anyway do you want to order now so um i mean|7|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_M/neu/psn1M_neu_s360_orgn.wav|but you know i'm like ++garbage++|1|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session2_F/sad/psn2F_sad_s149_orgn.wav|and i remember thinking this is it you know at last at last i am as happy as i am supposed to be|2|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session2_F/sad/psn2F_sad_s106_orgn.wav|and i remember thinking that this is it you know at last at last i am as happy as i am supposed to be|2|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_F/ang/psn1F_ang_s159_orgn.wav|i'm not frustrated|0|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session2_M/neu/psn2M_neu_s135_orgn.wav|i know i know it's hard but you just you gotta keep going i mean you've been going at it for so long you know something is definitely going to come up i i know it will because you're a good worker|3|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_F/neu/psn3F_neu_s560_orgn.wav|okay thank you for calling goodbye|4|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_M/ang/psn1M_ang_s259_orgn.wav|i don't understand why this is so complicated for people when they get here it's just a simple form i just need an id|1|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_M/sad/psn1M_sad_s383_orgn.wav|no you know what you get you know what you get you get this|1|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_M/sad/psn3M_sad_s144_orgn.wav|i don't know but after it cracked he ran back into the house and he cried in the kitchen|5|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_M/hap/psn1M_hap_s064_orgn.wav|am i embarrassing you are you see i didn't want to do it here with this yard on this porch i wanted it to be somewhere new some place fresh for both of us|1|3
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_F/hap/psn1F_hap_s457_orgn.wav|++laughter++ that sent shivers up my spine|0|3
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_F/neu/psn3F_neu_s550_orgn.wav|we compensating you for all your|4|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_F/sad/psn3F_sad_s352_orgn.wav|joe i'm serious i don't want to have to have a little girl to tell asking every day where's daddy where's daddy and have to tell her that he's away|4|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session5_F/neu/psn5F_neu_s347_orgn.wav|well i don't really know i don't i don't know you in like a job situation so|8|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session2_M/neu/psn2M_neu_s138_orgn.wav|dumber than you i mean they're a lot worse off than you you are much better off than like a lot of those people in there i know|3|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_M/neu/psn1M_neu_s440_orgn.wav|oh my name is sean hi|1|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_M/neu/psn3M_neu_s262_orgn.wav|oh um|5|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session2_M/ang/psn2M_ang_s074_orgn.wav|you're not going like this|3|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session5_M/sad/psn5M_sad_s114_orgn.wav|but it's gonna be fine i'm gonna be fine you know i'm good at this i can do this that's why i trained all this time i'm good at this okay|9|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_F/neu/psn3F_neu_s133_orgn.wav|oh i'm sorry um did you drop it in water|4|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_F/neu/psn3F_neu_s540_orgn.wav|you're going to have to just be patient with us sir as we|4|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session4_M/ang/psn4M_ang_s066_orgn.wav|you're not going like this|7|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session5_M/neu/psn5M_neu_s243_orgn.wav|well what are you going to do about it to make it different|9|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_M/hap/psn3M_hap_s292_orgn.wav|so okay then and|5|3
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_F/sad/psn3F_sad_s356_orgn.wav|honey i can't do it anymore|4|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_M/neu/psn3M_neu_s049_orgn.wav|i'm all right|5|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_F/ang/psn3F_ang_s422_orgn.wav|oh yes i am yes i am and you can't stop me|4|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session4_M/sad/psn4M_sad_s263_orgn.wav|i mean they're you know they're upset it's like you know they|7|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_F/hap/psn3F_hap_s120_orgn.wav|yeah it really is|4|3
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_F/neu/psn1F_neu_s027_orgn.wav|for one thing your mother as much as told me to go|0|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session2_M/neu/psn2M_neu_s286_orgn.wav|well there are there are some shops here in in the airport|3|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_F/sad/psn3F_sad_s334_orgn.wav|i would've loved to|4|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session5_F/hap/psn5F_hap_s204_orgn.wav|no but i'm not going to stay|8|3
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session5_M/neu/psn5M_neu_s359_orgn.wav|oh she's back at work yeah|9|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session2_F/sad/psn2F_sad_s355_orgn.wav|i mean can't they put you in like you know kitchen work or something where you won't get|2|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_F/sad/psn3F_sad_s196_orgn.wav|yeah and uh|4|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session4_M/ang/psn4M_ang_s051_orgn.wav|they nonsense they have a little bag of venom behind their fangs and they snap|7|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_F/hap/psn1F_hap_s460_orgn.wav|++laughter++|0|3
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_M/sad/psn3M_sad_s286_orgn.wav|it's just going to be it's going to go faster than you think|5|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session2_M/sad/psn2M_sad_s266_orgn.wav|i don't know i'll find out then we'll trash it out with dad right mom don't avoid me|3|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session4_F/ang/psn4F_ang_s163_orgn.wav|i don't care okay do you understand i don't care i don't mind if they bark and roll about like hoops|6|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session5_F/neu/psn5F_neu_s282_orgn.wav|what flashlight|8|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_F/ang/psn3F_ang_s417_orgn.wav|very well if you insist on being a boorish and idiotic|4|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session2_F/neu/psn2F_neu_s362_orgn.wav|actually i'm looking here at the information the flight that you were on we had some trouble with some of the baggage it looks like a few peoples' bags didn't make it through um so|2|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session5_M/neu/psn5M_neu_s138_orgn.wav|okay okay and um letters and numbers and stuff uh can you can you just type in ip address search and hit enter|9|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_M/ang/psn1M_ang_s114_orgn.wav|do you know what was in that little bag that i could have just easily put in overhead compartment but no i had to check|1|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session2_M/neu/psn2M_neu_s368_orgn.wav|right no yes i know it is it is a little frustrating|3|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session2_F/ang/psn2F_ang_s217_orgn.wav|trouble is you don't see enough women you never did|2|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session4_M/hap/psn4M_hap_s110_orgn.wav|and it's going to the you know i told her that i just i want the color brown to be as an integral in the wedding and um maybe some greens and blues|7|3
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_F/neu/psn1F_neu_s440_orgn.wav|just give it some more thought|0|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_M/neu/psn1M_neu_s266_orgn.wav|don't you guys have access to computers over there|1|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session2_F/neu/psn2F_neu_s312_orgn.wav|yeah|2|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session2_M/neu/psn2M_neu_s184_orgn.wav|it was in the car right driving past the knickerbocker liquor locker you said let's get some champagne and i said time's a wasting or something like that right|3|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session2_M/sad/psn2M_sad_s020_orgn.wav|god it's you know we've spent so much time with them it's just really surreal really weird that we're not going to be able to see her anymore and go|3|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session5_F/ang/psn5F_ang_s511_orgn.wav|not would you shut up|8|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_M/ang/psn3M_ang_s166_orgn.wav|yes i like it an hour out of the day if i have to grub for money all day long at least at evening i want it beautiful i want a family i want a wife i want some kids i want to build something i can give myself to|5|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session4_M/neu/psn4M_neu_s350_orgn.wav|and i want i mean you know you've got to like do your hair i mean i don't know it's like|7|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_F/hap/psn3F_hap_s340_orgn.wav|why the sad face|4|3
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session2_M/neu/psn2M_neu_s362_orgn.wav|you can't read her mind|3|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_F/ang/psn3F_ang_s403_orgn.wav|i don't see what you have to go on and on with this kind of thing|4|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session4_F/neu/psn4F_neu_s260_orgn.wav|no|6|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session2_M/neu/psn2M_neu_s416_orgn.wav|and it'll work out you know go there and do that yeah i'll be back|3|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session5_M/sad/psn5M_sad_s158_orgn.wav|yeah|9|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session5_F/ang/psn5F_ang_s123_orgn.wav|no i don't think i am i like have a whole bunch of stuff that means a lot to me and i brought it you know from africa it's not like i can just go back and get it whenever i want|8|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session2_F/hap/psn2F_hap_s080_orgn.wav|i don't know i mean i kinda like the idea of having something outside but like is a yeah|2|3
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session2_F/hap/psn2F_hap_s292_orgn.wav|i know you did you threw it out of the window into the grand canal i don't think i'll ever forgive you for that|2|3
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_M/neu/psn1M_neu_s086_orgn.wav|and how do you know why she's waited|1|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_F/neu/psn3F_neu_s496_orgn.wav|how many pieces of luggage do you have checked in|4|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_F/neu/psn3F_neu_s031_orgn.wav|could he he's acting just like he did after he died you know|4|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session4_M/neu/psn4M_neu_s153_orgn.wav|they have that as a major|7|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session4_M/neu/psn4M_neu_s280_orgn.wav|do you remember that awful scene in venice|7|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session5_F/sad/psn5F_sad_s072_orgn.wav|because you can't feel like that anymore chris because everything you have you have a right to me included|8|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session2_M/sad/psn2M_sad_s029_orgn.wav|yes ++breathing++ god|3|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session4_F/ang/psn4F_ang_s138_orgn.wav|yes|6|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_M/ang/psn1M_ang_s118_orgn.wav|well you need to find it can i just go back there and look through the bags can i just go back there and just go through maybe i'll find it|1|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session4_M/ang/psn4M_ang_s063_orgn.wav|listen|7|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session4_M/neu/psn4M_neu_s400_orgn.wav|well so what'd you think|7|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_M/ang/psn3M_ang_s165_orgn.wav|the business doesn't inspire me|5|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_M/neu/psn1M_neu_s058_orgn.wav|you're not sorry you came|1|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session5_M/sad/psn5M_sad_s209_orgn.wav|yeah we'll call them we'll figure something out i'm sorry i'm sorry i'm sorry you're right|9|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session5_M/neu/psn5M_neu_s258_orgn.wav|have you ever called them back and asked why you didn't get the job|9|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_F/sad/psn3F_sad_s216_orgn.wav|i know|4|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session5_M/hap/psn5M_hap_s362_orgn.wav|oh yeah my mom's freaking out oh yeah she's so happy this is you know it's her dream come true she always wanted her little boy she wants kids you know|9|3
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session4_F/ang/psn4F_ang_s073_orgn.wav|this is the end do you understand the end finally and forever|6|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session2_M/neu/psn2M_neu_s177_orgn.wav|there's nothing to it we come here the grunion arrive they do their little fish business we go ooh ah look at the fish they go home we go home|3|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session5_F/neu/psn5F_neu_s259_orgn.wav|so is it is is it at all possible that maybe this statement is just old and that the transaction hadn't been processed yet|8|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_F/neu/psn1F_neu_s092_orgn.wav|yeah it's huge redlands is an old city so they have lots and lots of stones|0|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session2_M/sad/psn2M_sad_s100_orgn.wav|it's all mixed up with so many other things you remember overseas i was in command of a company|3|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_M/neu/psn1M_neu_s249_orgn.wav|++breathing++|1|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session5_F/hap/psn5F_hap_s201_orgn.wav|you're the only one i know who loves his parents|8|3
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_M/ang/psn1M_ang_s119_orgn.wav|it'll be a lot more than what you're doing sitting here and just give me lip service i'd like to go back at least do some aggressive searching for my stuff|1|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_F/neu/psn1F_neu_s267_orgn.wav|you're a considerate fellow there's nothing wrong in that|0|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session5_M/hap/psn5M_hap_s364_orgn.wav|of course we're gonna have kids like three at least|9|3
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_F/ang/psn3F_ang_s519_orgn.wav|it's my mother's funeral tomorrow and the urn is in the suitcase|4|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session2_M/neu/psn2M_neu_s259_orgn.wav|you know|3|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session5_F/neu/psn5F_neu_s147_orgn.wav|what would be the worst that would happen if they found you somewhere else|8|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session5_M/hap/psn5M_hap_s355_orgn.wav|yes we did that in the beginning exactly so we had so we just had you know good times the rest of the weekend yeah|9|3
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session2_M/neu/psn2M_neu_s278_orgn.wav|um we'd be willing to give you uh fifty dollars for|3|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session2_F/neu/psn2F_neu_s333_orgn.wav|i did buy one thing on ebay i don't know that might|2|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_M/ang/psn1M_ang_s020_orgn.wav|that's very amusing indeed|1|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session2_F/ang/psn2F_ang_s075_orgn.wav|thank god i realized what you are i'd never marry you again ever in my life you're a cruel fiend and i hate you you're a beast you're a beast i hate you stop it stop it|2|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session4_F/ang/psn4F_ang_s264_orgn.wav|yeah but you weren't unemployed for three years trying to find any job i mean at this point i'm going to go drive a cab or you know work at the gas station or something i don't even i don't know what to do anymore|6|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_F/neu/psn3F_neu_s141_orgn.wav|tell them my name my name is brent backersen|4|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session2_M/neu/psn2M_neu_s358_orgn.wav|what do you mean he lived next door to the girl all his life why wouldn't he want to see her again|3|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session4_M/neu/psn4M_neu_s340_orgn.wav|you need that time|7|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session2_F/neu/psn2F_neu_s344_orgn.wav|about what|2|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session2_M/sad/psn2M_sad_s016_orgn.wav|i guess we saw it coming and she lasted a lot a lot longer than uh they expected but you know i mean when it actually happens it's just a lot harder|3|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_M/sad/psn3M_sad_s235_orgn.wav|he was supposed to be the best man at my wedding|5|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session4_M/neu/psn4M_neu_s323_orgn.wav|no no i mean i didn't know i didn't know that about you um i feel like|7|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_F/sad/psn3F_sad_s080_orgn.wav|i know he was he had so much going for him|4|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session2_F/hap/psn2F_hap_s238_orgn.wav|well you started to write me|2|3
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_M/ang/psn1M_ang_s409_orgn.wav|i'm like a sponge i'm like soaked up with all this information for like three years i'm just dying for a job to like put it in to|1|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session5_F/neu/psn5F_neu_s280_orgn.wav|bye bye|8|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session2_M/neu/psn2M_neu_s065_orgn.wav|no particular reason anyhow they were very small ones|3|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session4_M/hap/psn4M_hap_s100_orgn.wav|annie annie i'm going to make a fortune for you|7|3
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_F/neu/psn1F_neu_s407_orgn.wav|i just don't want you to fly off the handle|0|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session2_F/ang/psn2F_ang_s229_orgn.wav|that's all that's all that's all you're going to do is just give me fifty dollars and say go have fun on your vacation without any of your stuff|2|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session4_F/ang/psn4F_ang_s299_orgn.wav|from father's point of view he's not dead and you have no right to take his girl|6|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_F/ang/psn1F_ang_s183_orgn.wav|what|0|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_F/sad/psn3F_sad_s316_orgn.wav|how's it going how are you feeling|4|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session5_M/ang/psn5M_ang_s274_orgn.wav|why should he dream about him walking around looking for him at night do we contradict him do we say straight out that we don't have any hope anymore that we haven't had any hope for years now|9|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session4_M/ang/psn4M_ang_s363_orgn.wav|i don't want to argue with him but it's time that he realizes that larry's not coming back anymore|7|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session2_M/sad/psn2M_sad_s300_orgn.wav|just about all|3|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_F/ang/psn3F_ang_s235_orgn.wav|about what|4|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session5_F/ang/psn5F_ang_s028_orgn.wav|because if he's not coming back then i'll kill myself|8|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session2_M/ang/psn2M_ang_s427_orgn.wav|i mean you're not helping me here what do i have to do here do i need to sue the airline company is that what i should do|3|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_F/ang/psn3F_ang_s104_orgn.wav|it's got that about it|4|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_M/neu/psn1M_neu_s257_orgn.wav|of course right that's where the real money is being a student|1|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_M/ang/psn3M_ang_s381_orgn.wav|okay like i mentioned before i had three very small minute liquor glasses of brandy that's not even enough to get a child of two drunk|5|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session2_M/sad/psn2M_sad_s097_orgn.wav|no nothing like that|3|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session2_M/neu/psn2M_neu_s153_orgn.wav|with the most perfect poise|3|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session2_M/hap/psn2M_hap_s008_orgn.wav|i got to freak her out|3|3
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session2_M/ang/psn2M_ang_s062_orgn.wav|what of it|3|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_F/sad/psn1F_sad_s257_orgn.wav|++breathing++|0|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session4_F/neu/psn4F_neu_s238_orgn.wav|but it's not it's yours i understand|6|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session5_F/hap/psn5F_hap_s449_orgn.wav|that's incredible yeah congratulations|8|3
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_F/hap/psn3F_hap_s435_orgn.wav|i was waiting for you chris i mean till then you never wrote and then when you did what did you say|4|3
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session5_F/ang/psn5F_ang_s103_orgn.wav|oh marry you again i must have been insane what was i thinking i mean you're completely outrageous|8|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_M/sad/psn3M_sad_s414_orgn.wav|it seemed to make a sucker out of a lot of guys i felt wrong to be alive i felt wrong to have that new checkbook|5|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session5_M/sad/psn5M_sad_s180_orgn.wav|remember when i was overseas i was in command of the company|9|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_F/neu/psn1F_neu_s243_orgn.wav|there's babies over there though that need mothers|0|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_M/sad/psn3M_sad_s403_orgn.wav|you remember overseas i was in command of a company|5|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session5_F/neu/psn5F_neu_s470_orgn.wav|yeah|8|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_F/sad/psn1F_sad_s102_orgn.wav|i remember too when we were she died at u c l a she had brain surgery and there was not much hope to begin with but i gave blood for her surgery her mom and i before so we dropped her off in the waiting room and then we were giving blood and came back and she in her wheelchair like can hardly do anything reciting her poetry for these people like in the waiting room all she needs is a god damn audience you know|0|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_F/sad/psn1F_sad_s097_orgn.wav|umm yeah|0|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_M/hap/psn3M_hap_s093_orgn.wav|yeah this is so crazy i mean i didn't get into any other school but i got into the school i wanted|5|3
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session2_M/neu/psn2M_neu_s405_orgn.wav|i don't get it the first time we came here you said it was the best night of your life|3|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_F/hap/psn1F_hap_s322_orgn.wav|i think you're talking nonsense|0|3
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_M/sad/psn3M_sad_s280_orgn.wav|you know i can't say no|5|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session5_F/sad/psn5F_sad_s249_orgn.wav|i'm just not|8|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_F/neu/psn1F_neu_s240_orgn.wav|i guess you know everybody has to make sacrifices|0|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session5_M/neu/psn5M_neu_s123_orgn.wav|you've lost your connection|9|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_F/neu/psn3F_neu_s363_orgn.wav|isn't it a rat it's a rat chuck e cheese|4|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session4_F/ang/psn4F_ang_s172_orgn.wav|there is no one upstairs it's a photographer's studio|6|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_F/neu/psn3F_neu_s268_orgn.wav|it's a woman's job to allure the man watch me won't you a minute|4|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_F/neu/psn1F_neu_s198_orgn.wav|there are no people upstairs it's a photographer's studio|0|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_M/neu/psn3M_neu_s081_orgn.wav|you can't read her mind|5|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session3_M/ang/psn3M_ang_s209_orgn.wav|okay as i mentioned before i said i had three very minute liquor glasses that's hardly enough to get a child of two drunk|5|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_M/ang/psn1M_ang_s260_orgn.wav|yeah do you want to see my supervisor huh yeah do you want to see my supervisor fine i'll be right back|1|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session2_F/sad/psn2F_sad_s020_orgn.wav|yeah|2|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session4_M/hap/psn4M_hap_s078_orgn.wav|give me a kiss ann give me a god i kissed you|7|3
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session1_M/neu/psn1M_neu_s385_orgn.wav|right|1|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session4_F/sad/psn4F_sad_s033_orgn.wav|yeah i know i know|6|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session4_F/ang/psn4F_ang_s168_orgn.wav|on the contrary a child of two could get violently drunk on only one glass of brandy|6|2
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session2_F/neu/psn2F_neu_s130_orgn.wav|oh dear shall we like that|2|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session4_M/sad/psn4M_sad_s257_orgn.wav|thanks|7|1
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session5_M/neu/psn5M_neu_s172_orgn.wav|do you know what if it was me that died i'd really want you to be crying and being really upset too any way so i think you should definitely do this because it's trying what it's supposed to be|9|0
+/home/jinhan/Storage/IEMOCAP/IEMOCAP_processed/session4_F/neu/psn4F_neu_s102_orgn.wav|well there has to be something you haven't tried|6|0

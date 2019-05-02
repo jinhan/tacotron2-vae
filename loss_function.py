@@ -7,14 +7,19 @@ class Tacotron2Loss_VAE(nn.Module):
     def __init__(self, hparams):
         super(Tacotron2Loss_VAE, self).__init__()
         self.anneal_function = hparams.anneal_function
+        self.lag = hparams.anneal_lag
         self.k = hparams.anneal_k
         self.x0 = hparams.anneal_x0
+        self.upper = hparams.anneal_upper
     
-    def kl_anneal_function(self, anneal_function, step, k, x0):
+    def kl_anneal_function(self, anneal_function, lag, step, k, x0, upper):
         if anneal_function == 'logistic':
-            return float(1/(1+np.exp(-k*(step-x0))))
+            return float(upper/(upper+np.exp(-k*(step-x0))))
         elif anneal_function == 'linear':
-            return min(1, step/x0)
+            if step > lag:
+                return min(upper, step/x0)
+            else:
+                return 0
         elif anneal_function == 'constant':
             return 0.001
 
@@ -32,7 +37,7 @@ class Tacotron2Loss_VAE(nn.Module):
         gate_loss = nn.BCEWithLogitsLoss()(gate_out, gate_target)
 
         kl_loss = -0.5 * torch.sum(1 + logvar - mu.pow(2) - logvar.exp())
-        kl_weight = self.kl_anneal_function(self.anneal_function, step, self.k, self.x0)
+        kl_weight = self.kl_anneal_function(self.anneal_function, self.lag, step, self.k, self.x0, self.upper)
         
         recon_loss = mel_loss + gate_loss
         total_loss = recon_loss + kl_weight*kl_loss

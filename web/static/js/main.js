@@ -18,9 +18,15 @@ function generate(ip, port, text, n, s, h, a, condition_on_ref, ref_audio) {//},
       if (!res.ok) throw Error(res.statusText)
       return res.blob()
     }).then(function(blob) {
+      var reader = new FileReader();
+      reader.readAsDataURL(blob);
+      reader.onloadend = function() {
+        base64data = reader.result;
+        console.log("base64", base64data);
+      }
       var url = URL.createObjectURL(blob);
       inProgress = true;
-      console.log(url);
+      // console.log(url);
       wavesurfer.load(url);
       $("#synthesize").removeClass("is-loading");
     }).catch(function(err) {
@@ -146,7 +152,7 @@ function generate(ip, port, text, n, s, h, a, condition_on_ref, ref_audio) {//},
       var text_length = text.length;
       var ref_audio = $("#audio").attr('src');
 
-      generate('10.100.1.119', 51000, text, neu.value, sad.value, hap.value, ang.value, condition_on_ref, ref_audio);
+      generate('192.168.0.10', 51000, text, neu.value, sad.value, hap.value, ang.value, condition_on_ref, ref_audio);
 
       var lowpass = wavesurfer.backend.ac.createGain();
       wavesurfer.backend.setFilter(lowpass);

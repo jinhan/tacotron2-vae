@@ -72,6 +72,8 @@ def create_hparams(hparams_string=None, verbose=False):
         anneal_function = 'logistic',
         anneal_k = 0.0025,
         anneal_x0 = 10000,
+        anneal_upper = 0.2,
+        anneal_lag = 50000,
 
         # Prosody embedding parameters
         prosody_n_convolutions = 6,

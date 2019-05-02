@@ -36,7 +36,7 @@ def generate_audio_response(text, condition_on_ref, ref_audio, ratios):
         ref_audio = ref_audio.replace('/uploads', '/home/jinhan/Storage')
         
     try:
-        synthesizer.synthesize(text, real_path, condition_on_ref, ref_audio, ratios)
+        audio = synthesizer.synthesize(text, real_path, condition_on_ref, ref_audio, ratios)
     except Exception as e:
         traceback.print_exc()
         return jsonify(success=False), 400
@@ -46,6 +46,11 @@ def generate_audio_response(text, condition_on_ref, ref_audio, ratios):
             mimetype="audio/wav", 
             as_attachment=True, 
             attachment_filename=hashed_text + ".wav")
+
+    response = make_response(audio)
+    response.headers['Content-Type'] = 'audio/wav'
+    response.headers['Content-Disposition'] = 'attachment; filename=sound.wav'
+    return response
 
 @app.route('/')
 def index():
