@@ -5,3 +5,5 @@ __pycache__/
 web/audio/
 README_bac.md
 notes.md
+models/
+outdir/
