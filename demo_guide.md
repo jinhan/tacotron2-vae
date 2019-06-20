@@ -1,17 +1,18 @@
-# Demo Guide
-> HCID VPN 이용시
+
+# TTS Demo Guide
+> HCID VPN 연결이 필요합니다.
 
 ## Demo page
 ### 실행
 * URL: http://mind.snu.ac.kr:5907
-* 관리자 id: jhoh
 * 재실행 방법
+> conda activate tts 확인
+
 ```
-ssh jhoh@mind.snu.ac.kr
+ssh {admin}@mind.snu.ac.kr
 screen -r tts
 python app.py --checkpoint_path="./models/032902_vae_250000" --waveglow_path="./models/waveglow_130000"
 ```
-> conda activate tts 확인
 
 
 ### 기능
