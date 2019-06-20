@@ -3,7 +3,9 @@ __pycache__/
 .vscode/
 .git/
 web/audio/
+web/static/uploads/
 README_bac.md
 notes.md
 models/
 outdir/
+filelists/

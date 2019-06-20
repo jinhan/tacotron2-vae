@@ -79,7 +79,7 @@ class Synthesizer(object):
         self.waveglow = torch.load(waveglow_path)['model']
         self.waveglow.cuda()
 
-        path = './filelists/koemo_spk_emo_all_test.txt'
+        path = './web/static/uploads/koemo_spk_emo_all_test.txt'
         with open(path, encoding='utf-8') as f:
             filepaths_and_text = [line.strip().split("|") for line in f]
         

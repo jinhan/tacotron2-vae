@@ -1,14 +1,14 @@
 #!flask/bin/python
 
-import os, traceback
+import os, traceback, json
 import hashlib
 import argparse
 from flask_cors import CORS, cross_origin
 from flask import Flask, request, render_template, jsonify, \
         send_from_directory, make_response, send_file
-
 from synthesizer import Synthesizer
 from utils import str2bool, makedirs, add_postfix
+import base64
 
 
 ROOT_PATH = "web"
@@ -31,9 +31,9 @@ def generate_audio_response(text, condition_on_ref, ref_audio, ratios):
             relative_dir_path, "{}.wav".format(hashed_text))
     real_path = os.path.join(ROOT_PATH, relative_audio_path)
     makedirs(os.path.dirname(real_path))
-
+    print(ref_audio)
     if condition_on_ref:
-        ref_audio = ref_audio.replace('/uploads', '/home/jinhan/Storage')
+        ref_audio = ref_audio.replace('/uploads', '/home/jhoh/dataset')
         
     try:
         synthesizer.synthesize(text, real_path, condition_on_ref, ref_audio, ratios)
@@ -47,10 +47,56 @@ def generate_audio_response(text, condition_on_ref, ref_audio, ratios):
             as_attachment=True, 
             attachment_filename=hashed_text + ".wav")
 
+def generate_api_response(args):
+    print(args)
+    text = args['text']
+    print(text)
+    condition_on_ref = False
+    ref_audio = None
+    
+    n = float(args['neu'])
+    s = float(args['sad'])
+    h = float(args['hap'])
+    a = float(args['ang'])
+    sigma = n+s+h+a
+    if sigma:
+        ratios = [round(x / sigma * 100)/100 for x in [n, s, h, a]]
+    else:
+        ratios = [1.0, 0.0, 0.0, 0.0]
+
+    hashed_text = hashlib.md5(text.encode('utf-8')).hexdigest()
+
+    relative_dir_path = os.path.join(AUDIO_DIR, 'tacotron2-vae')
+    relative_audio_path = os.path.join(
+            relative_dir_path, "{}.wav".format(hashed_text))
+    real_path = os.path.join(ROOT_PATH, relative_audio_path)
+    makedirs(os.path.dirname(real_path))
+
+    if condition_on_ref:
+        ref_audio = ref_audio.replace('/uploads', '/home/jhoh/dataset')
+        
+    try:
+        synthesizer.synthesize(text, real_path, condition_on_ref, ref_audio, ratios)
+    except Exception as e:
+        traceback.print_exc()
+        return jsonify(success=False), 400
+
+    b64_data = base64.b64encode(open(real_path, "rb").read())
+    return json.dumps({"params":{
+        "text":text,
+        "neu": n, "hap": h, "sad": s, "ang": a},
+        "data": str(b64_data.decode('utf-8'))})
+
 @app.route('/')
 def index():
     text = request.args.get('text') or "듣고 싶은 문장을 입력해 주세요."
     return render_template('index.html', text=text)
+
+@app.route('/api', methods=['POST'])
+def API():
+    args = json.loads(request.data)
+
+    return generate_api_response(args)
 
 @app.route('/generate')
 def view_method():
@@ -116,4 +162,4 @@ if __name__ == '__main__':
     else:
         print(" [!] load_path not found: {}".format(config.checkpoint_path))
 
-    app.run(host='192.168.0.10', threaded=True, port=config.port, debug=config.debug)
+    app.run(host='0.0.0.0', threaded=True, port=config.port, debug=config.debug)

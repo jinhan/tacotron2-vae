@@ -96,7 +96,7 @@ function generate(ip, port, text, n, s, h, a, condition_on_ref, ref_audio) {//},
             var split = allText.split('\n')
             var randomNum = Math.floor(Math.random() * split.length);
             var randomLine = split[randomNum];
-            loadFile.contents = randomLine.split('|')[0].replace('/data1/jinhan', '/uploads');
+            loadFile.contents = randomLine.split('|')[0].replace('/home/jhoh/dataset', '/uploads');
           }
         });
       }
@@ -152,7 +152,7 @@ function generate(ip, port, text, n, s, h, a, condition_on_ref, ref_audio) {//},
       var text_length = text.length;
       var ref_audio = $("#audio").attr('src');
 
-      generate('192.168.0.10', 51000, text, neu.value, sad.value, hap.value, ang.value, condition_on_ref, ref_audio);
+      generate('mind.snu.ac.kr', 5907, text, neu.value, sad.value, hap.value, ang.value, condition_on_ref, ref_audio);
 
       var lowpass = wavesurfer.backend.ac.createGain();
       wavesurfer.backend.setFilter(lowpass);
