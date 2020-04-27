@@ -2,10 +2,13 @@ __pycache__/
 .ipynb_checkpoints/
 .vscode/
 .git/
+.idea/
+*.xml
 web/audio/
 web/static/uploads/
 README_bac.md
 notes.md
+data/
 models/
 outdir/
 filelists/

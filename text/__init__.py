@@ -1,7 +1,8 @@
 """ from https://github.com/keithito/tacotron """
 import re
 from text import cleaners
-from text.symbols import eng_symbols, kor_symbols
+from text.symbols import eng_symbols
+#from text.symbols import kor_symbols
 from hparams import create_hparams
 
 hparam = create_hparams()
@@ -20,7 +21,7 @@ def change_symbol(cleaner_names):
   global _symbol_to_id
   global _id_to_symbol
   if cleaner_names == ["english_cleaners"]: symbols = eng_symbols
-  if cleaner_names == ["korean_cleaners"]: symbols = kor_symbols
+  #if cleaner_names == ["korean_cleaners"]: symbols = kor_symbols
 
   _symbol_to_id = {s: i for i, s in enumerate(symbols)}
   _id_to_symbol = {i: s for i, s in enumerate(symbols)}
@@ -95,9 +96,9 @@ def _should_keep_symbol(s):
   return s in _symbol_to_id and s is not '_' and s is not '~'
 
 if __name__ == "__main__":
-  # print(text_to_sequence('this is test sentence.? ', ['english_cleaners']))
-  # print(text_to_sequence('Chapter one of Jane eyre. This is there librivox recording. All librivox recordings are in the public domain. For more information or to volunteer please visit librivox dot org.', ['english_cleaners']))
-  # print(text_to_sequence('Recording by Elisabeth Klett.', ['english_cleaners']))
+  print(text_to_sequence('this is test sentence.? ', ['english_cleaners']))
+  print(text_to_sequence('Chapter one of Jane eyre. This is there librivox recording. All librivox recordings are in the public domain. For more information or to volunteer please visit librivox dot org.', ['english_cleaners']))
+  print(text_to_sequence('Recording by Elisabeth Klett.', ['english_cleaners']))
   # print(text_to_sequence('테스트 문장입니다.? ', ['korean_cleaners']))
   # print(_clean_text('AB테스트 문장입니다.? ', ['korean_cleaners']))
   # print(_clean_text('mp3 파일을 홈페이지에서 다운로드 받으시기 바랍니다.',['korean_cleaners']))
@@ -108,4 +109,4 @@ if __name__ == "__main__":
   # print(runKoG2P('AB테스트 문장입니다.?', 'text/rulebook.txt'))
   # print(runKoG2P("마가렛 대처의 별명은 '철의 여인'이었다.", 'text/rulebook.txt'))
   # print(text_to_sequence("나는 난 닫았다 닫 라면 랄 바보 밥 아잉 앙 샀다 삿 잦았다 잦 항", ['korean_cleaners']))
-  print(text_to_sequence("감정있는 한국어 목소리 생성", ['korean_cleaners']))
+  #print(text_to_sequence("감정있는 한국어 목소리 생성", ['korean_cleaners']))

@@ -140,7 +140,6 @@ def apply_gradient_allreduce(module):
                 buckets = {}
                 for param in module.parameters():
                     if param.requires_grad and param.grad is not None:
-                        # tp = type(param.data)
                         tp = param.data.dtype
                         if tp not in buckets:
                             buckets[tp] = []

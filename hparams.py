@@ -23,27 +23,27 @@ def create_hparams(hparams_string=None, verbose=False):
         # Data Parameters             #
         ################################
         load_mel_from_disk=False,
-        training_files='filelists/ms_kor_train.txt',
-        validation_files='filelists/ms_kor_val.txt',
-        text_cleaners=['korean_cleaners'], # english_cleaners, korean_cleaners
+        training_files='filelists/ljspeech_train.txt',
+        validation_files='filelists/ljspeech_test.txt',
+        text_cleaners=['english_cleaners'], # english_cleaners, korean_cleaners
         sort_by_length=False,
 
         ################################
         # Audio Parameters             #
         ################################
         max_wav_value=32768.0,
-        sampling_rate=16000,
+        sampling_rate=22050,
         filter_length=1024,
         hop_length=256, # number audio of frames between stft colmns, default win_length/4
         win_length=1024, # win_length int <= n_ftt: fft window size (frequency domain), defaults to win_length = n_fft
         n_mel_channels=80,
         mel_fmin=0.0,
-        mel_fmax=8000.0,
+        mel_fmax=11025.0,
 
         ################################
         # Model Parameters             #
         ################################
-        n_symbols = 80, # set 80 if u use korean_cleaners. set 65 if u use english_cleaners
+        n_symbols = 65, # set 80 for korean_cleaners. set 65 for english_cleaners
         symbols_embedding_dim=512,
 
         # Transcript encoder parameters
@@ -124,6 +124,11 @@ def create_hparams(hparams_string=None, verbose=False):
         tf.logging.info('Final parsed hparams: %s', hparams.values())
 
     return hparams
+
+def hparams_debug_string(hparams):
+    values = hparams.values()
+    hp = ['  %s: %s' % (name, values[name]) for name in sorted(values)]
+    return 'Hyperparameters:\n' + '\n'.join(hp)
 
 if __name__=='__main__':
     hp = create_hparams(verbose=True)
