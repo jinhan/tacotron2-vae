@@ -16,9 +16,7 @@ from model import Tacotron2
 from data_utils import TextMelLoader, TextMelCollate
 from loss_function import Tacotron2Loss_VAE
 from logger import Tacotron2Logger
-
-#from hparams import create_hparams, hparams_debug_string
-from hparams_soe import create_hparams, hparams_debug_string
+from hparams import create_hparams
 
 
 def batchnorm_to_float(module):
@@ -162,7 +160,6 @@ def train(output_directory, log_directory, checkpoint_path, warm_start, n_gpus,
     rank (int): rank of current gpu
     hparams (object): comma separated list of "name=value" pairs.
     """
-
     if hparams.distributed_run:
         init_distributed(hparams, n_gpus, rank, group_name)
 
@@ -178,7 +175,6 @@ def train(output_directory, log_directory, checkpoint_path, warm_start, n_gpus,
             optimizer, dynamic_loss_scale=hparams.dynamic_loss_scaling)
 
     if hparams.distributed_run:
-        print('applying gradient allreduce ...')
         model = apply_gradient_allreduce(model)
 
     criterion = Tacotron2Loss_VAE(hparams)
@@ -187,7 +183,6 @@ def train(output_directory, log_directory, checkpoint_path, warm_start, n_gpus,
         output_directory, log_directory, rank)
 
     train_loader, valset, collate_fn = prepare_dataloaders(hparams)
-    print('# of batches: {}'.format(len(train_loader)))
 
     # Load checkpoint if one exists
     iteration = 0
@@ -202,11 +197,8 @@ def train(output_directory, log_directory, checkpoint_path, warm_start, n_gpus,
                 learning_rate = _learning_rate
             iteration += 1  # next iteration is iteration + 1
             epoch_offset = max(0, int(iteration / len(train_loader)))
-        print('completing loading model ...')
 
     model.train()
-    print('starting training in epoch range {} ~ {} ...'.format(
-      epoch_offset, hparams.epochs))
     # ================ MAIN TRAINNIG LOOP! ===================
     step = 0
     for epoch in range(epoch_offset, hparams.epochs):
@@ -243,8 +235,7 @@ def train(output_directory, log_directory, checkpoint_path, warm_start, n_gpus,
                 print("Train loss {} {:.6f} Grad Norm {:.6f} {:.2f}s/it".format(
                     iteration, reduced_loss, grad_norm, duration))
                 logger.log_training(
-                    reduced_loss, grad_norm, learning_rate, duration, recon_loss,
-                    kl, kl_weight, iteration)
+                    reduced_loss, grad_norm, learning_rate, duration, recon_loss, kl, kl_weight, iteration)
 
             if not overflow and (iteration % hparams.iters_per_checkpoint == 0):
                 validate(model, criterion, valset, iteration,
@@ -258,7 +249,8 @@ def train(output_directory, log_directory, checkpoint_path, warm_start, n_gpus,
 
             iteration += 1
 
-def parse_args():
+
+if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('-o', '--output_directory', type=str,
                         help='directory to save checkpoints')
@@ -276,34 +268,9 @@ def parse_args():
                         required=False, help='Distributed group name')
     parser.add_argument('--hparams', type=str,
                         required=False, help='comma separated name=value pairs')
-    return parser.parse_args()
 
-if __name__ == '__main__':
-
-    # runtime mode
-    args = parse_args()
-
-    # # interactive mode
-    # args = argparse.ArgumentParser()
-    # args.output_directory = 'outdir/soe'
-    # args.log_directory = 'logdir'
-    # args.checkpoint_path = None # fresh run
-    # #args.checkpoint_path = 'outdir/soe/checkpoint_14500'
-    # args.warm_start = False
-    # args.n_gpus = 2
-    # args.rank = 0
-    # args.group_name = 'group_name'
-    # hparams = ["training_files=filelists/soe_train.txt",
-    #            "validation_files=filelists/soe_valid.txt",
-    #            "text_cleaners=[english_cleaners]",
-    #            "anneal_function=constant",
-    #            "use_saved_learning_rate=True",
-    #            "batch_size=24",
-    #            "iters_per_checkpoint=2000"]
-    # args.hparams = ','.join(hparams)
-
+    args = parser.parse_args()
     hparams = create_hparams(args.hparams)
-    print(hparams_debug_string(hparams))
 
     torch.backends.cudnn.enabled = hparams.cudnn_enabled
     torch.backends.cudnn.benchmark = hparams.cudnn_benchmark
@@ -314,17 +281,5 @@ if __name__ == '__main__':
     print("cuDNN Enabled:", hparams.cudnn_enabled)
     print("cuDNN Benchmark:", hparams.cudnn_benchmark)
 
-    # runtime mode
-    #train(args.output_directory, args.log_directory, args.checkpoint_path,
-    #      args.warm_start, args.n_gpus, args.rank, args.group_name, hparams)
-
-    # interactive mode
-    output_directory = args.output_directory
-    log_directory = args.log_directory
-    checkpoint_path = args.checkpoint_path
-    warm_start = args.warm_start
-    n_gpus = args.n_gpus
-    rank = args.rank
-    group_name = args.group_name
-    train(output_directory, log_directory, checkpoint_path,
-          warm_start, n_gpus, rank, group_name, hparams)
+    train(args.output_directory, args.log_directory, args.checkpoint_path,
+          args.warm_start, args.n_gpus, args.rank, args.group_name, hparams)
