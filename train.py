@@ -208,7 +208,6 @@ def train(output_directory, log_directory, checkpoint_path, warm_start, n_gpus,
     print('starting training in epoch range {} ~ {} ...'.format(
       epoch_offset, hparams.epochs))
     # ================ MAIN TRAINNIG LOOP! ===================
-    step = 0
     for epoch in range(epoch_offset, hparams.epochs):
         print("Epoch: {}".format(epoch))
         for i, batch in enumerate(train_loader):
@@ -272,6 +271,8 @@ def parse_args():
                         required=False, help='number of gpus')
     parser.add_argument('--rank', type=int, default=0,
                         required=False, help='rank of current gpu')
+    parser.add_argument('--gpu', type=int, default=0,
+                        required=False, help='current gpu device id')
     parser.add_argument('--group_name', type=str, default='group_name',
                         required=False, help='Distributed group name')
     parser.add_argument('--hparams', type=str,
@@ -290,8 +291,9 @@ if __name__ == '__main__':
     # args.checkpoint_path = None # fresh run
     # #args.checkpoint_path = 'outdir/soe/checkpoint_14500'
     # args.warm_start = False
-    # args.n_gpus = 2
+    # args.n_gpus = 1
     # args.rank = 0
+    # args.gpu = 0
     # args.group_name = 'group_name'
     # hparams = ["training_files=filelists/soe_train.txt",
     #            "validation_files=filelists/soe_valid.txt",
@@ -301,6 +303,11 @@ if __name__ == '__main__':
     #            "batch_size=24",
     #            "iters_per_checkpoint=2000"]
     # args.hparams = ','.join(hparams)
+
+    if args.n_gpus == 1:
+      # set current GPU device
+      torch.cuda.set_device(args.gpu)
+    print('current GPU: {}'.format(torch.cuda.current_device()))
 
     hparams = create_hparams(args.hparams)
     print(hparams_debug_string(hparams))

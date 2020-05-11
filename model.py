@@ -488,7 +488,7 @@ class Tacotron2(nn.Module):
 
     def parse_batch(self, batch):
         text_padded, input_lengths, mel_padded, gate_padded, \
-            output_lengths, speakers, emotions = batch
+            output_lengths, speakers, emotions, audioids = batch
         text_padded = to_gpu(text_padded).long()
         speakers = to_gpu(speakers).float()
         emotions = to_gpu(emotions).float()
@@ -498,9 +498,11 @@ class Tacotron2(nn.Module):
         gate_padded = to_gpu(gate_padded).float()
         output_lengths = to_gpu(output_lengths).long()
 
-        return (
-            (text_padded, input_lengths, mel_padded, max_len, output_lengths, speakers, emotions),
-            (mel_padded, gate_padded))
+        x = (text_padded, input_lengths, mel_padded, max_len, output_lengths,
+             speakers, emotions, audioids)
+        y = (mel_padded, gate_padded)
+
+        return (x,y)
 
     def parse_input(self, inputs):
         inputs = fp32_to_fp16(inputs) if self.fp16_run else inputs
@@ -520,20 +522,29 @@ class Tacotron2(nn.Module):
         return outputs
 
     def forward(self, inputs):
-        inputs, input_lengths, targets, _, \
-            output_lengths, speakers, emotions = self.parse_input(inputs)
+        # parsed arguments
+        #  - inputs: padded text inputs (batch_size, max(input_lengths))
+        #  - input_lengths: text inputs lengths (batch_size)
+        #  - targets: mel outputs (batch_size, n_mel_channels, max(output_lengths))
+        #  - output_lengths: mel outputs lengths (batch_size)
+
+        inputs, input_lengths, targets, _, output_lengths, speakers, emotions, \
+            _ = self.parse_input(inputs)
         input_lengths, output_lengths = input_lengths.data, output_lengths.data
 
-        ## added
+        # get embedded text inputs (batch_size, symbols_embedding_dim, max(input_lengths))
         transcript_embedded_inputs = self.transcript_embedding(inputs).transpose(1, 2)
 
-        # [N, transcript_T, int(encoder_dim/2)]
+        # [N, transcript_T, int(encoder_dim/2)] -- JH
+        # get transcript output (batch_size, len(input_lengths), encoder_embedding_dim)
         transcript_outputs = self.encoder(transcript_embedded_inputs, input_lengths)
 
-        transcript_outputs_size = list(transcript_outputs.shape)
-
+        # get embedded prosody outputs (batch_size, E)
+        # get mu, logvar, z, all in the size of (batch_size, z_lalent_dim)
         prosody_outputs, mu, logvar, z = self.vae_gst(targets) # get z 
         prosody_outputs = prosody_outputs.unsqueeze(1).expand_as(transcript_outputs)
+
+        # combine transcript (-1,1) and prosody outputs
         encoder_outputs = transcript_outputs + prosody_outputs # for decoder input
 
         mel_outputs, gate_outputs, alignments = self.decoder(

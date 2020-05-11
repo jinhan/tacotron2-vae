@@ -23,6 +23,7 @@ def create_hparams(hparams_string=None, verbose=False):
         # Data Parameters             #
         ################################
         load_mel_from_disk=False,
+        mel_data_type='numpy',  # 'numpy' or 'torch'
         training_files='filelists/soe_train_3x.txt',
         validation_files='filelists/soe_valid_3x.txt',
         text_cleaners=['english_cleaners'], # english_cleaners, korean_cleaners

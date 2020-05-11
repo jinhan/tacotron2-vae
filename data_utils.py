@@ -2,6 +2,7 @@ import random
 import numpy as np
 import torch
 import torch.utils.data
+import os
 
 import layers
 from utils import load_wav_to_torch, load_filepaths_and_text
@@ -31,13 +32,14 @@ class TextMelLoader(torch.utils.data.Dataset):
 
     def get_mel_text_pair(self, audiopath_and_text):
         # separate filename and text
-        audiopath, text, speaker, emotion = audiopath_and_text[0], audiopath_and_text[1], audiopath_and_text[2], audiopath_and_text[3] # filelists/*.txt 구조대로 parsing
+        audiopath, text, speaker, emotion = audiopath_and_text # filelists/*.txt
         text = self.get_text(text) # int_tensor[char_index, ....]
         mel = self.get_mel(audiopath) # []
-        speaker = self.get_speaker(speaker) # 현재는 single speaker
+        speaker = self.get_speaker(speaker) # currently single speaker
         emotion = self.get_emotion(emotion)
+        audioid = os.path.splitext(os.path.basename(audiopath))[0]
 
-        return (text, mel, speaker, emotion)
+        return (text, mel, speaker, emotion, audioid)
 
     def get_mel(self, filename):
         if not self.load_mel_from_disk:
@@ -113,6 +115,10 @@ class TextMelCollate():
             emotion = batch[ids_sorted_decreasing[i]][3]
             emotions[i, :] = emotion
 
+        audioids = [[] for _ in range(len(batch))]
+        for i in range(len(ids_sorted_decreasing)):
+            audioids[i] = batch[ids_sorted_decreasing[i]][4]
+
         # Right zero-pad mel-spec
         num_mels = batch[0][1].size(0)
         max_target_len = max([x[1].size(1) for x in batch])
@@ -134,4 +140,4 @@ class TextMelCollate():
             output_lengths[i] = mel.size(1)
 
         return text_padded, input_lengths, mel_padded, gate_padded, \
-            output_lengths, speakers, emotions
+            output_lengths, speakers, emotions, audioids
