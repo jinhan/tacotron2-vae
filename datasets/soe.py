@@ -35,10 +35,11 @@ def build_from_path(in_dir, out_dir, num_workers=1, tqdm=lambda x: x):
     if (i+1) % batchsize == 0:
       print('%d/%d wavs submitted ...' % (i+1, nwavs))
     txt = wav.replace('.wav', '.txt')
-    futures.append(_process_utterance(in_dir, out_dir, wav, txt))
-    #futures.append(executor.submit(partial(_process_utterance, in_dir, out_dir, wav, txt)))
+    #futures.append(_process_utterance(in_dir, out_dir, wav, txt))
+    futures.append(executor.submit(partial(_process_utterance, in_dir, out_dir, wav, txt)))
   print('All lines submitted!')
 
+  #return futures
   return [future.result() for future in tqdm(futures)]
 
 def _process_utterance(in_dir, out_dir, wav_path, txt_path):
@@ -62,7 +63,7 @@ def _process_utterance(in_dir, out_dir, wav_path, txt_path):
     mel_path = mel_path.replace(in_dir, out_dir)
     if os.path.isfile(mel_path):
       melspec = torch.from_numpy(np.load(mel_path))
-      return (melspec, melspec.shape[1], text)
+      return (mel_path, melspec.shape[1], text)
   elif hparams.mel_data_type == 'torch':
     mel_path = wav_path.replace('.wav', '.pt')
     mel_path = mel_path.replace(in_dir, out_dir)
@@ -70,7 +71,7 @@ def _process_utterance(in_dir, out_dir, wav_path, txt_path):
       #melspec = torch.load(mel_path) # pkl is faster than torch here
       with open(mel_path, 'rb') as f:
         melspec = pkl.load(f)
-      return (melspec, melspec.shape[1], text)
+      return (mel_path, melspec.shape[1], text)
 
   # case if mel has not been generated
   audio, sampling_rate = load_wav_to_torch(wav_path)
@@ -95,4 +96,4 @@ def _process_utterance(in_dir, out_dir, wav_path, txt_path):
       pkl.dump(melspec, f, protocol=pkl.HIGHEST_PROTOCOL)
 
   # Return a tuple describing this training example:
-  return (melspec, melspec.shape[1], text)
+  return (mel_path, melspec.shape[1], text)

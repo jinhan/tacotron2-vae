@@ -61,14 +61,14 @@ def _process_utterance(out_dir, wav_path, text):
     mel_path = os.path.join(out_dir, '{}.npy'.format(fid))
     if os.path.isfile(mel_path):
       melspec = torch.from_numpy(np.load(mel_path))
-      return (melspec, melspec.shape[1], text)
+      return (mel_path, melspec.shape[1], text)
   elif hparams.mel_data_type == 'torch':
     mel_path = os.path.join(out_dir, '{}.pt'.format(fid))
     if os.path.isfile(mel_path):
       #melspec = torch.load(mel_path) # pkl is faster than torch here
       with open(mel_path, 'rb') as f:
         melspec = pkl.load(f)
-      return (melspec, melspec.shape[1], text)
+      return (mel_path, melspec.shape[1], text)
 
   # case if mel has not been generated
   audio, sampling_rate = load_wav_to_torch(wav_path)
@@ -93,5 +93,5 @@ def _process_utterance(out_dir, wav_path, text):
       pkl.dump(melspec, f, protocol=pkl.HIGHEST_PROTOCOL)
 
   # Return a tuple describing this training example:
-  return (melspec, melspec.shape[1], text)
+  return (mel_path, melspec.shape[1], text)
 
