@@ -67,7 +67,12 @@ def prep_ljspeech(args):
   for i, wavfile in enumerate(wavfiles):
     basename = os.path.splitext(os.path.basename(wavfile))[0]
     text = filename2text[basename]
-    lines[i] = '|'.join([wavfile, text, str(spk_id), str(emo_id)])
+    if args.include_emb:
+      embfile = wavfile.replace('/wavs/', '/embs/')
+      embfile = embfile.replace('.wav', '.npy')
+      lines[i] = '|'.join([wavfile, embfile, text, str(spk_id), str(emo_id)])
+    else:
+      lines[i] = '|'.join([wavfile, text, str(spk_id), str(emo_id)])
 
   return lines
 
@@ -90,7 +95,11 @@ def prep_soe(args):
       text = filename2meta[basename]['text']
       spk_id = spk_dict[filename2meta[basename]['speaker']]
       emo_id = emo_dict[filename2meta[basename]['cat']]
-      lines.append('|'.join([wavfile, text, str(spk_id), str(emo_id)]))
+      if args.include_emb:
+        embfile = wavfile.replace('.wav', '_embed.npy')
+        lines.append('|'.join([wavfile, embfile, text, str(spk_id), str(emo_id)]))
+      else:
+        lines.append('|'.join([wavfile, text, str(spk_id), str(emo_id)]))
 
   return lines
 
@@ -117,9 +126,12 @@ def split(lines, ratio='8:1:1', seed=0, ordered=True):
              in zip(cats, range(len(cats)))}
   return flist
 
-def write_flist(flist, dataset, output_dir, verbose=True):
+def write_flist(flist, dataset, output_dir, include_emb=False, verbose=True):
   for cat in flist.keys():
-    listfile = '{}_{}.txt'.format(dataset, cat)
+    if include_emb:
+      listfile = '{}_wav-emo_{}.txt'.format(dataset, cat)
+    else:
+      listfile = '{}_wav_{}.txt'.format(dataset, cat)
     listpath = os.path.join(output_dir, listfile)
     open(listpath, 'w').write('\n'.join(flist[cat]))
     print('wrote list file: {}'.format(listpath))
@@ -129,21 +141,23 @@ def parse_args():
   usage = 'usage: prepare file lists'
   parser = argparse.ArgumentParser(description=usage)
   parser.add_argument('-i', '--input-dir', type=str,
-                     help='directory for input data')
+                      help='directory for input data')
   parser.add_argument('-o', '--output-dir',type=str,
-                     help='directory for output file lists')
+                      help='directory for output file lists')
   parser.add_argument('-d', '--dataset', required=True,
                       choices=['ljspeech', 'soe'])
   parser.add_argument('-r', '--ratio', type=str, default='8:1:1',
-                     help='train/valid/test ratios')
+                      help='train/valid/test ratios')
   parser.add_argument('--metafile', type=str, default='',
                       help='optional metadata file')
   parser.add_argument('--emo-labels', type=str, default=
-                    'neutral:0,happy:1,angry:2,sad:3',
-                     help='emotion labels to be attached')
+                      'neutral:0,happy:1,angry:2,sad:3',
+                      help='emotion labels to be attached')
+  parser.add_argument('--include-emb', action="store_true",
+                      help='include emotion embedding file if enabled')
   parser.add_argument('--seed', type=int, default=0,
-                     help=('random seed to split filelist'
-                           ' into training, validation and test'))
+                      help=('random seed to split filelist'
+                            ' into training, validation and test'))
   parser.add_argument('--ordered', action='store_true',
                       help=('file list will be sorted after randomization'
                             ' if specified'))
@@ -161,6 +175,7 @@ def main():
   # args.seed = 0
   # args.ordered = False
   # args.output_dir = r'filelists'
+  # args.include_emb = True
   #
   # # ljspeech
   # args.input_dir = r'data/LJSpeech-1.1/wavs'
@@ -180,7 +195,7 @@ def main():
     raise Exception('{} is not supported'.format(args.dataset))
 
   flist = split(lines, ratio=args.ratio, seed=args.seed, ordered=args.ordered)
-  write_flist(flist, args.dataset, args.output_dir)
+  write_flist(flist, args.dataset, args.output_dir, args.include_emb)
 
 if __name__ == "__main__":
   main()

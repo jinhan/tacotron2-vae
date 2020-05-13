@@ -33,7 +33,7 @@ class VAE_GST(nn.Module):
     
 class ReferenceEncoder(nn.Module):
     '''
-    inputs --- [N, Ty/r, n_mels*r]  mels
+    inputs --- [N, Ty/r, n_input_dim*r]  mels
     outputs --- [N, ref_enc_gru_size]
     '''
 
@@ -56,24 +56,28 @@ class ReferenceEncoder(nn.Module):
         self.convs = nn.ModuleList(convs)
         self.bns = nn.ModuleList([nn.BatchNorm2d(num_features=hparams.ref_enc_filters[i]) for i in range(K)])
 
-        out_channels = self.calculate_channels(hparams.n_mel_channels, 3, 2, 1, K)
+        if hparams.vae_input_type == 'mel':
+            self.n_input_dim = hparams.n_mel_channels
+        elif hparams.vae_input_type == 'emo':
+            self.n_input_dim = hparams.emotion_embedding_dim
+
+        out_channels = self.calculate_channels(self.n_input_dim, 3, 2, 1, K)
         self.gru = nn.GRU(input_size=hparams.ref_enc_filters[-1] * out_channels,
                           hidden_size=hparams.E // 2,
                           batch_first=True)
-        self.n_mels = hparams.n_mel_channels
 
     def forward(self, inputs):
         N = inputs.size(0)
-        out = inputs.contiguous().view(N, 1, -1, self.n_mels)  # [N, 1, Ty, n_mels]
+        out = inputs.contiguous().view(N, 1, -1, self.n_input_dim)  # [N, 1, Ty, n_input_dim]
         for conv, bn in zip(self.convs, self.bns):
             out = conv(out)
             out = bn(out)
-            out = F.relu(out)  # [N, 128, Ty//2^K, n_mels//2^K]
+            out = F.relu(out)  # [N, 128, Ty//2^K, n_input_dim//2^K]
 
-        out = out.transpose(1, 2)  # [N, Ty//2^K, 128, n_mels//2^K]
+        out = out.transpose(1, 2)  # [N, Ty//2^K, 128, n_input_dim//2^K]
         T = out.size(1)
         N = out.size(0)
-        out = out.contiguous().view(N, T, -1)  # [N, Ty//2^K, 128*n_mels//2^K]
+        out = out.contiguous().view(N, T, -1)  # [N, Ty//2^K, 128*n_input_dim//2^K]
 
         memory, out = self.gru(out)  # out --- [1, N, E//2]
 

@@ -17,6 +17,8 @@ class TextMelLoader(torch.utils.data.Dataset):
     """
     def __init__(self, audiopaths_and_text, hparams):
         self.audiopaths_and_text = load_filepaths_and_text(audiopaths_and_text)
+        self.include_emo_emb = hparams.include_emo_emb
+        self.emo_emb_dim = hparams.emo_emb_dim
         self.text_cleaners = hparams.text_cleaners
         self.max_wav_value = hparams.max_wav_value
         self.sampling_rate = hparams.sampling_rate
@@ -32,14 +34,20 @@ class TextMelLoader(torch.utils.data.Dataset):
 
     def get_mel_text_pair(self, audiopath_and_text):
         # separate filename and text
-        audiopath, text, speaker, emotion = audiopath_and_text # filelists/*.txt
+        if self.include_emo_emb:
+          audiopath, emoembpath, text, speaker, emotion = audiopath_and_text
+          emoemb = self.get_emoemb(emoembpath)
+        else:
+          audiopath, text, speaker, emotion = audiopath_and_text # filelists/*.txt
+          emoemb = ''
         text = self.get_text(text) # int_tensor[char_index, ....]
         mel = self.get_mel(audiopath) # []
         speaker = self.get_speaker(speaker) # currently single speaker
         emotion = self.get_emotion(emotion)
+
         audioid = os.path.splitext(os.path.basename(audiopath))[0]
 
-        return (text, mel, speaker, emotion, audioid)
+        return (text, mel, emoemb, speaker, emotion, audioid)
 
     def get_mel(self, filename):
         if not self.load_mel_from_disk:
@@ -59,6 +67,13 @@ class TextMelLoader(torch.utils.data.Dataset):
                     melspec.size(0), self.stft.n_mel_channels))
 
         return melspec
+
+    def get_emoemb(self, filename):
+        emoemb = torch.from_numpy(np.load(filename)).T
+        assert emoemb.size(0) == self.emo_emb_dim, (
+            'Emotion embedding dimension mismatch: given {}, expected {}'.format(
+                emoemb.size(0), self.emo_emb_dim))
+        return emoemb
 
     def get_text(self, text):
         text_norm = torch.IntTensor(text_to_sequence(text, self.text_cleaners))
@@ -105,27 +120,37 @@ class TextMelCollate():
             text = batch[ids_sorted_decreasing[i]][0]
             text_padded[i, :text.size(0)] = text
 
-        speakers = torch.LongTensor(len(batch), len(batch[0][2]))
+        speakers = torch.LongTensor(len(batch), len(batch[0][3]))
         for i in range(len(ids_sorted_decreasing)):
-            speaker = batch[ids_sorted_decreasing[i]][2]
+            speaker = batch[ids_sorted_decreasing[i]][3]
             speakers[i, :] = speaker
 
-        emotions = torch.LongTensor(len(batch), len(batch[0][3]))
+        emotions = torch.LongTensor(len(batch), len(batch[0][4]))
         for i in range(len(ids_sorted_decreasing)):
-            emotion = batch[ids_sorted_decreasing[i]][3]
+            emotion = batch[ids_sorted_decreasing[i]][4]
             emotions[i, :] = emotion
 
         audioids = [[] for _ in range(len(batch))]
         for i in range(len(ids_sorted_decreasing)):
-            audioids[i] = batch[ids_sorted_decreasing[i]][4]
+            audioids[i] = batch[ids_sorted_decreasing[i]][5]
 
         # Right zero-pad mel-spec
         num_mels = batch[0][1].size(0)
-        max_target_len = max([x[1].size(1) for x in batch])
+        max_target_len1 = max([x[1].size(1) for x in batch])
+
+        if len(batch[0][2]) > 0:
+          num_emoembs = batch[0][2].size(0)
+          max_target_len2 = max([x[2].size(1) for x in batch])
+
+        max_target_len = max_target_len1 # temp solution
+        # todo: uniform wintime/hoptime of mel and emoemb so max_target_len will be the same
+
         # max_target_len = min(max([x[1].size(1) for x in batch]), 1000) # max_len 1000
+        # increment max_target_len to the multiples of n_frames_per_step
         if max_target_len % self.n_frames_per_step != 0:
             max_target_len += self.n_frames_per_step - max_target_len % self.n_frames_per_step
             assert max_target_len % self.n_frames_per_step == 0
+            # todo: to support n_frames_per_step > 1
 
         # include mel padded and gate padded
         mel_padded = torch.FloatTensor(len(batch), num_mels, max_target_len)
@@ -139,5 +164,15 @@ class TextMelCollate():
             gate_padded[i, mel.size(1)-1:] = 1
             output_lengths[i] = mel.size(1)
 
-        return text_padded, input_lengths, mel_padded, gate_padded, \
-            output_lengths, speakers, emotions, audioids
+        if len(batch[0][2]) > 0:
+            emoemb_padded = torch.FloatTensor(len(batch), num_emoembs, max_target_len)
+            emoemb_padded.zero_()
+            for i in range(len(ids_sorted_decreasing)):
+                emoemb = batch[ids_sorted_decreasing[i]][2]
+                emoemb_nframes = min(emoemb.size(1), max_target_len)  # temp solution
+                emoemb_padded[i, :, :emoemb_nframes] = emoemb[:, :emoemb_nframes]
+        else:
+            emoemb_padded = ''
+
+        return text_padded, input_lengths, mel_padded, emoemb_padded, \
+            gate_padded, output_lengths, speakers, emotions, audioids

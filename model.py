@@ -477,6 +477,7 @@ class Tacotron2(nn.Module):
             hparams.n_speakers, hparams.speaker_embedding_dim, bias=True, w_init_gain='tanh')
         self.emotion_embedding = LinearNorm(
             hparams.n_emotions, hparams.emotion_embedding_dim, bias=True, w_init_gain='tanh')
+        self.vae_input_type = hparams.vae_input_type
         std = sqrt(2.0 / (hparams.n_symbols + hparams.symbols_embedding_dim))
         val = sqrt(3.0) * std  # uniform bounds for std
         self.transcript_embedding.weight.data.uniform_(-val, val)
@@ -487,7 +488,7 @@ class Tacotron2(nn.Module):
         self.vae_gst = VAE_GST(hparams)
 
     def parse_batch(self, batch):
-        text_padded, input_lengths, mel_padded, gate_padded, \
+        text_padded, input_lengths, mel_padded, emoemb_padded, gate_padded, \
             output_lengths, speakers, emotions, audioids = batch
         text_padded = to_gpu(text_padded).long()
         speakers = to_gpu(speakers).float()
@@ -498,8 +499,11 @@ class Tacotron2(nn.Module):
         gate_padded = to_gpu(gate_padded).float()
         output_lengths = to_gpu(output_lengths).long()
 
-        x = (text_padded, input_lengths, mel_padded, max_len, output_lengths,
-             speakers, emotions, audioids)
+        if self.vae_input_type == 'emo':
+          emoemb_padded = to_gpu(emoemb_padded).float()
+
+        x = (text_padded, input_lengths, mel_padded, emoemb_padded, max_len,
+             output_lengths, speakers, emotions, audioids)
         y = (mel_padded, gate_padded)
 
         return (x,y)
@@ -528,8 +532,8 @@ class Tacotron2(nn.Module):
         #  - targets: mel outputs (batch_size, n_mel_channels, max(output_lengths))
         #  - output_lengths: mel outputs lengths (batch_size)
 
-        inputs, input_lengths, targets, _, output_lengths, speakers, emotions, \
-            _ = self.parse_input(inputs)
+        inputs, input_lengths, targets, emoembs, _, output_lengths, speakers, \
+            emotions, _ = self.parse_input(inputs)
         input_lengths, output_lengths = input_lengths.data, output_lengths.data
 
         # get embedded text inputs (batch_size, symbols_embedding_dim, max(input_lengths))
@@ -541,7 +545,11 @@ class Tacotron2(nn.Module):
 
         # get embedded prosody outputs (batch_size, E)
         # get mu, logvar, z, all in the size of (batch_size, z_lalent_dim)
-        prosody_outputs, mu, logvar, z = self.vae_gst(targets) # get z 
+        # get z
+        if self.vae_input_type == 'mel':
+          prosody_outputs, mu, logvar, z = self.vae_gst(targets)
+        elif self.vae_input_type == 'emo':
+          prosody_outputs, mu, logvar, z = self.vae_gst(emoembs)
         prosody_outputs = prosody_outputs.unsqueeze(1).expand_as(transcript_outputs)
 
         # combine transcript (-1,1) and prosody outputs

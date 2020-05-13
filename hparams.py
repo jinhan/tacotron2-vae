@@ -22,12 +22,19 @@ def create_hparams(hparams_string=None, verbose=False):
         ################################
         # Data Parameters             #
         ################################
-        load_mel_from_disk=False,
+        load_mel_from_disk=False, # if true, 1st element in the filelist should be mel
         mel_data_type='numpy', # 'numpy' or 'torch'
-        training_files='filelists/ljspeech_train.txt',
-        validation_files='filelists/ljspeech_test.txt',
+        training_files='filelists/ljspeech_wav_train.txt',
+        validation_files='filelists/ljspeech_wav_test.txt',
         text_cleaners=['english_cleaners'], # english_cleaners, korean_cleaners
         sort_by_length=False,
+
+        ################################
+        # Emotion Embedding Parameters #
+        ################################
+        include_emo_emb=False,  # check filelist and ensure include emo if True
+        load_emo_from_disk=True,  # currently only support True (ignored if include_emo_emb is False)
+        emo_emb_dim=64,
 
         ################################
         # Audio Parameters             #
@@ -60,6 +67,7 @@ def create_hparams(hparams_string=None, verbose=False):
         # emotion 
         n_emotions = 4, # number of emotion labels
         emotion_embedding_dim=16,
+        vae_input_type='mel',  # mel (default) or emo
 
         # reference encoder
         E = 512,

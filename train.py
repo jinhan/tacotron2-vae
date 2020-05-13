@@ -293,14 +293,17 @@ if __name__ == '__main__':
     # args.warm_start = False
     # args.n_gpus = 1
     # args.rank = 0
-    # args.gpu = 0
+    # args.gpu = 1
     # args.group_name = 'group_name'
-    # hparams = ["training_files=filelists/soe_train.txt",
-    #            "validation_files=filelists/soe_valid.txt",
+    # hparams = ["training_files=filelists/soe/3x/soe_mel_train_3x.txt",
+    #            "validation_files=filelists/soe/3x/soe_mel_valid_3x.txt",
     #            "text_cleaners=[english_cleaners]",
     #            "anneal_function=constant",
     #            "use_saved_learning_rate=True",
-    #            "batch_size=24",
+    #            "load_mel_from_disk=True",
+    #            "include_emo_emb=False",
+    #            "vae_input_type=mel",
+    #            "batch_size=5",
     #            "iters_per_checkpoint=2000"]
     # args.hparams = ','.join(hparams)
 
@@ -318,14 +321,12 @@ if __name__ == '__main__':
     print("FP16 Run:", hparams.fp16_run)
     print("Dynamic Loss Scaling:", hparams.dynamic_loss_scaling)
     print("Distributed Run:", hparams.distributed_run)
+    print("Load Mel from Disk:", hparams.load_mel_from_disk)
+    print("Include Emotion Embedding:", hparams.include_emo_emb)
+    print("VAE Input Type:", hparams.vae_input_type)
     print("cuDNN Enabled:", hparams.cudnn_enabled)
     print("cuDNN Benchmark:", hparams.cudnn_benchmark)
 
-    # runtime mode
-    #train(args.output_directory, args.log_directory, args.checkpoint_path,
-    #      args.warm_start, args.n_gpus, args.rank, args.group_name, hparams)
-
-    # interactive mode
     output_directory = args.output_directory
     log_directory = args.log_directory
     checkpoint_path = args.checkpoint_path

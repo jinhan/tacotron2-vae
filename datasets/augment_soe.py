@@ -46,8 +46,8 @@ def main():
 
   # # interactive mode
   # args = argparse.ArgumentParser()
-  # args.infile = 'filelists/soe_test.txt'
-  # args.outfile = 'filelists/soe_test_3x.txt'
+  # args.infile = 'filelists/soe/soe_wav-emo_test.txt'
+  # args.outfile = 'filelists/soe/3x/soe_wav-emo_test_3x.txt'
   # args.keyword = 'extreme'
   # args.multi_factor = 3
   # args.seed = 0
@@ -69,12 +69,12 @@ def main():
   lines = multiply_keyword_line(lines, args.keyword, args.multi_factor, args.verbose)
 
   # randomize lines with fix seed
+  print('randomize with seed {}'.format(args.seed))
   random.seed(args.seed)
   random.shuffle(lines)
 
   open(args.outfile, 'w').write('\n'.join(lines))
-  if args.verbose:
-    print('wrote list file: {}'.format(args.outfile))
+  print('wrote list file: {}'.format(args.outfile))
 
 if __name__ == '__main__':
   main()
