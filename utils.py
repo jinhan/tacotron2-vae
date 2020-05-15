@@ -32,6 +32,7 @@ def to_gpu(x):
         x = x.cuda(non_blocking=True)
     return torch.autograd.Variable(x)
 
+
 def str2bool(v):
     return v.lower() in ('true', '1')
 

@@ -5,7 +5,7 @@ from torch import nn
 from torch.nn import functional as F
 from layers import ConvNorm, ConvNorm2D, LinearNorm
 from utils import to_gpu, get_mask_from_lengths
-from fp16_optimizer import fp32_to_fp16, fp16_to_fp32
+#from fp16_optimizer import fp32_to_fp16, fp16_to_fp32
 from modules import VAE_GST
 
 drop_rate = 0.5
@@ -208,7 +208,7 @@ class Decoder(nn.Module):
         super(Decoder, self).__init__()
         self.n_mel_channels = hparams.n_mel_channels
         self.n_frames_per_step = hparams.n_frames_per_step
-        self.encoder_embedding_dim = hparams.encoder_embedding_dim 
+        self.encoder_embedding_dim = hparams.encoder_embedding_dim
         self.attention_rnn_dim = hparams.attention_rnn_dim
         self.decoder_rnn_dim = hparams.decoder_rnn_dim
         self.prenet_dim = hparams.prenet_dim
@@ -360,8 +360,8 @@ class Decoder(nn.Module):
             cell_input, (self.attention_hidden, self.attention_cell))
         self.attention_hidden = F.dropout(
             self.attention_hidden, self.p_attention_dropout, self.training)
-        self.attention_cell = F.dropout(
-            self.attention_cell, self.p_attention_dropout, self.training)
+        #self.attention_cell = F.dropout(
+        #   self.attention_cell, self.p_attention_dropout, self.training)
 
         attention_weights_cat = torch.cat(
             (self.attention_weights.unsqueeze(1),
@@ -377,8 +377,8 @@ class Decoder(nn.Module):
             decoder_input, (self.decoder_hidden, self.decoder_cell))
         self.decoder_hidden = F.dropout(
             self.decoder_hidden, self.p_decoder_dropout, self.training)
-        self.decoder_cell = F.dropout(
-            self.decoder_cell, self.p_decoder_dropout, self.training)
+        #self.decoder_cell = F.dropout(
+        #    self.decoder_cell, self.p_decoder_dropout, self.training)
         
         decoder_hidden_attention_context = torch.cat(
             (self.decoder_hidden, self.attention_context), dim=1)
@@ -508,9 +508,9 @@ class Tacotron2(nn.Module):
 
         return (x,y)
 
-    def parse_input(self, inputs):
-        inputs = fp32_to_fp16(inputs) if self.fp16_run else inputs
-        return inputs
+    # def parse_input(self, inputs):
+    #     inputs = fp32_to_fp16(inputs) if self.fp16_run else inputs
+    #     return inputs
 
     def parse_output(self, outputs, output_lengths=None):
         if self.mask_padding and output_lengths is not None:
@@ -522,7 +522,7 @@ class Tacotron2(nn.Module):
             outputs[1].data.masked_fill_(mask, 0.0)
             outputs[2].data.masked_fill_(mask[:, 0, :], 1e3)  # gate energies
 
-        outputs = fp16_to_fp32(outputs) if self.fp16_run else outputs
+        #outputs = fp16_to_fp32(outputs) if self.fp16_run else outputs
         return outputs
 
     def forward(self, inputs):
@@ -533,7 +533,7 @@ class Tacotron2(nn.Module):
         #  - output_lengths: mel outputs lengths (batch_size)
 
         inputs, input_lengths, targets, emoembs, _, output_lengths, speakers, \
-            emotions, _ = self.parse_input(inputs)
+            emotions, _ = inputs
         input_lengths, output_lengths = input_lengths.data, output_lengths.data
 
         # get embedded text inputs (batch_size, symbols_embedding_dim, max(input_lengths))
@@ -562,5 +562,24 @@ class Tacotron2(nn.Module):
         mel_outputs_postnet = mel_outputs + mel_outputs_postnet
 
         return self.parse_output(
-            [mel_outputs, mel_outputs_postnet, gate_outputs, alignments, mu, logvar, z, emotions],
-            output_lengths)
+            [mel_outputs, mel_outputs_postnet, gate_outputs, alignments, mu, \
+             logvar, z, emotions], output_lengths)
+
+    # todo: may need to modify to match the modified forward method
+    def inference(self, inputs):
+
+        transcript_embedded_inputs = self.transcript_embedding(inputs).transpose(1, 2)
+        transcript_outputs = self.encoder.inference(transcript_embedded_inputs)
+
+        encoder_outputs = transcript_outputs # currently no ref_audio provided
+
+        mel_outputs, gate_outputs, alignments = self.decoder.inference(
+            encoder_outputs)
+
+        mel_outputs_postnet = self.postnet(mel_outputs)
+        mel_outputs_postnet = mel_outputs + mel_outputs_postnet
+
+        outputs = self.parse_output(
+            [mel_outputs, mel_outputs_postnet, gate_outputs, alignments])
+
+        return outputs

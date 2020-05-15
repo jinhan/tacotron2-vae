@@ -145,7 +145,6 @@ class TextMelCollate():
         max_target_len = max_target_len1 # temp solution
         # todo: uniform wintime/hoptime of mel and emoemb so max_target_len will be the same
 
-        # max_target_len = min(max([x[1].size(1) for x in batch]), 1000) # max_len 1000
         # increment max_target_len to the multiples of n_frames_per_step
         if max_target_len % self.n_frames_per_step != 0:
             max_target_len += self.n_frames_per_step - max_target_len % self.n_frames_per_step

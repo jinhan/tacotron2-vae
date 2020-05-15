@@ -10,8 +10,6 @@ import torch.distributed as dist
 from torch.utils.data.distributed import DistributedSampler
 from torch.utils.data import DataLoader
 
-from fp16_optimizer import FP16_Optimizer
-
 from model import Tacotron2
 from data_utils import TextMelLoader, TextMelCollate
 from loss_function import Tacotron2Loss_VAE
@@ -19,15 +17,6 @@ from logger import Tacotron2Logger
 
 #from hparams import create_hparams, hparams_debug_string
 from hparams_soe import create_hparams, hparams_debug_string
-
-
-def batchnorm_to_float(module):
-    """Converts batch norm modules to FP32"""
-    if isinstance(module, torch.nn.modules.batchnorm._BatchNorm):   
-        module.float()
-    for child in module.children():
-        batchnorm_to_float(child)
-    return module
 
 
 def reduce_tensor(tensor, n_gpus):
@@ -58,10 +47,14 @@ def prepare_dataloaders(hparams):
     valset = TextMelLoader(hparams.validation_files, hparams)
     collate_fn = TextMelCollate(hparams.n_frames_per_step)
 
-    train_sampler = DistributedSampler(trainset) \
-        if hparams.distributed_run else None
+    if hparams.distributed_run:
+        train_sampler = DistributedSampler(trainset)
+        shuffle = False
+    else:
+        train_sampler = None
+        shuffle = True
 
-    train_loader = DataLoader(trainset, num_workers=1, shuffle=False,
+    train_loader = DataLoader(trainset, num_workers=1, shuffle=shuffle,
                               sampler=train_sampler,
                               batch_size=hparams.batch_size, pin_memory=False,
                               drop_last=True, collate_fn=collate_fn)
@@ -82,8 +75,7 @@ def prepare_directories_and_logger(output_directory, log_directory, rank):
 def load_model(hparams):
     model = Tacotron2(hparams).cuda()
     if hparams.fp16_run:
-        model = batchnorm_to_float(model.half())
-        model.decoder.attention_layer.score_mask_value = float(finfo('float16').min)
+        model.decoder.attention_layer.score_mask_value = finfo('float16').min
 
     if hparams.distributed_run:
         model = apply_gradient_allreduce(model)
@@ -91,12 +83,19 @@ def load_model(hparams):
     return model
 
 
-def warm_start_model(checkpoint_path, model):
-    assert os.path.isfile(checkpoint_path)
-    print("Warm starting model from checkpoint '{}'".format(checkpoint_path))
-    checkpoint_dict = torch.load(checkpoint_path, map_location='cpu')
-    model.load_state_dict(checkpoint_dict['state_dict'])
-    return model
+def warm_start_model(checkpoint_path, model, ignore_layers):
+  assert os.path.isfile(checkpoint_path)
+  print("Warm starting model from checkpoint '{}'".format(checkpoint_path))
+  checkpoint_dict = torch.load(checkpoint_path, map_location='cpu')
+  model_dict = checkpoint_dict['state_dict']
+  if len(ignore_layers) > 0:
+    model_dict = {k: v for k, v in model_dict.items()
+                  if k not in ignore_layers}
+    dummy_dict = model.state_dict()
+    dummy_dict.update(model_dict)
+    model_dict = dummy_dict
+  model.load_state_dict(model_dict)
+  return model
 
 
 def load_checkpoint(checkpoint_path, model, optimizer):
@@ -174,8 +173,9 @@ def train(output_directory, log_directory, checkpoint_path, warm_start, n_gpus,
     optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate,
                                  weight_decay=hparams.weight_decay)
     if hparams.fp16_run:
-        optimizer = FP16_Optimizer(
-            optimizer, dynamic_loss_scale=hparams.dynamic_loss_scaling)
+        from apex import amp
+        model, optimizer = amp.initialize(
+            model, optimizer, opt_level='O2')
 
     if hparams.distributed_run:
         print('applying gradient allreduce ...')
@@ -194,7 +194,8 @@ def train(output_directory, log_directory, checkpoint_path, warm_start, n_gpus,
     epoch_offset = 0
     if checkpoint_path is not None:
         if warm_start:
-            model = warm_start_model(checkpoint_path, model)
+            model = warm_start_model(
+                checkpoint_path, model, hparams.ignore_layers)
         else:
             model, optimizer, _learning_rate, iteration = load_checkpoint(
                 checkpoint_path, model, optimizer)
@@ -205,6 +206,7 @@ def train(output_directory, log_directory, checkpoint_path, warm_start, n_gpus,
         print('completing loading model ...')
 
     model.train()
+    is_overflow = False
     print('starting training in epoch range {} ~ {} ...'.format(
       epoch_offset, hparams.epochs))
     # ================ MAIN TRAINNIG LOOP! ===================
@@ -226,18 +228,22 @@ def train(output_directory, log_directory, checkpoint_path, warm_start, n_gpus,
                 reduced_loss = loss.item()
 
             if hparams.fp16_run:
-                optimizer.backward(loss)
-                grad_norm = optimizer.clip_fp32_grads(hparams.grad_clip_thresh)
+                with amp.scale_loss(loss, optimizer) as scaled_loss:
+                    scaled_loss.backward()
             else:
                 loss.backward()
+
+            if hparams.fp16_run:
+                grad_norm = torch.nn.utils.clip_grad_norm_(
+                    amp.master_params(optimizer), hparams.grad_clip_thresh)
+                is_overflow = math.isnan(grad_norm)
+            else:
                 grad_norm = torch.nn.utils.clip_grad_norm_(
                     model.parameters(), hparams.grad_clip_thresh)
 
             optimizer.step()
 
-            overflow = optimizer.overflow if hparams.fp16_run else False
-
-            if not overflow and not math.isnan(reduced_loss) and rank == 0:
+            if not is_overflow and rank == 0:
                 duration = time.perf_counter() - start
                 print("Train loss {} {:.6f} Grad Norm {:.6f} {:.2f}s/it".format(
                     iteration, reduced_loss, grad_norm, duration))
@@ -245,7 +251,7 @@ def train(output_directory, log_directory, checkpoint_path, warm_start, n_gpus,
                     reduced_loss, grad_norm, learning_rate, duration, recon_loss,
                     kl, kl_weight, iteration)
 
-            if not overflow and (iteration % hparams.iters_per_checkpoint == 0):
+            if not is_overflow and (iteration % hparams.iters_per_checkpoint == 0):
                 validate(model, criterion, valset, iteration,
                          hparams.batch_size, n_gpus, collate_fn, logger,
                          hparams.distributed_run, rank)
@@ -266,7 +272,7 @@ def parse_args():
     parser.add_argument('-c', '--checkpoint_path', type=str, default=None,
                         required=False, help='checkpoint path')
     parser.add_argument('--warm_start', action='store_true',
-                        help='load the model only (warm start)')
+                        help='load model weights only, ignore specified layers')
     parser.add_argument('--n_gpus', type=int, default=1,
                         required=False, help='number of gpus')
     parser.add_argument('--rank', type=int, default=0,
@@ -291,25 +297,27 @@ if __name__ == '__main__':
     # args.checkpoint_path = None # fresh run
     # #args.checkpoint_path = 'outdir/soe/checkpoint_14500'
     # args.warm_start = False
-    # args.n_gpus = 1
+    # args.n_gpus = 2
     # args.rank = 0
     # args.gpu = 1
     # args.group_name = 'group_name'
-    # hparams = ["training_files=filelists/soe/3x/soe_mel_train_3x.txt",
-    #            "validation_files=filelists/soe/3x/soe_mel_valid_3x.txt",
+    # hparams = ["training_files=filelists/soe/3x/soe_wav_train_3x.txt",
+    #            "validation_files=filelists/soe/3x/soe_wav_valid_3x.txt",
     #            "text_cleaners=[english_cleaners]",
     #            "anneal_function=constant",
     #            "use_saved_learning_rate=True",
-    #            "load_mel_from_disk=True",
+    #            "load_mel_from_disk=False",
     #            "include_emo_emb=False",
     #            "vae_input_type=mel",
-    #            "batch_size=5",
+    #            "fp16_run=True",
+    #            "distributed_run=True",
+    #            "batch_size=32",
     #            "iters_per_checkpoint=2000"]
     # args.hparams = ','.join(hparams)
 
     if args.n_gpus == 1:
-      # set current GPU device
-      torch.cuda.set_device(args.gpu)
+        # set current GPU device
+        torch.cuda.set_device(args.gpu)
     print('current GPU: {}'.format(torch.cuda.current_device()))
 
     hparams = create_hparams(args.hparams)

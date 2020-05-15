@@ -7,7 +7,7 @@ def create_hparams(hparams_string=None, verbose=False):
         ################################
         # Experiment Parameters        #
         ################################
-        epochs=300,
+        epochs=500,
         iters_per_checkpoint=500,
         seed=1234,
         dynamic_loss_scaling=True,
@@ -24,10 +24,16 @@ def create_hparams(hparams_string=None, verbose=False):
         ################################
         load_mel_from_disk=False,
         mel_data_type='numpy',  # 'numpy' or 'torch'
-        training_files='filelists/ljspeech_train.txt',
-        validation_files='filelists/ljspeech_test.txt',
+        training_files='filelists/ljspeech/ljspeech_wav_train.txt',
+        validation_files='filelists/ljspeech/ljspeech_wav_test.txt',
         text_cleaners=['english_cleaners'], # english_cleaners, korean_cleaners
-        sort_by_length=False,
+
+        ################################
+        # Emotion Embedding Parameters #
+        ################################
+        include_emo_emb=False,  # check filelist and ensure include emo if True
+        load_emo_from_disk=True,  # currently only support True (ignored if include_emo_emb is False)
+        emo_emb_dim=64,
 
         ################################
         # Audio Parameters             #
@@ -59,7 +65,8 @@ def create_hparams(hparams_string=None, verbose=False):
         # ---------------------------------------- #
         # emotion 
         n_emotions = 4, # number of emotion labels
-        emotion_embedding_dim=16,
+        emotion_embedding_dim=64, # 16 (original) or 64
+        vae_input_type='mel', # mel (default) or emo
 
         # reference encoder
         E = 512,
@@ -113,7 +120,7 @@ def create_hparams(hparams_string=None, verbose=False):
         learning_rate=1e-3,
         weight_decay=1e-6,
         grad_clip_thresh=1.0,
-        batch_size=64,
+        batch_size=32,
         mask_padding=True  # set model's padded outputs to padded values
     )
 
@@ -130,7 +137,3 @@ def hparams_debug_string(hparams):
     values = hparams.values()
     hp = ['  %s: %s' % (name, values[name]) for name in sorted(values)]
     return 'Hyperparameters:\n' + '\n'.join(hp)
-
-if __name__=='__main__':
-    hp = create_hparams(verbose=True)
-    print(hp.batch_size)

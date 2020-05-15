@@ -41,8 +41,10 @@ class ReferenceEncoder(nn.Module):
         super().__init__()
         K = len(hparams.ref_enc_filters)
         filters = [1] + hparams.ref_enc_filters
-        # 첫번째 레이어로 CoordConv를 사용하는 것이 positional 정보를 잘 보존한다고 함. https://arxiv.org/pdf/1811.02122.pdf
-        convs = [CoordConv2d(in_channels=filters[0],
+
+        # It is said that using CoordConv as the first layer preserves positional information well.
+        # https://arxiv.org/pdf/1811.02122.pdf
+        convs = [CoordConv2d(hparams.fp16_run, in_channels=filters[0],
                            out_channels=filters[0 + 1],
                            kernel_size=(3, 3),
                            stride=(2, 2),

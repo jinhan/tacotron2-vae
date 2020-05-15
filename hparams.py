@@ -7,7 +7,7 @@ def create_hparams(hparams_string=None, verbose=False):
         ################################
         # Experiment Parameters        #
         ################################
-        epochs=300,
+        epochs=500,
         iters_per_checkpoint=500,
         seed=1234,
         dynamic_loss_scaling=True,
@@ -17,7 +17,8 @@ def create_hparams(hparams_string=None, verbose=False):
         dist_backend="nccl",
         dist_url="tcp://localhost:54321",
         cudnn_enabled=True,
-        cudnn_benchmark=True,
+        cudnn_benchmark=False,
+        ignore_layers=['embedding.weight'],
 
         ################################
         # Data Parameters             #
@@ -27,7 +28,6 @@ def create_hparams(hparams_string=None, verbose=False):
         training_files='filelists/ljspeech_wav_train.txt',
         validation_files='filelists/ljspeech_wav_test.txt',
         text_cleaners=['english_cleaners'], # english_cleaners, korean_cleaners
-        sort_by_length=False,
 
         ################################
         # Emotion Embedding Parameters #
@@ -121,7 +121,7 @@ def create_hparams(hparams_string=None, verbose=False):
         learning_rate=1e-3,
         weight_decay=1e-6,
         grad_clip_thresh=1.0,
-        batch_size=64,
+        batch_size=32,
         mask_padding=True  # set model's padded outputs to padded values
     )
 
@@ -138,7 +138,3 @@ def hparams_debug_string(hparams):
     values = hparams.values()
     hp = ['  %s: %s' % (name, values[name]) for name in sorted(values)]
     return 'Hyperparameters:\n' + '\n'.join(hp)
-
-if __name__=='__main__':
-    hp = create_hparams(verbose=True)
-    print(hp.batch_size)

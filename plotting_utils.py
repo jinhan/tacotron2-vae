@@ -60,23 +60,24 @@ def plot_gate_outputs_to_numpy(gate_targets, gate_outputs):
     plt.close()
     return data
 
+
 def plot_scatter(mus, y):
     """
-    tensorboardX에서 scatter plot 그릴 수 있음
+    Scatter plot can be drawn on tensorboardX
     """
-    colors = 'r','b','g','y'
-    labels = 'neu','sad','ang','hap'
+    colors = 'r', 'b', 'g', 'y'
+    labels = 'neu', 'sad', 'ang', 'hap'
 
     mus = mus.cpu().numpy()
     y = y.cpu().numpy()
-    y = np.argmax(y,1)
+    y = np.argmax(y, 1)
 
-    fig, ax = plt.subplots(figsize=(12,12))
+    fig, ax = plt.subplots(figsize=(12, 12))
     for i, (c, label) in enumerate(zip(colors, labels)):
-        ax.scatter(mus[y==i,0], mus[y==i,1], c=c, label=label, alpha=0.5)
+        ax.scatter(mus[y == i, 0], mus[y == i, 1], c=c, label=label, alpha=0.5)
 
     plt.legend(loc='upper left')
-    
+
     fig.canvas.draw()
     data = save_figure_to_numpy(fig)
     plt.close()

@@ -1,15 +1,13 @@
 import torch
 import torch.nn as nn
 import torch.nn.modules.conv as conv
-from hparams import create_hparams
-
-hparams = create_hparams()
 
 class AddCoords(nn.Module):
-    def __init__(self, rank, with_r=False):
+    def __init__(self, fp16_run, rank, with_r=False):
         super(AddCoords, self).__init__()
         self.rank = rank
         self.with_r = with_r
+        self.fp16_run = fp16_run
 
     def forward(self, input_tensor):
         """
@@ -63,7 +61,7 @@ class AddCoords(nn.Module):
                 input_tensor = input_tensor.cuda()
                 xx_channel = xx_channel.cuda()
                 yy_channel = yy_channel.cuda()
-            if hparams.fp16_run:
+            if self.fp16_run:
                 input_tensor = input_tensor.half()
                 xx_channel = xx_channel.half()
                 yy_channel = yy_channel.half()
@@ -118,12 +116,12 @@ class AddCoords(nn.Module):
 
 
 class CoordConv1d(conv.Conv1d):
-    def __init__(self, in_channels, out_channels, kernel_size, stride=1,
+    def __init__(self, fp16_run, in_channels, out_channels, kernel_size, stride=1,
                  padding=0, dilation=1, groups=1, bias=True, with_r=False):
         super(CoordConv1d, self).__init__(in_channels, out_channels, kernel_size,
                                           stride, padding, dilation, groups, bias)
         self.rank = 1
-        self.addcoords = AddCoords(self.rank, with_r)
+        self.addcoords = AddCoords(fp16_run, self.rank, with_r)
         self.conv = nn.Conv1d(in_channels + self.rank + int(with_r), out_channels,
                               kernel_size, stride, padding, dilation, groups, bias)
 
@@ -140,12 +138,12 @@ class CoordConv1d(conv.Conv1d):
 
 
 class CoordConv2d(conv.Conv2d):
-    def __init__(self, in_channels, out_channels, kernel_size, stride=1,
+    def __init__(self, fp16_run, in_channels, out_channels, kernel_size, stride=1,
                  padding=0, dilation=1, groups=1, bias=True, with_r=False):
         super(CoordConv2d, self).__init__(in_channels, out_channels, kernel_size,
                                           stride, padding, dilation, groups, bias)
         self.rank = 2
-        self.addcoords = AddCoords(self.rank, with_r)
+        self.addcoords = AddCoords(fp16_run, self.rank, with_r)
         self.conv = nn.Conv2d(in_channels + self.rank + int(with_r), out_channels,
                               kernel_size, stride, padding, dilation, groups, bias)
 
@@ -162,12 +160,12 @@ class CoordConv2d(conv.Conv2d):
 
 
 class CoordConv3d(conv.Conv3d):
-    def __init__(self, in_channels, out_channels, kernel_size, stride=1,
+    def __init__(self, fp16_run, in_channels, out_channels, kernel_size, stride=1,
                  padding=0, dilation=1, groups=1, bias=True, with_r=False):
         super(CoordConv3d, self).__init__(in_channels, out_channels, kernel_size,
                                           stride, padding, dilation, groups, bias)
         self.rank = 3
-        self.addcoords = AddCoords(self.rank, with_r)
+        self.addcoords = AddCoords(fp16_run, self.rank, with_r)
         self.conv = nn.Conv3d(in_channels + self.rank + int(with_r), out_channels,
                               kernel_size, stride, padding, dilation, groups, bias)
 

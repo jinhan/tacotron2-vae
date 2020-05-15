@@ -7,7 +7,7 @@ def create_hparams(hparams_string=None, verbose=False):
         ################################
         # Experiment Parameters        #
         ################################
-        epochs=300,
+        epochs=500,
         iters_per_checkpoint=500,
         seed=1234,
         dynamic_loss_scaling=True,
@@ -24,10 +24,9 @@ def create_hparams(hparams_string=None, verbose=False):
         ################################
         load_mel_from_disk=False, # if true, 1st element in the filelist should be mel
         mel_data_type='numpy',  # 'numpy' or 'torch'
-        training_files='filelists/soe_train_emo_3x.txt',
-        validation_files='filelists/soe_valid_emo_3x.txt',
+        training_files='filelists/soe/3x/soe_wav_train_3x.txt',
+        validation_files='filelists/soe/3x/soe_wav_valid_3x.txt',
         text_cleaners=['english_cleaners'], # english_cleaners, korean_cleaners
-        sort_by_length=False,
 
         ################################
         # Emotion Embedding Parameters #
@@ -121,7 +120,7 @@ def create_hparams(hparams_string=None, verbose=False):
         learning_rate=1e-3,
         weight_decay=1e-6,
         grad_clip_thresh=1.0,
-        batch_size=64,
+        batch_size=32,
         mask_padding=True  # set model's padded outputs to padded values
     )
 
@@ -138,7 +137,3 @@ def hparams_debug_string(hparams):
     values = hparams.values()
     hp = ['  %s: %s' % (name, values[name]) for name in sorted(values)]
     return 'Hyperparameters:\n' + '\n'.join(hp)
-
-if __name__=='__main__':
-    hp = create_hparams(verbose=True)
-    print(hp.batch_size)
