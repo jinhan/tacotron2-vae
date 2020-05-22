@@ -13,10 +13,10 @@ class Tacotron2Loss_VAE(nn.Module):
 
     def kl_anneal_function(self, anneal_function, lag, step, k, x0, upper):
         if anneal_function == 'logistic':
-            return float(upper / (upper + np.exp(-k * (step - x0))))
+            return upper * float(upper / (upper + np.exp(-k * (step-x0))))
         elif anneal_function == 'linear':
             if step > lag:
-                return min(upper, step / x0)
+                return min(upper, (step-lag) / x0)
             else:
                 return 0
         elif anneal_function == 'constant':

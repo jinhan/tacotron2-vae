@@ -84,18 +84,18 @@ def load_model(hparams):
 
 
 def warm_start_model(checkpoint_path, model, ignore_layers):
-  assert os.path.isfile(checkpoint_path)
-  print("Warm starting model from checkpoint '{}'".format(checkpoint_path))
-  checkpoint_dict = torch.load(checkpoint_path, map_location='cpu')
-  model_dict = checkpoint_dict['state_dict']
-  if len(ignore_layers) > 0:
-    model_dict = {k: v for k, v in model_dict.items()
-                  if k not in ignore_layers}
-    dummy_dict = model.state_dict()
-    dummy_dict.update(model_dict)
-    model_dict = dummy_dict
-  model.load_state_dict(model_dict)
-  return model
+    assert os.path.isfile(checkpoint_path)
+    print("Warm starting model from checkpoint '{}'".format(checkpoint_path))
+    checkpoint_dict = torch.load(checkpoint_path, map_location='cpu')
+    model_dict = checkpoint_dict['state_dict']
+    if len(ignore_layers) > 0:
+        model_dict = {k: v for k, v in model_dict.items()
+                      if k not in ignore_layers}
+        dummy_dict = model.state_dict()
+        dummy_dict.update(model_dict)
+        model_dict = dummy_dict
+    model.load_state_dict(model_dict)
+    return model
 
 
 def load_checkpoint(checkpoint_path, model, optimizer):
@@ -172,6 +172,7 @@ def train(output_directory, log_directory, checkpoint_path, warm_start, n_gpus,
     learning_rate = hparams.learning_rate
     optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate,
                                  weight_decay=hparams.weight_decay)
+
     if hparams.fp16_run:
         from apex import amp
         model, optimizer = amp.initialize(
@@ -297,7 +298,7 @@ if __name__ == '__main__':
     # args.checkpoint_path = None # fresh run
     # #args.checkpoint_path = 'outdir/soe/checkpoint_14500'
     # args.warm_start = False
-    # args.n_gpus = 2
+    # args.n_gpus = 1
     # args.rank = 0
     # args.gpu = 1
     # args.group_name = 'group_name'
@@ -310,8 +311,8 @@ if __name__ == '__main__':
     #            "include_emo_emb=False",
     #            "vae_input_type=mel",
     #            "fp16_run=True",
-    #            "distributed_run=True",
-    #            "batch_size=32",
+    #            "distributed_run=False",
+    #            "batch_size=5",
     #            "iters_per_checkpoint=2000"]
     # args.hparams = ','.join(hparams)
 

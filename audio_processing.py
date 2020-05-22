@@ -74,6 +74,7 @@ def griffin_lim(magnitudes, stft_fn, n_iters=30):
         signal = stft_fn.inverse(magnitudes, angles).squeeze(1)
     return signal
 
+
 def dynamic_range_compression(x, C=1, clip_val=1e-5):
     """
     PARAMS

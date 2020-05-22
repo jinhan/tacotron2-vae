@@ -2,6 +2,7 @@ import torch
 import torch.nn as nn
 import torch.nn.modules.conv as conv
 
+
 class AddCoords(nn.Module):
     def __init__(self, fp16_run, rank, with_r=False):
         super(AddCoords, self).__init__()

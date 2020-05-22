@@ -484,8 +484,8 @@ class Tacotron2(nn.Module):
         self.encoder = Encoder(hparams)
         self.decoder = Decoder(hparams)
         self.postnet = Postnet(hparams)
-
         self.vae_gst = VAE_GST(hparams)
+
 
     def parse_batch(self, batch):
         text_padded, input_lengths, mel_padded, emoemb_padded, gate_padded, \
@@ -544,7 +544,7 @@ class Tacotron2(nn.Module):
         transcript_outputs = self.encoder(transcript_embedded_inputs, input_lengths)
 
         # get embedded prosody outputs (batch_size, E)
-        # get mu, logvar, z, all in the size of (batch_size, z_lalent_dim)
+        # get mu, logvar, z, all in the size of (batch_size, z_latent_dim)
         # get z
         if self.vae_input_type == 'mel':
           prosody_outputs, mu, logvar, z = self.vae_gst(targets)

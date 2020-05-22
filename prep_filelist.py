@@ -127,6 +127,11 @@ def split(lines, ratio='8:1:1', seed=0, ordered=True):
   return flist
 
 def write_flist(flist, dataset, output_dir, include_emb=False, verbose=True):
+
+  # update output directory to include dataset name
+  output_dir = os.path.join(output_dir, dataset)
+  os.makedirs(output_dir, exist_ok=True)
+
   for cat in flist.keys():
     if include_emb:
       listfile = '{}_wav-emo_{}.txt'.format(dataset, cat)

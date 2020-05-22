@@ -1,4 +1,6 @@
 import tensorflow as tf
+from text.symbols import symbols
+
 
 def create_hparams(hparams_string=None, verbose=False):
     """Create model hyperparameters. Parse nondefault from given string."""
@@ -7,7 +9,7 @@ def create_hparams(hparams_string=None, verbose=False):
         ################################
         # Experiment Parameters        #
         ################################
-        epochs=500,
+        epochs=5000,
         iters_per_checkpoint=500,
         seed=1234,
         dynamic_loss_scaling=True,
@@ -51,7 +53,7 @@ def create_hparams(hparams_string=None, verbose=False):
         ################################
         # Model Parameters             #
         ################################
-        n_symbols = 65, # set 80 for korean_cleaners. set 65 for english_cleaners
+        n_symbols = len(symbols), # set 80 for korean_cleaners. set 65 for english_cleaners
         symbols_embedding_dim=512,
 
         # Transcript encoder parameters
