@@ -38,7 +38,8 @@ class Tacotron2Loss_VAE(nn.Module):
         kl_weight = self.kl_anneal_function(self.anneal_function, self.lag, step, self.k, self.x0, self.upper)
 
         recon_loss = mel_loss + gate_loss
-        total_loss = recon_loss + kl_weight * kl_loss
+        weighted_kl_loss = kl_weight * kl_loss
+        total_loss = recon_loss + weighted_kl_loss
 
         return total_loss, recon_loss, kl_loss, kl_weight
 

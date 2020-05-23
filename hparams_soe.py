@@ -79,7 +79,7 @@ def create_hparams(hparams_string=None, verbose=False):
 
         z_latent_dim = 32,
         anneal_function = 'logistic',
-        anneal_k = 0.0025,
+        anneal_k = 0.0025, # the smaller the faster increasing
         anneal_x0 = 10000,
         anneal_upper = 0.2,
         anneal_lag = 50000,

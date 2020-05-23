@@ -66,15 +66,23 @@ def plot_scatter(mus, y):
     Scatter plot can be drawn on tensorboardX
     """
     colors = 'r', 'b', 'g', 'y'
-    labels = 'neu', 'sad', 'ang', 'hap'
+    labels = 'neutral', 'happy', 'angry', 'sad'
 
     mus = mus.cpu().numpy()
     y = y.cpu().numpy()
     y = np.argmax(y, 1)
 
+    # sort mus by its variance in descending order
+    idx = np.argsort(np.std(mus, 0))[::-1]
+
     fig, ax = plt.subplots(figsize=(12, 12))
     for i, (c, label) in enumerate(zip(colors, labels)):
-        ax.scatter(mus[y == i, 0], mus[y == i, 1], c=c, label=label, alpha=0.5)
+        ax.scatter(mus[y == i, idx[0]], mus[y == i, idx[1]],
+                   c=c, label=label, alpha=0.5)
+    plt.xlabel('dim {}'.format(idx[0]))
+    plt.ylabel('dim {}'.format(idx[1]))
+    plt.title('scatter plot of mus with emotion color labels, ' +
+              'dim: {}, show {}, {}'.format(len(idx), idx[0], idx[1]))
 
     plt.legend(loc='upper left')
 

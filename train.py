@@ -131,9 +131,13 @@ def validate(model, criterion, valset, iteration, batch_size, n_gpus,
                                 pin_memory=False, collate_fn=collate_fn)
 
         val_loss = 0.0
+        y0, y_pred0 = '', ''
         for i, batch in enumerate(val_loader):
             x, y = model.parse_batch(batch)
             y_pred = model(x)
+            # save first batch (with full batch size) for logging later
+            if not y0 and not y_pred0:
+              y0, y_pred0 = y, y_pred
             loss, _, _, _ = criterion(y_pred, y, iteration)
             if distributed_run:
                 reduced_val_loss = reduce_tensor(loss.data, n_gpus).item()
@@ -144,8 +148,8 @@ def validate(model, criterion, valset, iteration, batch_size, n_gpus,
 
     model.train()
     if rank == 0:
-        print("Validation loss {}: {:9f}  ".format(iteration, reduced_val_loss))
-        logger.log_validation(reduced_val_loss, model, y, y_pred, iteration)
+        print("Validation loss {}: {:9f}  ".format(iteration, val_loss))
+        logger.log_validation(val_loss, model, y0, y_pred0, iteration)
 
 
 def train(output_directory, log_directory, checkpoint_path, warm_start, n_gpus,
@@ -179,7 +183,6 @@ def train(output_directory, log_directory, checkpoint_path, warm_start, n_gpus,
             model, optimizer, opt_level='O2')
 
     if hparams.distributed_run:
-        print('applying gradient allreduce ...')
         model = apply_gradient_allreduce(model)
 
     criterion = Tacotron2Loss_VAE(hparams)
@@ -313,7 +316,9 @@ if __name__ == '__main__':
     #            "fp16_run=True",
     #            "distributed_run=False",
     #            "batch_size=5",
-    #            "iters_per_checkpoint=2000"]
+    #            "iters_per_checkpoint=2000",
+    #            "anneal_x0=100000",
+    #            "anneal_k=0.0001"]
     # args.hparams = ','.join(hparams)
 
     if args.n_gpus == 1:

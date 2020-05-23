@@ -10,7 +10,7 @@ For other data, you can modify _characters. See TRAINING_DATA.md for details.
 
 from text import cmudict
 
-include_capital = True
+include_capital = False
 include_arpabet = False
 include_label = False
 
