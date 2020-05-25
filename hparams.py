@@ -1,7 +1,6 @@
 import tensorflow as tf
 from text.symbols import symbols
 
-
 def create_hparams(hparams_string=None, verbose=False):
     """Create model hyperparameters. Parse nondefault from given string."""
 
@@ -85,6 +84,7 @@ def create_hparams(hparams_string=None, verbose=False):
         anneal_x0 = 10000,
         anneal_upper = 0.2,
         anneal_lag = 50000,
+        anneal_constant = 0.001,
 
         # Prosody embedding parameters
         prosody_n_convolutions = 6,

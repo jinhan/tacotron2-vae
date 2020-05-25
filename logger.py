@@ -4,7 +4,7 @@ import torch
 from torch.utils.tensorboard import SummaryWriter
 #from tensorboardX import SummaryWriter
 from plotting_utils import plot_alignment_to_numpy, plot_spectrogram_to_numpy
-from plotting_utils import plot_gate_outputs_to_numpy, plot_scatter
+from plotting_utils import plot_gate_outputs_to_numpy, plot_scatter, plot_tsne
 
 
 class Tacotron2Logger(SummaryWriter):
@@ -19,7 +19,7 @@ class Tacotron2Logger(SummaryWriter):
             self.add_scalar("duration", duration, iteration)
             self.add_scalar("kl_div", kl_div, iteration)
             self.add_scalar("kl_weight", kl_weight, iteration)
-            self.add_scalar("weighted_kl_weight", kl_weight*kl_div, iteration)
+            self.add_scalar("weighted_kl_loss", kl_weight*kl_div, iteration)
             self.add_scalar("recon_loss", recon_loss, iteration)
 
     def log_validation(self, reduced_loss, model, y, y_pred, iteration):
@@ -54,6 +54,10 @@ class Tacotron2Logger(SummaryWriter):
                 torch.sigmoid(gate_outputs[idx]).data.cpu().numpy()),
             iteration, dataformats='HWC')
         self.add_image(
-            "latent_dim",
+            "latent_dim (regular)",
             plot_scatter(mus, emotions),
+            iteration, dataformats='HWC')
+        self.add_image(
+            "latent_dim (t-sne)",
+            plot_tsne(mus, emotions),
             iteration, dataformats='HWC')

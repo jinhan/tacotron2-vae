@@ -3,6 +3,7 @@ import time
 import argparse
 import math
 from numpy import finfo
+import imageio
 
 import torch
 from distributed import apply_gradient_allreduce
@@ -12,6 +13,7 @@ from torch.utils.data import DataLoader
 
 from model import Tacotron2
 from data_utils import TextMelLoader, TextMelCollate
+from plotting_utils import plot_scatter, plot_tsne
 from loss_function import Tacotron2Loss_VAE
 from logger import Tacotron2Logger
 
@@ -151,6 +153,10 @@ def validate(model, criterion, valset, iteration, batch_size, n_gpus,
         print("Validation loss {}: {:9f}  ".format(iteration, val_loss))
         logger.log_validation(val_loss, model, y0, y_pred0, iteration)
 
+    mus, emotions = y_pred0[4], y_pred0[7]
+
+    return val_loss, (mus, emotions)
+
 
 def train(output_directory, log_directory, checkpoint_path, warm_start, n_gpus,
           rank, group_name, hparams):
@@ -256,14 +262,20 @@ def train(output_directory, log_directory, checkpoint_path, warm_start, n_gpus,
                     kl, kl_weight, iteration)
 
             if not is_overflow and (iteration % hparams.iters_per_checkpoint == 0):
-                validate(model, criterion, valset, iteration,
-                         hparams.batch_size, n_gpus, collate_fn, logger,
-                         hparams.distributed_run, rank)
+                val_loss, (mus, emotions) = validate(model, criterion, valset,
+                     iteration, hparams.batch_size, n_gpus, collate_fn, logger,
+                     hparams.distributed_run, rank)
                 if rank == 0:
-                    checkpoint_path = os.path.join(
-                        output_directory, "checkpoint_{}".format(iteration))
+                    checkpoint_path = os.path.join(output_directory,
+                        "checkpoint_{0}_{1:.4f}".format(iteration, val_loss))
                     save_checkpoint(model, optimizer, learning_rate, iteration,
-                                    checkpoint_path)
+                         checkpoint_path)
+                    image_scatter_path = os.path.join(output_directory,
+                         "checkpoint_{0}_scatter_val.png".format(iteration))
+                    image_tsne_path = os.path.join(output_directory,
+                         "checkpoint_{0}_tsne_val.png".format(iteration))
+                    imageio.imwrite(image_scatter_path, plot_scatter(mus, emotions))
+                    imageio.imwrite(image_tsne_path, plot_tsne(mus, emotions))
 
             iteration += 1
 

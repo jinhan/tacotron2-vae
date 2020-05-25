@@ -19,6 +19,7 @@ def create_hparams(hparams_string=None, verbose=False):
         dist_url="tcp://localhost:54321",
         cudnn_enabled=True,
         cudnn_benchmark=True,
+        ignore_layers=['embedding.weight'],
 
         ################################
         # Data Parameters             #
@@ -83,6 +84,7 @@ def create_hparams(hparams_string=None, verbose=False):
         anneal_x0 = 10000,
         anneal_upper = 0.2,
         anneal_lag = 50000,
+        anneal_constant = 0.001,
 
         # Prosody embedding parameters
         prosody_n_convolutions = 6,
