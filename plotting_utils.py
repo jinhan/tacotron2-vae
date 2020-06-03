@@ -61,7 +61,7 @@ def plot_gate_outputs_to_numpy(gate_targets, gate_outputs):
     return data
 
 
-def plot_scatter(mus, y):
+def plot_scatter(mus, y, figsize=(8,8)):
     """
     Scatter plot can be drawn on tensorboardX
     """
@@ -75,7 +75,7 @@ def plot_scatter(mus, y):
     # sort mus by its variance in descending order and get the first 2 indices
     idx = sorted(np.argsort(np.std(mus, 0))[::-1][:2])
 
-    fig, ax = plt.subplots(figsize=(12, 12))
+    fig, ax = plt.subplots(figsize=figsize)
     for i, (c, label) in enumerate(zip(colors, labels)):
         ax.scatter(mus[y==i, idx[0]], mus[y==i, idx[1]], c=c, label=label, alpha=0.5)
     plt.xlabel('dim {}'.format(idx[0])), plt.ylabel('dim {}'.format(idx[1]))
@@ -89,7 +89,7 @@ def plot_scatter(mus, y):
     return data
 
 
-def plot_tsne(mus, y):
+def plot_tsne(mus, y, figsize=(8,8)):
   """
   t-SNE scatter plot can be drawn on tensorboardX
   """
@@ -103,7 +103,7 @@ def plot_tsne(mus, y):
   tsne_model = TSNE(n_components=2, random_state=0, init='random')
   mus_transformed = tsne_model.fit_transform(mus)
 
-  fig, ax = plt.subplots(figsize=(12, 12))
+  fig, ax = plt.subplots(figsize=figsize)
   for i, (c, label) in enumerate(zip(colors, labels)):
     ax.scatter(mus_transformed[y==i, 0], mus_transformed[y==i, 1],
                c=c, label=label, alpha=0.5)
