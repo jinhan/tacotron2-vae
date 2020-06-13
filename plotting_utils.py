@@ -61,6 +61,15 @@ def plot_gate_outputs_to_numpy(gate_targets, gate_outputs):
     return data
 
 
+def id2onehot(y, dim=4):
+    batch_size = y.shape[0]
+    onehot_dim = max(max(y), dim)
+    y2 = np.zeros((batch_size, onehot_dim))
+    for i in range(batch_size):
+        y2[i, y[i]] = 1
+    return y2
+
+
 def plot_scatter(mus, y, figsize=(8,8)):
     """
     Scatter plot can be drawn on tensorboardX
@@ -70,7 +79,8 @@ def plot_scatter(mus, y, figsize=(8,8)):
 
     mus = mus.cpu().numpy()
     y = y.cpu().numpy()
-    y = np.argmax(y, 1)
+    if len(y.shape) > 1:
+        y = np.argmax(y, 1)
 
     # sort mus by its variance in descending order and get the first 2 indices
     idx = sorted(np.argsort(np.std(mus, 0))[::-1][:2])
@@ -98,7 +108,8 @@ def plot_tsne(mus, y, figsize=(8,8)):
 
   mus = mus.cpu().numpy()
   y = y.cpu().numpy()
-  y = np.argmax(y, 1)
+  if len(y.shape) > 1:
+      y = np.argmax(y, 1)
 
   tsne_model = TSNE(n_components=2, random_state=0, init='random')
   mus_transformed = tsne_model.fit_transform(mus)

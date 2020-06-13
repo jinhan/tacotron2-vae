@@ -1,9 +1,11 @@
 import os
+import sys
 import time
 import argparse
 import math
 from numpy import finfo
 import imageio
+sys.path.append(os.getcwd())
 
 import torch
 from distributed import apply_gradient_allreduce
@@ -47,7 +49,7 @@ def prepare_dataloaders(hparams):
     # Get data, data loaders and collate function ready
     trainset = TextMelLoader(hparams.training_files, hparams)
     valset = TextMelLoader(hparams.validation_files, hparams)
-    collate_fn = TextMelCollate(hparams.n_frames_per_step)
+    collate_fn = TextMelCollate(hparams)
 
     if hparams.distributed_run:
         train_sampler = DistributedSampler(trainset)
@@ -325,9 +327,11 @@ if __name__ == '__main__':
     #            "load_mel_from_disk=False",
     #            "include_emo_emb=False",
     #            "vae_input_type=mel",
-    #            "fp16_run=True",
+    #            "fp16_run=False",
+    #            "embedding_variation=0",
+    #            "label_type=one-hot",
     #            "distributed_run=False",
-    #            "batch_size=5",
+    #            "batch_size=24",
     #            "iters_per_checkpoint=2000",
     #            "anneal_x0=100000",
     #            "anneal_k=0.0001"]
@@ -349,7 +353,9 @@ if __name__ == '__main__':
     print("Distributed Run:", hparams.distributed_run)
     print("Load Mel from Disk:", hparams.load_mel_from_disk)
     print("Include Emotion Embedding:", hparams.include_emo_emb)
+    print("Label Type:", hparams.label_type)
     print("VAE Input Type:", hparams.vae_input_type)
+    print("Embedding Variation:", hparams.embedding_variation)
     print("cuDNN Enabled:", hparams.cudnn_enabled)
     print("cuDNN Benchmark:", hparams.cudnn_benchmark)
 

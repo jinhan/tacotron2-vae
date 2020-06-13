@@ -15,7 +15,7 @@ class TextMelLoader(torch.utils.data.Dataset):
         2) normalizes text and converts them to sequences of one-hot vectors
         3) computes mel-spectrograms from audio files.
     """
-    def __init__(self, audiopaths_and_text, hparams):
+    def __init__(self, audiopaths_and_text, hparams, speaker_ids=None, emotion_ids=None):
         self.audiopaths_and_text = load_filepaths_and_text(audiopaths_and_text)
         self.include_emo_emb = hparams.include_emo_emb
         self.emo_emb_dim = hparams.emo_emb_dim
@@ -25,6 +25,16 @@ class TextMelLoader(torch.utils.data.Dataset):
         self.load_mel_from_disk = hparams.load_mel_from_disk
         self.n_speakers = hparams.n_speakers
         self.n_emotions = hparams.n_emotions
+        self.label_type = hparams.label_type
+
+        self.speaker_ids = speaker_ids
+        if not self.speaker_ids:
+            self.speaker_ids = self.create_lookup(self.audiopaths_and_text, 'speaker')
+
+        self.emotion_ids = emotion_ids
+        if not self.emotion_ids:
+            self.emotion_ids = self.create_lookup(self.audiopaths_and_text, 'emotion')
+
         self.stft = layers.TacotronSTFT(
             hparams.filter_length, hparams.hop_length, hparams.win_length,
             hparams.n_mel_channels, hparams.sampling_rate, hparams.mel_fmin,
@@ -42,8 +52,8 @@ class TextMelLoader(torch.utils.data.Dataset):
           emoemb = ''
         text = self.get_text(text) # int_tensor[char_index, ....]
         mel = self.get_mel(audiopath) # []
-        speaker = self.get_speaker(speaker) # currently single speaker
-        emotion = self.get_emotion(emotion)
+        speaker = self.get_speaker(speaker, self.label_type) # currently single speaker
+        emotion = self.get_emotion(emotion, self.label_type)
 
         audioid = os.path.splitext(os.path.basename(audiopath))[0]
 
@@ -79,15 +89,29 @@ class TextMelLoader(torch.utils.data.Dataset):
         text_norm = torch.IntTensor(text_to_sequence(text, self.text_cleaners))
         return text_norm
 
-    def get_speaker(self, speaker):
-        speaker_vector = np.zeros(self.n_speakers)
-        speaker_vector[int(speaker)] = 1
-        return torch.Tensor(speaker_vector.astype(dtype=np.float32))
+    def create_lookup(self, audiopaths_and_text, attribute):
+        a2i = {'speaker':-2, 'emotion':-1}
+        ids = sorted(set(x[a2i[attribute]] for x in audiopaths_and_text))
+        d = {ids[i]: i for i in range(len(ids))}
+        return d
 
-    def get_emotion(self, emotion):
-        emotion_vector = np.zeros(self.n_emotions)
-        emotion_vector[int(emotion)] = 1
-        return torch.Tensor(emotion_vector.astype(dtype=np.float32))
+    def get_speaker(self, speaker, label_type='one-hot'):
+        if label_type == 'one-hot':
+            speaker_vector = np.zeros(self.n_speakers)
+            speaker_vector[self.speaker_ids[speaker]] = 1
+            output = torch.Tensor(speaker_vector.astype(dtype=np.float32))
+        elif label_type == 'id':
+            output = torch.tensor([self.speaker_ids[speaker]])
+        return output
+
+    def get_emotion(self, emotion, label_type='one-hot'):
+        if label_type == 'one-hot':
+            emotion_vector = np.zeros(self.n_emotions)
+            emotion_vector[self.emotion_ids[emotion]] = 1
+            output = torch.Tensor(emotion_vector.astype(dtype=np.float32))
+        elif label_type == 'id':
+            output = torch.tensor([self.emotion_ids[emotion]])
+        return output
 
     def __getitem__(self, index):
         return self.get_mel_text_pair(self.audiopaths_and_text[index])
@@ -99,14 +123,18 @@ class TextMelLoader(torch.utils.data.Dataset):
 class TextMelCollate():
     """ Zero-pads model inputs and targets based on number of frames per setep
     """
-    def __init__(self, n_frames_per_step):
-        self.n_frames_per_step = n_frames_per_step
+    def __init__(self, hparams):
+        self.n_frames_per_step = hparams.n_frames_per_step
+        self.label_type = hparams.label_type
 
     def __call__(self, batch):
         """Collate's training batch from normalized text and mel-spectrogram
         PARAMS
         ------
         batch: [[text_normalized, mel_normalized], ...]
+        e.g.
+            import itertools
+            batch = list(itertools.islice(train_loader.dataset, hparams.batch_size))
         """
         # Right zero-pad all one-hot text sequences to max input length
         input_lengths, ids_sorted_decreasing = torch.sort(
@@ -120,15 +148,21 @@ class TextMelCollate():
             text = batch[ids_sorted_decreasing[i]][0]
             text_padded[i, :text.size(0)] = text
 
-        speakers = torch.LongTensor(len(batch), len(batch[0][3]))
-        for i in range(len(ids_sorted_decreasing)):
-            speaker = batch[ids_sorted_decreasing[i]][3]
-            speakers[i, :] = speaker
-
-        emotions = torch.LongTensor(len(batch), len(batch[0][4]))
-        for i in range(len(ids_sorted_decreasing)):
-            emotion = batch[ids_sorted_decreasing[i]][4]
-            emotions[i, :] = emotion
+        if self.label_type == 'one-hot':
+            speakers = torch.LongTensor(len(batch), len(batch[0][3]))
+            for i in range(len(ids_sorted_decreasing)):
+                speaker = batch[ids_sorted_decreasing[i]][3]
+                speakers[i, :] = speaker
+            emotions = torch.LongTensor(len(batch), len(batch[0][4]))
+            for i in range(len(ids_sorted_decreasing)):
+                emotion = batch[ids_sorted_decreasing[i]][4]
+                emotions[i, :] = emotion
+        elif self.label_type == 'id':
+            speakers = torch.LongTensor(len(batch))
+            emotions = torch.LongTensor(len(batch))
+            for i in range(len(ids_sorted_decreasing)):
+                speakers[i] = batch[ids_sorted_decreasing[i]][3]
+                emotions[i] = batch[ids_sorted_decreasing[i]][4]
 
         audioids = [[] for _ in range(len(batch))]
         for i in range(len(ids_sorted_decreasing)):

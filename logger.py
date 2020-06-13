@@ -10,6 +10,8 @@ from plotting_utils import plot_gate_outputs_to_numpy, plot_scatter, plot_tsne
 class Tacotron2Logger(SummaryWriter):
     def __init__(self, logdir):
         super(Tacotron2Logger, self).__init__(logdir)
+        #self.dataformat = 'CHW' # default argument for SummaryWriter.add_image
+        self.dataformat = 'HWC' # NVIDIA
 
     def log_training(self, reduced_loss, grad_norm, learning_rate, duration,
                      recon_loss, kl_div, kl_weight, iteration):
@@ -26,7 +28,7 @@ class Tacotron2Logger(SummaryWriter):
         self.add_scalar("validation.loss", reduced_loss, iteration)
         _, mel_outputs, gate_outputs, alignments, mus, _, _, emotions = y_pred
         mel_targets, gate_targets = y
-        print('emotion:\n{}'.format(emotions))
+        #print('emotion:\n{}'.format(emotions))
 
         # plot distribution of parameters
         for tag, value in model.named_parameters():
@@ -38,26 +40,26 @@ class Tacotron2Logger(SummaryWriter):
         self.add_image(
             "alignment",
             plot_alignment_to_numpy(alignments[idx].data.cpu().numpy().T),
-            iteration, dataformats='HWC')
+            iteration, dataformats=self.dataformat)
         self.add_image(
             "mel_target",
             plot_spectrogram_to_numpy(mel_targets[idx].data.cpu().numpy()),
-            iteration, dataformats='HWC')
+            iteration, dataformats=self.dataformat)
         self.add_image(
             "mel_predicted",
             plot_spectrogram_to_numpy(mel_outputs[idx].data.cpu().numpy()),
-            iteration, dataformats='HWC')
+            iteration, dataformats=self.dataformat)
         self.add_image(
             "gate",
             plot_gate_outputs_to_numpy(
                 gate_targets[idx].data.cpu().numpy(),
                 torch.sigmoid(gate_outputs[idx]).data.cpu().numpy()),
-            iteration, dataformats='HWC')
+            iteration, dataformats=self.dataformat)
         self.add_image(
             "latent_dim (regular)",
             plot_scatter(mus, emotions),
-            iteration, dataformats='HWC')
+            iteration, dataformats=self.dataformat)
         self.add_image(
             "latent_dim (t-sne)",
             plot_tsne(mus, emotions),
-            iteration, dataformats='HWC')
+            iteration, dataformats=self.dataformat)
