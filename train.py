@@ -15,7 +15,8 @@ from torch.utils.data import DataLoader
 
 from model import Tacotron2
 from data_utils import TextMelLoader, TextMelCollate
-from plotting_utils import plot_scatter, plot_tsne
+from plotting_utils import plot_scatter, plot_tsne, plot_kl_weight
+from utils import get_kl_weight
 from loss_function import Tacotron2Loss_VAE
 from logger import Tacotron2Logger
 
@@ -310,23 +311,25 @@ if __name__ == '__main__':
 
     # # interactive mode
     # args = argparse.ArgumentParser()
-    # args.output_directory = 'outdir/soe'
+    # args.output_directory = 'outdir/soe/new'
     # args.log_directory = 'logdir'
     # args.checkpoint_path = None # fresh run
-    # #args.checkpoint_path = 'outdir/soe/checkpoint_14500'
     # args.warm_start = False
     # args.n_gpus = 1
     # args.rank = 0
     # args.gpu = 1
     # args.group_name = 'group_name'
-    # hparams = ["training_files=filelists/soe/3x/soe_wav_train_3x.txt",
-    #            "validation_files=filelists/soe/3x/soe_wav_valid_3x.txt",
+    # hparams = ["training_files=filelists/soe/3x/soe_wav-emo_v0_train_3x.txt",
+    #            "validation_files=filelists/soe/3x/soe_wav-emo_v0_valid_3x.txt",
+    #            "override_sample_size=True",
+    #            "hop_time=12.5",
+    #            "win_time=50.0",
     #            "text_cleaners=[english_cleaners]",
-    #            "anneal_function=constant",
+    #            "anneal_function=logistic",
     #            "use_saved_learning_rate=True",
     #            "load_mel_from_disk=False",
-    #            "include_emo_emb=False",
-    #            "vae_input_type=mel",
+    #            "include_emo_emb=True",
+    #            "vae_input_type=emo",
     #            "fp16_run=False",
     #            "embedding_variation=0",
     #            "label_type=one-hot",
@@ -336,6 +339,10 @@ if __name__ == '__main__':
     #            "anneal_x0=100000",
     #            "anneal_k=0.0001"]
     # args.hparams = ','.join(hparams)
+
+    if not os.path.isdir(args.output_directory):
+        os.makedirs(args.output_directory)
+        os.chmod(args.output_directory, 0o775)
 
     if args.n_gpus == 1:
         # set current GPU device
@@ -351,6 +358,7 @@ if __name__ == '__main__':
     print("FP16 Run:", hparams.fp16_run)
     print("Dynamic Loss Scaling:", hparams.dynamic_loss_scaling)
     print("Distributed Run:", hparams.distributed_run)
+    print("Override Sample Size:", hparams.override_sample_size)
     print("Load Mel from Disk:", hparams.load_mel_from_disk)
     print("Include Emotion Embedding:", hparams.include_emo_emb)
     print("Label Type:", hparams.label_type)
@@ -358,6 +366,17 @@ if __name__ == '__main__':
     print("Embedding Variation:", hparams.embedding_variation)
     print("cuDNN Enabled:", hparams.cudnn_enabled)
     print("cuDNN Benchmark:", hparams.cudnn_benchmark)
+
+    # log kl weights
+    af = hparams.anneal_function
+    lag = hparams.anneal_lag
+    k = hparams.anneal_k
+    x0 = hparams.anneal_x0
+    upper = hparams.anneal_upper
+    constant = hparams.anneal_constant
+    kl_weights = get_kl_weight(af, lag, k, x0, upper, constant, nsteps=250000)
+    imageio.imwrite(os.path.join(args.output_directory, 'kl_weights.png'),
+                    plot_kl_weight(kl_weights, af, lag,k, x0, upper, constant))
 
     output_directory = args.output_directory
     log_directory = args.log_directory

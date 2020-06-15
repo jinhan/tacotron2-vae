@@ -44,3 +44,19 @@ def makedirs(path):
 def add_postfix(path, postfix):
     path_without_ext, ext = path.rsplit('.', 1)
     return "{}.{}.{}".format(path_without_ext, postfix, ext)
+
+def get_kl_weight(af, lag, k, x0, upper, constant, nsteps=250000):
+    kl_weights = [0 for _ in range(nsteps)]
+    steps = list(range(nsteps))
+    for i, step in enumerate(steps):
+        if step >= lag:
+            if af == 'logistic':
+                kl_weights[i] = float(upper/(1+np.exp(-k*(step-x0))))
+            elif af == 'linear':
+                #kl_weights[i] = min(upper, step/x0)
+                kl_weights[i] = min(upper, (step-lag)/x0)
+            elif af == 'constant':
+                kl_weights[i] = constant
+        else:
+          kl_weights[i] = 0
+    return kl_weights

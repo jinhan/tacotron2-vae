@@ -26,14 +26,14 @@ def create_hparams(hparams_string=None, verbose=False):
         ################################
         load_mel_from_disk=False, # if true, 1st element in the filelist should be mel
         mel_data_type='numpy',  # 'numpy' or 'torch'
-        training_files='filelists/soe/3x/soe_wav_train_3x.txt',
-        validation_files='filelists/soe/3x/soe_wav_valid_3x.txt',
+        training_files='filelists/soe/3x/soe_wav-emo_v0_train_3x.txt',
+        validation_files='filelists/soe/3x/soe_wav-emo_v0_valid_3x.txt',
         text_cleaners=['english_cleaners'], # english_cleaners, korean_cleaners
 
         ################################
         # Emotion Embedding Parameters #
         ################################
-        include_emo_emb=False, # check filelist and ensure include emo if True
+        include_emo_emb=True, # check filelist and ensure include emo if True
         load_emo_from_disk=True, # currently only support True (ignored if include_emo_emb is False)
         emo_emb_dim=64,
 
@@ -42,6 +42,9 @@ def create_hparams(hparams_string=None, verbose=False):
         ################################
         max_wav_value=32768.0,
         sampling_rate=22050,
+        override_sample_size=True, # override filter_length,hop_length, win_length
+        hop_time=12.5, # in milliseconds
+        win_time=50.0, # in milliseconds
         filter_length=1024,
         hop_length=256, # number audio of frames between stft colmns, default win_length/4
         win_length=1024, # win_length int <= n_ftt: fft window size (frequency domain), defaults to win_length = n_fft

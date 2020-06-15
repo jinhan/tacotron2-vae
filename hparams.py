@@ -42,6 +42,9 @@ def create_hparams(hparams_string=None, verbose=False):
         ################################
         max_wav_value=32768.0,
         sampling_rate=22050,
+        override_sample_size = True, # override filter_length,hop_length, win_length
+        hop_time = 12.5, # in milliseconds
+        win_time = 50.0, # in milliseconds
         filter_length=1024,
         hop_length=256, # number audio of frames between stft colmns, default win_length/4
         win_length=1024, # win_length int <= n_ftt: fft window size (frequency domain), defaults to win_length = n_fft

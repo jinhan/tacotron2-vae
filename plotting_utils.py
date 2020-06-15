@@ -100,29 +100,42 @@ def plot_scatter(mus, y, figsize=(8,8)):
 
 
 def plot_tsne(mus, y, figsize=(8,8)):
-  """
-  t-SNE scatter plot can be drawn on tensorboardX
-  """
-  colors = 'r', 'b', 'g', 'y'
-  labels = 'neutral', 'happy', 'angry', 'sad'
+    """
+    t-SNE scatter plot can be drawn on tensorboardX
+    """
+    colors = 'r', 'b', 'g', 'y'
+    labels = 'neutral', 'happy', 'angry', 'sad'
 
-  mus = mus.cpu().numpy()
-  y = y.cpu().numpy()
-  if len(y.shape) > 1:
-      y = np.argmax(y, 1)
+    mus = mus.cpu().numpy()
+    y = y.cpu().numpy()
+    if len(y.shape) > 1:
+        y = np.argmax(y, 1)
 
-  tsne_model = TSNE(n_components=2, random_state=0, init='random')
-  mus_transformed = tsne_model.fit_transform(mus)
+    tsne_model = TSNE(n_components=2, random_state=0, init='random')
+    mus_transformed = tsne_model.fit_transform(mus)
 
-  fig, ax = plt.subplots(figsize=figsize)
-  for i, (c, label) in enumerate(zip(colors, labels)):
-    ax.scatter(mus_transformed[y==i, 0], mus_transformed[y==i, 1],
-               c=c, label=label, alpha=0.5)
-  plt.xlabel('dim 0'), plt.ylabel('dim 1')
-  plt.title('t-SNE plot of mus with emotion labels, dim: {}'.format(mus.shape[1]))
-  plt.grid(True), plt.legend(loc='upper left')
+    fig, ax = plt.subplots(figsize=figsize)
+    for i, (c, label) in enumerate(zip(colors, labels)):
+        ax.scatter(mus_transformed[y==i, 0], mus_transformed[y==i, 1],
+                   c=c, label=label, alpha=0.5)
+    plt.xlabel('dim 0'), plt.ylabel('dim 1')
+    plt.title('t-SNE plot of mus with emotion labels, dim: {}'.format(mus.shape[1]))
+    plt.grid(True), plt.legend(loc='upper left')
 
-  fig.canvas.draw()
-  data = save_figure_to_numpy(fig)
-  plt.close()
-  return data
+    fig.canvas.draw()
+    data = save_figure_to_numpy(fig)
+    plt.close()
+    return data
+
+def plot_kl_weight(kl_weights, af, lag, k, x0, upper, constant):
+    fig, ax = plt.subplots(figsize=(6, 4))
+    ax.plot(kl_weights, label=af)
+    plt.legend(), plt.xlabel('step'), plt.ylabel('kl weight')
+    plt.title('KL weights vs. steps\n' +
+              'k={}, x0={}, upper={}, lag={}, constant={}'.format(
+               k, x0, upper, lag, constant))
+
+    fig.canvas.draw()
+    data = save_figure_to_numpy(fig)
+    plt.close()
+    return data
