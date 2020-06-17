@@ -10,6 +10,7 @@ def create_hparams(hparams_string=None, verbose=False):
         ################################
         epochs=5000,
         iters_per_checkpoint=500,
+        shuffle_audiopaths=True,
         seed=1234,
         dynamic_loss_scaling=True,
         fp16_run=False,
@@ -28,6 +29,7 @@ def create_hparams(hparams_string=None, verbose=False):
         mel_data_type='numpy', # 'numpy' or 'torch'
         training_files='filelists/ljspeech_wav_train.txt',
         validation_files='filelists/ljspeech_wav_test.txt',
+        filelist_cols=['audiopath', 'emoembpath', 'text', 'dur', 'speaker', 'emotion'],
         text_cleaners=['english_cleaners'], # english_cleaners, korean_cleaners
 
         ################################
@@ -35,16 +37,16 @@ def create_hparams(hparams_string=None, verbose=False):
         ################################
         include_emo_emb=False, # check filelist and ensure include emo if True
         load_emo_from_disk=True, # currently only support True (ignored if include_emo_emb is False)
-        emo_emb_dim=64,
+        emo_emb_dim=64, # dim of the offline emotion embedding
 
         ################################
         # Audio Parameters             #
         ################################
         max_wav_value=32768.0,
         sampling_rate=22050,
-        override_sample_size = True, # override filter_length,hop_length, win_length
-        hop_time = 12.5, # in milliseconds
-        win_time = 50.0, # in milliseconds
+        override_sample_size=True, # override filter_length,hop_length,win_length
+        hop_time=12.5, # in milliseconds
+        win_time=50.0, # in milliseconds
         filter_length=1024,
         hop_length=256, # number audio of frames between stft colmns, default win_length/4
         win_length=1024, # win_length int <= n_ftt: fft window size (frequency domain), defaults to win_length = n_fft
@@ -57,8 +59,10 @@ def create_hparams(hparams_string=None, verbose=False):
         ################################
         n_symbols=len(symbols), # set 80 for korean_cleaners. set 65 for english_cleaners
         symbols_embedding_dim=512,
-        embedding_variation=4,
-        label_type='id' # 'one-hot' (default) or 'id'
+        use_vae=False,
+        vae_input_type='mel',  # mel (default) or emo
+        embedding_variation=0,
+        label_type='one-hot', # 'one-hot' (default) or 'id'
 
         # Transcript encoder parameters
         encoder_kernel_size=5,
@@ -67,12 +71,11 @@ def create_hparams(hparams_string=None, verbose=False):
 
         # Speaker embedding parameters
         n_speakers=1,
-        speaker_embedding_dim=16,
+        speaker_embedding_dim=16, # currently for speaker labeling embdding
 
         # Emotion Label parameters
         n_emotions=4, # number of emotion labels
-        emotion_embedding_dim=16, # 16 (original) or 64
-        vae_input_type='mel', # mel (default) or emo
+        emotion_embedding_dim=64, # currently for emotion label embedding, 16 (original) or 64
 
         # reference encoder
         E=512,

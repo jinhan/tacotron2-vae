@@ -208,7 +208,11 @@ class Decoder(nn.Module):
         super(Decoder, self).__init__()
         self.n_mel_channels = hparams.n_mel_channels
         self.n_frames_per_step = hparams.n_frames_per_step
-        self.encoder_embedding_dim = self.get_encoder_augmented_dim(hparams)
+        self.use_vae = hparams.use_vae
+        if self.use_vae:
+            self.encoder_embedding_dim = self.get_encoder_augmented_dim(hparams)
+        else:
+            self.encoder_embedding_dim = hparams.encoder_embedding_dim
         self.attention_rnn_dim = hparams.attention_rnn_dim
         self.decoder_rnn_dim = hparams.decoder_rnn_dim
         self.prenet_dim = hparams.prenet_dim
@@ -478,6 +482,7 @@ class Tacotron2(nn.Module):
         super(Tacotron2, self).__init__()
         self.mask_padding = hparams.mask_padding
         self.fp16_run = hparams.fp16_run
+        self.use_vae = hparams.use_vae
         self.embedding_variation = hparams.embedding_variation
         self.label_type = hparams.label_type
         self.n_mel_channels = hparams.n_mel_channels
@@ -487,18 +492,19 @@ class Tacotron2(nn.Module):
         self.emotion_embedding_dim = hparams.emotion_embedding_dim
         self.transcript_embedding = nn.Embedding(
             hparams.n_symbols, hparams.symbols_embedding_dim)
-        if self.label_type == 'one-hot':
-            self.speaker_embedding = LinearNorm(
-                hparams.n_speakers, hparams.speaker_embedding_dim, bias=True,
-                w_init_gain='tanh')
-            self.emotion_embedding = LinearNorm(
-                hparams.n_emotions, hparams.emotion_embedding_dim, bias=True,
-                w_init_gain='tanh')
-        elif self.label_type == 'id':
-            self.speaker_embedding = nn.Embedding(
-                hparams.n_speakers, hparams.speaker_embedding_dim)
-            self.emotion_embedding = nn.Embedding(
-                hparams.n_emotions, hparams.emotion_embedding_dim)
+        if self.use_vae:
+            if self.label_type == 'one-hot':
+                self.speaker_embedding = LinearNorm(
+                    hparams.n_speakers, hparams.speaker_embedding_dim, bias=True,
+                    w_init_gain='tanh')
+                self.emotion_embedding = LinearNorm(
+                    hparams.n_emotions, hparams.emotion_embedding_dim, bias=True,
+                    w_init_gain='tanh')
+            elif self.label_type == 'id':
+                self.speaker_embedding = nn.Embedding(
+                    hparams.n_speakers, hparams.speaker_embedding_dim)
+                self.emotion_embedding = nn.Embedding(
+                    hparams.n_emotions, hparams.emotion_embedding_dim)
         self.vae_input_type = hparams.vae_input_type
         std = sqrt(2.0 / (hparams.n_symbols + hparams.symbols_embedding_dim))
         val = sqrt(3.0) * std  # uniform bounds for std
@@ -511,25 +517,27 @@ class Tacotron2(nn.Module):
 
     def parse_batch(self, batch):
         text_padded, input_lengths, mel_padded, emoemb_padded, gate_padded, \
-            output_lengths, speakers, emotions, audioids = batch
+            output_lengths, speakers, emotions, durs, audioids = batch
         text_padded = to_gpu(text_padded).long()
-        if self.label_type == 'one-hot':
-            speakers = to_gpu(speakers).float()
-            emotions = to_gpu(emotions).float()
-        elif self.label_type == 'id':
-            speakers = to_gpu(speakers).long()
-            emotions = to_gpu(emotions).long()
+        if self.use_vae:
+            if self.label_type == 'one-hot':
+                speakers = to_gpu(speakers).float()
+                emotions = to_gpu(emotions).float()
+            elif self.label_type == 'id':
+                speakers = to_gpu(speakers).long()
+                emotions = to_gpu(emotions).long()
+            if self.vae_input_type == 'emo':
+              emoemb_padded = to_gpu(emoemb_padded).float()
+        else:
+            speakers = emotions = ''
         input_lengths = to_gpu(input_lengths).long()
         max_len = torch.max(input_lengths.data).item()
         mel_padded = to_gpu(mel_padded).float()
         gate_padded = to_gpu(gate_padded).float()
         output_lengths = to_gpu(output_lengths).long()
 
-        if self.vae_input_type == 'emo':
-          emoemb_padded = to_gpu(emoemb_padded).float()
-
         x = (text_padded, input_lengths, mel_padded, emoemb_padded, max_len,
-             output_lengths, speakers, emotions, audioids)
+             output_lengths, speakers, emotions, durs, audioids)
         y = (mel_padded, gate_padded)
 
         return (x,y)
@@ -590,7 +598,7 @@ class Tacotron2(nn.Module):
         #  - output_lengths: mel outputs lengths (batch_size)
 
         inputs, input_lengths, targets, emoembs, _, output_lengths, speakers, \
-            emotions, _ = inputs
+            emotions, _, _ = inputs
         input_lengths, output_lengths = input_lengths.data, output_lengths.data
 
         # get embedded text inputs (batch_size, symbols_embedding_dim, max(input_lengths))
@@ -603,19 +611,21 @@ class Tacotron2(nn.Module):
         # get embedded prosody outputs (batch_size, E)
         # get mu, logvar, z, all in the size of (batch_size, z_latent_dim)
         # get z
-        if self.vae_input_type == 'mel':
-            prosody_outputs, mu, logvar, z = self.vae_gst(targets)
-        elif self.vae_input_type == 'emo':
-            prosody_outputs, mu, logvar, z = self.vae_gst(emoembs)
-        prosody_outputs = prosody_outputs.unsqueeze(1).expand_as(transcript_outputs)
-
-        # get speaker and emotion embeddings
-        speaker_embeddings = self.speaker_embedding(speakers)
-        emotion_embeddings = self.emotion_embedding(emotions)
-
-        # combine encoder outputs from transcript (-1,1), prosody outputs, etc.
-        encoder_outputs = self.combine_encoder_output(transcript_outputs, prosody_outputs,
-                          speaker_embeddings, emotion_embeddings, self.embedding_variation)
+        if self.use_vae:
+            if self.vae_input_type == 'mel':
+                prosody_outputs, mu, logvar, z = self.vae_gst(targets)
+            elif self.vae_input_type == 'emo':
+                prosody_outputs, mu, logvar, z = self.vae_gst(emoembs)
+            prosody_outputs = prosody_outputs.unsqueeze(1).expand_as(transcript_outputs)
+            # get speaker and emotion embeddings
+            speaker_embeddings = self.speaker_embedding(speakers)
+            emotion_embeddings = self.emotion_embedding(emotions)
+            # combine encoder outputs from transcript (-1,1), prosody outputs, etc.
+            encoder_outputs = self.combine_encoder_output(transcript_outputs,
+                prosody_outputs, speaker_embeddings, emotion_embeddings,
+                self.embedding_variation)
+        else:
+            encoder_outputs = transcript_outputs
 
         mel_outputs, gate_outputs, alignments = self.decoder(
             encoder_outputs, targets, memory_lengths=input_lengths)
@@ -623,9 +633,14 @@ class Tacotron2(nn.Module):
         mel_outputs_postnet = self.postnet(mel_outputs)
         mel_outputs_postnet = mel_outputs + mel_outputs_postnet
 
-        return self.parse_output(
-            [mel_outputs, mel_outputs_postnet, gate_outputs, alignments, mu, \
-             logvar, z, emotions], output_lengths)
+        if self.use_vae:
+            return self.parse_output(
+                [mel_outputs, mel_outputs_postnet, gate_outputs, alignments, mu, \
+                 logvar, z, emotions], output_lengths)
+        else:
+            return self.parse_output(
+                [mel_outputs, mel_outputs_postnet, gate_outputs, alignments],
+                output_lengths)
 
     def inference(self, inputs):
 
@@ -636,18 +651,22 @@ class Tacotron2(nn.Module):
         transcript_embedded_inputs = self.transcript_embedding(inputs).transpose(1, 2)
         transcript_outputs = self.encoder.inference(transcript_embedded_inputs)
 
-        if self.vae_input_type == 'mel':
-            prosody_outputs, mu, logvar, z = self.vae_gst(targets)
-        elif self.vae_input_type == 'emo':
-            prosody_outputs, mu, logvar, z = self.vae_gst(emoembs)
-        prosody_outputs = prosody_outputs.unsqueeze(1).expand_as(transcript_outputs)
+        if self.use_vae:
+            if self.vae_input_type == 'mel':
+                prosody_outputs, mu, logvar, z = self.vae_gst(targets)
+            elif self.vae_input_type == 'emo':
+                prosody_outputs, mu, logvar, z = self.vae_gst(emoembs)
+            prosody_outputs = prosody_outputs.unsqueeze(1).expand_as(transcript_outputs)
 
-        # get speaker and emotion embeddings
-        speaker_embeddings = self.speaker_embedding(speakers)
-        emotion_embeddings = self.emotion_embedding(emotions)
+            # get speaker and emotion embeddings
+            speaker_embeddings = self.speaker_embedding(speakers)
+            emotion_embeddings = self.emotion_embedding(emotions)
 
-        encoder_outputs = self.combine_encoder_output(transcript_outputs, prosody_outputs,
-            speaker_embeddings, emotion_embeddings, self.embedding_variation)
+            encoder_outputs = self.combine_encoder_output(transcript_outputs,
+                prosody_outputs, speaker_embeddings, emotion_embeddings,
+                self.embedding_variation)
+        else:
+            encoder_outputs = transcript_outputs
 
         mel_outputs, gate_outputs, alignments = self.decoder.inference(
             encoder_outputs)

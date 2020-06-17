@@ -17,6 +17,8 @@ class TextMelLoader(torch.utils.data.Dataset):
     """
     def __init__(self, audiopaths_and_text, hparams, speaker_ids=None, emotion_ids=None):
         self.audiopaths_and_text = load_filepaths_and_text(audiopaths_and_text)
+        self.shuffle_audiopaths = hparams.shuffle_audiopaths
+        self.filelist_cols = hparams.filelist_cols
         self.include_emo_emb = hparams.include_emo_emb
         self.emo_emb_dim = hparams.emo_emb_dim
         self.text_cleaners = hparams.text_cleaners
@@ -26,6 +28,24 @@ class TextMelLoader(torch.utils.data.Dataset):
         self.n_speakers = hparams.n_speakers
         self.n_emotions = hparams.n_emotions
         self.label_type = hparams.label_type
+        self.use_vae = hparams.use_vae
+
+        if hparams.override_sample_size:
+            self.hop_length = int(np.ceil(hparams.hop_time/1000*hparams.sampling_rate))
+            self.win_length = int(np.ceil(hparams.win_time/1000*hparams.sampling_rate))
+            self.filter_length = int(2**np.ceil(np.log2(self.win_length)))
+        else:
+            self.hop_length = hparams.hop_length
+            self.win_length = hparams.win_length
+            self.filter_length = hparams.filter_length
+        self.stft = layers.TacotronSTFT(
+            self.filter_length, self.hop_length, self.win_length,
+            hparams.n_mel_channels, hparams.sampling_rate, hparams.mel_fmin,
+            hparams.mel_fmax)
+
+        if self.shuffle_audiopaths:
+            random.seed(hparams.seed)
+            random.shuffle(self.audiopaths_and_text)
 
         self.speaker_ids = speaker_ids
         if not self.speaker_ids:
@@ -35,29 +55,36 @@ class TextMelLoader(torch.utils.data.Dataset):
         if not self.emotion_ids:
             self.emotion_ids = self.create_lookup(self.audiopaths_and_text, 'emotion')
 
-        self.stft = layers.TacotronSTFT(
-            hparams.filter_length, hparams.hop_length, hparams.win_length,
-            hparams.n_mel_channels, hparams.sampling_rate, hparams.mel_fmin,
-            hparams.mel_fmax)
-        random.seed(hparams.seed)
-        random.shuffle(self.audiopaths_and_text)
+    def parse_filelist_line(self, audiopath_and_text):
+        # parse basic cols
+        audiopath = audiopath_and_text[self.filelist_cols.index('audiopath')]
+        text = audiopath_and_text[self.filelist_cols.index('text')]
+        # parse optional cols
+        emoembpath, dur, speaker, emotion = '', '', '', ''
+        if 'emoembpath' in self.filelist_cols:
+            emoembpath = audiopath_and_text[self.filelist_cols.index('emoembpath')]
+        if 'dur' in self.filelist_cols:
+            dur = float(audiopath_and_text[self.filelist_cols.index('dur')])
+        if 'speaker' in self.filelist_cols:
+            speaker = audiopath_and_text[self.filelist_cols.index('speaker')]
+        if 'emotion' in self.filelist_cols:
+            emotion = audiopath_and_text[self.filelist_cols.index('emotion')]
+        return audiopath, emoembpath, text, dur, speaker, emotion
 
     def get_mel_text_pair(self, audiopath_and_text):
         # separate filename and text
-        if self.include_emo_emb:
-          audiopath, emoembpath, text, speaker, emotion = audiopath_and_text
-          emoemb = self.get_emoemb(emoembpath)
-        else:
-          audiopath, text, speaker, emotion = audiopath_and_text # filelists/*.txt
-          emoemb = ''
-        text = self.get_text(text) # int_tensor[char_index, ....]
-        mel = self.get_mel(audiopath) # []
-        speaker = self.get_speaker(speaker, self.label_type) # currently single speaker
-        emotion = self.get_emotion(emotion, self.label_type)
-
+        emoemb, speaker, emotion = '', '', ''
+        audiopath, emoembpath, text, dur, speaker, emotion = \
+            self.parse_filelist_line(audiopath_and_text)
+        text = self.get_text(text)  # int_tensor[char_index, ....]
+        mel = self.get_mel(audiopath)  # []
+        if self.use_vae:
+            if self.include_emo_emb:
+                emoemb = self.get_emoemb(emoembpath)
+            speaker = self.get_speaker(speaker, self.label_type)
+            emotion = self.get_emotion(emotion, self.label_type)
         audioid = os.path.splitext(os.path.basename(audiopath))[0]
-
-        return (text, mel, emoemb, speaker, emotion, audioid)
+        return (text, mel, emoemb, speaker, emotion, dur, audioid)
 
     def get_mel(self, filename):
         if not self.load_mel_from_disk:
@@ -126,6 +153,7 @@ class TextMelCollate():
     def __init__(self, hparams):
         self.n_frames_per_step = hparams.n_frames_per_step
         self.label_type = hparams.label_type
+        self.use_vae = hparams.use_vae
 
     def __call__(self, batch):
         """Collate's training batch from normalized text and mel-spectrogram
@@ -148,25 +176,30 @@ class TextMelCollate():
             text = batch[ids_sorted_decreasing[i]][0]
             text_padded[i, :text.size(0)] = text
 
-        if self.label_type == 'one-hot':
-            speakers = torch.LongTensor(len(batch), len(batch[0][3]))
-            for i in range(len(ids_sorted_decreasing)):
-                speaker = batch[ids_sorted_decreasing[i]][3]
-                speakers[i, :] = speaker
-            emotions = torch.LongTensor(len(batch), len(batch[0][4]))
-            for i in range(len(ids_sorted_decreasing)):
-                emotion = batch[ids_sorted_decreasing[i]][4]
-                emotions[i, :] = emotion
-        elif self.label_type == 'id':
-            speakers = torch.LongTensor(len(batch))
-            emotions = torch.LongTensor(len(batch))
-            for i in range(len(ids_sorted_decreasing)):
-                speakers[i] = batch[ids_sorted_decreasing[i]][3]
-                emotions[i] = batch[ids_sorted_decreasing[i]][4]
+        if self.use_vae:
+            if self.label_type == 'one-hot':
+                speakers = torch.LongTensor(len(batch), len(batch[0][3]))
+                for i in range(len(ids_sorted_decreasing)):
+                    speaker = batch[ids_sorted_decreasing[i]][3]
+                    speakers[i, :] = speaker
+                emotions = torch.LongTensor(len(batch), len(batch[0][4]))
+                for i in range(len(ids_sorted_decreasing)):
+                    emotion = batch[ids_sorted_decreasing[i]][4]
+                    emotions[i, :] = emotion
+            elif self.label_type == 'id':
+                speakers = torch.LongTensor(len(batch))
+                emotions = torch.LongTensor(len(batch))
+                for i in range(len(ids_sorted_decreasing)):
+                    speakers[i] = batch[ids_sorted_decreasing[i]][3]
+                    emotions[i] = batch[ids_sorted_decreasing[i]][4]
+        else:
+            speakers = emotions = ''
 
+        durs = [[] for _ in range(len(batch))]
         audioids = [[] for _ in range(len(batch))]
         for i in range(len(ids_sorted_decreasing)):
-            audioids[i] = batch[ids_sorted_decreasing[i]][5]
+            durs[i] = batch[ids_sorted_decreasing[i]][5]
+            audioids[i] = batch[ids_sorted_decreasing[i]][6]
 
         # Right zero-pad mel-spec
         num_mels = batch[0][1].size(0)
@@ -176,7 +209,7 @@ class TextMelCollate():
           num_emoembs = batch[0][2].size(0)
           max_target_len2 = max([x[2].size(1) for x in batch])
 
-        max_target_len = max_target_len1 # temp solution
+        max_target_len = max_target_len1
         # todo: uniform wintime/hoptime of mel and emoemb so max_target_len will be the same
 
         # increment max_target_len to the multiples of n_frames_per_step
@@ -202,10 +235,10 @@ class TextMelCollate():
             emoemb_padded.zero_()
             for i in range(len(ids_sorted_decreasing)):
                 emoemb = batch[ids_sorted_decreasing[i]][2]
-                emoemb_nframes = min(emoemb.size(1), max_target_len)  # temp solution
+                emoemb_nframes = min(emoemb.size(1), max_target_len)
                 emoemb_padded[i, :, :emoemb_nframes] = emoemb[:, :emoemb_nframes]
         else:
             emoemb_padded = ''
 
         return text_padded, input_lengths, mel_padded, emoemb_padded, \
-            gate_padded, output_lengths, speakers, emotions, audioids
+            gate_padded, output_lengths, speakers, emotions, durs, audioids

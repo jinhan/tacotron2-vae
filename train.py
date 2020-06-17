@@ -17,7 +17,7 @@ from model import Tacotron2
 from data_utils import TextMelLoader, TextMelCollate
 from plotting_utils import plot_scatter, plot_tsne, plot_kl_weight
 from utils import get_kl_weight
-from loss_function import Tacotron2Loss_VAE
+from loss_function import Tacotron2Loss_VAE, Tacotron2Loss
 from logger import Tacotron2Logger
 
 #from hparams import create_hparams, hparams_debug_string
@@ -66,12 +66,14 @@ def prepare_dataloaders(hparams):
     return train_loader, valset, collate_fn
 
 
-def prepare_directories_and_logger(output_directory, log_directory, rank):
+def prepare_directories_and_logger(output_directory, log_directory, rank,
+                                   use_vae=False):
     if rank == 0:
         if not os.path.isdir(output_directory):
             os.makedirs(output_directory)
             os.chmod(output_directory, 0o775)
-        logger = Tacotron2Logger(os.path.join(output_directory, log_directory))
+        logger = Tacotron2Logger(os.path.join(output_directory, log_directory),
+                                 use_vae)
     else:
         logger = None
     return logger
@@ -126,7 +128,7 @@ def save_checkpoint(model, optimizer, learning_rate, iteration, filepath):
 
 
 def validate(model, criterion, valset, iteration, batch_size, n_gpus,
-             collate_fn, logger, distributed_run, rank):
+             collate_fn, logger, distributed_run, rank, use_vae=False):
     """Handles all the validation scoring and printing"""
     model.eval()
     with torch.no_grad():
@@ -143,7 +145,10 @@ def validate(model, criterion, valset, iteration, batch_size, n_gpus,
             # save first batch (with full batch size) for logging later
             if not y0 and not y_pred0:
               y0, y_pred0 = y, y_pred
-            loss, _, _, _ = criterion(y_pred, y, iteration)
+            if use_vae:
+                loss, _, _, _ = criterion(y_pred, y, iteration)
+            else:
+                loss = criterion(y_pred, y)
             if distributed_run:
                 reduced_val_loss = reduce_tensor(loss.data, n_gpus).item()
             else:
@@ -156,7 +161,10 @@ def validate(model, criterion, valset, iteration, batch_size, n_gpus,
         print("Validation loss {}: {:9f}  ".format(iteration, val_loss))
         logger.log_validation(val_loss, model, y0, y_pred0, iteration)
 
-    mus, emotions = y_pred0[4], y_pred0[7]
+    if use_vae:
+        mus, emotions = y_pred0[4], y_pred0[7]
+    else:
+        mus, emotions = '', ''
 
     return val_loss, (mus, emotions)
 
@@ -194,10 +202,13 @@ def train(output_directory, log_directory, checkpoint_path, warm_start, n_gpus,
     if hparams.distributed_run:
         model = apply_gradient_allreduce(model)
 
-    criterion = Tacotron2Loss_VAE(hparams)
+    if hparams.use_vae:
+        criterion = Tacotron2Loss_VAE(hparams)
+    else:
+        criterion = Tacotron2Loss()
 
     logger = prepare_directories_and_logger(
-        output_directory, log_directory, rank)
+        output_directory, log_directory, rank, hparams.use_vae)
 
     train_loader, valset, collate_fn = prepare_dataloaders(hparams)
     print('# of batches: {}'.format(len(train_loader)))
@@ -234,7 +245,11 @@ def train(output_directory, log_directory, checkpoint_path, warm_start, n_gpus,
             x, y = model.parse_batch(batch)
             y_pred = model(x)
 
-            loss, recon_loss, kl, kl_weight = criterion(y_pred, y, iteration)
+            if hparams.use_vae:
+                loss, recon_loss, kl, kl_weight = criterion(y_pred, y, iteration)
+            else:
+                loss = criterion(y_pred, y)
+
             if hparams.distributed_run:
                 reduced_loss = reduce_tensor(loss.data, n_gpus).item()
             else:
@@ -260,25 +275,30 @@ def train(output_directory, log_directory, checkpoint_path, warm_start, n_gpus,
                 duration = time.perf_counter() - start
                 print("Train loss {} {:.6f} Grad Norm {:.6f} {:.2f}s/it".format(
                     iteration, reduced_loss, grad_norm, duration))
-                logger.log_training(
-                    reduced_loss, grad_norm, learning_rate, duration, recon_loss,
-                    kl, kl_weight, iteration)
+                if hparams.use_vae:
+                    logger.log_training(
+                        reduced_loss, grad_norm, learning_rate, duration, recon_loss,
+                        kl, kl_weight, iteration)
+                else:
+                    logger.log_training(
+                        reduced_loss, grad_norm, learning_rate, duration, iteration)
 
             if not is_overflow and (iteration % hparams.iters_per_checkpoint == 0):
                 val_loss, (mus, emotions) = validate(model, criterion, valset,
                      iteration, hparams.batch_size, n_gpus, collate_fn, logger,
-                     hparams.distributed_run, rank)
+                     hparams.distributed_run, rank, hparams.use_vae)
                 if rank == 0:
                     checkpoint_path = os.path.join(output_directory,
                         "checkpoint_{0}_{1:.4f}".format(iteration, val_loss))
                     save_checkpoint(model, optimizer, learning_rate, iteration,
                          checkpoint_path)
-                    image_scatter_path = os.path.join(output_directory,
-                         "checkpoint_{0}_scatter_val.png".format(iteration))
-                    image_tsne_path = os.path.join(output_directory,
-                         "checkpoint_{0}_tsne_val.png".format(iteration))
-                    imageio.imwrite(image_scatter_path, plot_scatter(mus, emotions))
-                    imageio.imwrite(image_tsne_path, plot_tsne(mus, emotions))
+                    if hparams.use_vae:
+                        image_scatter_path = os.path.join(output_directory,
+                             "checkpoint_{0}_scatter_val.png".format(iteration))
+                        image_tsne_path = os.path.join(output_directory,
+                             "checkpoint_{0}_tsne_val.png".format(iteration))
+                        imageio.imwrite(image_scatter_path, plot_scatter(mus, emotions))
+                        imageio.imwrite(image_tsne_path, plot_tsne(mus, emotions))
 
             iteration += 1
 
@@ -311,25 +331,27 @@ if __name__ == '__main__':
 
     # # interactive mode
     # args = argparse.ArgumentParser()
-    # args.output_directory = 'outdir/soe/new'
+    # args.output_directory = 'outdir/soe/test'
     # args.log_directory = 'logdir'
     # args.checkpoint_path = None # fresh run
     # args.warm_start = False
     # args.n_gpus = 1
     # args.rank = 0
-    # args.gpu = 1
+    # args.gpu = 0
     # args.group_name = 'group_name'
-    # hparams = ["training_files=filelists/soe/3x/soe_wav-emo_v0_train_3x.txt",
-    #            "validation_files=filelists/soe/3x/soe_wav-emo_v0_valid_3x.txt",
+    # hparams = ["training_files=filelists/soe/unsorted/soe_wav_train.txt",
+    #            "validation_files=filelists/soe/unsorted/soe_wav_valid.txt",
+    #            "filelist_cols=[audiopath,text,speaker,emotion]",
     #            "override_sample_size=True",
     #            "hop_time=12.5",
     #            "win_time=50.0",
     #            "text_cleaners=[english_cleaners]",
+    #            "use_vae=False",
     #            "anneal_function=logistic",
     #            "use_saved_learning_rate=True",
     #            "load_mel_from_disk=False",
-    #            "include_emo_emb=True",
-    #            "vae_input_type=emo",
+    #            "include_emo_emb=False",
+    #            "vae_input_type=mel",
     #            "fp16_run=False",
     #            "embedding_variation=0",
     #            "label_type=one-hot",
@@ -340,7 +362,9 @@ if __name__ == '__main__':
     #            "anneal_k=0.0001"]
     # args.hparams = ','.join(hparams)
 
+    # create output directory due to saving files before training starts
     if not os.path.isdir(args.output_directory):
+        print('creating dir: {} ...'.format(args.output_directory))
         os.makedirs(args.output_directory)
         os.chmod(args.output_directory, 0o775)
 
@@ -360,6 +384,7 @@ if __name__ == '__main__':
     print("Distributed Run:", hparams.distributed_run)
     print("Override Sample Size:", hparams.override_sample_size)
     print("Load Mel from Disk:", hparams.load_mel_from_disk)
+    print("Use VAE:", hparams.use_vae)
     print("Include Emotion Embedding:", hparams.include_emo_emb)
     print("Label Type:", hparams.label_type)
     print("VAE Input Type:", hparams.vae_input_type)
@@ -368,15 +393,16 @@ if __name__ == '__main__':
     print("cuDNN Benchmark:", hparams.cudnn_benchmark)
 
     # log kl weights
-    af = hparams.anneal_function
-    lag = hparams.anneal_lag
-    k = hparams.anneal_k
-    x0 = hparams.anneal_x0
-    upper = hparams.anneal_upper
-    constant = hparams.anneal_constant
-    kl_weights = get_kl_weight(af, lag, k, x0, upper, constant, nsteps=250000)
-    imageio.imwrite(os.path.join(args.output_directory, 'kl_weights.png'),
-                    plot_kl_weight(kl_weights, af, lag,k, x0, upper, constant))
+    if hparams.use_vae:
+        af = hparams.anneal_function
+        lag = hparams.anneal_lag
+        k = hparams.anneal_k
+        x0 = hparams.anneal_x0
+        upper = hparams.anneal_upper
+        constant = hparams.anneal_constant
+        kl_weights = get_kl_weight(af, lag, k, x0, upper, constant, nsteps=250000)
+        imageio.imwrite(os.path.join(args.output_directory, 'kl_weights.png'),
+                        plot_kl_weight(kl_weights, af, lag,k, x0, upper, constant))
 
     output_directory = args.output_directory
     log_directory = args.log_directory

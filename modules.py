@@ -61,7 +61,7 @@ class ReferenceEncoder(nn.Module):
         if hparams.vae_input_type == 'mel':
             self.n_input_dim = hparams.n_mel_channels
         elif hparams.vae_input_type == 'emo':
-            self.n_input_dim = hparams.emotion_embedding_dim
+            self.n_input_dim = hparams.emo_emb_dim
 
         out_channels = self.calculate_channels(self.n_input_dim, 3, 2, 1, K)
         self.gru = nn.GRU(input_size=hparams.ref_enc_filters[-1] * out_channels,

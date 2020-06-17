@@ -10,6 +10,7 @@ def create_hparams(hparams_string=None, verbose=False):
         ################################
         epochs=5000,
         iters_per_checkpoint=500,
+        shuffle_audiopaths=True,
         seed=1234,
         dynamic_loss_scaling=True,
         fp16_run=False,
@@ -25,9 +26,10 @@ def create_hparams(hparams_string=None, verbose=False):
         # Data Parameters             #
         ################################
         load_mel_from_disk=False, # if true, 1st element in the filelist should be mel
-        mel_data_type='numpy',  # 'numpy' or 'torch'
+        mel_data_type='numpy', # 'numpy' or 'torch'
         training_files='filelists/soe/3x/soe_wav-emo_v0_train_3x.txt',
         validation_files='filelists/soe/3x/soe_wav-emo_v0_valid_3x.txt',
+        filelist_cols=['audiopath','emoembpath','text','dur','speaker','emotion'],
         text_cleaners=['english_cleaners'], # english_cleaners, korean_cleaners
 
         ################################
@@ -35,14 +37,14 @@ def create_hparams(hparams_string=None, verbose=False):
         ################################
         include_emo_emb=True, # check filelist and ensure include emo if True
         load_emo_from_disk=True, # currently only support True (ignored if include_emo_emb is False)
-        emo_emb_dim=64,
+        emo_emb_dim=64, # dim of the offline emotion embedding
 
         ################################
         # Audio Parameters             #
         ################################
         max_wav_value=32768.0,
         sampling_rate=22050,
-        override_sample_size=True, # override filter_length,hop_length, win_length
+        override_sample_size=True, # override filter_length,hop_length,win_length
         hop_time=12.5, # in milliseconds
         win_time=50.0, # in milliseconds
         filter_length=1024,
@@ -57,6 +59,8 @@ def create_hparams(hparams_string=None, verbose=False):
         ################################
         n_symbols=len(symbols), # set 80 for korean_cleaners. set 65 for english_cleaners
         symbols_embedding_dim=512,
+        use_vae=False,
+        vae_input_type='mel',  # mel (default) or emo
         embedding_variation=0,
         label_type='one-hot', # 'one-hot' (default) or 'id'
 
@@ -67,12 +71,11 @@ def create_hparams(hparams_string=None, verbose=False):
 
         # Speaker embedding parameters
         n_speakers=1,
-        speaker_embedding_dim=16,
+        speaker_embedding_dim=16, # currently for speaker labeling embdding
 
         # Emotion Label parameters
         n_emotions=4, # number of emotion labels
-        emotion_embedding_dim=64, # 16 (original) or 64
-        vae_input_type='mel', # mel (default) or emo
+        emotion_embedding_dim=64, # currently for emotion label embedding, 16 (original) or 64
 
         # reference encoder
         E=512,
