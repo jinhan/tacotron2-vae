@@ -11,11 +11,14 @@ def create_hparams(hparams_string=None, verbose=False):
         epochs=5000,
         iters_per_checkpoint=500,
         shuffle_audiopaths=True,
+        shuffle_samples=False,
+        permute_opt='rand', # 'rand', 'semi-sort', 'bucket', etc.
+        local_rand_factor=0.1, # used when permute_opt == 'semi-sort'
+        prep_trainset_per_epoch=False,
         seed=1234,
         dynamic_loss_scaling=True,
         fp16_run=False,
         distributed_run=False,
-
         dist_backend="nccl",
         dist_url="tcp://localhost:54321",
         cudnn_enabled=True,

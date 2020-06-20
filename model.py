@@ -529,7 +529,7 @@ class Tacotron2(nn.Module):
             if self.vae_input_type == 'emo':
               emoemb_padded = to_gpu(emoemb_padded).float()
         else:
-            speakers = emotions = ''
+            speakers, emotions = '', ''
         input_lengths = to_gpu(input_lengths).long()
         max_len = torch.max(input_lengths.data).item()
         mel_padded = to_gpu(mel_padded).float()
@@ -636,7 +636,7 @@ class Tacotron2(nn.Module):
         if self.use_vae:
             return self.parse_output(
                 [mel_outputs, mel_outputs_postnet, gate_outputs, alignments, mu, \
-                 logvar, z, emotions], output_lengths)
+                logvar, z, emotions], output_lengths)
         else:
             return self.parse_output(
                 [mel_outputs, mel_outputs_postnet, gate_outputs, alignments],

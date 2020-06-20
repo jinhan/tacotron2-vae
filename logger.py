@@ -15,11 +15,16 @@ class Tacotron2Logger(SummaryWriter):
         self.dataformat = 'HWC' # NVIDIA
 
     def log_training(self, reduced_loss, grad_norm, learning_rate, duration,
+                     padding_rate_txt, max_len_txt, padding_rate_mel, max_len_mel,
                      iteration, recon_loss='', kl_div='', kl_weight=''):
             self.add_scalar("training.loss", reduced_loss, iteration)
             self.add_scalar("grad.norm", grad_norm, iteration)
             self.add_scalar("learning.rate", learning_rate, iteration)
             self.add_scalar("duration", duration, iteration)
+            self.add_scalar("padding.rate.txt", padding_rate_txt, iteration)
+            self.add_scalar("max.len.txt", max_len_txt, iteration)
+            self.add_scalar("padding.rate.mel", padding_rate_mel, iteration)
+            self.add_scalar("max.len.mel", max_len_mel, iteration)
             if self.use_vae:
                 self.add_scalar("kl_div", kl_div, iteration)
                 self.add_scalar("kl_weight", kl_weight, iteration)

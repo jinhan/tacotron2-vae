@@ -5,7 +5,7 @@ import torch.utils.data
 import os
 
 import layers
-from utils import load_wav_to_torch, load_filepaths_and_text
+from utils import load_wav_to_torch, load_filepaths_and_text, permute_filelist
 from text import text_to_sequence
 
 
@@ -15,10 +15,14 @@ class TextMelLoader(torch.utils.data.Dataset):
         2) normalizes text and converts them to sequences of one-hot vectors
         3) computes mel-spectrograms from audio files.
     """
-    def __init__(self, audiopaths_and_text, hparams, speaker_ids=None, emotion_ids=None):
+    def __init__(self, audiopaths_and_text, hparams, epoch=0,
+                 speaker_ids=None, emotion_ids=None):
         self.audiopaths_and_text = load_filepaths_and_text(audiopaths_and_text)
         self.shuffle_audiopaths = hparams.shuffle_audiopaths
+        self.prep_trainset_per_epoch = hparams.prep_trainset_per_epoch
         self.filelist_cols = hparams.filelist_cols
+        self.permute_opt = hparams.permute_opt
+        self.local_rand_factor = hparams.local_rand_factor
         self.include_emo_emb = hparams.include_emo_emb
         self.emo_emb_dim = hparams.emo_emb_dim
         self.text_cleaners = hparams.text_cleaners
@@ -44,8 +48,12 @@ class TextMelLoader(torch.utils.data.Dataset):
             hparams.mel_fmax)
 
         if self.shuffle_audiopaths:
-            random.seed(hparams.seed)
-            random.shuffle(self.audiopaths_and_text)
+            if self.prep_trainset_per_epoch:
+                seed = hparams.seed + epoch
+            else:
+                seed = hparams.seed
+            self.audiopaths_and_text = permute_filelist(self.audiopaths_and_text,
+                self.filelist_cols, seed, self.permute_opt, self.local_rand_factor)[0]
 
         self.speaker_ids = speaker_ids
         if not self.speaker_ids:
