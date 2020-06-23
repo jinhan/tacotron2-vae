@@ -1,11 +1,11 @@
-import random
 import numpy as np
 import torch
 import torch.utils.data
 import os
 
 import layers
-from utils import load_wav_to_torch, load_filepaths_and_text, permute_filelist
+from utils import load_wav_to_torch, load_filepaths_and_text
+from utils import permute_filelist, permute_batch
 from text import text_to_sequence
 
 
@@ -15,13 +15,14 @@ class TextMelLoader(torch.utils.data.Dataset):
         2) normalizes text and converts them to sequences of one-hot vectors
         3) computes mel-spectrograms from audio files.
     """
-    def __init__(self, audiopaths_and_text, hparams, epoch=0,
+    def __init__(self, audiopaths_and_text, shuffle_plan, hparams, epoch=0,
                  speaker_ids=None, emotion_ids=None):
         self.audiopaths_and_text = load_filepaths_and_text(audiopaths_and_text)
-        self.shuffle_audiopaths = hparams.shuffle_audiopaths
+        self.shuffle_audiopaths = shuffle_plan['audiopath']
+        self.shuffle_batches = shuffle_plan['batch']
+        self.permute_opt = shuffle_plan['permute-opt']
         self.prep_trainset_per_epoch = hparams.prep_trainset_per_epoch
         self.filelist_cols = hparams.filelist_cols
-        self.permute_opt = hparams.permute_opt
         self.local_rand_factor = hparams.local_rand_factor
         self.include_emo_emb = hparams.include_emo_emb
         self.emo_emb_dim = hparams.emo_emb_dim
@@ -47,13 +48,16 @@ class TextMelLoader(torch.utils.data.Dataset):
             hparams.n_mel_channels, hparams.sampling_rate, hparams.mel_fmin,
             hparams.mel_fmax)
 
+        if self.prep_trainset_per_epoch:
+            seed = hparams.seed + epoch
+        else:
+            seed = hparams.seed
         if self.shuffle_audiopaths:
-            if self.prep_trainset_per_epoch:
-                seed = hparams.seed + epoch
-            else:
-                seed = hparams.seed
             self.audiopaths_and_text = permute_filelist(self.audiopaths_and_text,
                 self.filelist_cols, seed, self.permute_opt, self.local_rand_factor)[0]
+        if self.shuffle_batches:
+            self.audiopaths_and_text = permute_batch(self.audiopaths_and_text,
+                hparams.batch_size, seed)
 
         self.speaker_ids = speaker_ids
         if not self.speaker_ids:
@@ -103,8 +107,8 @@ class TextMelLoader(torch.utils.data.Dataset):
             audio_norm = audio / self.max_wav_value
             audio_norm = audio_norm.unsqueeze(0)
             audio_norm = torch.autograd.Variable(audio_norm, requires_grad=False)
-            melspec = self.stft.mel_spectrogram(audio_norm)
-            melspec = torch.squeeze(melspec, 0)
+            melspec = self.stft.mel_spectrogram(audio_norm) # 1 X n_mel_channels X n_frames
+            melspec = torch.squeeze(melspec, 0) # n_mel_channels X n_frames
         else:
             melspec = torch.from_numpy(np.load(filename))
             assert melspec.size(0) == self.stft.n_mel_channels, (

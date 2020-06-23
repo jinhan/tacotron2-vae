@@ -34,6 +34,10 @@ def to_gpu(x):
     return torch.autograd.Variable(x)
 
 
+def flatten_list(l):
+    return [item for sublist in l for item in sublist]
+
+
 def str2bool(v):
     return v.lower() in ('true', '1')
 
@@ -104,12 +108,13 @@ def sort_with_noise(key_values, key_values_noisy, reverse=True):
     return key_values_resorted
 
 
-def permute_filelist(filelist, filelist_cols, seed, permute_opt='rand',
+def permute_filelist(filelist, filelist_cols, seed=0, permute_opt='rand',
                      local_rand_factor=0.1):
     if permute_opt == 'rand':
         filelist_permuted = filelist[:]
         np.random.seed(seed)
         np.random.shuffle(filelist_permuted)
+        key, noise_range = '', (0,0)
     elif permute_opt == 'semi-sort':
         if 'dur' in filelist_cols:
             key = 'dur'
@@ -118,7 +123,7 @@ def permute_filelist(filelist, filelist_cols, seed, permute_opt='rand',
         else:
             key = 'text'
             key_idx = filelist_cols.index(key)
-            key_values = [len(line[key_idx].split()) for line in filelist]
+            key_values = [len(line[key_idx]) for line in filelist]
         keys_idx_value_sorted = [i for i in sorted(
             enumerate(key_values), key=lambda x:x[1], reverse=True)]
         idxs_sorted = [x[0] for x in keys_idx_value_sorted]
@@ -148,14 +153,43 @@ def permute_filelist(filelist, filelist_cols, seed, permute_opt='rand',
 #     noise_upper/2))
 # fig.savefig('verify.png'); plt.close()
 
-def dict2csv(dct, csvname='filename.csv', verbose=True):
+
+def permute_batch(filelist, batch_size, seed=0):
+    num_files = len(filelist)
+    num_batches = int(num_files/batch_size)
+    filelist_batch = [filelist[i*batch_size:(i+1)*batch_size] for i in
+                      range(num_batches)]
+    np.random.seed(seed)
+    np.random.shuffle(filelist_batch)
+    filelist_shuffled = flatten_list(filelist_batch)
+    filelist_last = filelist[num_batches*batch_size:]
+    filelist_shuffled += filelist_last
+    return filelist_shuffled
+
+
+def dict2col(dct, csvname='filename.csv', order=None, verbose=True):
     keys= list(dct.keys())
+    if order == 'ascend': keys = sorted(keys)
+    elif order == 'descend': keys = sorted(keys, reverse=True)
     with open(csvname, 'w', newline='') as f:
-        csv_out= csv.writer(f)
+        csv_out = csv.writer(f)
         csv_out.writerow(keys)
         n = len(dct[keys[0]])
         for i in range(n):
           row = [dct[k][i] for k in keys]
           csv_out.writerow(row)
+    if verbose:
+        print('{} saved!'.format(csvname))
+
+
+def dict2row(dct, csvname='filename.csv', order=None, verbose=True):
+    keys= list(dct.keys())
+    if order == 'ascend': keys = sorted(keys)
+    elif order == 'descend': keys = sorted(keys, reverse=True)
+    with open(csvname, 'w', newline='') as f:
+        csv_out = csv.writer(f)
+        for k in keys:
+            row = [ k, str(dct[k])]
+            csv_out.writerow(row)
     if verbose:
         print('{} saved!'.format(csvname))

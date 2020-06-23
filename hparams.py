@@ -1,5 +1,6 @@
 import tensorflow as tf
 from text.symbols import symbols
+from utils import dict2row
 
 def create_hparams(hparams_string=None, verbose=False):
     """Create model hyperparameters. Parse nondefault from given string."""
@@ -9,9 +10,10 @@ def create_hparams(hparams_string=None, verbose=False):
         # Experiment Parameters        #
         ################################
         epochs=5000,
-        iters_per_checkpoint=500,
+        iters_per_checkpoint=1000,
         shuffle_audiopaths=True,
-        shuffle_samples=False,
+        shuffle_batches=True,
+        shuffle_samples=False, # exclusive with shuffle_audiopaths and shuffle_batches
         permute_opt='rand', # 'rand', 'semi-sort', 'bucket', etc.
         local_rand_factor=0.1, # used when permute_opt == 'semi-sort'
         prep_trainset_per_epoch=False,
@@ -146,7 +148,9 @@ def create_hparams(hparams_string=None, verbose=False):
 
     return hparams
 
-def hparams_debug_string(hparams):
+def hparams_debug_string(hparams, logfile=None):
     values = hparams.values()
+    if logfile:
+        dict2row(values, logfile, order='ascend', verbose=True)
     hp = ['  %s: %s' % (name, values[name]) for name in sorted(values)]
     return 'Hyperparameters:\n' + '\n'.join(hp)

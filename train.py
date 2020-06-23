@@ -17,12 +17,12 @@ from model import Tacotron2
 from data_utils import TextMelLoader, TextMelCollate
 from plotting_utils import plot_scatter, plot_tsne, plot_kl_weight
 from utils import get_kl_weight, get_text_padding_rate, get_mel_padding_rate
-from utils import dict2csv
+from utils import dict2col, dict2row
 from loss_function import Tacotron2Loss_VAE, Tacotron2Loss
 from logger import Tacotron2Logger
 
-#from hparams import create_hparams, hparams_debug_string
-from hparams_soe import create_hparams, hparams_debug_string
+from hparams import create_hparams, hparams_debug_string # for LJSpeech
+#from hparams_soe import create_hparams, hparams_debug_string # for SOE
 
 
 def reduce_tensor(tensor, n_gpus):
@@ -49,9 +49,15 @@ def init_distributed(hparams, n_gpus, rank, group_name):
 
 def prepare_dataloaders(hparams, epoch=0, valset=None, collate_fn=None):
     # Get data, data loaders and collate function ready
-    trainset = TextMelLoader(hparams.training_files, hparams, epoch)
+    shuffle_train = {'audiopath': hparams.shuffle_audiopaths,
+        'batch': hparams.shuffle_batches, 'permute-opt': hparams.permute_opt}
+    trainset = TextMelLoader(hparams.training_files, shuffle_train,
+                             hparams, epoch)
     if valset is None:
-        valset = TextMelLoader(hparams.validation_files, hparams)
+        # valset has different shuffle plan compared with train set
+        shuffle_val = {'audiopath': hparams.shuffle_audiopaths,
+                       'batch': False, 'permute-opt': 'rand'}
+        valset = TextMelLoader(hparams.validation_files, shuffle_val, hparams)
     if collate_fn is None:
         collate_fn = TextMelCollate(hparams)
 
@@ -256,8 +262,9 @@ def train(output_directory, log_directory, checkpoint_path, warm_start, n_gpus,
     track = {'padding-rate-txt':[], 'max-len-txt':[], 'top-len-txt':[],
              'padding-rate-mel':[], 'max-len-mel':[], 'top-len-mel':[],
              'duration': [], 'epoch': [], 'step': []}
+    csvfile = os.path.join(output_directory, log_directory, 'track.csv')
     print('starting training in epoch range {} ~ {} ...'.format(
-      epoch_offset, hparams.epochs))
+        epoch_offset, hparams.epochs))
 
     for epoch in range(epoch_offset, hparams.epochs):
         #if epoch >= 10: break
@@ -320,6 +327,7 @@ def train(output_directory, log_directory, checkpoint_path, warm_start, n_gpus,
                         max_len_mel, iteration)
 
             if not is_overflow and (iteration % hparams.iters_per_checkpoint == 0):
+                dict2col(track, csvfile, verbose=True)
                 val_loss, (mus, emotions) = validate(model, criterion, valset,
                      iteration, hparams.batch_size, n_gpus, collate_fn, logger,
                      hparams.distributed_run, rank, hparams.use_vae)
@@ -339,11 +347,9 @@ def train(output_directory, log_directory, checkpoint_path, warm_start, n_gpus,
             iteration += 1
 
         if hparams.prep_trainset_per_epoch:
-            print('preparing train loader for epoch {}'.format(epoch + 1))
-            train_loader, _, _ = prepare_dataloaders(hparams, epoch + 1,
-                                                     valset, collate_fn)
+            print('preparing train loader for epoch {}'.format(epoch+1))
+            train_loader = prepare_dataloaders(hparams, epoch+1, valset, collate_fn)[0]
 
-    dict2csv(track, csvname='track.csv', verbose=True)
 
 def parse_args():
     parser = argparse.ArgumentParser()
@@ -367,6 +373,12 @@ def parse_args():
                         required=False, help='comma separated name=value pairs')
     return parser.parse_args()
 
+
+def log_args(args, argnames, logfile):
+    dct = {name: eval('args.{}'.format(name)) for name in argnames}
+    dict2row(dct, logfile, order='ascend')
+
+
 if __name__ == '__main__':
 
     # # runtime mode
@@ -374,7 +386,7 @@ if __name__ == '__main__':
 
     # interactive mode
     args = argparse.ArgumentParser()
-    args.output_directory = 'outdir/soe/test'
+    args.output_directory = 'outdir/ljspeech/semi-sorted2'
     args.log_directory = 'logdir'
     args.checkpoint_path = None # fresh run
     args.warm_start = False
@@ -382,16 +394,16 @@ if __name__ == '__main__':
     args.rank = 0
     args.gpu = 0
     args.group_name = 'group_name'
-    hparams = ["training_files=filelists/soe/soe_wav-emo_v0_train.txt",
-               "validation_files=filelists/soe/soe_wav-emo_v0_valid.txt",
-               "filelist_cols=[audiopath,emoembpath,text,dur,speaker,emotion]",
+    hparams = ["training_files=filelists/ljspeech/ljspeech_wav_train.txt",
+               "validation_files=filelists/ljspeech/ljspeech_wav_valid.txt",
+               "filelist_cols=[audiopath,text,dur,speaker,emotion]",
                "shuffle_audiopaths=True",
+               "shuffle_batches=True",
+               "shuffle_samples=False",
                "permute_opt=semi-sort",
                "local_rand_factor=0.1",
                "prep_trainset_per_epoch=True",
                "override_sample_size=False",
-               "hop_length=256",
-               "win_length=1024",
                "text_cleaners=[english_cleaners]",
                "use_vae=False",
                "anneal_function=logistic",
@@ -409,19 +421,25 @@ if __name__ == '__main__':
                "anneal_k=0.0001"]
     args.hparams = ','.join(hparams)
 
-    # create output directory due to saving files before training starts
+    # create log directory due to saving files before training starts
     if not os.path.isdir(args.output_directory):
-        print('creating dir: {} ...'.format(args.output_directory))
-        os.makedirs(args.output_directory)
-        os.chmod(args.output_directory, 0o775)
+      print('creating dir: {} ...'.format(args.output_directory))
+      os.makedirs(args.output_directory)
+      os.chmod(args.output_directory, 0o775)
+
+    argnames = ['output_directory', 'log_directory', 'checkpoint_path',
+                'warm_start', 'n_gpus', 'rank', 'gpu', 'group_name']
+    args_csv = os.path.join(args.output_directory, 'args.csv')
+    log_args(args, argnames, args_csv)
+
+    hparams = create_hparams(args.hparams)
+    hparams_csv = os.path.join(args.output_directory, 'hparams.csv')
+    print(hparams_debug_string(hparams, hparams_csv))
 
     if args.n_gpus == 1:
         # set current GPU device
         torch.cuda.set_device(args.gpu)
     print('current GPU: {}'.format(torch.cuda.current_device()))
-
-    hparams = create_hparams(args.hparams)
-    print(hparams_debug_string(hparams))
 
     torch.backends.cudnn.enabled = hparams.cudnn_enabled
     torch.backends.cudnn.benchmark = hparams.cudnn_benchmark
@@ -462,5 +480,6 @@ if __name__ == '__main__':
     n_gpus = args.n_gpus
     rank = args.rank
     group_name = args.group_name
+
     train(output_directory, log_directory, checkpoint_path,
           warm_start, n_gpus, rank, group_name, hparams)

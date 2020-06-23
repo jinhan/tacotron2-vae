@@ -6,7 +6,8 @@ import argparse
 import os
 import glob
 import random
-import csv
+import wave
+import contextlib
 
 def convert_symbol(text, l1, l2, quote='"'):
   """convert symbol l1 to l2 if inside quote"""
@@ -64,27 +65,41 @@ def parse_emo_label(emo_labels):
     emo_dict[k] = int(v)
   return emo_dict
 
-def prep_ljspeech(args):
+def prep_ljspeech(args, verbose=False):
   """prepare lines in filelist for ljspeech"""
 
-  wavfiles = glob.glob(os.path.join(args.input_dir,'*.wav'))
+  wavfiles = glob.glob(os.path.join(args.input_dir, '*.wav'))
+  wavfiles = sorted(wavfiles, key=lambda f: os.path.basename(f))
+  nwavfiles = len(wavfiles)
+  if verbose:
+    print('# of wavs in {}: {}'.format(args.input_dir, nwavfiles))
+
   spk_id, emo_id = 0, 0
   filename2text = read_meta_ljspeech(args.metafile)
+
+  filename2dur = {}
+  batchsize = 1000
+  for i, wavfile in enumerate(wavfiles):
+    if verbose and (i%batchsize == 0):
+      print('getting duration for file {} ~ {}'.format(
+        i, min(i+batchsize, nwavfiles)))
+    basename = os.path.splitext(os.path.basename(wavfile))[0]
+    filename2dur[basename] = wav_duration(wavfile)
 
   lines = ['' for _ in range(len(wavfiles))]
   for i, wavfile in enumerate(wavfiles):
     basename = os.path.splitext(os.path.basename(wavfile))[0]
-    text = filename2text[basename]
+    text, dur = filename2text[basename], filename2dur[basename]
     if args.include_emb:
       embfile = wavfile.replace('/wavs/', '/embs/')
       embfile = embfile.replace('.wav', '.npy')
-      lines[i] = '|'.join([wavfile, embfile, text, str(spk_id), str(emo_id)])
+      lines[i] = '|'.join([wavfile, embfile, text, str(dur), str(spk_id), str(emo_id)])
     else:
-      lines[i] = '|'.join([wavfile, text, str(spk_id), str(emo_id)])
+      lines[i] = '|'.join([wavfile, text, str(dur), str(spk_id), str(emo_id)])
 
   return lines
 
-def prep_soe(args):
+def prep_soe(args, verbose=False):
   """prepare lines in filelist for soe"""
 
   spk_dict = {'F1': 0, 'M1': 1}
@@ -94,7 +109,9 @@ def prep_soe(args):
   # get wav files and sort by filename
   wavfiles = glob.glob(os.path.join(args.input_dir, '**', '*.wav'), recursive=True)
   wavfiles = sorted(wavfiles, key=lambda f:os.path.basename(f))
-  print('# of wavs in {}: {}'.format(args.input_dir, len(wavfiles)))
+  nwavfiles = len(wavfiles)
+  if verbose:
+    print('# of wavs in {}: {}'.format(args.input_dir, nwavfiles))
   filename2meta = read_meta_soe(args.metafile)
 
   lines = []
@@ -138,13 +155,23 @@ def split(lines, ratio='8:1:1', seed=0, ordered=True):
              in zip(cats, range(len(cats)))}
   return flist
 
+def wav_duration(filename):
+  """get wav file duration in seconds"""
+  with contextlib.closing(wave.open(filename,'r')) as f:
+    frames = f.getnframes()
+    rate = f.getframerate()
+    duration = frames / float(rate)
+    #print(duration)
+  return duration
+
 def sort_by_dur(lines, reverse=True):
   """sort lines by duration (as one item in the line)"""
   lines_sorted = sorted(lines, key=lambda line:float(line.split('|')[-3]),
                         reverse=reverse)
   return lines_sorted
 
-def write_flist(flist, dataset, output_dir, include_emb=False, emo_ver=None, verbose=True):
+def write_flist(flist, dataset, output_dir, include_emb=False, emo_ver=None,
+                verbose=True):
 
   # update output directory to include dataset name
   output_dir = os.path.join(output_dir, dataset)
@@ -159,7 +186,8 @@ def write_flist(flist, dataset, output_dir, include_emb=False, emo_ver=None, ver
       listfile = '{}_wav_{}.txt'.format(dataset, cat)
     listpath = os.path.join(output_dir, listfile)
     open(listpath, 'w').write('\n'.join(flist[cat]))
-    print('wrote list file: {}'.format(listpath))
+    if verbose:
+      print('wrote list file: {}'.format(listpath))
 
 def parse_args():
 
@@ -207,6 +235,8 @@ def main():
   # args.input_dir = r'data/LJSpeech-1.1/wavs'
   # args.dataset = 'ljspeech'
   # args.metafile = r'data/LJSpeech-1.1/metadata.csv'
+  # args.include_emb = False
+  # args.emo_ver = None
   #
   # # soe
   # args.input_dir = r'data/SOE/renamed/F1'
