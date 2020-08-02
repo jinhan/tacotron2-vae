@@ -151,6 +151,6 @@ def create_hparams(hparams_string=None, verbose=False):
 def hparams_debug_string(hparams, logfile=None):
     values = hparams.values()
     if logfile:
-        dict2row(values, logfile, order='ascend', verbose=True)
+        dict2row(values, logfile, delimiter=':', order='ascend', verbose=True)
     hp = ['  %s: %s' % (name, values[name]) for name in sorted(values)]
     return 'Hyperparameters:\n' + '\n'.join(hp)

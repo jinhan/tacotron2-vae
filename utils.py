@@ -124,28 +124,25 @@ def permute_filelist(filelist, filelist_cols, seed=0, permute_opt='rand',
             key = 'text'
             key_idx = filelist_cols.index(key)
             key_values = [len(line[key_idx]) for line in filelist]
-        keys_idx_value_sorted = [i for i in sorted(
-            enumerate(key_values), key=lambda x:x[1], reverse=True)]
+        keys_idx_value_sorted = sorted(enumerate(key_values), key=lambda x:x[1],
+                                       reverse=True)
         idxs_sorted = [x[0] for x in keys_idx_value_sorted]
         filelist_sorted = [filelist[i] for i in idxs_sorted]
-        keys_sorted = [x[1] for x in keys_idx_value_sorted]
-        keys_range = np.floor(keys_sorted[-1]), np.ceil(keys_sorted[0])
-        noise_upper = (keys_range[1] - keys_range[0]) * local_rand_factor
+        values_sorted = [x[1] for x in keys_idx_value_sorted]
+        values_range = np.floor(values_sorted[-1]), np.ceil(values_sorted[0])
+        noise_upper = (values_range[1] - values_range[0]) * local_rand_factor
         noise_range = -noise_upper/2, noise_upper/2
-        keys_sorted_noisy = add_rand_noise(keys_sorted, noise_range, seed=seed)
-        filelist_permuted = sort_with_noise(filelist_sorted, keys_sorted_noisy)
+        values_sorted_noisy = add_rand_noise(values_sorted, noise_range, seed=seed)
+        filelist_permuted = sort_with_noise(filelist_sorted, values_sorted_noisy)
         # # plot to verify semi-sorted order
-        # if 'dur' in filelist_cols:
-        #     keys_permuted = [float(line[3]) for line in filelist_permuted]
-        # else:
-        #     keys_permuted = [len(line[2].split()) for line in filelist_permuted]
+        # keys_permuted = [len(line[key_idx].split()) for line in filelist_permuted]
         # plt.plot(keys_permuted), plt.savefig('verify.png')
     return filelist_permuted, (key, noise_range)
 
 # import matplotlib.pyplot as plt
 # filelist_permuted = permute_filelist(filelist, filelist_cols, seed,
 #     permute_opt='semi-sort', local_rand_factor=0.1)
-# keys_permuted = [float(line[3]) for line in filelist_permuted]
+# keys_permuted = [float(line[key_idx]) for line in filelist_permuted]
 # fig = plt.figure()
 # plt.plot(keys_permuted)
 # plt.xlabel('file index'), plt.ylabel('duration')
@@ -176,20 +173,29 @@ def dict2col(dct, csvname='filename.csv', order=None, verbose=True):
         csv_out.writerow(keys)
         n = len(dct[keys[0]])
         for i in range(n):
-          row = [dct[k][i] for k in keys]
-          csv_out.writerow(row)
+            row = [dct[k][i] for k in keys]
+            csv_out.writerow(row)
     if verbose:
         print('{} saved!'.format(csvname))
 
 
-def dict2row(dct, csvname='filename.csv', order=None, verbose=True):
+def dict2row(dct, csvname='filename.csv', delimiter=',', order=None, verbose=True):
     keys= list(dct.keys())
     if order == 'ascend': keys = sorted(keys)
     elif order == 'descend': keys = sorted(keys, reverse=True)
     with open(csvname, 'w', newline='') as f:
-        csv_out = csv.writer(f)
+        csv_out = csv.writer(f, delimiter=delimiter)
         for k in keys:
             row = [ k, str(dct[k])]
             csv_out.writerow(row)
+    if verbose:
+        print('{} saved!'.format(csvname))
+
+def list2csv(lst, csvname='filename.csv', delimiter=',', verbose=True):
+    with open(csvname, 'w', newline='') as f:
+        csv_out = csv.writer(f, delimiter=delimiter)
+        n = len(lst)
+        for i in range(n):
+            csv_out.writerow(lst[i])
     if verbose:
         print('{} saved!'.format(csvname))

@@ -17,7 +17,7 @@ from model import Tacotron2
 from data_utils import TextMelLoader, TextMelCollate
 from plotting_utils import plot_scatter, plot_tsne, plot_kl_weight
 from utils import get_kl_weight, get_text_padding_rate, get_mel_padding_rate
-from utils import dict2col, dict2row
+from utils import dict2col, dict2row, list2csv
 from loss_function import Tacotron2Loss_VAE, Tacotron2Loss
 from logger import Tacotron2Logger
 
@@ -49,12 +49,18 @@ def init_distributed(hparams, n_gpus, rank, group_name):
 
 def prepare_dataloaders(hparams, epoch=0, valset=None, collate_fn=None):
     # Get data, data loaders and collate function ready
+
+    # prepare train set
+    print('preparing train set for epoch {}'.format(epoch))
     shuffle_train = {'audiopath': hparams.shuffle_audiopaths,
         'batch': hparams.shuffle_batches, 'permute-opt': hparams.permute_opt}
     trainset = TextMelLoader(hparams.training_files, shuffle_train,
                              hparams, epoch)
+    #print('\n'.join(['{}, {}'.format(line[0],line[2]) for line in \
+    #                 trainset.audiopaths_and_text[:5]]))
     if valset is None:
-        # valset has different shuffle plan compared with train set
+        # prepare val set (different shuffle plan compared with train set)
+        print('preparing val set for epoch {}'.format(epoch))
         shuffle_val = {'audiopath': hparams.shuffle_audiopaths,
                        'batch': False, 'permute-opt': 'rand'}
         valset = TextMelLoader(hparams.validation_files, shuffle_val, hparams)
@@ -239,6 +245,8 @@ def train(output_directory, log_directory, checkpoint_path, warm_start, n_gpus,
         output_directory, log_directory, rank, hparams.use_vae)
 
     train_loader, valset, collate_fn = prepare_dataloaders(hparams)
+    valset_csv = os.path.join(output_directory, log_directory, 'valset.csv')
+    list2csv(valset.audiopaths_and_text, valset_csv, delimiter='|')
 
     # Load checkpoint if one exists
     iteration = 0
@@ -262,7 +270,7 @@ def train(output_directory, log_directory, checkpoint_path, warm_start, n_gpus,
     track = {'padding-rate-txt':[], 'max-len-txt':[], 'top-len-txt':[],
              'padding-rate-mel':[], 'max-len-mel':[], 'top-len-mel':[],
              'duration': [], 'epoch': [], 'step': []}
-    csvfile = os.path.join(output_directory, log_directory, 'track.csv')
+    track_csv = os.path.join(output_directory, log_directory, 'track.csv')
     print('starting training in epoch range {} ~ {} ...'.format(
         epoch_offset, hparams.epochs))
 
@@ -272,7 +280,7 @@ def train(output_directory, log_directory, checkpoint_path, warm_start, n_gpus,
         for i, batch in enumerate(train_loader):
             start = time.perf_counter()
             for param_group in optimizer.param_groups:
-               param_group['lr'] = learning_rate
+                param_group['lr'] = learning_rate
 
             model.zero_grad()
             x, y = model.parse_batch(batch)
@@ -327,7 +335,7 @@ def train(output_directory, log_directory, checkpoint_path, warm_start, n_gpus,
                         max_len_mel, iteration)
 
             if not is_overflow and (iteration % hparams.iters_per_checkpoint == 0):
-                dict2col(track, csvfile, verbose=True)
+                dict2col(track, track_csv, verbose=True)
                 val_loss, (mus, emotions) = validate(model, criterion, valset,
                      iteration, hparams.batch_size, n_gpus, collate_fn, logger,
                      hparams.distributed_run, rank, hparams.use_vae)
@@ -347,7 +355,6 @@ def train(output_directory, log_directory, checkpoint_path, warm_start, n_gpus,
             iteration += 1
 
         if hparams.prep_trainset_per_epoch:
-            print('preparing train loader for epoch {}'.format(epoch+1))
             train_loader = prepare_dataloaders(hparams, epoch+1, valset, collate_fn)[0]
 
 
@@ -386,18 +393,19 @@ if __name__ == '__main__':
 
     # interactive mode
     args = argparse.ArgumentParser()
-    args.output_directory = 'outdir/ljspeech/semi-sorted2'
+    args.output_directory = 'outdir/ljspeech/semi-sorted5' # check
     args.log_directory = 'logdir'
     args.checkpoint_path = None # fresh run
     args.warm_start = False
     args.n_gpus = 1
     args.rank = 0
-    args.gpu = 0
+    args.gpu = 1 # check
     args.group_name = 'group_name'
     hparams = ["training_files=filelists/ljspeech/ljspeech_wav_train.txt",
                "validation_files=filelists/ljspeech/ljspeech_wav_valid.txt",
                "filelist_cols=[audiopath,text,dur,speaker,emotion]",
                "shuffle_audiopaths=True",
+               "seed=0000",
                "shuffle_batches=True",
                "shuffle_samples=False",
                "permute_opt=semi-sort",
