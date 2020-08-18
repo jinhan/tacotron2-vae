@@ -10,12 +10,15 @@ def create_hparams(hparams_string=None, verbose=False):
         # Experiment Parameters        #
         ################################
         epochs=5000,
+        check_by="epoch", # 'epoch' or 'iter'
         iters_per_checkpoint=1000,
+        epochs_per_checkpoint=2,
         shuffle_audiopaths=True,
         shuffle_batches=True,
         shuffle_samples=False, # exclusive with shuffle_audiopaths and shuffle_batches
         permute_opt='rand', # 'rand', 'semi-sort', 'bucket', etc.
         local_rand_factor=0.1, # used when permute_opt == 'semi-sort'
+        pre_batching=True, # pre batch data, so batch_size is 1 in DataLoader
         prep_trainset_per_epoch=False,
         seed=1234,
         dynamic_loss_scaling=True,

@@ -107,6 +107,35 @@ def sort_with_noise(key_values, key_values_noisy, reverse=True):
     key_values_resorted = [key_values[i] for i in idx]
     return key_values_resorted
 
+def get_key_values(filelist, filelist_cols):
+    if 'dur' in filelist_cols:
+        key = 'dur'
+        key_idx = filelist_cols.index(key)
+        key_values = [float(line[key_idx]) for line in filelist]
+    else:
+        key = 'text'
+        key_idx = filelist_cols.index(key)
+        key_values = [len(line[key_idx]) for line in filelist]
+    return key_values, key
+
+
+def get_batch_sizes(filelist, filelist_cols, batch_size):
+    key_values, key = get_key_values(filelist, filelist_cols)
+    values_sorted = sorted(key_values, reverse=True)
+    batch_len_max_mean = np.mean(values_sorted[:batch_size])
+    batch_capacity = batch_size * batch_len_max_mean
+    # get batches where each batch gets full capacity
+    batch_sizes = []
+    remaining = key_values[:]
+    while len(remaining) > 0:
+        bs = 1
+        while np.max(remaining[:min(bs, len(remaining))]) * bs <= batch_capacity:
+            bs += 1
+        batch_size_current = min(bs-1, len(remaining))
+        batch_sizes.append(batch_size_current)
+        remaining = remaining[batch_size_current:]
+    return batch_sizes
+
 
 def permute_filelist(filelist, filelist_cols, seed=0, permute_opt='rand',
                      local_rand_factor=0.1):
@@ -116,19 +145,11 @@ def permute_filelist(filelist, filelist_cols, seed=0, permute_opt='rand',
         np.random.shuffle(filelist_permuted)
         key, noise_range = '', (0,0)
     elif permute_opt == 'semi-sort':
-        if 'dur' in filelist_cols:
-            key = 'dur'
-            key_idx = filelist_cols.index(key)
-            key_values = [float(line[key_idx]) for line in filelist]
-        else:
-            key = 'text'
-            key_idx = filelist_cols.index(key)
-            key_values = [len(line[key_idx]) for line in filelist]
-        keys_idx_value_sorted = sorted(enumerate(key_values), key=lambda x:x[1],
-                                       reverse=True)
-        idxs_sorted = [x[0] for x in keys_idx_value_sorted]
+        key_values, key = get_key_values(filelist, filelist_cols)
+        idx_value_sorted = sorted(enumerate(key_values), key=lambda x:x[1], reverse=True)
+        idxs_sorted = [x[0] for x in idx_value_sorted]
         filelist_sorted = [filelist[i] for i in idxs_sorted]
-        values_sorted = [x[1] for x in keys_idx_value_sorted]
+        values_sorted = [x[1] for x in idx_value_sorted]
         values_range = np.floor(values_sorted[-1]), np.ceil(values_sorted[0])
         noise_upper = (values_range[1] - values_range[0]) * local_rand_factor
         noise_range = -noise_upper/2, noise_upper/2
@@ -151,15 +172,50 @@ def permute_filelist(filelist, filelist_cols, seed=0, permute_opt='rand',
 # fig.savefig('verify.png'); plt.close()
 
 
-def permute_batch(filelist, batch_size, seed=0):
-    num_files = len(filelist)
-    num_batches = int(num_files/batch_size)
-    filelist_batch = [filelist[i*batch_size:(i+1)*batch_size] for i in
-                      range(num_batches)]
+def batching(filelist, batch_size):
+    if isinstance(batch_size, list):
+        # loop over various batch sizes
+        num_batch_size = len(batch_size)
+        filelist_remaining = filelist[:]
+        idx = 0
+        filelist_batched = []
+        while len(filelist_remaining) > batch_size[idx % num_batch_size]:
+            batch_size_selected = batch_size[idx % num_batch_size]
+            filelist_batched.append(filelist_remaining[:batch_size_selected])
+            filelist_remaining = filelist_remaining[batch_size_selected:]
+            idx += 1
+        if len(filelist_remaining) > 0:
+            filelist_batched.append(filelist_remaining)
+    else:
+        # use fixed batch size
+        num_files = len(filelist)
+        num_batches = int(num_files / batch_size)
+        filelist_batched = [filelist[i * batch_size:(i + 1) * batch_size] for i in
+                            range(num_batches)]
+        filelist_last = filelist[num_batches * batch_size:]
+        filelist_batched += filelist_last
+    return filelist_batched
+
+# for i, batch in enumerate(filelist_batched):
+#     print('batch {}: size {}'.format(i+1, len(batch)))
+
+def permute_batch_from_batch(filelist_batched, seed=0):
+    """permute batch from batched filelist"""
     np.random.seed(seed)
-    np.random.shuffle(filelist_batch)
-    filelist_shuffled = flatten_list(filelist_batch)
-    filelist_last = filelist[num_batches*batch_size:]
+    np.random.shuffle(filelist_batched)
+    return filelist_batched
+
+def permute_batch_from_filelist(filelist, batch_size, seed=0):
+    """permute batch from filelist with fixed batch size"""
+    filelist_batched = batching(filelist, batch_size)
+    if len(filelist_batched[-1]) < batch_size:
+        filelist_last = filelist_batched[-1]
+        filelist_batched = filelist_batched[:-1]
+    else:
+        filelist_last = []
+    np.random.seed(seed)
+    np.random.shuffle(filelist_batched)
+    filelist_shuffled = flatten_list(filelist_batched)
     filelist_shuffled += filelist_last
     return filelist_shuffled
 
@@ -191,6 +247,7 @@ def dict2row(dct, csvname='filename.csv', delimiter=',', order=None, verbose=Tru
     if verbose:
         print('{} saved!'.format(csvname))
 
+
 def list2csv(lst, csvname='filename.csv', delimiter=',', verbose=True):
     with open(csvname, 'w', newline='') as f:
         csv_out = csv.writer(f, delimiter=delimiter)
@@ -199,3 +256,49 @@ def list2csv(lst, csvname='filename.csv', delimiter=',', verbose=True):
             csv_out.writerow(lst[i])
     if verbose:
         print('{} saved!'.format(csvname))
+
+
+def convert_symbol(text, l1, l2, quote='"'):
+  """convert symbol l1 to l2 if inside quote"""
+  text2 = ''
+  inside = False
+  for c in text:
+    if c == quote:
+      inside = not inside
+    elif c == l1:
+      if inside:
+        text2 += l2
+      else:
+        text2 += l1
+    else:
+       text2 += c
+  return text2
+
+
+def csv2dlist(csvname, delimiter=','):
+    """extract rows in csv file to a dictionary list"""
+    lines = open(csvname, 'r').readlines()
+    header = lines[0].rstrip().split(delimiter)
+    lines = lines[1:]
+    nlines = len(lines)
+
+    dict_list = [{} for _ in range(nlines)]
+    for i, line in enumerate(lines):
+        line2 = convert_symbol(line.rstrip(), delimiter, '|')
+        items = line2.split(delimiter)
+        items = [s.replace('|', delimiter) for s in items]
+        dict_list[i] = {k:items[j] for j,k in enumerate(header)}
+
+    return dict_list
+
+
+def dlist2dict(dlist, header=None):
+    if not header:
+        header = sorted(dlist[0].keys())
+    dct = {k:[dlist[i][k] for i in range(len(dlist))] for k in header}
+    return dct
+
+def csv2dict(csvname, delimiter=',', header=None):
+    dlist = csv2dlist(csvname, delimiter)
+    dct = dlist2dict(dlist, header)
+    return dct

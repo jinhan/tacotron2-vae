@@ -17,7 +17,7 @@ from model import Tacotron2
 from data_utils import TextMelLoader, TextMelCollate
 from plotting_utils import plot_scatter, plot_tsne, plot_kl_weight
 from utils import get_kl_weight, get_text_padding_rate, get_mel_padding_rate
-from utils import dict2col, dict2row, list2csv
+from utils import dict2col, dict2row, list2csv, csv2dict, flatten_list
 from loss_function import Tacotron2Loss_VAE, Tacotron2Loss
 from logger import Tacotron2Logger
 
@@ -52,8 +52,9 @@ def prepare_dataloaders(hparams, epoch=0, valset=None, collate_fn=None):
 
     # prepare train set
     print('preparing train set for epoch {}'.format(epoch))
-    shuffle_train = {'audiopath': hparams.shuffle_audiopaths,
-        'batch': hparams.shuffle_batches, 'permute-opt': hparams.permute_opt}
+    shuffle_train = {'shuffle-audiopath': hparams.shuffle_audiopaths,
+        'shuffle-batch': hparams.shuffle_batches, 'permute-opt': hparams.permute_opt,
+        'pre-batching': hparams.pre_batching}
     trainset = TextMelLoader(hparams.training_files, shuffle_train,
                              hparams, epoch)
     #print('\n'.join(['{}, {}'.format(line[0],line[2]) for line in \
@@ -61,11 +62,12 @@ def prepare_dataloaders(hparams, epoch=0, valset=None, collate_fn=None):
     if valset is None:
         # prepare val set (different shuffle plan compared with train set)
         print('preparing val set for epoch {}'.format(epoch))
-        shuffle_val = {'audiopath': hparams.shuffle_audiopaths,
-                       'batch': False, 'permute-opt': 'rand'}
+        shuffle_val = {'shuffle-audiopath': hparams.shuffle_audiopaths,
+            'shuffle-batch': False, 'permute-opt': 'rand', 'pre-batching': False}
         valset = TextMelLoader(hparams.validation_files, shuffle_val, hparams)
     if collate_fn is None:
-        collate_fn = TextMelCollate(hparams)
+        collate_fn = {'train': TextMelCollate(hparams, pre_batching=hparams.pre_batching),
+                      'val': TextMelCollate(hparams, pre_batching=False)}
 
     if hparams.distributed_run:
         train_sampler = DistributedSampler(trainset, shuffle=hparams.shuffle_samples)
@@ -73,10 +75,10 @@ def prepare_dataloaders(hparams, epoch=0, valset=None, collate_fn=None):
         train_sampler = None
 
     shuffle = (train_sampler is None) and hparams.shuffle_samples
+    batch_size = 1 if hparams.pre_batching else hparams.batch_size
     train_loader = DataLoader(trainset, num_workers=1, shuffle=shuffle,
-                              sampler=train_sampler,
-                              batch_size=hparams.batch_size, pin_memory=False,
-                              drop_last=True, collate_fn=collate_fn)
+        sampler=train_sampler, batch_size=batch_size, pin_memory=False,
+        drop_last=True, collate_fn=collate_fn['train'])
     return train_loader, valset, collate_fn
 
 
@@ -126,16 +128,24 @@ def load_checkpoint(checkpoint_path, model, optimizer):
     model.load_state_dict(checkpoint_dict['state_dict'])
     optimizer.load_state_dict(checkpoint_dict['optimizer'])
     learning_rate = checkpoint_dict['learning_rate']
-    iteration = checkpoint_dict['iteration']
-    print("Loaded checkpoint '{}' from iteration {}" .format(
-        checkpoint_path, iteration))
-    return model, optimizer, learning_rate, iteration
+    iteration = checkpoint_dict.get('iteration', 0)
+    epoch = checkpoint_dict.get('epoch', 0)
+    step = checkpoint_dict.get('step', 0)
+    if epoch == 0:
+        print("Loaded checkpoint '{}' from iter {}" .format(
+            checkpoint_path, iteration))
+    else:
+        print("Loaded checkpoint '{}' from iter {} (epoch {}, step {})" .format(
+            checkpoint_path, iteration, epoch, step))
+    return model, optimizer, learning_rate, iteration, epoch, step
 
 
-def save_checkpoint(model, optimizer, learning_rate, iteration, filepath):
-    print("Saving model and optimizer state at iteration {} to {}".format(
-        iteration, filepath))
+def save_checkpoint(model, optimizer, learning_rate, iteration, epoch, step, filepath):
+    print("Saving model and optimizer state at iter {} (epoch {}, step {}) to {}".format(
+        iteration, epoch, step, filepath))
     torch.save({'iteration': iteration,
+                'epoch': epoch,
+                'step': step,
                 'state_dict': model.state_dict(),
                 'optimizer': optimizer.state_dict(),
                 'learning_rate': learning_rate}, filepath)
@@ -144,29 +154,49 @@ def save_checkpoint(model, optimizer, learning_rate, iteration, filepath):
 def track_seq(track, input_lengths, gate_padded, metadata, verbose=False):
     padding_rate_txt, max_len_txt, top_len_txt = get_text_padding_rate(input_lengths)
     padding_rate_mel, max_len_mel, top_len_mel = get_mel_padding_rate(gate_padded)
-    duration, epoch, step = metadata
+    batch_size, batch_length = gate_padded.shape
+    batch_area = batch_size * batch_length
+    mem_all = torch.cuda.memory_allocated() / (1024**2)
+    mem_cached = torch.cuda.memory_cached() / (1024**2)
+    mem_use = mem_all + mem_cached
+    duration, iteration, epoch, step = metadata
     if verbose:
-        print('[{0}:{1}] dur: {2:.2f}, '.format(epoch, step, duration), end='')
-        print('text (pad%: {0:.2f}%, top3: {1}), '.format(
-          padding_rate_txt*100, top_len_txt), end='')
-        print('mel (pad%: {0:.2f}%, top3: {1})'.format(
-          padding_rate_mel*100, top_len_mel))
+        print('{} ({}:{}) {:.1f}Sec, '.format(
+            iteration, epoch, step, duration), end='')
+        print('batch cap {} ({}X{}) '.format(
+            batch_area, batch_size, batch_length), end='')
+        print('mem {:.1f}MiB ({:.1f}+{:.1f}) '.format(
+            mem_use, mem_all, mem_cached), end='')
+        print('text (pad%: {0:.1f}%, top3: {1}), '.format(
+            padding_rate_txt*100, top_len_txt), end='')
+        print('mel (pad%: {0:.1f}%, top3: {1})'.format(
+            padding_rate_mel*100, top_len_mel))
     track['padding-rate-txt'].append(padding_rate_txt)
     track['max-len-txt'].append(max_len_txt)
     track['top-len-txt'].append(top_len_txt)
     track['padding-rate-mel'].append(padding_rate_mel)
     track['max-len-mel'].append(max_len_mel)
     track['top-len-mel'].append(top_len_mel)
+    track['batch-size'].append(batch_size)
+    track['batch-length'].append(batch_length)
+    track['batch-area'].append(batch_area)
+    track['mem-use'].append(mem_use)
+    track['mem-all'].append(mem_all)
+    track['mem-cached'].append(mem_cached)
     track['duration'].append(duration)
+    track['iteration'].append(iteration)
     track['epoch'].append(epoch)
     track['step'].append(step)
 
-def validate(model, criterion, valset, iteration, batch_size, n_gpus,
-             collate_fn, logger, distributed_run, rank, use_vae=False):
+
+def validate(model, criterion, valset, iteration, batch_size, n_gpus, collate_fn,
+             logger, distributed_run, rank, use_vae=False, pre_batching=False):
     """Handles all the validation scoring and printing"""
     model.eval()
+    #torch.set_grad_enabled(False)
     with torch.no_grad():
         val_sampler = DistributedSampler(valset) if distributed_run else None
+        batch_size = 1 if pre_batching else batch_size
         val_loader = DataLoader(valset, sampler=val_sampler, num_workers=1,
                                 shuffle=False, batch_size=batch_size,
                                 pin_memory=False, collate_fn=collate_fn)
@@ -188,11 +218,24 @@ def validate(model, criterion, valset, iteration, batch_size, n_gpus,
             else:
                 reduced_val_loss = loss.item()
             val_loss += reduced_val_loss
+            if rank == 0:
+                this_batch_size, this_batch_length = batch[0].size(0), batch[2].size(2)
+                this_batch_area = this_batch_size * this_batch_length
+                mem_all = torch.cuda.memory_allocated()
+                mem_cached = torch.cuda.memory_cached()
+                mem_use = mem_all + mem_cached
+                print('{}/{}: '.format(i, len(val_loader)), end='')
+                print('Batch: {} ({}X{}) '.format(this_batch_area, this_batch_size,
+                    this_batch_length), end='')
+                print('Mem: {:.2f} ({:.2f}+{:.2f}) '.format(mem_use/(1024**2),
+                    mem_all/(1024**2), mem_cached/(1024**2)), end='')
+                print('Val loss {:.3f}'.format(reduced_val_loss))
         val_loss = val_loss / (i + 1)
+    #torch.set_grad_enabled(True)
 
     model.train()
     if rank == 0:
-        print("Validation loss {}: {:9f}  ".format(iteration, val_loss))
+        print("Validation loss {}: {:.3f}  ".format(iteration, val_loss))
         logger.log_validation(val_loss, model, y0, y_pred0, iteration)
 
     if use_vae:
@@ -246,6 +289,7 @@ def train(output_directory, log_directory, checkpoint_path, warm_start, n_gpus,
 
     train_loader, valset, collate_fn = prepare_dataloaders(hparams)
     valset_csv = os.path.join(output_directory, log_directory, 'valset.csv')
+    # list2csv(flatten_list(valset.audiopaths_and_text), valset_csv, delimiter='|')
     list2csv(valset.audiopaths_and_text, valset_csv, delimiter='|')
 
     # Load checkpoint if one exists
@@ -256,27 +300,40 @@ def train(output_directory, log_directory, checkpoint_path, warm_start, n_gpus,
             model = warm_start_model(
                 checkpoint_path, model, hparams.ignore_layers)
         else:
-            model, optimizer, _learning_rate, iteration = load_checkpoint(
-                checkpoint_path, model, optimizer)
+            model, optimizer, _learning_rate, iteration, epoch, step = \
+                load_checkpoint(checkpoint_path, model, optimizer)
             if hparams.use_saved_learning_rate:
                 learning_rate = _learning_rate
-            iteration += 1  # next iteration is iteration + 1
-            epoch_offset = max(0, int(iteration / len(train_loader)))
+            if epoch == 0:
+                iteration += 1  # next iteration is iteration + 1
+                epoch_offset = max(0, int(iteration / len(train_loader)))
+            else:
+                epoch_offset = epoch
+            print('epoch offset: {}'.format(epoch_offset))
+            train_loader = prepare_dataloaders(hparams, epoch_offset, valset,
+                collate_fn['train'])[0]
         print('completing loading model ...')
 
     model.train()
     is_overflow = False
     # ================ MAIN TRAINNIG LOOP! ===================
-    track = {'padding-rate-txt':[], 'max-len-txt':[], 'top-len-txt':[],
-             'padding-rate-mel':[], 'max-len-mel':[], 'top-len-mel':[],
-             'duration': [], 'epoch': [], 'step': []}
     track_csv = os.path.join(output_directory, log_directory, 'track.csv')
-    print('starting training in epoch range {} ~ {} ...'.format(
-        epoch_offset, hparams.epochs))
+    track_header = ['padding-rate-txt', 'max-len-txt', 'top-len-txt',
+        'padding-rate-mel', 'max-len-mel', 'top-len-mel', 'batch-size',
+        'batch-length', 'batch-area', 'mem-use', 'mem-all', 'mem-cached',
+        'duration', 'iteration', 'epoch', 'step']
+    if os.path.isfile(track_csv) and checkpoint_path is not None:
+        print('loading existing {} ...'.format(track_csv))
+        track = csv2dict(track_csv, header=track_header)
+    else:
+        track = {k:[] for k in track_header}
 
+    print('start training in epoch {} ~ {} ...'.format(epoch_offset, hparams.epochs))
+    nbatches = len(train_loader)
     for epoch in range(epoch_offset, hparams.epochs):
         #if epoch >= 10: break
-        print("Epoch: {}, #batches: {}".format(epoch, len(train_loader)))
+        print("Epoch: {}, #batches: {}".format(epoch, nbatches))
+        batch_sizes, batch_lengths = [0] * nbatches, [0] * nbatches
         for i, batch in enumerate(train_loader):
             start = time.perf_counter()
             for param_group in optimizer.param_groups:
@@ -314,10 +371,20 @@ def train(output_directory, log_directory, checkpoint_path, warm_start, n_gpus,
 
             if not is_overflow and rank == 0:
                 duration = time.perf_counter() - start
-                print("Train loss {} {:.6f} Grad Norm {:.6f} {:.2f}s/it".format(
-                    iteration, reduced_loss, grad_norm, duration))
+                batch_sizes[i], batch_lengths[i] = batch[0].size(0), batch[2].size(2)
+                batch_capacity = batch_sizes[i] * batch_lengths[i]
+                mem_all = torch.cuda.memory_allocated() / (1024**2)
+                mem_cached = torch.cuda.memory_cached() / (1024**2)
+                mem_use = mem_all + mem_cached
+                print("{} ({}:{}/{}): ".format(iteration, epoch, i, nbatches), end='')
+                print("Batch {} ({}X{}) ".format(batch_capacity, batch_sizes[i],
+                    batch_lengths[i]), end='')
+                print("Mem {:.1f} ({:.1f}+{:.1f}) ".format(mem_use, mem_all,
+                    mem_cached), end='')
+                print("Train loss {:.3f} Grad Norm {:.3f} {:.2f}s/it".format(
+                    reduced_loss, grad_norm, duration))
                 input_lengths, gate_padded = batch[1], batch[4]
-                metadata = (duration, epoch, i)
+                metadata = (duration, iteration, epoch, i)
                 track_seq(track, input_lengths, gate_padded, metadata)
                 padding_rate_txt = track['padding-rate-txt'][-1]
                 max_len_txt = track['max-len-txt'][-1]
@@ -334,16 +401,20 @@ def train(output_directory, log_directory, checkpoint_path, warm_start, n_gpus,
                         padding_rate_txt, max_len_txt, padding_rate_mel,
                         max_len_mel, iteration)
 
-            if not is_overflow and (iteration % hparams.iters_per_checkpoint == 0):
+            check_by_iter = (hparams.check_by == 'iter') and \
+                            (iteration % hparams.iters_per_checkpoint == 0)
+            check_by_epoch = (hparams.check_by == 'epoch') and i == 0 and \
+                             (epoch % hparams.epochs_per_checkpoint == 0)
+            if not is_overflow and (check_by_iter or check_by_epoch):
                 dict2col(track, track_csv, verbose=True)
                 val_loss, (mus, emotions) = validate(model, criterion, valset,
-                     iteration, hparams.batch_size, n_gpus, collate_fn, logger,
-                     hparams.distributed_run, rank, hparams.use_vae)
+                     iteration, hparams.batch_size, n_gpus, collate_fn['val'], logger,
+                     hparams.distributed_run, rank, hparams.use_vae, pre_batching=False)
                 if rank == 0:
                     checkpoint_path = os.path.join(output_directory,
-                        "checkpoint_{0}_{1:.4f}".format(iteration, val_loss))
+                        "checkpoint_{}-{}-{}_{:.3f}".format(iteration, epoch, i, val_loss))
                     save_checkpoint(model, optimizer, learning_rate, iteration,
-                         checkpoint_path)
+                         epoch, i, checkpoint_path)
                     if hparams.use_vae:
                         image_scatter_path = os.path.join(output_directory,
                              "checkpoint_{0}_scatter_val.png".format(iteration))
@@ -355,8 +426,9 @@ def train(output_directory, log_directory, checkpoint_path, warm_start, n_gpus,
             iteration += 1
 
         if hparams.prep_trainset_per_epoch:
-            train_loader = prepare_dataloaders(hparams, epoch+1, valset, collate_fn)[0]
-
+            train_loader = prepare_dataloaders(hparams, epoch+1, valset,
+                collate_fn['train'])[0]
+            nbatches = len(train_loader)
 
 def parse_args():
     parser = argparse.ArgumentParser()
@@ -393,7 +465,7 @@ if __name__ == '__main__':
 
     # interactive mode
     args = argparse.ArgumentParser()
-    args.output_directory = 'outdir/ljspeech/semi-sorted5' # check
+    args.output_directory = 'outdir/ljspeech/ssb-dbs1' # check
     args.log_directory = 'logdir'
     args.checkpoint_path = None # fresh run
     args.warm_start = False
@@ -410,6 +482,7 @@ if __name__ == '__main__':
                "shuffle_samples=False",
                "permute_opt=semi-sort",
                "local_rand_factor=0.1",
+               "pre_batching=True",
                "prep_trainset_per_epoch=True",
                "override_sample_size=False",
                "text_cleaners=[english_cleaners]",
@@ -431,9 +504,9 @@ if __name__ == '__main__':
 
     # create log directory due to saving files before training starts
     if not os.path.isdir(args.output_directory):
-      print('creating dir: {} ...'.format(args.output_directory))
-      os.makedirs(args.output_directory)
-      os.chmod(args.output_directory, 0o775)
+        print('creating dir: {} ...'.format(args.output_directory))
+        os.makedirs(args.output_directory)
+        os.chmod(args.output_directory, 0o775)
 
     argnames = ['output_directory', 'log_directory', 'checkpoint_path',
                 'warm_start', 'n_gpus', 'rank', 'gpu', 'group_name']
@@ -455,6 +528,7 @@ if __name__ == '__main__':
     print("shuffle audiopaths:", hparams.shuffle_audiopaths)
     print("permute option:", hparams.permute_opt)
     print("local_rand_factor:", hparams.local_rand_factor)
+    print("pre_batching:", hparams.pre_batching)
     print("prep trainset per epoch:", hparams.prep_trainset_per_epoch)
     print("FP16 Run:", hparams.fp16_run)
     print("Dynamic Loss Scaling:", hparams.dynamic_loss_scaling)

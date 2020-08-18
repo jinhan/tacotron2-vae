@@ -9,13 +9,14 @@ def create_hparams(hparams_string=None, verbose=False):
         ################################
         # Experiment Parameters        #
         ################################
-        epochs=500,
-        iters_per_checkpoint=500,
+        epochs=5000,
+        check_by="epoch", # 'epoch' or 'iter'
+        iters_per_checkpoint=1000,
+        epochs_per_checkpoint=2,
         seed=1234,
         dynamic_loss_scaling=True,
         fp16_run=False,
         distributed_run=False,
-
         dist_backend="nccl",
         dist_url="tcp://localhost:54321",
         cudnn_enabled=True,
@@ -34,8 +35,8 @@ def create_hparams(hparams_string=None, verbose=False):
         ################################
         # Emotion Embedding Parameters #
         ################################
-        include_emo_emb=False,  # check filelist and ensure include emo if True
-        load_emo_from_disk=True,  # currently only support True (ignored if include_emo_emb is False)
+        include_emo_emb=False, # check filelist and ensure include emo if True
+        load_emo_from_disk=True, # currently only support True (ignored if include_emo_emb is False)
         emo_emb_dim=64,
 
         ################################
@@ -53,46 +54,46 @@ def create_hparams(hparams_string=None, verbose=False):
         ################################
         # Model Parameters             #
         ################################
-        n_symbols = len(symbols), # set 80 for korean_cleaners. set 65 for english_cleaners
+        n_symbols=len(symbols), # set 80 for korean_cleaners. set 65 for english_cleaners
         symbols_embedding_dim=512,
 
         # Transcript encoder parameters
-        encoder_kernel_size = 5,
-        encoder_n_convolutions = 3,
-        encoder_embedding_dim = 512,
+        encoder_kernel_size=5,
+        encoder_n_convolutions=3,
+        encoder_embedding_dim=512,
 
         # Speaker embedding parameters
-        n_speakers = 1,
+        n_speakers=1,
         speaker_embedding_dim=16,
 
         # ---------------------------------------- #
         # emotion 
-        n_emotions = 4, # number of emotion labels
+        n_emotions=4, # number of emotion labels
         emotion_embedding_dim=64, # 16 (original) or 64
         vae_input_type='mel', # mel (default) or emo
 
         # reference encoder
-        E = 512,
-        ref_enc_filters = [32, 32, 64, 64, 128, 128],
-        ref_enc_size = [3, 3],
-        ref_enc_strides = [2, 2],
-        ref_enc_pad = [1, 1],
-        ref_enc_gru_size = 512 // 2,
+        E=512,
+        ref_enc_filters=[32, 32, 64, 64, 128, 128],
+        ref_enc_size=[3, 3],
+        ref_enc_strides=[2, 2],
+        ref_enc_pad=[1, 1],
+        ref_enc_gru_size=512//2,
 
-        z_latent_dim = 32,
-        anneal_function = 'logistic',
-        anneal_k = 0.0025,
-        anneal_x0 = 10000,
-        anneal_upper = 0.2,
-        anneal_lag = 50000,
+        z_latent_dim=32,
+        anneal_function='logistic',
+        anneal_k=0.0025,
+        anneal_x0=10000,
+        anneal_upper=0.2,
+        anneal_lag=50000,
 
         # Prosody embedding parameters
-        prosody_n_convolutions = 6,
-        prosody_conv_dim_in = [1, 32, 32, 64, 64, 128],
-        prosody_conv_dim_out = [32, 32, 64, 64, 128, 128],
-        prosody_conv_kernel = 3,
-        prosody_conv_stride = 2,
-        prosody_embedding_dim = 128,
+        prosody_n_convolutions=6,
+        prosody_conv_dim_in=[1, 32, 32, 64, 64, 128],
+        prosody_conv_dim_out=[32, 32, 64, 64, 128, 128],
+        prosody_conv_kernel=3,
+        prosody_conv_stride=2,
+        prosody_embedding_dim=128,
 
         # Decoder parameters
         n_frames_per_step=1,  # currently only 1 is supported
@@ -136,7 +137,9 @@ def create_hparams(hparams_string=None, verbose=False):
 
     return hparams
 
-def hparams_debug_string(hparams):
+def hparams_debug_string(hparams, logfile=None):
     values = hparams.values()
+    if logfile:
+        dict2row(values, logfile, delimiter=':', order='ascend', verbose=True)
     hp = ['  %s: %s' % (name, values[name]) for name in sorted(values)]
     return 'Hyperparameters:\n' + '\n'.join(hp)

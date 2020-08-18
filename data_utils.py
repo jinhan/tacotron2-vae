@@ -5,7 +5,10 @@ import os
 
 import layers
 from utils import load_wav_to_torch, load_filepaths_and_text
-from utils import permute_filelist, permute_batch
+# for individual & batch level permuting
+from utils import permute_filelist, permute_batch_from_filelist
+# for pre-batching
+from utils import batching, get_batch_sizes, permute_batch_from_batch
 from text import text_to_sequence
 
 
@@ -18,9 +21,10 @@ class TextMelLoader(torch.utils.data.Dataset):
     def __init__(self, audiopaths_and_text, shuffle_plan, hparams, epoch=0,
                  speaker_ids=None, emotion_ids=None):
         self.audiopaths_and_text = load_filepaths_and_text(audiopaths_and_text)
-        self.shuffle_audiopaths = shuffle_plan['audiopath']
-        self.shuffle_batches = shuffle_plan['batch']
+        self.shuffle_audiopaths = shuffle_plan['shuffle-audiopath']
+        self.shuffle_batches = shuffle_plan['shuffle-batch']
         self.permute_opt = shuffle_plan['permute-opt']
+        self.pre_batching = shuffle_plan['pre-batching']
         self.prep_trainset_per_epoch = hparams.prep_trainset_per_epoch
         self.filelist_cols = hparams.filelist_cols
         self.local_rand_factor = hparams.local_rand_factor
@@ -48,6 +52,7 @@ class TextMelLoader(torch.utils.data.Dataset):
             hparams.n_mel_channels, hparams.sampling_rate, hparams.mel_fmin,
             hparams.mel_fmax)
 
+        audiopaths_and_text_ori = self.audiopaths_and_text[:]
         if self.prep_trainset_per_epoch:
             seed = hparams.seed + epoch
         else:
@@ -55,17 +60,27 @@ class TextMelLoader(torch.utils.data.Dataset):
         if self.shuffle_audiopaths:
             self.audiopaths_and_text = permute_filelist(self.audiopaths_and_text,
                 self.filelist_cols, seed, self.permute_opt, self.local_rand_factor)[0]
+        if self.pre_batching:
+            batch_sizes = get_batch_sizes(self.audiopaths_and_text,
+                                 hparams.filelist_cols, hparams.batch_size)
+            assert sum(batch_sizes) == len(self.audiopaths_and_text),\
+                "check: not all samples get batched in pre-batching!"
+            self.audiopaths_and_text = batching(self.audiopaths_and_text, batch_sizes)
         if self.shuffle_batches:
-            self.audiopaths_and_text = permute_batch(self.audiopaths_and_text,
-                hparams.batch_size, seed)
+            if self.pre_batching:
+                self.audiopaths_and_text = permute_batch_from_batch(
+                    self.audiopaths_and_text, seed)
+            else:
+                self.audiopaths_and_text = permute_batch_from_filelist(
+                    self.audiopaths_and_text, hparams.batch_size, seed)
 
         self.speaker_ids = speaker_ids
         if not self.speaker_ids:
-            self.speaker_ids = self.create_lookup(self.audiopaths_and_text, 'speaker')
+            self.speaker_ids = self.create_lookup(audiopaths_and_text_ori, 'speaker')
 
         self.emotion_ids = emotion_ids
         if not self.emotion_ids:
-            self.emotion_ids = self.create_lookup(self.audiopaths_and_text, 'emotion')
+            self.emotion_ids = self.create_lookup(audiopaths_and_text_ori, 'emotion')
 
     def parse_filelist_line(self, audiopath_and_text):
         # parse basic cols
@@ -153,7 +168,13 @@ class TextMelLoader(torch.utils.data.Dataset):
         return output
 
     def __getitem__(self, index):
-        return self.get_mel_text_pair(self.audiopaths_and_text[index])
+        if self.pre_batching:
+            audiopaths_and_text = self.audiopaths_and_text[index]
+            pairs = [self.get_mel_text_pair(audiopath_and_text) for
+                     audiopath_and_text in audiopaths_and_text]
+        else:
+            pairs = self.get_mel_text_pair(self.audiopaths_and_text[index])
+        return pairs
 
     def __len__(self):
         return len(self.audiopaths_and_text)
@@ -162,7 +183,8 @@ class TextMelLoader(torch.utils.data.Dataset):
 class TextMelCollate():
     """ Zero-pads model inputs and targets based on number of frames per step
     """
-    def __init__(self, hparams):
+    def __init__(self, hparams, pre_batching=False):
+        self.pre_batching = pre_batching
         self.n_frames_per_step = hparams.n_frames_per_step
         self.label_type = hparams.label_type
         self.use_vae = hparams.use_vae
@@ -176,6 +198,10 @@ class TextMelCollate():
             import itertools
             batch = list(itertools.islice(train_loader.dataset, hparams.batch_size))
         """
+
+        if self.pre_batching:
+            batch = batch[0]
+
         # Right zero-pad all one-hot text sequences to max input length
         input_lengths, ids_sorted_decreasing = torch.sort(
             torch.LongTensor([len(x[0]) for x in batch]),
